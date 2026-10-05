@@ -1,0 +1,32 @@
+{
+  "recorded_at": "2026-10-05T14:56:11.127643+00:00",
+  "kind": "COORDINATOR_HANDOFF_PROVENANCE_AUDIT_NOT_APPLICATION_TEST",
+  "product_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+  "room": "e04c2728-8535-41c8-be50-88eb8068fa09",
+  "builder_handoff_commit": "6776c719612dfb04bca048164bea174dd0274167",
+  "verifier_assembly_commit": "a201a8c56db680496213e78f2cd002adf3459162",
+  "seven_accepted": true,
+  "message_ids": [
+    "3b3a7cd2-fac8-48de-9627-de09def612df",
+    "b605e4ee-95b8-4917-a02b-45971f49ef8c",
+    "af7cc911-512b-4785-a6a7-4937cd87134d",
+    "c40e6076-9cc0-4b4b-a13a-fc036de0776e",
+    "cdfd6287-20e7-4947-9e75-0992a30d3ae4",
+    "fb326503-ba3d-485e-97a0-01032f1c678e",
+    "b25f5552-5d90-44d2-926b-8bcfeafdb52f"
+  ],
+  "recipient_parts_identical": true,
+  "actual_assembly_utc": "2026-10-05T14:51:41Z",
+  "first_application_utc": "2026-10-05T14:54:20.901599+00:00",
+  "assembly_precedes_execution": true,
+  "mirror_sha256": "6fc6b3f4a7ab766b8b2f2e8e303124cd44ef8d7377f37709c6c294b1e72a8d39",
+  "mirror_hash_matches": true,
+  "complete_verbatim_specs": {
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true
+  },
+  "native_dom_observation": "Coordinator read actual room messages at14:55UTC showing Verifier complete assembly and execution start; authored mirror is not room export.",
+  "application_executions_added": 0
+}

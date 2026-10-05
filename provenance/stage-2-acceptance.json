@@ -1,0 +1,66 @@
+{
+  "stage": 2,
+  "decision": "ACCEPT",
+  "recorded_at_utc": "2026-10-05 09:46:58 UTC",
+  "product_sha": "d8941d7e630c9f2787623d1222f647d49b40ae91",
+  "independent_evidence_sha": "3fadcd24ccf507e14c0551ceebf5d9405f6e16a1",
+  "report": "reports/stage-2/REVIEW-d8941d7.md",
+  "case_matrix": "reports/stage-2/case-matrix-d8941d7.json",
+  "reconciled_definitions": {
+    "frozen": 169,
+    "derived": 90,
+    "official": 145
+  },
+  "raw_pytest_executions": {
+    "total": 521,
+    "PASS": 511,
+    "FAIL": 10,
+    "ERROR": 0,
+    "SKIP": 0
+  },
+  "raw_fail_classification": {
+    "original_email_oracle_conflict": 4,
+    "original_opaque_selector_mismatch": 6
+  },
+  "open_product_defects": [],
+  "resolved_defects": [
+    "V-S1-001",
+    "V-S1-002",
+    "V-S1-003",
+    "V-S1-004",
+    "V-S1-005",
+    "V-S1-006",
+    "V-S1-007",
+    "V-S2-001"
+  ],
+  "source_faults": {
+    "defined_operations": 8,
+    "control_operations": 8,
+    "actually_injected_operations": 8,
+    "fault_types": 3,
+    "executions": 20,
+    "HTTP": 0
+  },
+  "separate_experiments": {
+    "developer_methods_PASS": 47,
+    "formatter_checks_PASS": 4,
+    "producer_removal_definitions": 3,
+    "producer_removal_executions_PASS": 5,
+    "deployment_configurations_PASS": 2
+  },
+  "application_command_attempts": 27,
+  "application_command_duration_sum_s": 223.57367087341845,
+  "execution_window_s": 288.36006,
+  "coordinator_integrity_check": {
+    "evidence_commit": "3fadcd24ccf507e14c0551ceebf5d9405f6e16a1",
+    "owned_paths": 725,
+    "foreign_paths": [],
+    "manifests": 28,
+    "files": 692,
+    "hash_mismatches": [],
+    "checkout_status": ""
+  },
+  "prior_stage1_unchanged": true,
+  "advancement": "Stage3 may copy only this accepted Stage2 after all complete numbered Stage3 handoff parts are delivered. Stage4 and final qualification remain pending.",
+  "billing": "Provider billing unknown; provisional native room catalog estimate recorded separately in usage-stage2.json."
+}

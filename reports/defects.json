@@ -1,0 +1,1431 @@
+{
+  "room": "e04c2728-8535-41c8-be50-88eb8068fa09",
+  "status": "STAGE4_INDEPENDENT_ACCEPT_PENDING_COORDINATOR_AND_FINAL_PACKAGING",
+  "coordinator_gate": "Stage3 accepted gate63617e70f29f564ddb490f48fa83e49d737bb4ee authorized this scoped Stage4 review; Stage4 reconciliation and final delivery still pending.",
+  "stage4_preparation": {
+    "new_collected_independent_definitions": 64,
+    "cumulative_collected_independent_definitions": 268,
+    "frozen_distinct_definitions": 216,
+    "official_distinct_definitions": 158,
+    "opaque_integrity_binding": "Pending complete Builder exact-SHA handoff; D415 obligations are defined, not collected or executed",
+    "application_executions": 0,
+    "contract": "qa/STAGE4-INTEGRITY-CONTRACT.md",
+    "record_kind": "HISTORICAL_PRE_EXECUTION_PREPARATION; superseded by stage4_review and its independent addenda"
+  },
+  "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+  "application_command_attempts": 45,
+  "defects": [
+    {
+      "id": "V-S1-001",
+      "title": "Continuous header/body bytes renew an inactivity timeout",
+      "criterion": "AC03.7; bounded incomplete HTTP handling and ordinary request deadline",
+      "cases": [
+        "R002",
+        "R003",
+        "D117[header]",
+        "D117[body]"
+      ],
+      "reproduction": "Send an incomplete login header or Content-Length1000 body, then one byte every0.2s for6.5s. Read actual peer response and EOF using select/recv.",
+      "expected": "Controlled response/closure within6s of request start; health and exact state unchanged.",
+      "observed": "Frozen continuous8s probes saw no closure. Independent probes recorded first400/EOF only at9.3634s(header) and9.3560s(body), about3s after drips stopped. Health200 and exact state unchanged.",
+      "evidence": [
+        "reports/stage-1/20261005T065121.790314Z-common-8958251-129a860b",
+        "reports/stage-1/20261005T065952.946553Z-derived-confirmations-8958251-6ee9f984"
+      ],
+      "status": "RESOLVED_AT_REVIEWED_SHA",
+      "product_sha": "89582510069e984f446060d797e138f4a3bf08f9",
+      "owner": "Builder",
+      "repair_observations": [
+        {
+          "product_sha": "e5e6305a96b92057324ff8ac5a62afce84651669",
+          "outcome": "REPRODUCTION_PASS",
+          "final_candidate_reverification": "PENDING"
+        },
+        {
+          "product_sha": "7d7643857eeac6396467a791d93b0fa7c43b8fa2",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-1/REVIEW-7d76438.json"
+        },
+        {
+          "product_sha": "15d1f178b387e744bf919b6e8bb77fff2b5aeb23",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-1/REVIEW-15d1f17.json",
+          "case_matrix": "reports/stage-1/case-matrix-15d1f17.json"
+        },
+        {
+          "product_sha": "fd843b83db16ec8585d66af7ac0d6fac89aae82c",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-1/REVIEW-fd843b8.json",
+          "case_matrix": "reports/stage-1/case-matrix-fd843b8.json"
+        },
+        {
+          "product_sha": "a96b13048d19a5d93d75bb6c51ee100e44a2d8fd",
+          "stage": 2,
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-a96b130.json",
+          "case_matrix": "reports/stage-2/case-matrix-a96b130.json"
+        },
+        {
+          "product_sha": "d8941d7e630c9f2787623d1222f647d49b40ae91",
+          "stage": 2,
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-d8941d7.json",
+          "case_matrix": "reports/stage-2/case-matrix-d8941d7.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "0c0a3867fc38fff0824ec2f887a135a2965bb60f",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-0c0a386.json",
+          "case_matrix": "reports/stage-3/case-matrix-0c0a386.json"
+        },
+        {
+          "stage": 2,
+          "product_sha": "63cf798cf60baf3134a64e4db599c92d81561e3e",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-63cf798.md",
+          "case_matrix": "reports/stage-2/case-matrix-63cf798.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "4ce583cca13a033dd2f548ca982deec7200f8ad6",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-4ce583c.md",
+          "case_matrix": "reports/stage-3/case-matrix-4ce583c.json"
+        },
+        {
+          "stage": 4,
+          "product_sha": "e538cd16bbd96d4206d89f17a67791e759c00823",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-4/REVIEW-e538cd1.md",
+          "case_matrix": "reports/stage-4/case-matrix-e538cd1.json"
+        },
+        {
+          "stage": 2,
+          "product_sha": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-4b2236f.md",
+          "case_matrix": "reports/stage-2/case-matrix-4b2236f.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "301caf55085280f12197e393ab6b4735ef4046c3",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-301caf5.md",
+          "case_matrix": "reports/stage-3/case-matrix-301caf5.json"
+        },
+        {
+          "stage": 4,
+          "product_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-4/REVIEW-25ade1c.json",
+          "case_matrix": "reports/stage-4/case-matrix-25ade1c.json",
+          "original_failure_preserved": true
+        }
+      ],
+      "resolved_sha": "fd843b83db16ec8585d66af7ac0d6fac89aae82c"
+    },
+    {
+      "id": "V-S1-002",
+      "title": "Skipped closing wall-clock invalidates otherwise valid early slots",
+      "criterion": "AC03.4; Stage1 sections8 and9 local starts, opening hours and absolute duration",
+      "cases": [
+        "R008[America/New_York]",
+        "R008[Europe/Berlin]"
+      ],
+      "reproduction": "Reset spring-transition date2030-03-10 NewYork or2030-03-31 Berlin, open00:00/close02:30, grid30/duration60; GET availability.",
+      "expected": "200 with early slots00:00 and00:30; early valid booking remains possible, late booking ending beyond local close refused.",
+      "observed": "422 for entire transition day; ordinary-date control200. Original test stops before early/late booking assertions.",
+      "evidence": [
+        "reports/stage-1/20261005T065121.790314Z-common-8958251-129a860b"
+      ],
+      "status": "RESOLVED_AT_REVIEWED_SHA",
+      "product_sha": "89582510069e984f446060d797e138f4a3bf08f9",
+      "owner": "Builder",
+      "repair_observations": [
+        {
+          "product_sha": "e5e6305a96b92057324ff8ac5a62afce84651669",
+          "outcome": "REPRODUCTION_PASS",
+          "final_candidate_reverification": "PENDING"
+        },
+        {
+          "product_sha": "7d7643857eeac6396467a791d93b0fa7c43b8fa2",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-1/REVIEW-7d76438.json"
+        },
+        {
+          "product_sha": "15d1f178b387e744bf919b6e8bb77fff2b5aeb23",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-1/REVIEW-15d1f17.json",
+          "case_matrix": "reports/stage-1/case-matrix-15d1f17.json"
+        },
+        {
+          "product_sha": "fd843b83db16ec8585d66af7ac0d6fac89aae82c",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-1/REVIEW-fd843b8.json",
+          "case_matrix": "reports/stage-1/case-matrix-fd843b8.json"
+        },
+        {
+          "product_sha": "a96b13048d19a5d93d75bb6c51ee100e44a2d8fd",
+          "stage": 2,
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-a96b130.json",
+          "case_matrix": "reports/stage-2/case-matrix-a96b130.json"
+        },
+        {
+          "product_sha": "d8941d7e630c9f2787623d1222f647d49b40ae91",
+          "stage": 2,
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-d8941d7.json",
+          "case_matrix": "reports/stage-2/case-matrix-d8941d7.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "0c0a3867fc38fff0824ec2f887a135a2965bb60f",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-0c0a386.json",
+          "case_matrix": "reports/stage-3/case-matrix-0c0a386.json"
+        },
+        {
+          "stage": 2,
+          "product_sha": "63cf798cf60baf3134a64e4db599c92d81561e3e",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-63cf798.md",
+          "case_matrix": "reports/stage-2/case-matrix-63cf798.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "4ce583cca13a033dd2f548ca982deec7200f8ad6",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-4ce583c.md",
+          "case_matrix": "reports/stage-3/case-matrix-4ce583c.json"
+        },
+        {
+          "stage": 4,
+          "product_sha": "e538cd16bbd96d4206d89f17a67791e759c00823",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-4/REVIEW-e538cd1.md",
+          "case_matrix": "reports/stage-4/case-matrix-e538cd1.json"
+        },
+        {
+          "stage": 2,
+          "product_sha": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-4b2236f.md",
+          "case_matrix": "reports/stage-2/case-matrix-4b2236f.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "301caf55085280f12197e393ab6b4735ef4046c3",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-301caf5.md",
+          "case_matrix": "reports/stage-3/case-matrix-301caf5.json"
+        },
+        {
+          "stage": 4,
+          "product_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-4/REVIEW-25ade1c.json",
+          "case_matrix": "reports/stage-4/case-matrix-25ade1c.json",
+          "original_failure_preserved": true
+        }
+      ],
+      "resolved_sha": "fd843b83db16ec8585d66af7ac0d6fac89aae82c"
+    },
+    {
+      "id": "V-S1-003",
+      "title": "Wrong-type reset reservations can replace state",
+      "criterion": "AC03.1,AC03.6; Stage1 section5 wrong JSON type400 and atomic reset",
+      "cases": [
+        "D116-reset-null",
+        "D116-reset-bool",
+        "D116-reset-number",
+        "D116-reset-empty-string",
+        "D116-reset-object"
+      ],
+      "reproduction": "Seed/login, export destination; reset same fixture with reservations:null,true,42,\"\",{} instead of array; export and use old token.",
+      "expected": "400 malformed_request and unchanged destination/old token.",
+      "observed": "null,true,42 return422, preserve state/token200. Empty string/object return204, change exact export and revoke old token401. Nonempty string control returns400 unchanged.",
+      "evidence": [
+        "reports/stage-1/20261005T065251.110063Z-derived-8958251-909b1d00",
+        "reports/stage-1/20261005T065952.946553Z-derived-confirmations-8958251-6ee9f984"
+      ],
+      "status": "RESOLVED_AT_REVIEWED_SHA",
+      "product_sha": "89582510069e984f446060d797e138f4a3bf08f9",
+      "owner": "Builder",
+      "repair_observations": [
+        {
+          "product_sha": "e5e6305a96b92057324ff8ac5a62afce84651669",
+          "outcome": "REPRODUCTION_PASS",
+          "final_candidate_reverification": "PENDING"
+        },
+        {
+          "product_sha": "7d7643857eeac6396467a791d93b0fa7c43b8fa2",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-1/REVIEW-7d76438.json"
+        },
+        {
+          "product_sha": "15d1f178b387e744bf919b6e8bb77fff2b5aeb23",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-1/REVIEW-15d1f17.json",
+          "case_matrix": "reports/stage-1/case-matrix-15d1f17.json"
+        },
+        {
+          "product_sha": "fd843b83db16ec8585d66af7ac0d6fac89aae82c",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-1/REVIEW-fd843b8.json",
+          "case_matrix": "reports/stage-1/case-matrix-fd843b8.json"
+        },
+        {
+          "product_sha": "a96b13048d19a5d93d75bb6c51ee100e44a2d8fd",
+          "stage": 2,
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-a96b130.json",
+          "case_matrix": "reports/stage-2/case-matrix-a96b130.json"
+        },
+        {
+          "product_sha": "d8941d7e630c9f2787623d1222f647d49b40ae91",
+          "stage": 2,
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-d8941d7.json",
+          "case_matrix": "reports/stage-2/case-matrix-d8941d7.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "0c0a3867fc38fff0824ec2f887a135a2965bb60f",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-0c0a386.json",
+          "case_matrix": "reports/stage-3/case-matrix-0c0a386.json"
+        },
+        {
+          "stage": 2,
+          "product_sha": "63cf798cf60baf3134a64e4db599c92d81561e3e",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-63cf798.md",
+          "case_matrix": "reports/stage-2/case-matrix-63cf798.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "4ce583cca13a033dd2f548ca982deec7200f8ad6",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-4ce583c.md",
+          "case_matrix": "reports/stage-3/case-matrix-4ce583c.json"
+        },
+        {
+          "stage": 4,
+          "product_sha": "e538cd16bbd96d4206d89f17a67791e759c00823",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-4/REVIEW-e538cd1.md",
+          "case_matrix": "reports/stage-4/case-matrix-e538cd1.json"
+        },
+        {
+          "stage": 2,
+          "product_sha": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-4b2236f.md",
+          "case_matrix": "reports/stage-2/case-matrix-4b2236f.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "301caf55085280f12197e393ab6b4735ef4046c3",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-301caf5.md",
+          "case_matrix": "reports/stage-3/case-matrix-301caf5.json"
+        },
+        {
+          "stage": 4,
+          "product_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-4/REVIEW-25ade1c.json",
+          "case_matrix": "reports/stage-4/case-matrix-25ade1c.json",
+          "original_failure_preserved": true
+        }
+      ],
+      "resolved_sha": "fd843b83db16ec8585d66af7ac0d6fac89aae82c"
+    },
+    {
+      "id": "V-S1-004",
+      "title": "Opaque numeric snapshots lose exact receipt values through ordinary JSON clients",
+      "criterion": "AC03.6,AC03.8; Stage1 section10 portable exact original receipts; frozen U003-U005",
+      "cases": [
+        "U003",
+        "U004",
+        "U005"
+      ],
+      "reproduction": "Create receipt with ignored numeric field1e400,1e-400 or1.0000000000000000000000000000001; export via ordinary response.json(); serialize and import unchanged object into fresh destination.",
+      "expected": "Portable opaque JSON state preserves exact original request and imports204; original retry remains200.",
+      "observed": "U003 cannot serialize float infinity before import (ValueError, counted frozen FAIL). U004/U005 round on client and destination returns422 checksum mismatch. Exact raw-byte numeric lifetimes separately pass.",
+      "evidence": [
+        "reports/stage-1/20261005T065316.597953Z-upgrade-1to1-8958251-2a5ea5b7"
+      ],
+      "status": "RESOLVED_AT_REVIEWED_SHA",
+      "product_sha": "89582510069e984f446060d797e138f4a3bf08f9",
+      "owner": "Builder",
+      "repair_observations": [
+        {
+          "product_sha": "e5e6305a96b92057324ff8ac5a62afce84651669",
+          "outcome": "NOT_EXECUTED_UPGRADE_ORACLE",
+          "final_candidate_reverification": "PENDING"
+        },
+        {
+          "product_sha": "7d7643857eeac6396467a791d93b0fa7c43b8fa2",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-1/REVIEW-7d76438.json"
+        },
+        {
+          "product_sha": "15d1f178b387e744bf919b6e8bb77fff2b5aeb23",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-1/REVIEW-15d1f17.json",
+          "case_matrix": "reports/stage-1/case-matrix-15d1f17.json"
+        },
+        {
+          "product_sha": "fd843b83db16ec8585d66af7ac0d6fac89aae82c",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-1/REVIEW-fd843b8.json",
+          "case_matrix": "reports/stage-1/case-matrix-fd843b8.json"
+        },
+        {
+          "product_sha": "a96b13048d19a5d93d75bb6c51ee100e44a2d8fd",
+          "stage": 2,
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-a96b130.json",
+          "case_matrix": "reports/stage-2/case-matrix-a96b130.json"
+        },
+        {
+          "product_sha": "d8941d7e630c9f2787623d1222f647d49b40ae91",
+          "stage": 2,
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-d8941d7.json",
+          "case_matrix": "reports/stage-2/case-matrix-d8941d7.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "0c0a3867fc38fff0824ec2f887a135a2965bb60f",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-0c0a386.json",
+          "case_matrix": "reports/stage-3/case-matrix-0c0a386.json"
+        },
+        {
+          "stage": 2,
+          "product_sha": "63cf798cf60baf3134a64e4db599c92d81561e3e",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-63cf798.md",
+          "case_matrix": "reports/stage-2/case-matrix-63cf798.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "4ce583cca13a033dd2f548ca982deec7200f8ad6",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-4ce583c.md",
+          "case_matrix": "reports/stage-3/case-matrix-4ce583c.json"
+        },
+        {
+          "stage": 4,
+          "product_sha": "e538cd16bbd96d4206d89f17a67791e759c00823",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-4/REVIEW-e538cd1.md",
+          "case_matrix": "reports/stage-4/case-matrix-e538cd1.json"
+        },
+        {
+          "stage": 2,
+          "product_sha": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-4b2236f.md",
+          "case_matrix": "reports/stage-2/case-matrix-4b2236f.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "301caf55085280f12197e393ab6b4735ef4046c3",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-301caf5.md",
+          "case_matrix": "reports/stage-3/case-matrix-301caf5.json"
+        },
+        {
+          "stage": 4,
+          "product_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-4/REVIEW-25ade1c.json",
+          "case_matrix": "reports/stage-4/case-matrix-25ade1c.json",
+          "original_failure_preserved": true
+        }
+      ],
+      "resolved_sha": "fd843b83db16ec8585d66af7ac0d6fac89aae82c"
+    },
+    {
+      "id": "V-S1-005",
+      "title": "Checksum-valid inconsistent receipt semantics import successfully",
+      "criterion": "AC03.6; Stage1 sections7,10,11 invalid state, original request/response correspondence and ordered batch receipt",
+      "cases": [
+        "D116-receipt-party",
+        "D116-receipt-start",
+        "D116-receipt-end",
+        "D116-receipt-body",
+        "D116-batch-order"
+      ],
+      "reproduction": "After valid control export/import, alter receipt responseparty2->3, start offset instant18->19 while local stays18, end19->18, bodyparty2->3, or reverse batch responses. Recompute sha256 of compact sorted ASCII payload; import.",
+      "expected": "422 validation_failed and exact destination nonmutation for each semantic inconsistency.",
+      "observed": "All five return204 and change destination. Independent adapter control checksum equals exported checksum and unchanged control imports204; this is not a selector mismatch.",
+      "evidence": [
+        "reports/stage-1/20261005T065824.839422Z-snapshot-semantics-8958251-8cc718e8"
+      ],
+      "status": "RESOLVED_AT_REVIEWED_SHA",
+      "product_sha": "89582510069e984f446060d797e138f4a3bf08f9",
+      "owner": "Builder",
+      "repair_observations": [
+        {
+          "product_sha": "e5e6305a96b92057324ff8ac5a62afce84651669",
+          "outcome": "REPRODUCED_FAIL",
+          "final_candidate_reverification": "PENDING"
+        },
+        {
+          "product_sha": "7d7643857eeac6396467a791d93b0fa7c43b8fa2",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-1/REVIEW-7d76438.json"
+        },
+        {
+          "product_sha": "15d1f178b387e744bf919b6e8bb77fff2b5aeb23",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-1/REVIEW-15d1f17.json",
+          "case_matrix": "reports/stage-1/case-matrix-15d1f17.json"
+        },
+        {
+          "product_sha": "fd843b83db16ec8585d66af7ac0d6fac89aae82c",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-1/REVIEW-fd843b8.json",
+          "case_matrix": "reports/stage-1/case-matrix-fd843b8.json"
+        },
+        {
+          "product_sha": "a96b13048d19a5d93d75bb6c51ee100e44a2d8fd",
+          "stage": 2,
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-a96b130.json",
+          "case_matrix": "reports/stage-2/case-matrix-a96b130.json"
+        },
+        {
+          "product_sha": "d8941d7e630c9f2787623d1222f647d49b40ae91",
+          "stage": 2,
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-d8941d7.json",
+          "case_matrix": "reports/stage-2/case-matrix-d8941d7.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "0c0a3867fc38fff0824ec2f887a135a2965bb60f",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-0c0a386.json",
+          "case_matrix": "reports/stage-3/case-matrix-0c0a386.json"
+        },
+        {
+          "stage": 2,
+          "product_sha": "63cf798cf60baf3134a64e4db599c92d81561e3e",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-63cf798.md",
+          "case_matrix": "reports/stage-2/case-matrix-63cf798.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "4ce583cca13a033dd2f548ca982deec7200f8ad6",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-4ce583c.md",
+          "case_matrix": "reports/stage-3/case-matrix-4ce583c.json"
+        },
+        {
+          "stage": 4,
+          "product_sha": "e538cd16bbd96d4206d89f17a67791e759c00823",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-4/REVIEW-e538cd1.md",
+          "case_matrix": "reports/stage-4/case-matrix-e538cd1.json"
+        },
+        {
+          "stage": 2,
+          "product_sha": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-4b2236f.md",
+          "case_matrix": "reports/stage-2/case-matrix-4b2236f.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "301caf55085280f12197e393ab6b4735ef4046c3",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-301caf5.md",
+          "case_matrix": "reports/stage-3/case-matrix-301caf5.json"
+        },
+        {
+          "stage": 4,
+          "product_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-4/REVIEW-25ade1c.json",
+          "case_matrix": "reports/stage-4/case-matrix-25ade1c.json",
+          "original_failure_preserved": true
+        }
+      ],
+      "resolved_sha": "fd843b83db16ec8585d66af7ac0d6fac89aae82c"
+    },
+    {
+      "id": "V-S1-006",
+      "title": "Valid local calendar extrema fail when UTC conversion crosses host datetime range",
+      "status": "RESOLVED_AT_REVIEWED_SHA",
+      "product_sha": "7d7643857eeac6396467a791d93b0fa7c43b8fa2",
+      "owner": "Builder",
+      "criterion": "Stage1 section4 any calendar date, section8 availability/create, section9 IANA-local absolute-duration semantics; coverageD109",
+      "cases": [
+        "D122-min-plus01",
+        "D122-max-minus01"
+      ],
+      "expected": "Reset204,availability200 andcreate201 for locally valid fixed-offset dates whose30-minute duration fits opening hours. Valid unchanged export/import and original retry follow.",
+      "observed": "0001-01-01 Etc/GMT-1(+01:00),open00:00-close01:00,start00:00 returns422 availability/create.9999-12-31 Etc/GMT+1(-01:00),open22:00-close23:59,start23:00 returns400 availability/422create. Both UTC controls PASS through export/import/replay;health200 throughout.",
+      "evidence": [
+        "reports/stage-1/20261005T072858.901328Z-calendar-edges-7d76438-740406c1"
+      ],
+      "test_source": "qa/derived/test_calendar_edges.py",
+      "test_sha256": "bd4910aaa2b1db726ce70c783a0cd2c97ebc6eb276fe321d5b16e7efd99a501c",
+      "resolved_sha": "fd843b83db16ec8585d66af7ac0d6fac89aae82c",
+      "repair_observations": [
+        {
+          "product_sha": "15d1f178b387e744bf919b6e8bb77fff2b5aeb23",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-1/REVIEW-15d1f17.json",
+          "case_matrix": "reports/stage-1/case-matrix-15d1f17.json"
+        },
+        {
+          "product_sha": "fd843b83db16ec8585d66af7ac0d6fac89aae82c",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-1/REVIEW-fd843b8.json",
+          "case_matrix": "reports/stage-1/case-matrix-fd843b8.json"
+        },
+        {
+          "product_sha": "a96b13048d19a5d93d75bb6c51ee100e44a2d8fd",
+          "stage": 2,
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-a96b130.json",
+          "case_matrix": "reports/stage-2/case-matrix-a96b130.json"
+        },
+        {
+          "product_sha": "d8941d7e630c9f2787623d1222f647d49b40ae91",
+          "stage": 2,
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-d8941d7.json",
+          "case_matrix": "reports/stage-2/case-matrix-d8941d7.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "0c0a3867fc38fff0824ec2f887a135a2965bb60f",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-0c0a386.json",
+          "case_matrix": "reports/stage-3/case-matrix-0c0a386.json"
+        },
+        {
+          "stage": 2,
+          "product_sha": "63cf798cf60baf3134a64e4db599c92d81561e3e",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-63cf798.md",
+          "case_matrix": "reports/stage-2/case-matrix-63cf798.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "4ce583cca13a033dd2f548ca982deec7200f8ad6",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-4ce583c.md",
+          "case_matrix": "reports/stage-3/case-matrix-4ce583c.json"
+        },
+        {
+          "stage": 4,
+          "product_sha": "e538cd16bbd96d4206d89f17a67791e759c00823",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-4/REVIEW-e538cd1.md",
+          "case_matrix": "reports/stage-4/case-matrix-e538cd1.json"
+        },
+        {
+          "stage": 2,
+          "product_sha": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-4b2236f.md",
+          "case_matrix": "reports/stage-2/case-matrix-4b2236f.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "301caf55085280f12197e393ab6b4735ef4046c3",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-301caf5.md",
+          "case_matrix": "reports/stage-3/case-matrix-301caf5.json"
+        },
+        {
+          "stage": 4,
+          "product_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-4/REVIEW-25ade1c.json",
+          "case_matrix": "reports/stage-4/case-matrix-25ade1c.json",
+          "original_failure_preserved": true
+        }
+      ]
+    },
+    {
+      "id": "V-S1-007",
+      "title": "Accepted historical IANA dates emit non-RFC3339 numeric offsets with seconds",
+      "status": "RESOLVED_AT_REVIEWED_SHA",
+      "product_sha": "15d1f178b387e744bf919b6e8bb77fff2b5aeb23",
+      "owner": "Builder",
+      "criterion": "Stage1 section3.4 RFC3339 response timestamps, section4 any calendar date, section9 exact IANA instants",
+      "cases": [
+        "D124-Berlin-historical",
+        "D124-NewYork-historical"
+      ],
+      "reproduction": "Reset restaurant r with Europe/Berlin or America/New_York, all weekdays17:00-23:00,grid30,duration60,cutoff0,tablea capacity4; login; availability1800-01-01 party2 and create tablea at1800-01-01T18:00 party2.",
+      "expected": "Availability200 and create201 with strict RFC3339 timestamps retaining exact IANA instants; offset syntax excludes seconds. UTC+00:00 can represent these finite cases without rounding.",
+      "observed": "Both200/201 andhealth200. Berlin availability/create starts_at1800-01-01T18:00:00+00:53:28 and ends_at19:00:00+00:53:28. NewYork starts_at18:00:00-04:56:02,ends_at19:00:00-04:56:02. Both timestamp format assertions FAIL; later lookup/import/retry not reached.",
+      "evidence": [
+        "reports/stage-1/20261005T075300.059103Z-historical-timestamps-15d1f17-30362bc0"
+      ],
+      "test_source": "qa/derived/test_historical_timestamps.py",
+      "test_sha256": "2ff091b1087b880110387bad51c764e0f197a730b796b8190055e5f457a5a9e2",
+      "manifest_sha256": "6240df45c873b84274a5a159d4828572054b53834ada32c6b5eec9ed30a602b9",
+      "resolved_sha": "fd843b83db16ec8585d66af7ac0d6fac89aae82c",
+      "repair_observations": [
+        {
+          "product_sha": "fd843b83db16ec8585d66af7ac0d6fac89aae82c",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-1/REVIEW-fd843b8.json",
+          "case_matrix": "reports/stage-1/case-matrix-fd843b8.json"
+        },
+        {
+          "product_sha": "a96b13048d19a5d93d75bb6c51ee100e44a2d8fd",
+          "stage": 2,
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-a96b130.json",
+          "case_matrix": "reports/stage-2/case-matrix-a96b130.json"
+        },
+        {
+          "product_sha": "d8941d7e630c9f2787623d1222f647d49b40ae91",
+          "stage": 2,
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-d8941d7.json",
+          "case_matrix": "reports/stage-2/case-matrix-d8941d7.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "0c0a3867fc38fff0824ec2f887a135a2965bb60f",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-0c0a386.json",
+          "case_matrix": "reports/stage-3/case-matrix-0c0a386.json"
+        },
+        {
+          "stage": 2,
+          "product_sha": "63cf798cf60baf3134a64e4db599c92d81561e3e",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-63cf798.md",
+          "case_matrix": "reports/stage-2/case-matrix-63cf798.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "4ce583cca13a033dd2f548ca982deec7200f8ad6",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-4ce583c.md",
+          "case_matrix": "reports/stage-3/case-matrix-4ce583c.json"
+        },
+        {
+          "stage": 4,
+          "product_sha": "e538cd16bbd96d4206d89f17a67791e759c00823",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-4/REVIEW-e538cd1.md",
+          "case_matrix": "reports/stage-4/case-matrix-e538cd1.json"
+        },
+        {
+          "stage": 2,
+          "product_sha": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-4b2236f.md",
+          "case_matrix": "reports/stage-2/case-matrix-4b2236f.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "301caf55085280f12197e393ab6b4735ef4046c3",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-301caf5.md",
+          "case_matrix": "reports/stage-3/case-matrix-301caf5.json"
+        },
+        {
+          "stage": 4,
+          "product_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-4/REVIEW-25ade1c.json",
+          "case_matrix": "reports/stage-4/case-matrix-25ade1c.json",
+          "original_failure_preserved": true
+        }
+      ]
+    },
+    {
+      "id": "V-S2-001",
+      "title": "Valid literal labels cause horizontal page overflow at 375px",
+      "criterion": "AC04; Stage2 Product and visual direction: no horizontal page scrolling at 375 CSS pixels",
+      "cases": [
+        "D215-mobile"
+      ],
+      "product_sha": "a96b13048d19a5d93d75bb6c51ee100e44a2d8fd",
+      "owner": "Builder",
+      "status": "RESOLVED_AT_REVIEWED_SHA",
+      "reproduction": "Reset fixture from qa/derived/test_stage2_browser.py D215 with restaurant name Garden <img src=x onerror=\"window.__qa_xss=1\">, table label Window plus same literal, user display Browser diner plus same literal. At375px login, search2030-01-01 party2, open slot-a-18:00.",
+      "expected": "Valid untrusted labels render as text; document.documentElement.scrollWidth <= innerWidth (375).",
+      "observed": "XSS nonexecution assertions pass; page width392 exceeds viewport375, causing17px horizontal overflow. Screenshot visibly confirms.",
+      "evidence": [
+        "reports/stage-2/20261005T090918.334404Z-stage2-browser-a96b130-a10dc62b"
+      ],
+      "test_sha256": "d921d62b9e682b1c1fb5512140c83b751f14a9fab065530cc36c428711f77762",
+      "case_file_sha256": "0f446cf7b80b503a8209b6eb0b02c24e5e309aee6bfc6eb92a88af12ed13daaf",
+      "manifest_sha256": "c7141837a4fd676e5360094d5c617168ef747a8c150aced5547f903826b0cfd9",
+      "repair_observations": [
+        {
+          "product_sha": "d8941d7e630c9f2787623d1222f647d49b40ae91",
+          "stage": 2,
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-d8941d7.json",
+          "case_matrix": "reports/stage-2/case-matrix-d8941d7.json",
+          "unchanged_direct_case": "D215-mobile",
+          "additional_cases": [
+            "D218-mobile",
+            "D218-desktop"
+          ],
+          "observed": "Unchanged D215 passes; full-label confirmation/retry/lookup/cancel adds7geometry states perwidth, all375/375 or1360/1360, original receipt201/200 and one booking; XSS nonexecution retained."
+        },
+        {
+          "stage": 3,
+          "product_sha": "0c0a3867fc38fff0824ec2f887a135a2965bb60f",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-0c0a386.json",
+          "case_matrix": "reports/stage-3/case-matrix-0c0a386.json"
+        },
+        {
+          "stage": 2,
+          "product_sha": "63cf798cf60baf3134a64e4db599c92d81561e3e",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-63cf798.md",
+          "case_matrix": "reports/stage-2/case-matrix-63cf798.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "4ce583cca13a033dd2f548ca982deec7200f8ad6",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-4ce583c.md",
+          "case_matrix": "reports/stage-3/case-matrix-4ce583c.json"
+        },
+        {
+          "stage": 4,
+          "product_sha": "e538cd16bbd96d4206d89f17a67791e759c00823",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-4/REVIEW-e538cd1.md",
+          "case_matrix": "reports/stage-4/case-matrix-e538cd1.json"
+        },
+        {
+          "stage": 2,
+          "product_sha": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-4b2236f.md",
+          "case_matrix": "reports/stage-2/case-matrix-4b2236f.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "301caf55085280f12197e393ab6b4735ef4046c3",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-301caf5.md",
+          "case_matrix": "reports/stage-3/case-matrix-301caf5.json"
+        },
+        {
+          "stage": 4,
+          "product_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-4/REVIEW-25ade1c.json",
+          "case_matrix": "reports/stage-4/case-matrix-25ade1c.json",
+          "original_failure_preserved": true
+        }
+      ],
+      "formal_review": "reports/stage-2/REVIEW-a96b130.md",
+      "repair_required": "Preserve full valid literal labels and required flows without horizontal page overflow at375px; re-execute unchanged D215-mobile and applicable full gate on a fresh committed SHA.",
+      "resolved_sha": "d8941d7e630c9f2787623d1222f647d49b40ae91",
+      "formal_repair_review": "reports/stage-2/REVIEW-d8941d7.md"
+    },
+    {
+      "id": "V-S2-002",
+      "title": "Native numeric fields reject API-valid401-digit positive integer",
+      "criterion": "AC04.5; cumulative Stage1 positive integer capacity/party and Stage2 exact search/form/create/retry",
+      "cases": [
+        "D219-search",
+        "D219-booking"
+      ],
+      "status": "RESOLVED_AT_REVIEWED_SHA",
+      "product_sha": "d8941d7e630c9f2787623d1222f647d49b40ae91",
+      "owner": "Builder",
+      "reproduction": "Single UTC table capacity1e400,2030-01-01,one18:00 slot; type1 followed by400zeros in either required party field. Small fill1/key2 controls succeed; both huge fill and ordinary key entry expose empty value/badInput.",
+      "expected": "Exact integer retained/submitted in query/rawJSON, then real201-loss and samebody/key retry with onebooking.",
+      "observed": "API200/201/200 exact control PASS; browser bothfields empty/NaN/badInput, UI integer error and zero requests after submission. Both newcasesFAIL; recovery not reached.",
+      "evidence": [
+        "reports/stage-2/20261005T101600.241391Z-stage2-native-range-d8941d7-00c885b0"
+      ],
+      "report": "reports/stage-2/ADDENDUM-d8941d7-V-S2-002.json",
+      "test_source_sha256": "94c5f02b0cb6eb01eeacb555ca013e52a28a4ce562ccd1a39ac44865a0ff1346",
+      "repair_observations": [
+        {
+          "stage": 2,
+          "product_sha": "63cf798cf60baf3134a64e4db599c92d81561e3e",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-63cf798.md",
+          "case_matrix": "reports/stage-2/case-matrix-63cf798.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "4ce583cca13a033dd2f548ca982deec7200f8ad6",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-4ce583c.md",
+          "case_matrix": "reports/stage-3/case-matrix-4ce583c.json"
+        },
+        {
+          "stage": 4,
+          "product_sha": "e538cd16bbd96d4206d89f17a67791e759c00823",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-4/REVIEW-e538cd1.md",
+          "case_matrix": "reports/stage-4/case-matrix-e538cd1.json"
+        },
+        {
+          "stage": 2,
+          "product_sha": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-4b2236f.md",
+          "case_matrix": "reports/stage-2/case-matrix-4b2236f.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "301caf55085280f12197e393ab6b4735ef4046c3",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-301caf5.md",
+          "case_matrix": "reports/stage-3/case-matrix-301caf5.json"
+        },
+        {
+          "stage": 4,
+          "product_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-4/REVIEW-25ade1c.json",
+          "case_matrix": "reports/stage-4/case-matrix-25ade1c.json",
+          "original_failure_preserved": true
+        }
+      ],
+      "reproduced_revisions": [
+        {
+          "stage": 3,
+          "product_sha": "0c0a3867fc38fff0824ec2f887a135a2965bb60f",
+          "outcome": "REPRODUCTION_FAIL",
+          "report": "reports/stage-3/REVIEW-0c0a386.md",
+          "primary_evidence": "reports/stage-3/20261005T102752.835588Z-native-range-0c0a386-ef7ff328",
+          "cases": [
+            "D219-search",
+            "D219-booking"
+          ],
+          "browser_loss_retry": "NOT_REACHED"
+        }
+      ],
+      "resolved_stage2_sha": "63cf798cf60baf3134a64e4db599c92d81561e3e",
+      "formal_repair_review": "reports/stage-3/REVIEW-4ce583c.md",
+      "stage_dispositions": {
+        "2": {
+          "decision": "RESOLVED",
+          "product_sha": "63cf798cf60baf3134a64e4db599c92d81561e3e",
+          "direct_cases": [
+            "D219-search",
+            "D219-booking",
+            "D220-mobile",
+            "D220-desktop",
+            "D221-search",
+            "D221-booking"
+          ]
+        },
+        "3": {
+          "decision": "RESOLVED",
+          "product_sha": "4ce583cca13a033dd2f548ca982deec7200f8ad6",
+          "direct_cases": [
+            "D219-search",
+            "D219-booking",
+            "D220-mobile",
+            "D220-desktop",
+            "D221-search",
+            "D221-booking"
+          ]
+        }
+      },
+      "resolved_stage3_sha": "4ce583cca13a033dd2f548ca982deec7200f8ad6"
+    },
+    {
+      "id": "V-S2-003",
+      "title": "Unavailable declared pairs remain rendered as cells",
+      "criterion": "AC04 inherited Stage2 UI: combination cells shown when the declared pair is available for the searched party size; frozen U402/U404 require absence after closure",
+      "status": "RESOLVED_AT_REVIEWED_SHA",
+      "owner": "Builder",
+      "cases": [
+        "U402",
+        "U404",
+        "D222-mobile",
+        "D222-desktop"
+      ],
+      "reproduction": "Fixture UTC, a/b capacity2, declared pair [b,a], c capacity4; create a party2 booking on a at2030-01-01T18:00 for60min. Search party4 that date. API omits [b,a] at18:00 and includes it at19:00. Inspect slot-b+a-18:00.",
+      "expected": "No unavailable pair cell at18:00; available pair at19:00, and unavailable single a remains data-available=false.",
+      "observed": "Pair cell count1/data-available=false at18:00 on all exact Stage2/3/4 revisions,375/1360px. Frozen Stage4 closure/reassignment cases fail the same absent-pair requirement.",
+      "observations": [
+        {
+          "stage": 2,
+          "product_sha": "63cf798cf60baf3134a64e4db599c92d81561e3e",
+          "attempt": "reports/stage-2/20261005T124056.243961Z-stage2-pair-visibility-63cf798-24955d72",
+          "manifest_sha256": "80e8be0d217e03ad51c851cc5bde14659c9250ff51c314f9b3966e8cfa69b6a6",
+          "raw_outcomes": {
+            "FAIL": 2
+          },
+          "observations": [
+            {
+              "width": 375,
+              "api_pair_available_at_1800": false,
+              "api_pair_available_at_1900": true,
+              "pair_cell_1800_count": 1,
+              "pair_cell_available": "false"
+            },
+            {
+              "width": 1360,
+              "api_pair_available_at_1800": false,
+              "api_pair_available_at_1900": true,
+              "pair_cell_1800_count": 1,
+              "pair_cell_available": "false"
+            }
+          ]
+        },
+        {
+          "stage": 3,
+          "product_sha": "4ce583cca13a033dd2f548ca982deec7200f8ad6",
+          "attempt": "reports/stage-3/20261005T124113.278951Z-stage2-pair-visibility-4ce583c-40291a25",
+          "manifest_sha256": "9630ead05c9c62b06eddd68e3074834a44d46aa721a7712f21d528ad2f920444",
+          "raw_outcomes": {
+            "FAIL": 2
+          },
+          "observations": [
+            {
+              "width": 375,
+              "api_pair_available_at_1800": false,
+              "api_pair_available_at_1900": true,
+              "pair_cell_1800_count": 1,
+              "pair_cell_available": "false"
+            },
+            {
+              "width": 1360,
+              "api_pair_available_at_1800": false,
+              "api_pair_available_at_1900": true,
+              "pair_cell_1800_count": 1,
+              "pair_cell_available": "false"
+            }
+          ]
+        },
+        {
+          "stage": 4,
+          "product_sha": "e538cd16bbd96d4206d89f17a67791e759c00823",
+          "attempt": "reports/stage-4/20261005T124040.619826Z-stage2-pair-visibility-e538cd1-c0086d77",
+          "manifest_sha256": "6f8d59a66bbaffdac8f2ba57fab1ca1ec18d74d8e5b8925a600555501cbbeb71",
+          "raw_outcomes": {
+            "FAIL": 2
+          },
+          "observations": [
+            {
+              "width": 375,
+              "api_pair_available_at_1800": false,
+              "api_pair_available_at_1900": true,
+              "pair_cell_1800_count": 1,
+              "pair_cell_available": "false"
+            },
+            {
+              "width": 1360,
+              "api_pair_available_at_1800": false,
+              "api_pair_available_at_1900": true,
+              "pair_cell_1800_count": 1,
+              "pair_cell_available": "false"
+            }
+          ]
+        }
+      ],
+      "historical_acceptances_preserved": true,
+      "repair_observations": [
+        {
+          "stage": 2,
+          "product_sha": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-2/REVIEW-4b2236f.md",
+          "case_matrix": "reports/stage-2/case-matrix-4b2236f.json"
+        },
+        {
+          "stage": 3,
+          "product_sha": "301caf55085280f12197e393ab6b4735ef4046c3",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-3/REVIEW-301caf5.md",
+          "case_matrix": "reports/stage-3/case-matrix-301caf5.json"
+        },
+        {
+          "stage": 4,
+          "product_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+          "outcome": "REPRODUCTION_PASS",
+          "report": "reports/stage-4/REVIEW-25ade1c.json",
+          "case_matrix": "reports/stage-4/case-matrix-25ade1c.json",
+          "original_failure_preserved": true
+        }
+      ],
+      "stage_dispositions": {
+        "2": {
+          "decision": "RESOLVED",
+          "product_sha": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+          "direct_cases": [
+            "D222-mobile",
+            "D222-desktop"
+          ],
+          "complementary_definitions": 8,
+          "families": [
+            "D223",
+            "D224",
+            "D225"
+          ],
+          "report": "reports/stage-2/REVIEW-4b2236f.md"
+        },
+        "3": {
+          "decision": "RESOLVED",
+          "product_sha": "301caf55085280f12197e393ab6b4735ef4046c3",
+          "direct_cases": [
+            "D222-mobile",
+            "D222-desktop"
+          ],
+          "complementary_definitions": 8,
+          "families": [
+            "D223",
+            "D224",
+            "D225"
+          ],
+          "report": "reports/stage-3/REVIEW-301caf5.md"
+        },
+        "4": {
+          "decision": "OPEN",
+          "product_sha": "e538cd16bbd96d4206d89f17a67791e759c00823"
+        }
+      },
+      "resolved_stage2_sha": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+      "resolved_stage3_sha": "301caf55085280f12197e393ab6b4735ef4046c3"
+    }
+  ],
+  "oracle_notes": [
+    {
+      "id": "ORACLE-EMAIL-001",
+      "cases": [
+        "S064",
+        "S065",
+        "S066",
+        "S067"
+      ],
+      "criterion": "Stage1 section6 explicitly requires422 validation_failed for malformed email, including login.",
+      "original_outcome": "4FAIL: unchanged original expects401",
+      "adjudicated_outcome": "4PASS:422 plus exact nonmutation",
+      "counting": "Same four definitions; original raw failures remain unchanged.",
+      "evidence": [
+        "reports/stage-1/20261005T064841.476990Z-original-8958251-146e60cf",
+        "reports/stage-1/20261005T064921.085809Z-adjudicated-8958251-3d96bea9"
+      ]
+    },
+    {
+      "id": "ADAPTER-RECEIPT-001",
+      "cases": [
+        "B003"
+      ],
+      "status": "ORIGINAL_SELECTOR_APPLICABLE_PASS",
+      "additional_adapter": "qa/derived/test_snapshot_semantics.py recomputes checksum for five stronger semantic checks; no frozen source changed."
+    }
+  ],
+  "latest_reviewed_revision": "301caf55085280f12197e393ab6b4735ef4046c3",
+  "next_review_candidate": null,
+  "review_history": [
+    {
+      "product_sha": "89582510069e984f446060d797e138f4a3bf08f9",
+      "decision": "REJECT",
+      "evidence_sha": "b996be0e8f30facd9bab1e14dc6627b48ca993d8"
+    },
+    {
+      "product_sha": "e5e6305a96b92057324ff8ac5a62afce84651669",
+      "decision": "REJECT",
+      "disposition": "SUPERSEDED",
+      "report": "reports/stage-1/REVIEW-e5e6305.json"
+    },
+    {
+      "product_sha": "7d7643857eeac6396467a791d93b0fa7c43b8fa2",
+      "decision": "REJECT",
+      "report": "reports/stage-1/REVIEW-7d76438.json",
+      "evidence_sha": "bd41c845b127c2c478c0f172d2361648d52e3a4a"
+    },
+    {
+      "product_sha": "15d1f178b387e744bf919b6e8bb77fff2b5aeb23",
+      "decision": "REJECT",
+      "report": "reports/stage-1/REVIEW-15d1f17.json",
+      "resolved_defects": [
+        "V-S1-001",
+        "V-S1-002",
+        "V-S1-003",
+        "V-S1-004",
+        "V-S1-005",
+        "V-S1-006"
+      ],
+      "open_defects": [
+        "V-S1-007"
+      ]
+    },
+    {
+      "product_sha": "fd843b83db16ec8585d66af7ac0d6fac89aae82c",
+      "decision": "ACCEPT_STAGE_1",
+      "report": "reports/stage-1/REVIEW-fd843b8.json",
+      "resolved_defects": [
+        "V-S1-001",
+        "V-S1-002",
+        "V-S1-003",
+        "V-S1-004",
+        "V-S1-005",
+        "V-S1-006",
+        "V-S1-007"
+      ],
+      "open_defects": [],
+      "remaining_scope": "Coordinator gate and all Stage2-4/final delivery requirements remain pending"
+    },
+    {
+      "product_sha": "a96b13048d19a5d93d75bb6c51ee100e44a2d8fd",
+      "decision": "REJECT_STAGE_2",
+      "report": "reports/stage-2/REVIEW-a96b130.json",
+      "open_defects": [
+        "V-S2-001"
+      ],
+      "prior_defect_regressions_passed": [
+        "V-S1-001",
+        "V-S1-002",
+        "V-S1-003",
+        "V-S1-004",
+        "V-S1-005",
+        "V-S1-006",
+        "V-S1-007"
+      ],
+      "remaining_scope": "Builder repair and exact-revision independent review; Coordinator gate required before Stage3"
+    },
+    {
+      "product_sha": "d8941d7e630c9f2787623d1222f647d49b40ae91",
+      "decision": "ACCEPT_STAGE_2",
+      "report": "reports/stage-2/REVIEW-d8941d7.json",
+      "resolved_defects": [
+        "V-S2-001"
+      ],
+      "prior_defect_regressions_passed": [
+        "V-S1-001",
+        "V-S1-002",
+        "V-S1-003",
+        "V-S1-004",
+        "V-S1-005",
+        "V-S1-006",
+        "V-S1-007"
+      ],
+      "open_defects": [],
+      "remaining_scope": "Coordinator gate required before Stage3; Stage3/4 and final clean delivery remain pending"
+    },
+    {
+      "product_sha": "d8941d7e630c9f2787623d1222f647d49b40ae91",
+      "stage": 2,
+      "decision": "REJECT_ADDENDUM",
+      "report": "reports/stage-2/ADDENDUM-d8941d7-V-S2-002.json",
+      "open_defects": [
+        "V-S2-002"
+      ],
+      "raw_counts": {
+        "PASS": 0,
+        "FAIL": 2,
+        "ERROR": 0,
+        "SKIP": 0
+      },
+      "supersedes_conformance_conclusion_only": "reports/stage-2/REVIEW-d8941d7.json",
+      "prior_evidence_unchanged": true
+    },
+    {
+      "stage": 3,
+      "product_sha": "0c0a3867fc38fff0824ec2f887a135a2965bb60f",
+      "decision": "REJECT",
+      "open_defects": [
+        "V-S2-002"
+      ],
+      "report": "reports/stage-3/REVIEW-0c0a386.md"
+    },
+    {
+      "stage": 2,
+      "product_sha": "63cf798cf60baf3134a64e4db599c92d81561e3e",
+      "decision": "ACCEPT",
+      "report": "reports/stage-2/REVIEW-63cf798.md",
+      "resolved_defects": [
+        "V-S2-002"
+      ],
+      "open_stage2_defects": [],
+      "remaining_scope": "Coordinator renewed Stage2 gate; Stage3 correction and full review; Stage4 and final delivery gated"
+    },
+    {
+      "stage": 3,
+      "product_sha": "4ce583cca13a033dd2f548ca982deec7200f8ad6",
+      "decision": "ACCEPT_STAGE_3",
+      "report": "reports/stage-3/REVIEW-4ce583c.md",
+      "resolved_defects": [
+        "V-S2-002"
+      ],
+      "prior_defect_regressions_passed": [
+        "V-S1-001",
+        "V-S1-002",
+        "V-S1-003",
+        "V-S1-004",
+        "V-S1-005",
+        "V-S1-006",
+        "V-S1-007",
+        "V-S2-001",
+        "V-S2-002"
+      ],
+      "open_defects": [],
+      "remaining_scope": "Coordinator Stage3 gate; Stage4/final-delivery requirements pending"
+    },
+    {
+      "stage": 2,
+      "product_sha": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+      "decision": "ACCEPT_STAGE_2",
+      "report": "reports/stage-2/REVIEW-4b2236f.md",
+      "resolved_defects": [
+        "V-S2-003"
+      ],
+      "prior_defect_regressions_passed": [
+        "V-S1-001",
+        "V-S1-002",
+        "V-S1-003",
+        "V-S1-004",
+        "V-S1-005",
+        "V-S1-006",
+        "V-S1-007",
+        "V-S2-001",
+        "V-S2-002"
+      ],
+      "open_stage2_defects": [],
+      "remaining_scope": "Coordinator renewed Stage2 gate; ordered Stage3 then Stage4 repair and fresh full gates; final packaging remains pending"
+    },
+    {
+      "product_sha": "301caf55085280f12197e393ab6b4735ef4046c3",
+      "stage": 3,
+      "decision": "ACCEPT",
+      "report": "reports/stage-3/REVIEW-301caf5.md",
+      "frozen": 179,
+      "derived": 214,
+      "official": 152
+    }
+  ],
+  "original_product_revision": "89582510069e984f446060d797e138f4a3bf08f9",
+  "initial_application_command_attempts": 11,
+  "current_oracle_adapter_status": {
+    "original_email_failures": 4,
+    "original_opaque_selector_failures": 6,
+    "adjudicated_baseline_pass": 104,
+    "separate_adapter_pass": 6,
+    "sources_and_failures_preserved": true,
+    "additional_definitions": 0
+  },
+  "stage1_acceptance_preserved": {
+    "product_sha": "fd843b83db16ec8585d66af7ac0d6fac89aae82c",
+    "report": "reports/stage-1/REVIEW-fd843b8.json"
+  },
+  "stage4_review": {
+    "product_sha": "e538cd16bbd96d4206d89f17a67791e759c00823",
+    "qa_sha": "9523c3ed97f69262d4911c28760b21525fff1758",
+    "independent_definitions": 317,
+    "status": "REJECT",
+    "open_defects": [
+      "V-S2-003"
+    ],
+    "report": "reports/stage-4/REVIEW-e538cd1.md",
+    "frozen": {
+      "PASS": 214,
+      "FAIL": 2
+    },
+    "derived": {
+      "PASS": 315,
+      "FAIL": 2
+    },
+    "official": {
+      "PASS": 158
+    },
+    "raw_pytest": {
+      "PASS": 909,
+      "FAIL": 63
+    },
+    "native_full_export_present": false
+  },
+  "renewed_stage2_review": {
+    "product_sha": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+    "decision": "ACCEPT",
+    "frozen_definitions": 169,
+    "derived_definitions": 106,
+    "official_definitions": 145,
+    "application_command_attempts": 32,
+    "raw_pytest": {
+      "PASS": 527,
+      "FAIL": 10,
+      "ERROR": 0,
+      "SKIP": 0
+    },
+    "report": "reports/stage-2/REVIEW-4b2236f.md"
+  },
+  "coordinator_gate_history": [
+    {
+      "sha": "f2bfa8297f77353675c2942fb765b18113b35266",
+      "status": "historical_stage3_acceptance_later_reopened"
+    },
+    {
+      "sha": "71db79bfd5af5a8b6048f5c071c7b60b10e9773c",
+      "status": "reopened_stage2_stage3_ordered_repair"
+    }
+  ],
+  "stage3_pair_renewal_preparation": {
+    "assembly": "reports/preparation/stage3-pair-renewal/assembly.json",
+    "matrix": "reports/preparation/stage3-pair-renewal/case-matrix.json",
+    "plan": "reports/preparation/stage3-pair-renewal/run-plan.json",
+    "new_candidate_sha": null,
+    "application_executions": 0,
+    "outcome": "NOT_RUN"
+  },
+  "renewed_stage3_review": {
+    "product_sha": "301caf55085280f12197e393ab6b4735ef4046c3",
+    "decision": "ACCEPT",
+    "report": "reports/stage-3/REVIEW-301caf5.md",
+    "frozen_definitions": 179,
+    "independent_definitions": 214,
+    "official_definitions": 152,
+    "coordinator_gate": "PENDING"
+  },
+  "status_history": [
+    {
+      "recorded_at": "2026-10-05T15:12:37.624162+00:00",
+      "previous_status": "STAGE3_RENEWED_ACCEPT_PENDING_COORDINATOR_STAGE4_REJECTED",
+      "previous_product_revision": "301caf55085280f12197e393ab6b4735ef4046c3",
+      "previous_coordinator_gate": "Renewed Stage2 ACCEPT b0e69e22fa1fd30e89516e09b0fecac45b74a2eb at2026-10-05T13:34:43Z; exactStage2 4b2236fb6576b636d168b2cacf1a5d91921cf582, evidence92dc4c42b8f562d1548f4e36a53437a28f151a3f. Stage3 pair repair assigned; Stage4 remains gated."
+    }
+  ],
+  "stage4_renewed_review": {
+    "product_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+    "decision": "ACCEPT_PRODUCT_GATE",
+    "report": "reports/stage-4/REVIEW-25ade1c.json",
+    "raw_pytest": {
+      "PASS": 839,
+      "FAIL": 53,
+      "ERROR": 0,
+      "SKIP": 0
+    },
+    "reconciled_definitions": {
+      "frozen": 216,
+      "independent": 344,
+      "official": 158
+    },
+    "all_ten_defect_families": "DIRECT_PASS",
+    "original_failure_dispositions": "reports/stage-4/NONPASS-RECONCILIATION-25ade1c.json",
+    "source_injections": {
+      "actual": 50,
+      "names": 18,
+      "fault_types": 3
+    },
+    "final_delivery": "Coordinator gate, final docs and concrete clean unchanged harness check still required; native export unverified."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "room": "e04c2728-8535-41c8-be50-88eb8068fa09",
+  "recorded_at_utc": "2026-10-05 08:18:24 UTC",
+  "stage": 1,
+  "coordinator_decision": "ACCEPT",
+  "product_sha": "fd843b83db16ec8585d66af7ac0d6fac89aae82c",
+  "verifier_evidence_sha": "b5578cdd018398bde579322a78a161add719de4c",
+  "review": "reports/stage-1/REVIEW-fd843b8.md",
+  "coordinator_integrity_audit": "provenance/review-integrity-fd843b8.json",
+  "closed_defects": ["V-S1-001", "V-S1-002", "V-S1-003", "V-S1-004", "V-S1-005", "V-S1-006", "V-S1-007"],
+  "reconciled_pass_definitions": {"frozen": 166, "derived": 68, "official": 120},
+  "raw_instrumented_pytest_executions": {"PASS": 454, "FAIL": 10},
+  "retained_failures": {"original_email_oracle": 4, "opaque_state_selector": 6},
+  "next_authorization": "Stage2 may copy this exact accepted Stage1 only after receiving all five complete Stage2 handoff parts. Stage3/4 remain gated.",
+  "limits": "No hidden-test or exhaustive-input claim; final all-stage qualification and native room-export packaging remain pending."
+}

@@ -1,0 +1,24 @@
+{
+  "users": [{"id":"demo-diner","email":"ada@example.test","password":"juniper-demo-2026","display_name":"Ada"}],
+  "restaurants": [{
+    "id":"juniper-garden","name":"Juniper Garden","timezone":"Europe/Berlin",
+    "slot_minutes":30,"reservation_duration_minutes":90,"cancellation_cutoff_minutes":60,
+    "opening_hours":[
+      {"weekday":"mon","opens":"18:00","closes":"23:00"},
+      {"weekday":"tue","opens":"18:00","closes":"23:00"},
+      {"weekday":"wed","opens":"18:00","closes":"23:00"},
+      {"weekday":"thu","opens":"18:00","closes":"23:00"},
+      {"weekday":"fri","opens":"18:00","closes":"23:30"},
+      {"weekday":"sat","opens":"17:00","closes":"23:30"},
+      {"weekday":"sun","opens":"17:00","closes":"22:00"}
+    ],
+    "tables":[
+      {"id":"window","label":"By the window","capacity":2},
+      {"id":"garden","label":"Garden view","capacity":4},
+      {"id":"corner","label":"The quiet corner","capacity":4},
+      {"id":"round","label":"The round table","capacity":6}
+    ],
+    "combinable":[["window","garden"],["garden","corner"]]
+  }],
+  "reservations":[]
+}

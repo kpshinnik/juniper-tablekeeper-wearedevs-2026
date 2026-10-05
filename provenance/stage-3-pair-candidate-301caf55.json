@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-05T13:50:08.603245+00:00",
+  "candidate": "301caf55085280f12197e393ab6b4735ef4046c3",
+  "identity": "Builder <builder@juniper-factory.local> / Builder <builder@juniper-factory.local>",
+  "changed_owned_paths": 134,
+  "foreign_paths": [],
+  "changes_outside_checks": [
+    "stage-3/RUN.md",
+    "stage-3/web/app.js"
+  ],
+  "stage3_runtime_diff_from_reopened": "diff --git a/stage-3/web/app.js b/stage-3/web/app.js\nindex 5bcaf3a..a8f0c4f 100644\n--- a/stage-3/web/app.js\n+++ b/stage-3/web/app.js\n@@ -155,6 +155,8 @@ function searchScreen() {\n       const labels = tableLabels(detail, ids), times = el('div', {class: 'times'});\n       for (const slot of availability.slots) {\n         const available = ids.length === 1 ? slot.available_table_ids.includes(ids[0]) : (slot.available_options || []).some(option => idsEqual(option.table_ids, ids));\n+        // Pair choices exist only at offered times; singles retain unavailable cells.\n+        if (ids.length === 2 && !available) continue;\n         const clock = slot.starts_at_local.slice(11), selected = chosen && chosen.local === slot.starts_at_local && chosen.restaurant.id === detail.id && idsEqual(chosen.ids, ids);\n         times.append(el('button', {type: 'button', class: 'slot', disabled: !available, 'data-testid': 'slot-' + ids.join('+') + '-' + clock, 'data-available': String(available), 'aria-pressed': String(Boolean(selected)), 'aria-label': labels.join(' and ') + ', ' + clock + ', ' + (available ? 'available' : 'unavailable'), onclick: () => {\n           if (!session) { notice(authError, 'auth-error', 'Sign in or create an account to reserve your table.'); authError.scrollIntoView({block: 'nearest'}); return; }",
+  "browser_matches_accepted_stage2": true,
+  "browser_sha256": "5088924cbc05d11d027dde80a3b1b5fd1110262d44b076c57125b616a9722701",
+  "context_preservation": {
+    "1": {
+      "source": "fd843b83db16ec8585d66af7ac0d6fac89aae82c",
+      "differences": ""
+    },
+    "2": {
+      "source": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+      "differences": ""
+    },
+    "4": {
+      "source": "e538cd16bbd96d4206d89f17a67791e759c00823",
+      "differences": ""
+    }
+  },
+  "total_stage3_files": 300,
+  "status": "Candidate audit only; independent gate pending",
+  "builder_local_checks": {
+    "browser_pass": 25,
+    "developer_adapter_pass": 62,
+    "original_D222_fail": 2,
+    "new_definitions": 0
+  }
+}

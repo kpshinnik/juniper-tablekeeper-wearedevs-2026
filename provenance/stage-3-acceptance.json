@@ -1,0 +1,37 @@
+{
+  "room": "e04c2728-8535-41c8-be50-88eb8068fa09",
+  "decision": "ACCEPT_STAGE3",
+  "gate_time_utc": "2026-10-05T11:41:30Z",
+  "elapsed_from_first_measurement_seconds": 19183,
+  "product_sha": "4ce583cca13a033dd2f548ca982deec7200f8ad6",
+  "evidence_sha": "4db2742eca07f941e6a03f92c97c3d93c380619f",
+  "review": "reports/stage-3/REVIEW-4ce583c.md",
+  "reconciled_definitions": {
+    "frozen": {
+      "count": 179,
+      "outcomes": {
+        "PASS": 179
+      }
+    },
+    "derived": {
+      "count": 204,
+      "outcomes": {
+        "PASS": 204
+      }
+    },
+    "official": {
+      "count": 152,
+      "outcomes": {
+        "PASS": 152
+      }
+    }
+  },
+  "raw_pytest_executions": 659,
+  "raw_pytest_outcomes": {
+    "PASS": 649,
+    "FAIL": 10
+  },
+  "open_product_defects": [],
+  "audit": "provenance/review-integrity-4ce583c.json",
+  "authorized_next": "After complete seven-part Stage4 handoff, copy this exact acceptedStage3 intoStage4 and implement fullstage4. Finalfullqualification andpackaging remainpending."
+}

@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-05T14:38:39.870384+00:00",
+  "candidate": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+  "identity": "Builder <builder@juniper-factory.local> / Builder <builder@juniper-factory.local>",
+  "owned_paths": 180,
+  "foreign_paths": [],
+  "changes_outside_checks": [
+    "stage-4/RUN.md",
+    "stage-4/web/app.js"
+  ],
+  "earlier_contexts_diff": "",
+  "browser_equals_accepted_stage3": true,
+  "browser_sha256": "5088924cbc05d11d027dde80a3b1b5fd1110262d44b076c57125b616a9722701",
+  "stage4_total_files": 411,
+  "runtime_changes_from_e538": [
+    "stage-4/RUN.md",
+    "stage-4/web/app.js"
+  ],
+  "builder_precommit_local_evidence": {
+    "definitions": 112,
+    "executions": 118,
+    "PASS": 114,
+    "FAIL": 4,
+    "ERROR": 0,
+    "SKIP": 0,
+    "original_failures": [
+      "D222mobile",
+      "D222desktop",
+      "U402",
+      "U404"
+    ],
+    "environment": "ephemeral loopbackHTTP/localChromium, not constrainedDocker qualification"
+  },
+  "status": "Candidate audit only; complete seven-part exact-SHA handoff and independent review pending"
+}

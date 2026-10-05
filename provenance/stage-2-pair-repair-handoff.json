@@ -1,0 +1,119 @@
+{
+  "room": "e04c2728-8535-41c8-be50-88eb8068fa09",
+  "at": "2026-10-05T12:50:30Z",
+  "defect": "V-S2-003",
+  "deliveries": [
+    {
+      "role": "builder",
+      "part": 1,
+      "result": {
+        "message_id": "66e86b26-191f-4ae9-b6da-de07e7ef9730",
+        "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+        "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+        "status": "accepted",
+        "warnings": []
+      }
+    },
+    {
+      "role": "verifier",
+      "part": 1,
+      "result": {
+        "message_id": "d2f2a8de-f765-410e-869b-a26108e25754",
+        "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+        "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+        "status": "accepted",
+        "warnings": []
+      }
+    },
+    {
+      "role": "builder",
+      "part": 2,
+      "result": {
+        "message_id": "3113aa41-9e17-4111-b9b7-cb9bf9a9cd16",
+        "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+        "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+        "status": "accepted",
+        "warnings": []
+      }
+    },
+    {
+      "role": "verifier",
+      "part": 2,
+      "result": {
+        "message_id": "0b81b8a8-f695-4d72-be4c-6d2c725131d0",
+        "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+        "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+        "status": "accepted",
+        "warnings": []
+      }
+    },
+    {
+      "role": "builder",
+      "part": 3,
+      "result": {
+        "message_id": "adf641ce-9c28-4de9-8617-0a4689d365f8",
+        "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+        "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+        "status": "accepted",
+        "warnings": []
+      }
+    },
+    {
+      "role": "verifier",
+      "part": 3,
+      "result": {
+        "message_id": "d220cf6d-24f2-4ae3-90d5-a474a71d62ac",
+        "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+        "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+        "status": "accepted",
+        "warnings": []
+      }
+    },
+    {
+      "role": "builder",
+      "part": 4,
+      "result": {
+        "message_id": "11ce53e8-b72f-400c-9549-0fa3bde02037",
+        "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+        "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+        "status": "accepted",
+        "warnings": []
+      }
+    },
+    {
+      "role": "verifier",
+      "part": 4,
+      "result": {
+        "message_id": "a3ef3818-5263-439f-95c5-c8529177f7cb",
+        "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+        "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+        "status": "accepted",
+        "warnings": []
+      }
+    },
+    {
+      "role": "builder",
+      "part": 5,
+      "result": {
+        "message_id": "2987968d-af3d-457a-8c5b-a3496141de63",
+        "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+        "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+        "status": "accepted",
+        "warnings": []
+      }
+    },
+    {
+      "role": "verifier",
+      "part": 5,
+      "result": {
+        "message_id": "fd5f5d26-6903-47d3-9a38-4f80bd1528a7",
+        "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+        "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+        "status": "accepted",
+        "warnings": []
+      }
+    }
+  ],
+  "native_export": false
+}
+

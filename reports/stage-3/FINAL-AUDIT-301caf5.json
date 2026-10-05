@@ -1,0 +1,241 @@
+{
+  "at": "2026-10-05T14:08:44.785865+00:00",
+  "product_sha": "301caf55085280f12197e393ab6b4735ef4046c3",
+  "clean_checkout": true,
+  "complete_tracked_files_rehashed": 9730,
+  "manifest_count": 37,
+  "artifact_file_count": 1004,
+  "manifests": [
+    {
+      "path": "reports/stage-3/20261005T135922.503593Z-stage2-pair-visibility-301caf5-f2821ace",
+      "manifest_sha256": "7d142d9f42a43a857689a63d6e3d9b482db704fa776649dbd243b68541ce8558",
+      "artifact_files": 34,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T135935.576139Z-stage2-pair-repair-301caf5-2318b7af",
+      "manifest_sha256": "db1394b2a9b7dbcbbad5520be2241431af3a3d7ecdc0d115c3b2f08e7da05eb5",
+      "artifact_files": 56,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T135950.635303Z-stage2-native-range-301caf5-9a1be98d",
+      "manifest_sha256": "05e05029bb9174760e23998d1b344c3de402a487b49518dccdb8a090628b5a84",
+      "artifact_files": 40,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T135959.118594Z-stage2-numeric-geometry-301caf5-6cbdc1ab",
+      "manifest_sha256": "3c5e1ea6617c0d724f9e780518c6a4ad295e541f7af5275b2bf858f9536307fb",
+      "artifact_files": 46,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140007.756720Z-stage2-integer-validation-301caf5-8421b84a",
+      "manifest_sha256": "c2b7fbf000cf3811b0f00cdb5839bcc9d0d468c84cb77f889920badb752cc80f",
+      "artifact_files": 32,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140015.427283Z-stage3-domain-301caf5-2caba886",
+      "manifest_sha256": "e18bcc63b713fed6f56dd7c96e9ed89cdfbcedeeea0e86fffe33044a338f5ea2",
+      "artifact_files": 24,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140030.377591Z-stage3-integrity-301caf5-6cbb42a0",
+      "manifest_sha256": "0e1f0b7c8ddedcb70433f284c113fd907115ff80f6a67e00a0de6c20955a6489",
+      "artifact_files": 24,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140045.698612Z-original-301caf5-ee3c468f",
+      "manifest_sha256": "df63672711eb741e646a023515113a04db59ca5a9bb3131ec0fa74865567435e",
+      "artifact_files": 25,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140106.138011Z-adjudicated-301caf5-de1e1aad",
+      "manifest_sha256": "cfdd513ec085c615d5ce25b1bc2427a09014a1f23d7c3576eb6839ff215b30fd",
+      "artifact_files": 25,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140125.457583Z-common-301caf5-fde97fdf",
+      "manifest_sha256": "a266e124a09ed498bd2805c7b6b50e828d6371d92b98f62fd66e8eb9520fe279",
+      "artifact_files": 24,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140146.472021Z-pairs-301caf5-f4d7ba00",
+      "manifest_sha256": "f5c77cbf3f07005efb3ee6893a3743d5fa55bf721d41d20173c43bcc3949f765",
+      "artifact_files": 24,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140149.764035Z-numeric-301caf5-692fa97b",
+      "manifest_sha256": "520b3daec540644b0bd1dedd279603f4bebce7797161a6a1681a0feb374506e4",
+      "artifact_files": 25,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140204.724703Z-derived-301caf5-330dc961",
+      "manifest_sha256": "39de06b004267931cb9376d90ec3bfc93bcddeda0464e3092f926e84c5df1522",
+      "artifact_files": 26,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140217.165921Z-snapshot-semantics-301caf5-c2fc30c7",
+      "manifest_sha256": "83483de26b13a6d7508fef8915510f3dd4728c3ccd3792b15c6eb6c48a5ff8b5",
+      "artifact_files": 24,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140220.575556Z-snapshot-adapted-301caf5-014eb2cf",
+      "manifest_sha256": "919b60115a3b2cd6537766dfbb90d881287c32f26118ae57637f648d391abdfc",
+      "artifact_files": 24,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140224.822589Z-additional-stage1-301caf5-1d9a2047",
+      "manifest_sha256": "7352df569125ecac406d8ec48f4e745db140c9a6b0adaa162c6b0913215dc610",
+      "artifact_files": 25,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140228.650195Z-calendar-edges-301caf5-cdd7f223",
+      "manifest_sha256": "c3ca01147e567574911a7727cd47ed7eb37eb8c510a6291daa75f8f30ee95ba0",
+      "artifact_files": 24,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140232.608099Z-calendar-lifetime-301caf5-c0b52b44",
+      "manifest_sha256": "60a1085e728fbc8af945376774900c695aa32f39a5ed2e5e1c25a4b528e02106",
+      "artifact_files": 24,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140236.034858Z-historical-timestamps-301caf5-fdc2dfc5",
+      "manifest_sha256": "a2c648c9b12ca592d692e0438d4637635690ccef1e153aa7a0bff04e3c4e087d",
+      "artifact_files": 24,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140239.254437Z-timestamp-boundaries-301caf5-878e5410",
+      "manifest_sha256": "63a073a10c7f44ddc1059768961c8564977468d21c49461bf2e465f261f35e4c",
+      "artifact_files": 24,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140243.262011Z-stage2-pairs-301caf5-669dd830",
+      "manifest_sha256": "f2b46a52aae4e39e3bb6d2e25b7ae7e1f36729a5177f11f1b182ffc636d4880f",
+      "artifact_files": 24,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140247.188102Z-stage2-browser-301caf5-e1a8f42d",
+      "manifest_sha256": "89d061b11ae95bdd5fedbdc36bd59faf4ac09f7581a5a5f251fd87441ff81db0",
+      "artifact_files": 75,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140301.763720Z-stage2-label-lifetime-301caf5-cead85cb",
+      "manifest_sha256": "2e81f6e293dd75a452e4d2cd92db60ee8dc03ebddbc71574f239c4d0c7fddf27",
+      "artifact_files": 46,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140309.233868Z-official-stage3-detail-301caf5-f4a9ce63",
+      "manifest_sha256": "2790684ef655b1a34990bff6c56276bfccb928152b87eceea6c1e1e7f7c2b0b2",
+      "artifact_files": 31,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140342.004915Z-upgrade-1-to-3-301caf5-b9c9cd22",
+      "manifest_sha256": "31dcc925ab403e8384571c32b19270a3d71cca632a1b2b89c38ed47636ffd1ca",
+      "artifact_files": 48,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140353.728551Z-upgrade-2-to-3-301caf5-ed2c67df",
+      "manifest_sha256": "03dee225c5c4a1000969dfea34204ebf973ccde09b028eb0d2952eda19424650",
+      "artifact_files": 48,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140405.390792Z-upgrade-3-to-3-301caf5-6e91f922",
+      "manifest_sha256": "c422d442610c9ba39b82337a98f8fe3494589d6c46fb62eaf713a52e246bb8b0",
+      "artifact_files": 47,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140417.096037Z-removed-historical-301caf5-5f34beec",
+      "manifest_sha256": "debea69ff94cab67e4c574baf40eeb39d5593296be66521c63f7e12d2145d379",
+      "artifact_files": 20,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140423.758662Z-removed-legacy-selector-301caf5-e577f645",
+      "manifest_sha256": "0158f52269ab51e8beb8af02afb35e1894b4e1a08671353656bf8169b6576e28",
+      "artifact_files": 20,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140427.985883Z-source-faults-301caf5-b0bdcc7f",
+      "manifest_sha256": "d4134b267610236da4d39d5a380530356e216c4c0ff38f3edf46162d18ade80b",
+      "artifact_files": 5,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140430.422891Z-deployment-301caf5-ffd8c0d3",
+      "manifest_sha256": "f4df9af8ee37849eaaa7867de08f8bfeca2388a552fcf1daff114231713b588f",
+      "artifact_files": 18,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140433.226796Z-unchanged-developer-301caf5-ea49d704",
+      "manifest_sha256": "6b4af2bca2ea0d707a96fc45d8fc3b279495878411db53e7185e2799b672b6e1",
+      "artifact_files": 3,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140442.966325Z-developer-explicit-adapter-301caf5-d867277b",
+      "manifest_sha256": "2b0f835c53b4ef550dab365f7981d86c0e4c5241291b22d9e42d6bef383b47c0",
+      "artifact_files": 3,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140452.968746Z-formatter-301caf5-8508b92a",
+      "manifest_sha256": "d2b56beda7d52f75583483a227666267f8cc776c084b426eea34e0458e88b1e9",
+      "artifact_files": 4,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140453.104917Z-removed-old-object-301caf5-c5fdcb70",
+      "manifest_sha256": "d73e8779bfedd8b0159a8b19c78e179aeab43b5c1ad2fd9ffa1eff362772dde4",
+      "artifact_files": 20,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140500.411104Z-official-isolated-clean-301caf5-d71c80de",
+      "manifest_sha256": "9e784d555cabe86be26651122f1dfdcb0cd33bcd2d81e1c744edbe0998c2047e",
+      "artifact_files": 12,
+      "all_files_verified": true
+    },
+    {
+      "path": "reports/stage-3/20261005T140755.525203Z-developer-artifact-retention-301caf5-c0cbe07a",
+      "manifest_sha256": "6c2593777c3669021420d6c0a4cb2140c135d2ddc2d61b843df9992290a5a6d6",
+      "artifact_files": 6,
+      "all_files_verified": true
+    }
+  ],
+  "all_case_source_hashes_match_recorded_qa_revision_or_readonly_official": true,
+  "case_source_files": 40,
+  "no_verifier_containers_or_networks_remaining": true,
+  "docker_ps_stdout": "",
+  "docker_network_stdout": "",
+  "historical_artifacts_unchanged": true,
+  "all_545_applicable_definitions_reconciled": true,
+  "stage4_gate": "REJECTED_e538_UNCHANGED_PENDING_COORDINATOR_RENEWED_STAGE3_GATE",
+  "developer_artifacts": "Generated only in separate exact-SHA developer checkout; qualifying checkout unchanged throughout."
+}

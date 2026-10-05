@@ -1,0 +1,533 @@
+{
+  "product_sha": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+  "qa_sha": "b22d2d4a7578987223409074e67f68779e6f8696",
+  "tasks": [
+    {
+      "label": "stage2-pair-visibility-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_suite.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--suite",
+        "stage2-pair-visibility",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "stage2-pair-repair-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_suite.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--suite",
+        "stage2-pair-repair",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "native-range-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_suite.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--suite",
+        "stage2-native-range",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "numeric-geometry-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_suite.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--suite",
+        "stage2-numeric-geometry",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "original-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_suite.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--suite",
+        "original",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "adjudicated-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_suite.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--suite",
+        "adjudicated",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "common-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_suite.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--suite",
+        "common",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "pairs-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_suite.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--suite",
+        "pairs",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "derived-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_suite.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--suite",
+        "derived",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "snapshot-semantics-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_suite.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--suite",
+        "snapshot-semantics",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "snapshot-adapted-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_suite.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--suite",
+        "snapshot-adapted",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "additional-stage1-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_suite.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--suite",
+        "additional-stage1",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "calendar-edges-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_suite.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--suite",
+        "calendar-edges",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "calendar-lifetime-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_suite.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--suite",
+        "calendar-lifetime",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "historical-timestamps-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_suite.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--suite",
+        "historical-timestamps",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "timestamp-boundaries-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_suite.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--suite",
+        "timestamp-boundaries",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "stage2-pairs-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_suite.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--suite",
+        "stage2-pairs",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "stage2-browser-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_suite.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--suite",
+        "stage2-browser",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "stage2-label-lifetime-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_suite.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--suite",
+        "stage2-label-lifetime",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "numeric-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_suite.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--suite",
+        "numeric",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "official-stage2-detail-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_suite.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--suite",
+        "official-stage2-detail",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "integer-validation-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_suite.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--suite",
+        "stage2-integer-validation",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "upgrade-1-to-2-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_upgrade.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--source-checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/fd843b83db16ec8585d66af7ac0d6fac89aae82c-71322666",
+        "--stage",
+        "2",
+        "--source-stage",
+        "1",
+        "--browser-transfer",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "upgrade-2-to-2-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_upgrade.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--source-checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--source-stage",
+        "2",
+        "--browser-transfer",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "removed-original-object-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_upgrade.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--source-checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/89582510069e984f446060d797e138f4a3bf08f9-5c549c13",
+        "--stage",
+        "2",
+        "--source-stage",
+        "1",
+        "--only-producer-removal",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "removed-historical-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_upgrade.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--source-checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/15d1f178b387e744bf919b6e8bb77fff2b5aeb23-3641d701",
+        "--stage",
+        "2",
+        "--source-stage",
+        "1",
+        "--only-producer-removal",
+        "--producer-scenario",
+        "historical",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "removed-legacy-selector-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/run_upgrade.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--source-checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/fd843b83db16ec8585d66af7ac0d6fac89aae82c-71322666",
+        "--stage",
+        "2",
+        "--source-stage",
+        "1",
+        "--only-producer-removal",
+        "--producer-scenario",
+        "legacy-selector",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "source-faults-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/fault_publication.py",
+        "--stage-path",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032/stage-2",
+        "--stage",
+        "2",
+        "--out",
+        "{OUT}/source-faults.jsonl"
+      ]
+    },
+    {
+      "label": "formatter-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/formatter_boundary_probe.py",
+        "--stage-path",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032/stage-2",
+        "--out",
+        "{OUT}/formatter-boundaries.jsonl"
+      ]
+    },
+    {
+      "label": "deployment-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "qa/deployment_probe.py",
+        "--checkout",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--out",
+        "{OUT}"
+      ]
+    },
+    {
+      "label": "unchanged-developer-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032/stage-2/checks",
+        "-v"
+      ]
+    },
+    {
+      "label": "official-isolated-4b2236f",
+      "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/official",
+      "command": [
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+        "-m",
+        "harness",
+        "run",
+        "--track",
+        "tablekeeper",
+        "--repo",
+        "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/4b2236fb6576b636d168b2cacf1a5d91921cf582-3b718032",
+        "--stage",
+        "2",
+        "--mode",
+        "isolated",
+        "--out",
+        "{OUT}/official"
+      ]
+    }
+  ],
+  "plan_only_no_execution_claim": true,
+  "sequential_heavy_resource_owner": "Verifier",
+  "source_report_used_for_command_shapes_only": "reports/stage-2/REVIEW-63cf798.json"
+}

@@ -1,0 +1,413 @@
+{
+  "kind": "COORDINATOR_RECONCILED_PRODUCT_ACCEPTANCE",
+  "stage": 4,
+  "product_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+  "evidence_sha": "96329db1347c0e8b555282e22a35785643020d04",
+  "room": "e04c2728-8535-41c8-be50-88eb8068fa09",
+  "gate_at": "2026-10-05T15:23:07Z",
+  "first_clock": "2026-10-05T06:21:47Z",
+  "elapsed_seconds": 32480,
+  "status": "ACCEPT_PRODUCT_FINAL_DELIVERY_PENDING",
+  "accepted_earlier": {
+    "1": "fd843b83db16ec8585d66af7ac0d6fac89aae82c",
+    "2": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+    "3": "301caf55085280f12197e393ab6b4735ef4046c3"
+  },
+  "counts": {
+    "frozen": 216,
+    "independent": 344,
+    "official": 158,
+    "baseline_security": 84,
+    "baseline_load": 20,
+    "raw_pytest": {
+      "executions": 892,
+      "PASS": 839,
+      "FAIL": 53,
+      "ERROR": 0,
+      "SKIP": 0
+    },
+    "raw_failure_classification": {
+      "original_email_oracle": 4,
+      "opaque_snapshot_selector": 49
+    },
+    "adjudicated_baseline": {
+      "definitions": 104,
+      "PASS": 104,
+      "additional_definitions": 0
+    },
+    "semantic_adapter": {
+      "PASS": 49,
+      "additional_definitions": 0
+    },
+    "official_applicable_executions": 575,
+    "official_future_probe": {
+      "PASS": 4,
+      "FAIL": 3,
+      "unexecuted": 31
+    },
+    "source_faults": {
+      "executions": 50,
+      "PASS": 50,
+      "defined_controls": 18,
+      "executed_controls": 18,
+      "actually_injected_names": 18,
+      "fault_types": 3,
+      "reset_actually_injected": true,
+      "http_requests": 0
+    },
+    "developer_original": {
+      "PASS": 81,
+      "ERROR": 2
+    },
+    "developer_adapter": {
+      "PASS": 81
+    },
+    "formatter": 4,
+    "deployment": 2,
+    "removed_producer_executions": 7,
+    "standalone_removal_definitions": 3,
+    "current_transfer_edges": 10
+  },
+  "audit": {
+    "at": "2026-10-05T15:10:22.632924+00:00",
+    "status": "COMMITTED_REVIEW_AUDITED",
+    "product": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+    "manifests": 45,
+    "artifact_files": 1296,
+    "artifact_mismatches": [],
+    "product_files": {
+      "stage-1": 28,
+      "stage-2": 289,
+      "stage-3": 300,
+      "stage-4": 411
+    },
+    "product_mismatches": [],
+    "checkout_head": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+    "checkout_status": "",
+    "other_contexts_diff": "",
+    "report_json_sha256": "03e40577add6646b7dbc27a59bea08dc2c93dd8854dc10ed70095ed0202b1f4c",
+    "counts": {
+      "frozen": {
+        "count": 216,
+        "outcomes": {
+          "PASS": 216
+        }
+      },
+      "derived": {
+        "count": 344,
+        "outcomes": {
+          "PASS": 344
+        }
+      },
+      "official": {
+        "count": 158,
+        "outcomes": {
+          "PASS": 158
+        }
+      }
+    },
+    "assembly_at": "2026-10-05T14:51:41Z",
+    "all7visible": true,
+    "first_application": "2026-10-05T14:54:20.965722+00:00",
+    "reader_correction": {
+      "recorded_at": "2026-10-05T15:10:22.632924+00:00",
+      "kind": "COORDINATOR_METADATA_READER_ERROR_NOT_APPLICATION",
+      "original_error": "SyntaxError: Unexpected token 'W', \"Warning: t\"... is not valid JSON",
+      "cause": "Attempted to parse a command result whose complete REVIEW JSON exceeded the output budget and was truncated; no product, QA source or evidence file changed.",
+      "resolution": "Read key/type/length inventory first, then selected scalar/count fields; separate manifest/product audit completed.",
+      "application_executions_added": 0
+    },
+    "executed_test_sources": {
+      "at": "2026-10-05T15:15:32.638623+00:00",
+      "count": 50,
+      "source_hash_mismatches": [],
+      "missing_raw_descriptions": 178,
+      "separate_descriptions": 178,
+      "application_executions_added": 0
+    },
+    "ownership": {
+      "at": "2026-10-05T15:26:48.885156+00:00",
+      "base": "63617e70f29f564ddb490f48fa83e49d737bb4ee",
+      "end": "117db1a1e0e5d13510845961aaf348416e07e842",
+      "commits": [
+        {
+          "sha": "8c4fde16e26590961cc23c0e7fd7f8e72418b0d7",
+          "role": "Coordinator",
+          "email": "coordinator@tablekeeper.local",
+          "path_count": 2
+        },
+        {
+          "sha": "c3d1d3ae3ecd2287916e62aa85de4aecf66ee3ee",
+          "role": "Verifier",
+          "email": "verifier@juniper.factory.invalid",
+          "path_count": 14
+        },
+        {
+          "sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+          "role": "Builder",
+          "email": "builder@juniper-factory.local",
+          "path_count": 180
+        },
+        {
+          "sha": "916faea33200175a97c636d0b508bc7e2de575cc",
+          "role": "Coordinator",
+          "email": "coordinator@tablekeeper.local",
+          "path_count": 1
+        },
+        {
+          "sha": "4b785a2d53a507e552e0e71dc3614f3ef7de7a11",
+          "role": "Coordinator",
+          "email": "coordinator@tablekeeper.local",
+          "path_count": 2
+        },
+        {
+          "sha": "28b01e4f477b5e3f12a37055f446028029df6e29",
+          "role": "Builder",
+          "email": "builder@juniper-factory.local",
+          "path_count": 57
+        },
+        {
+          "sha": "bf59ed5bf6d4d288849c8fc9160f6e291c91d600",
+          "role": "Verifier",
+          "email": "verifier@juniper.factory.invalid",
+          "path_count": 34
+        },
+        {
+          "sha": "6776c719612dfb04bca048164bea174dd0274167",
+          "role": "Builder",
+          "email": "builder@juniper-factory.local",
+          "path_count": 3
+        },
+        {
+          "sha": "e0b67afeac133c48be4cabbdb6012442b6be3fc4",
+          "role": "Builder",
+          "email": "builder@juniper-factory.local",
+          "path_count": 13
+        },
+        {
+          "sha": "a201a8c56db680496213e78f2cd002adf3459162",
+          "role": "Verifier",
+          "email": "verifier@juniper.factory.invalid",
+          "path_count": 6
+        },
+        {
+          "sha": "1c1dc6ac892f1b5467f59e953b47f2dfe19ced7d",
+          "role": "Coordinator",
+          "email": "coordinator@tablekeeper.local",
+          "path_count": 2
+        },
+        {
+          "sha": "b37c9dc7bde1d4512bd5707697fdd36a9babadf9",
+          "role": "Coordinator",
+          "email": "coordinator@tablekeeper.local",
+          "path_count": 2
+        },
+        {
+          "sha": "7336a3e4f27c1e75e51a9309c4db8033719b57b0",
+          "role": "Verifier",
+          "email": "verifier@juniper.factory.invalid",
+          "path_count": 2
+        },
+        {
+          "sha": "5a8129e08d540919f9a29987b1a1ffb2e276515f",
+          "role": "Verifier",
+          "email": "verifier@juniper.factory.invalid",
+          "path_count": 1
+        },
+        {
+          "sha": "62911902f6c3b057c4b0c065d1f95215a7fcbf04",
+          "role": "Coordinator",
+          "email": "coordinator@tablekeeper.local",
+          "path_count": 1
+        },
+        {
+          "sha": "96329db1347c0e8b555282e22a35785643020d04",
+          "role": "Verifier",
+          "email": "verifier@juniper.factory.invalid",
+          "path_count": 1382
+        },
+        {
+          "sha": "c644ac75d40eed61bcc6441495452ccd3f2e9eb4",
+          "role": "Coordinator",
+          "email": "coordinator@tablekeeper.local",
+          "path_count": 1
+        },
+        {
+          "sha": "7c5e5688d02d5e84c0092b49563bdb9e5d44320f",
+          "role": "Coordinator",
+          "email": "coordinator@tablekeeper.local",
+          "path_count": 1
+        },
+        {
+          "sha": "c5ebe481d481db297ccfb5da13e2cbd5ead05d60",
+          "role": "Verifier",
+          "email": "verifier@juniper.factory.invalid",
+          "path_count": 3
+        },
+        {
+          "sha": "b14bf53affb8f7756228096632162f5c70d755ad",
+          "role": "Verifier",
+          "email": "verifier@juniper.factory.invalid",
+          "path_count": 2
+        },
+        {
+          "sha": "2fbc481f5922bc461ed886521f2b9fb51818a2ef",
+          "role": "Builder",
+          "email": "builder@juniper-factory.local",
+          "path_count": 2
+        },
+        {
+          "sha": "117db1a1e0e5d13510845961aaf348416e07e842",
+          "role": "Verifier",
+          "email": "verifier@juniper.factory.invalid",
+          "path_count": 2
+        }
+      ],
+      "violations": []
+    },
+    "decision_delivery": {
+      "at": "2026-10-05T15:23:07.669410+00:00",
+      "product": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "evidence": "96329db1347c0e8b555282e22a35785643020d04",
+      "delivery_commit": "c5ebe481d481db297ccfb5da13e2cbd5ead05d60",
+      "parts": [
+        {
+          "part": 1,
+          "accepted": true,
+          "room_matches": true,
+          "body_hash_matches": true,
+          "message_id": "21623343-e363-4f86-9f62-fd257ae614f9",
+          "sent_at": "2026-10-05T15:18:07.153Z"
+        },
+        {
+          "part": 2,
+          "accepted": true,
+          "room_matches": true,
+          "body_hash_matches": true,
+          "message_id": "365f1b94-40f0-447e-9069-923cf439396d",
+          "sent_at": "2026-10-05T15:18:08.451Z"
+        },
+        {
+          "part": 3,
+          "accepted": true,
+          "room_matches": true,
+          "body_hash_matches": true,
+          "message_id": "ed0ff12b-4c52-4c25-8fa2-80ca45fb6bdd",
+          "sent_at": "2026-10-05T15:18:09.883Z"
+        },
+        {
+          "part": 4,
+          "accepted": true,
+          "room_matches": true,
+          "body_hash_matches": true,
+          "message_id": "fe49086c-97b0-4e59-8a88-be7c72b25a2e",
+          "sent_at": "2026-10-05T15:18:11.129Z"
+        },
+        {
+          "part": 5,
+          "accepted": true,
+          "room_matches": true,
+          "body_hash_matches": true,
+          "message_id": "7326afd4-2951-45c3-aed0-b10348db5b55",
+          "sent_at": "2026-10-05T15:18:12.592Z"
+        },
+        {
+          "part": 6,
+          "accepted": true,
+          "room_matches": true,
+          "body_hash_matches": true,
+          "message_id": "24e817f6-b538-4a98-aa1b-479306c3e1b4",
+          "sent_at": "2026-10-05T15:18:14.123Z"
+        },
+        {
+          "part": 7,
+          "accepted": true,
+          "room_matches": true,
+          "body_hash_matches": true,
+          "message_id": "a7ab91c4-abf7-4e5a-b9e0-a882bda1f08c",
+          "sent_at": "2026-10-05T15:18:15.381Z"
+        }
+      ],
+      "all7_valid": true,
+      "content_scope": "Complete seven-part review, evidence, reproduction and cumulative criteria. Verbatim specifications supplied separately by Coordinator final-delivery six-part continuation; do not attribute those specs to Verifier decision.",
+      "mirror_sha256": "cf581a765db446b5e87485fc8fca304f127c92342b7c535b438991ad993a7e7b"
+    }
+  },
+  "final_handoff": {
+    "parts": 6,
+    "all_accepted": true,
+    "mirror": "provenance/final-delivery-handoff.md",
+    "mirror_sha256": "bcd95112d27e2486f2ea6db06bcca244750752ebfece8f86d7f90252f4667896",
+    "verbatim_specs": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "receipts": "provenance/final-delivery-handoff.json"
+  },
+  "metrics": {
+    "application_commands": 45,
+    "command_sum_s": 675.2314656646922,
+    "execution_window_s": 680.465478,
+    "httpx": {
+      "requests": 13838,
+      "peak_inflight": 50,
+      "p50_s": 0.005119834007928148,
+      "p95_s": 0.10100321398931555,
+      "max_s": 3.5630728490068577,
+      "no_5xx": true
+    },
+    "baseline_load": {
+      "requests": 2610,
+      "peak_inflight": 50,
+      "p50_s": 0.036946310006896965,
+      "p95_s": 0.41163614600372966,
+      "max_s": 1.144046971006901
+    },
+    "stage4_load_metadata": {
+      "source": "reports/stage-4/20261005T150145.533926Z-stage4-load-25ade1c-2ec04fd2/http-requests.jsonl",
+      "requests_including_setup": 325,
+      "requested_workers": 50,
+      "peak_inflight": 37,
+      "p50_s": 0.016398293009842746,
+      "p95_s": 0.05168993299594149,
+      "max_s": 0.06720915099140257,
+      "quantiles": "nearest rank",
+      "application_executions_added": 0
+    },
+    "original_numeric": {
+      "received_decompressed_bytes": 1100002780,
+      "receive_decompression_s": 3.5630728490068577,
+      "complete_original_decimal_json_parse_s": 6.614927763002925,
+      "uncapped_client_peak_rss_kib": 2845436,
+      "service_cpus": 2,
+      "service_memory_bytes": 2147483648
+    }
+  },
+  "history": {
+    "snapshot": "reports/history/20261005T151238.210978Z-final-history-25ade1c-ed3fc0df/inventory",
+    "attempt_records": 457,
+    "primary_rows": 8208,
+    "PASS": 7914,
+    "FAIL": 293,
+    "ERROR": 1,
+    "SKIP": 0,
+    "canonical_definitions": 718,
+    "source_injection_executions": 423,
+    "current_review_separate": true
+  },
+  "remaining": [
+    "Builder final English/Russian HTML and demo rewrite with exact accepted Stage4 run",
+    "Coordinator final FACTORY/provenance/duration and delivery binding",
+    "Verifier unchanged packaging check on a clean concrete delivery; preserve raw failures and adjudications",
+    "Genuine full native room export unresolved: documented operator fallback permitted after final report"
+  ],
+  "limits": [
+    "No observed product defect remains; finite tested scope is not universal proof or hidden organizer result",
+    "State is memory-only; explicit snapshots are required across restart",
+    "Native download observation did not verify a file; no room.json reconstructed",
+    "Usage observation is lagging/unspecified aggregate; billing unknown, catalog-equivalent not invoice",
+    "Storyboard prepared; no actual video recorded or public submission"
+  ]
+}

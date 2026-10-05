@@ -1,0 +1,103 @@
+{
+  "room": "e04c2728-8535-41c8-be50-88eb8068fa09",
+  "recorded_at_utc": "2026-10-05 08:21:40 UTC",
+  "stage": 2,
+  "accepted_stage1": "fd843b83db16ec8585d66af7ac0d6fac89aae82c",
+  "stage1_evidence": "b5578cdd018398bde579322a78a161add719de4c",
+  "coordinator_acceptance": "0fde6cc725d472cd0c9db36fa2969a6ecb747654",
+  "numbered_parts_per_seat": 5,
+  "deliveries": [
+    {
+      "seat": "builder",
+      "part": 1,
+      "message_id": "264ebd23-e678-4356-82d4-5368ba7430b1",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "seat": "verifier",
+      "part": 1,
+      "message_id": "c0348689-ee90-4d9a-9890-a5e5022da10b",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "seat": "builder",
+      "part": 2,
+      "message_id": "e5b4bd55-7253-41ae-9830-9cc36f52a61a",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "seat": "verifier",
+      "part": 2,
+      "message_id": "8b9c5f57-3b48-42d1-a31d-da62a5165c21",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "seat": "builder",
+      "part": 3,
+      "message_id": "22140d59-138e-4e44-a301-8e723dca127c",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "seat": "verifier",
+      "part": 3,
+      "message_id": "7aef8026-d4d7-4264-9191-a8654b463089",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "seat": "builder",
+      "part": 4,
+      "message_id": "63399ef5-c9f3-44b5-ab49-a227c1f684af",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "seat": "verifier",
+      "part": 4,
+      "message_id": "57b6b50c-2957-42ca-8c31-349ec4c5fa2c",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "seat": "builder",
+      "part": 5,
+      "message_id": "311db53c-f385-49e0-93c8-f058a0373ea3",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "seat": "verifier",
+      "part": 5,
+      "message_id": "eb3317f4-b3cf-409e-9e9e-6d3f5ec0617a",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    }
+  ],
+  "scope": "Complete task/constraints/ACs, full Stage1 and Stage2 specifications, frozen/derived contract and execution setup were pasted in five direct native messages per seat. Final part authorizes only Stage2.",
+  "tooling_note": "The first send returned a JSON string; an object-property check raised locally after successful native delivery. Its accepted message ID was parsed/read back, and that part was not resent. Remaining nine deliveries proceeded once; ten unique seat/part pairs verified. Native acceptance is not proof of recipient assembly; recipients start only when all five parts are visible."
+}

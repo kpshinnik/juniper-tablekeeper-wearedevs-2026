@@ -1,0 +1,143 @@
+{
+  "room": "e04c2728-8535-41c8-be50-88eb8068fa09",
+  "source_product": "4ce583cca13a033dd2f548ca982deec7200f8ad6",
+  "source_evidence": "4db2742eca07f941e6a03f92c97c3d93c380619f",
+  "coordinator_gate": "f2bfa8297f77353675c2942fb765b18113b35266",
+  "sent_at": {
+    "current_time": "2026-10-05 11:44:23 UTC"
+  },
+  "scope": "Complete cumulative Stage4 task/specs/constraints/numbered acceptance criteria sent in seven native parts to each seat",
+  "native_events": [
+    {
+      "role": "builder",
+      "part": 1,
+      "message_id": "0ac14ee9-9d1c-456a-8367-24fa0e56e9d5",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "role": "verifier",
+      "part": 1,
+      "message_id": "f62d45e7-e3dd-4124-9c4f-7cd3c44b6f18",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "role": "builder",
+      "part": 2,
+      "message_id": "98586bdd-de4f-4642-b826-9204e456c719",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "role": "verifier",
+      "part": 2,
+      "message_id": "31bded0e-ca4d-4d6b-a403-0577e1a3e8d6",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "role": "builder",
+      "part": 3,
+      "message_id": "e28f546d-2cc8-4879-812f-b02b80bcc334",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "role": "verifier",
+      "part": 3,
+      "message_id": "52ab5906-9d43-487a-a731-b39510849b69",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "role": "builder",
+      "part": 4,
+      "message_id": "bb55504b-bf64-440a-bf79-eb8ac53e549e",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "role": "verifier",
+      "part": 4,
+      "message_id": "7362a3da-8e2e-424e-9eb0-02de73584bd6",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "role": "builder",
+      "part": 5,
+      "message_id": "c100eaf3-c748-4e8a-b1cb-ca4c9aaccaaf",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "role": "verifier",
+      "part": 5,
+      "message_id": "87002ad4-749c-4166-b23d-e438a73ec42f",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "role": "builder",
+      "part": 6,
+      "message_id": "1da46e1c-9cb9-42d7-8b0e-840ce09a61c3",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "role": "verifier",
+      "part": 6,
+      "message_id": "992a6c61-8ecd-4a07-bb37-095f67b7bcff",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "role": "builder",
+      "part": 7,
+      "message_id": "ea42a276-e70c-494c-8a53-287f7c0bd13f",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "role": "verifier",
+      "part": 7,
+      "message_id": "8ce08d47-3bb0-4853-95b1-0d2d9c6f3dd2",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    }
+  ],
+  "mirror": "provenance/stage-4-handoff.md",
+  "recipient_assembly": {
+    "verifier": "Native room statement2026-10-05T11:46:04Z: allsevensectionsassembled, preparingindependentchecks",
+    "builder": "Native room workstatement2026-10-05T11:51:04Z describes implementationextension; preciseassemblytimestampnotclaimed"
+  }
+}

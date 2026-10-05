@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Juniper Tablekeeper · README</title><style>
+:root{color-scheme:light;--paper:#f5f1e8;--ink:#243a31;--muted:#59675e;--line:#d5d8cc;--accent:#8a4833}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);overflow-wrap:anywhere;font:17px/1.7 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.brand{max-width:840px;margin:0 auto;padding:42px 28px 22px;display:flex;gap:14px;align-items:center;border-bottom:1px solid var(--line);letter-spacing:.13em;font-size:12px;text-transform:uppercase;font-weight:750}
+.brand svg{width:32px;height:40px;flex:none}main{max-width:840px;padding:32px 28px 80px;margin:auto}h1{font-family:Georgia,serif;font-size:clamp(36px,7vw,58px);font-weight:400;line-height:1.08;letter-spacing:-.04em;margin:10px 0 30px}h2{font-family:Georgia,serif;font-size:29px;font-weight:400;line-height:1.25;margin:46px 0 18px}p{margin:0 0 19px}a{color:var(--accent);text-underline-offset:3px}a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}code{font-size:.85em;background:#e8eadf;padding:2px 4px;border-radius:3px;overflow-wrap:anywhere}pre{padding:20px;background:#e8eadf;white-space:pre-wrap;overflow-wrap:anywhere;border:1px solid var(--line)}pre code{padding:0}table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.55;margin:28px 0}th:first-child{min-width:4em}th{text-align:left;font-size:12px;letter-spacing:.03em;background:#e8eadf}th,td{padding:13px 10px;vertical-align:top;border-bottom:1px solid var(--line);overflow-wrap:anywhere}li{margin-bottom:9px}footer{max-width:784px;margin:0 auto 40px;padding-top:20px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}@media(max-width:500px){body{font-size:16px}.brand{padding:26px 20px 18px}main{padding:24px 20px 50px}h2{font-size:26px}table{font-size:12px}th,td{padding:10px 6px}footer{margin:0 20px 30px}}@media print{body{background:white}main{padding-top:0}a{color:inherit}h2{break-after:avoid}tr{break-inside:avoid}}
+</style></head>
+<body><div class="brand"><svg viewBox="0 0 32 40" aria-hidden="true"><path d="M16 37V6M16 18C4 18 3 8 4 3c9 1 13 7 12 15Zm0 10c12 0 13-10 12-15-9 1-13 7-12 15Z" fill="none" stroke="currentColor" stroke-width="1.7"/></svg><span>Juniper · Tablekeeper<br>Dark Factory / Local delivery</span></div><main><h1>Juniper Tablekeeper</h1>
+<p>A restaurant reservation service built by three coding agents in BAND for the WeAreDevelopers × BAND Dark Factory hackathon. Team: <strong>Zerocoders</strong>. Track: <strong>tablekeeper</strong>.</p>
+<p><img alt="Juniper" src="media/cover.png" /></p>
+<p><strong>All four product stages are accepted.</strong> The final product is <code>25ade1c7add9a5701a511e07f79a619a3cb21b51</code>; independent evidence is <code>96329db1347c0e8b555282e22a35785643020d04</code>, and Coordinator gate is <code>693f9ec5d4c2df6353a15f002ffb601bf765d13a</code>. The unchanged official isolated run passed all four stages.</p>
+<p>This is an operator-packaged public source selection from the actual factory delivery. It retains the accepted runtime bytes, full native room download, reusable mandates, functional guides, test sources and decision reports. Its public Git commits represent packaging; they do not replace the original factory commit history. <a href="DELIVERY-MANIFEST.json">Manifest</a> and <a href="SOURCE-HISTORY.tsv">source history</a> bind both lineages. Factory-authored documents are retained unchanged in <a href="factory-documents/">factory-documents</a>; statements there about a missing export describe their earlier authoring time. The operator subsequently obtained the genuine export and prepared the actual PDF/video.</p>
+<h2>Start the full Stage 4 service</h2>
+<p>Requires Docker and Python 3. The service itself uses Python's standard library. Run from the repository root:</p>
+<pre><code class="language-sh">python3 tools/verify_runtime.py
+cd stage-4
+docker build -t juniper-tablekeeper-stage4 .
+docker run --rm --name juniper-tablekeeper-demo --cpus=2 --memory=2g --read-only --tmpfs /tmp:rw,noexec,nosuid,size=64m -e PORT=8080 -p 127.0.0.1:8080:8080 juniper-tablekeeper-stage4
+</code></pre>
+<p>In a second terminal, load synthetic data from the repository root:</p>
+<pre><code class="language-sh">curl -fsS -X POST http://127.0.0.1:8080/_test/reset -H 'Content-Type: application/json' --data-binary @stage-4/demo-fixture.json
+</code></pre>
+<p>Open <strong>http://127.0.0.1:8080/</strong>. Health is at <code>/health</code>. <a href="stage-4/RUN.md">Stage 4 RUN</a> documents fixture accounts and contracts. Reset replaces all demo state. Each <code>stage-1</code> through <code>stage-4</code> folder is independently buildable.</p>
+<h2>Functionality</h2>
+<ul>
+<li>Search in the restaurant's IANA timezone by local date and party size; book a single table or declared pair.</li>
+<li>Sign up, sign in, look up and cancel reservations in the responsive diner browser.</li>
+<li>Recover a committed booking after response loss using the same request body and idempotency key. Read current seating separately from the immutable original receipt.</li>
+<li>Amend reservations and move multiple bookings atomically through the API.</li>
+<li>Publish dated booking policies; retain accepted terms, truthful history and optimistic revisions.</li>
+<li>Create recurring agreements and amend future occurrences collectively.</li>
+<li>Preview an exact closure seating plan, then apply the recorded plan atomically through the manager API.</li>
+<li>Export and import validated service state across independently runnable stages.</li>
+</ul>
+<p><a href="FEATURES.md">Complete Russian feature guide</a> · <a href="FEATURES.html">Offline HTML guide</a> · <a href="FACTORY.md">Factory explanation</a> · <a href="stage-4/RUN.md">API and setup</a></p>
+<p>The browser serves diners. Manager, recurring and policy functions are API operations. State is in memory and requires explicit export/import across restart. The challenge's unauthenticated test controls and non-expiring demo sessions are deliberately retained; this is a local synthetic service, with no payments or live restaurant integration.</p>
+<h2>Verification and retained failures</h2>
+<p>The exact final review reconciles <strong>216 frozen, 344 independent and 158 official definitions to PASS</strong>. These are definition counts, not HTTP request totals. The raw final review records <strong>839 PASS / 53 original FAIL executions</strong>: 49 opaque snapshot selector mismatches and four malformed-email oracle conflicts are retained and explicitly reconciled. All ten demonstrated defect families and ten stage transfer edges pass.</p>
+<ul>
+<li><a href="reports/stage-4/REVIEW-25ade1c.md">Independent exact-revision decision</a></li>
+<li><a href="reports/stage-4/case-matrix-25ade1c.json">Full case matrix</a></li>
+<li><a href="reports/stage-4/NONPASS-RECONCILIATION-25ade1c.json">Original nonpass dispositions</a></li>
+<li><a href="reports/stage-4/TRANSFER-MATRIX-25ade1c.json">All ten transfers</a></li>
+<li><a href="reports/stage-4/LOAD-METRICS-25ade1c.md">Load metrics</a></li>
+<li><a href="reports/stage-4/SOURCE-BINDING-25ade1c.json">Source bindings</a></li>
+</ul>
+<p>More than 100 distinct supplied security/load scenarios were executed. Their original sources and explicit email-oracle correction are retained under <a href="qa/frozen/">qa/frozen</a>. The 45 final attempts, original logs and artifact manifests are archived separately as <code>juniper-stage4-25ade1c-evidence.zip</code>; its SHA256 is <code>cd6cc7f1c26f0e7c5a8d0e3cd66ab2d7c39b3445440bacb0374a4fa21332f115</code>. Historical failures are evidence, not discarded to create a green report. Relative links inside unmodified original reports may point into that evidence archive rather than this reduced public tree.</p>
+<h2>Submission media and factory provenance</h2>
+<p><a href="media/pitch.pdf">Pitch deck — PDF, eight checked pages</a> · <a href="media/demo.mp4">Actual demonstration — MP4, 2:47</a></p>
+<p>The video combines labelled presentation cards, edited genuine browser observations, seven real synthetic manager/series API responses and a continuous BAND room fragment. Idle gaps were removed. It is silent with English captions; no generated product UI is presented as a recording.</p>
+<p><code>room.json</code> is the actual unchanged native full-room download, exported 2026-10-05 at 15:44:18 UTC. It includes 10,965 messages, the original initial task, three real seats and the final documentation handoff. No room events were fabricated, filtered or merged. Final export coverage and original hashes are recorded in the delivery manifest. Later operator publication and event-submission receipts are separate from this autonomous factory trace.</p>
+<p>The reusable Coordinator, Builder and Verifier <a href="mandates/">mandates</a> describe the genuine roles. Original source author/committer information is retained in <code>SOURCE-HISTORY.tsv</code>. Exact runtime hashes are verified by <code>python3 tools/verify_runtime.py</code>.</p></main><footer>Fresh BAND room · e04c2728-8535-41c8-be50-88eb8068fa09 · Offline document</footer></body></html>

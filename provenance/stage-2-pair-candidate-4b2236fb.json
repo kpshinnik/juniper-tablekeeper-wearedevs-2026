@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-05T13:10:50.633503+00:00",
+  "candidate": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+  "identity": "Builder <builder@juniper-factory.local> / Builder <builder@juniper-factory.local>",
+  "committed_at": "2026-10-05T20:06:13+07:00",
+  "changed_owned_paths": 142,
+  "foreign_paths": [],
+  "stage2_changes_outside_check_evidence": [
+    "stage-2/RUN.md",
+    "stage-2/web/app.js"
+  ],
+  "stage2_total_files": 289,
+  "earlier_or_later_context_differences": "",
+  "browser_sha256": "5088924cbc05d11d027dde80a3b1b5fd1110262d44b076c57125b616a9722701",
+  "review_status": "Pending complete native five-part handoff and independent full exact-SHA gate; Builder local passes are not acceptance",
+  "shared_index_recovery": {
+    "observed_at": "2026-10-05T13:04Z",
+    "flock": "free; acquired and released",
+    "staged_stage2_paths": 127,
+    "left_untouched": true,
+    "diagnosis": "four trailing spaces in original D222 JUnit/test log evidence",
+    "native_messages": [
+      "6a7662af-3a3f-4172-a6cb-89328e296fad",
+      "637d6757-9d16-432b-9bc3-9428763f7e3f"
+    ],
+    "resolution": "Builder commit4b2236 followed by Verifier0577; indexempty13:07:22"
+  },
+  "coordinator_reader_errors": [
+    {
+      "path": "qa/derived/test_encoding_collision.py",
+      "error": "No such file; actualpathqa/derived/test_stage4_encoding_collision.py read afterward",
+      "application_requests": 0
+    }
+  ]
+}

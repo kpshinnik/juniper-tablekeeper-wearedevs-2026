@@ -1,0 +1,2433 @@
+{
+  "product_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+  "decision": "ACCEPT",
+  "open_defects": [],
+  "stage": 4,
+  "room": "e04c2728-8535-41c8-be50-88eb8068fa09",
+  "checkout": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/25ade1c7add9a5701a511e07f79a619a3cb21b51-43adda3f",
+  "clean_checkout_status": "",
+  "evidence_revision": "Delivered after committing this report; avoids self-reference.",
+  "attempts": [
+    {
+      "path": "reports/stage-4/20261005T145420.964572Z-stage2-pair-visibility-25ade1c-aa616510",
+      "manifest_sha256": "9bcd5377744bce9ee11e6f7b41eefeadb56b0e5388038d50ab839bda905e7932",
+      "duration_s": 17.87139379233122,
+      "started_at": "2026-10-05T14:54:20.965722+00:00",
+      "ended_at": "2026-10-05T14:54:38.865768+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 2
+      },
+      "httpx": {
+        "requests": 10,
+        "p50_s": 0.0026888669963227585,
+        "p95_s": 0.023464695012080483,
+        "max_s": 0.023464695012080483,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "200": 6,
+          "204": 2,
+          "201": 2
+        },
+        "received_decompressed_bytes": 6260
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145438.946776Z-stage2-pair-repair-25ade1c-9d76da04",
+      "manifest_sha256": "0962356091e9dde1968ad35e7bad6b9a90007e9830bab76f183e01595587e53f",
+      "duration_s": 15.023540374822915,
+      "started_at": "2026-10-05T14:54:38.947490+00:00",
+      "ended_at": "2026-10-05T14:54:53.993561+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 8
+      },
+      "httpx": {
+        "requests": 42,
+        "p50_s": 0.0023523770069004968,
+        "p95_s": 0.02341312800126616,
+        "max_s": 0.032467720011482015,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "200": 28,
+          "204": 8,
+          "201": 6
+        },
+        "received_decompressed_bytes": 17448
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145454.098251Z-stage4-ui-25ade1c-c47b104b",
+      "manifest_sha256": "0031ea5bef433c482d8b00ca83e933162b1347b50dbf5867baed79c99638e061",
+      "duration_s": 10.602400999516249,
+      "started_at": "2026-10-05T14:54:54.098894+00:00",
+      "ended_at": "2026-10-05T14:55:04.720246+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 4
+      },
+      "httpx": {
+        "requests": 36,
+        "p50_s": 0.0028601890080608428,
+        "p95_s": 0.052414240009966306,
+        "max_s": 0.06230081099784002,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 4,
+          "200": 22,
+          "201": 10
+        },
+        "received_decompressed_bytes": 18422
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145504.825092Z-stage4-browser-derived-25ade1c-06994ec0",
+      "manifest_sha256": "6d294d5cc1082796178573744c4940f67be75dc3e7b76ad4d7e5da9879b0201c",
+      "duration_s": 13.007941417396069,
+      "started_at": "2026-10-05T14:55:04.825780+00:00",
+      "ended_at": "2026-10-05T14:55:17.853435+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 4
+      },
+      "httpx": {
+        "requests": 28,
+        "p50_s": 0.002884405999793671,
+        "p95_s": 0.03789345300174318,
+        "max_s": 0.040100322003127076,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "200": 14,
+          "204": 4,
+          "201": 10
+        },
+        "received_decompressed_bytes": 12664
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145517.945665Z-stage2-native-range-25ade1c-bf9a9635",
+      "manifest_sha256": "405d1ed29fb20d428ea775d07217ee3b9cafb94dfa130448f307ed1b5bc5841b",
+      "duration_s": 9.687114582397044,
+      "started_at": "2026-10-05T14:55:17.946389+00:00",
+      "ended_at": "2026-10-05T14:55:27.652960+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 2
+      },
+      "httpx": {
+        "requests": 18,
+        "p50_s": 0.004745279002236202,
+        "p95_s": 0.030206829993403517,
+        "max_s": 0.030206829993403517,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "200": 12,
+          "204": 4,
+          "201": 2
+        },
+        "received_decompressed_bytes": 4290
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145527.742505Z-stage2-numeric-geometry-25ade1c-85784e1b",
+      "manifest_sha256": "8670db794a7228d073dcd1e44e15f954ac1c2419b79281dcfcdb8afb09786311",
+      "duration_s": 10.005086583085358,
+      "started_at": "2026-10-05T14:55:27.743249+00:00",
+      "ended_at": "2026-10-05T14:55:37.769623+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 2
+      },
+      "httpx": {
+        "requests": 10,
+        "p50_s": 0.0020001140073873103,
+        "p95_s": 0.02555238599597942,
+        "max_s": 0.02555238599597942,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "200": 8,
+          "204": 2
+        },
+        "received_decompressed_bytes": 2504
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145537.906308Z-stage2-integer-validation-25ade1c-154a571b",
+      "manifest_sha256": "ee271fd2a1a60270a8432a0bba456b2878be5ea98791ab8dd7c8085c3619f70e",
+      "duration_s": 7.803117834031582,
+      "started_at": "2026-10-05T14:55:37.907235+00:00",
+      "ended_at": "2026-10-05T14:55:45.736632+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 2
+      },
+      "httpx": {
+        "requests": 26,
+        "p50_s": 0.0016267879982478917,
+        "p95_s": 0.021642814012011513,
+        "max_s": 0.023508589991251938,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "200": 24,
+          "204": 2
+        },
+        "received_decompressed_bytes": 75464
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145545.787738Z-stage3-domain-25ade1c-b00f2ad7",
+      "manifest_sha256": "927a70b220ed9a3af15782abac664fc80e8f5b9fc5d47323cb3e0f5e86c92089",
+      "duration_s": 14.391549792140722,
+      "started_at": "2026-10-05T14:55:45.788583+00:00",
+      "ended_at": "2026-10-05T14:56:00.198999+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 73
+      },
+      "httpx": {
+        "requests": 826,
+        "p50_s": 0.003824724000878632,
+        "p95_s": 0.05291203300294001,
+        "max_s": 0.10083052200207021,
+        "max_observed_inflight": 25,
+        "statuses": {
+          "204": 80,
+          "200": 482,
+          "201": 134,
+          "422": 51,
+          "401": 2,
+          "403": 2,
+          "404": 13,
+          "409": 62
+        },
+        "received_decompressed_bytes": 1575149
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "manifest_sha256": "31663b0452cbdeceb218a5c42e5a734d0c38b745a0269916ed6b69e91d551f52",
+      "duration_s": 10.65536112524569,
+      "started_at": "2026-10-05T14:56:00.258294+00:00",
+      "ended_at": "2026-10-05T14:56:10.928649+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 1,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "FAIL": 35
+      },
+      "httpx": {
+        "requests": 553,
+        "p50_s": 0.0045547740010079,
+        "p95_s": 0.05324435100192204,
+        "max_s": 0.09998291099327616,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 36,
+          "200": 279,
+          "201": 238
+        },
+        "received_decompressed_bytes": 1987129
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_stage3_integrity.py": "7a376c339ede2f6f871e2cc0aeff8d0a5a674c36b5eb5695b77d1303a809e436",
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145610.982797Z-original-25ade1c-157fc8aa",
+      "manifest_sha256": "5ee60b58ee531ad5ca14261f3b4b9bad1e06b08d2b2349dbc8c261ba588d67e4",
+      "duration_s": 20.98382308334112,
+      "started_at": "2026-10-05T14:56:10.983612+00:00",
+      "ended_at": "2026-10-05T14:56:31.985946+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 1,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 100,
+        "FAIL": 4
+      },
+      "httpx": {
+        "requests": 1771,
+        "p50_s": 0.029574895001132973,
+        "p95_s": 0.41043476600316353,
+        "max_s": 0.9665056899975752,
+        "max_observed_inflight": 50,
+        "statuses": {
+          "204": 181,
+          "200": 1016,
+          "201": 160,
+          "409": 239,
+          "422": 95,
+          "401": 58,
+          "400": 16,
+          "404": 6
+        },
+        "received_decompressed_bytes": 7329703
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145632.064935Z-adjudicated-25ade1c-24772534",
+      "manifest_sha256": "ae1851fcb024d9566c3a85ef3b1d1a9b8a67e684638a33864ec00c3160edde8e",
+      "duration_s": 20.620154875330627,
+      "started_at": "2026-10-05T14:56:32.065771+00:00",
+      "ended_at": "2026-10-05T14:56:52.706722+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 104
+      },
+      "httpx": {
+        "requests": 1779,
+        "p50_s": 0.03204604001075495,
+        "p95_s": 0.388882172992453,
+        "max_s": 1.144046971006901,
+        "max_observed_inflight": 50,
+        "statuses": {
+          "204": 181,
+          "200": 1023,
+          "409": 240,
+          "201": 160,
+          "422": 95,
+          "401": 58,
+          "400": 16,
+          "404": 6
+        },
+        "received_decompressed_bytes": 7684904
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145652.799965Z-common-25ade1c-4d775f2d",
+      "manifest_sha256": "89beb83b87963a446e40292ac8353360f0b45e1436d8bde08bdcd1335f459232",
+      "duration_s": 22.15094520803541,
+      "started_at": "2026-10-05T14:56:52.800723+00:00",
+      "ended_at": "2026-10-05T14:57:14.969513+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 1,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 43,
+        "FAIL": 1
+      },
+      "httpx": {
+        "requests": 332,
+        "p50_s": 0.018480024999007583,
+        "p95_s": 0.8013111960026436,
+        "max_s": 1.2719329039973672,
+        "max_observed_inflight": 50,
+        "statuses": {
+          "204": 62,
+          "200": 233,
+          "201": 16,
+          "422": 9,
+          "401": 11,
+          "400": 1
+        },
+        "received_decompressed_bytes": 4830535
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145715.048695Z-pairs-25ade1c-e4261414",
+      "manifest_sha256": "24c092f172520026e342b0840c25eb68fdbe82a5a8c091aff488f2b29f4c2762",
+      "duration_s": 3.5156576251611114,
+      "started_at": "2026-10-05T14:57:15.049392+00:00",
+      "ended_at": "2026-10-05T14:57:18.580000+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 1
+      },
+      "httpx": {
+        "requests": 5,
+        "p50_s": 0.005281859994283877,
+        "p95_s": 0.025227375997928903,
+        "max_s": 0.025227375997928903,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 1,
+          "200": 4
+        },
+        "received_decompressed_bytes": 61888
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145718.637655Z-numeric-25ade1c-87ce03ab",
+      "manifest_sha256": "225b2604468784f1217e14ebf37950ba4551c862097d88d5435d6e894f0f020e",
+      "duration_s": 20.125369500368834,
+      "started_at": "2026-10-05T14:57:18.638978+00:00",
+      "ended_at": "2026-10-05T14:57:38.787264+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 24
+      },
+      "httpx": {
+        "requests": 326,
+        "p50_s": 0.003420381006435491,
+        "p95_s": 0.02285823599959258,
+        "max_s": 3.5630728490068577,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 55,
+          "200": 207,
+          "422": 23,
+          "201": 32,
+          "409": 9
+        },
+        "received_decompressed_bytes": 1101886870
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145738.883366Z-derived-25ade1c-fe1b6b57",
+      "manifest_sha256": "b29e8f3f62667ee427a231129b2be68ed861c4096ad8e795b6873a8ebaee5455",
+      "duration_s": 13.138298500329256,
+      "started_at": "2026-10-05T14:57:38.884896+00:00",
+      "ended_at": "2026-10-05T14:57:52.047115+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 42
+      },
+      "httpx": {
+        "requests": 325,
+        "p50_s": 0.0021467269980348647,
+        "p95_s": 0.0195199929876253,
+        "max_s": 0.15586769800574984,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 62,
+          "200": 208,
+          "201": 35,
+          "409": 7,
+          "422": 7,
+          "400": 6
+        },
+        "received_decompressed_bytes": 975677
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145752.150125Z-snapshot-semantics-25ade1c-74cefea7",
+      "manifest_sha256": "0aede923b2680cb928be029954655d82d0bdda2fc940d7e5fbd9841b9b1e302a",
+      "duration_s": 3.2579219583421946,
+      "started_at": "2026-10-05T14:57:52.151917+00:00",
+      "ended_at": "2026-10-05T14:57:55.426882+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 1,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "FAIL": 5
+      },
+      "httpx": {
+        "requests": 22,
+        "p50_s": 0.0028665690042544156,
+        "p95_s": 0.019830541001283564,
+        "max_s": 0.0200263860024279,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 5,
+          "200": 10,
+          "201": 7
+        },
+        "received_decompressed_bytes": 52118
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "manifest_sha256": "d2286ee7fcd98481ece210b4e8974b77feb01a353f9780af44e33c2f91364fb7",
+      "duration_s": 18.84102770779282,
+      "started_at": "2026-10-05T14:57:55.476017+00:00",
+      "ended_at": "2026-10-05T14:58:14.334187+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 49
+      },
+      "httpx": {
+        "requests": 1150,
+        "p50_s": 0.004649703987524845,
+        "p95_s": 0.05193181800132152,
+        "max_s": 0.14652927398856264,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 165,
+          "200": 630,
+          "201": 271,
+          "422": 48,
+          "409": 3,
+          "401": 33
+        },
+        "received_decompressed_bytes": 7144553
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145814.406048Z-additional-stage1-25ade1c-13a9b072",
+      "manifest_sha256": "cdcc73e9757bc34c9302d5df0906c6c0456b8c9a5f92b56a24c2322acd4550fe",
+      "duration_s": 4.580849790945649,
+      "started_at": "2026-10-05T14:58:14.407202+00:00",
+      "ended_at": "2026-10-05T14:58:19.011402+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 1,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 1,
+        "FAIL": 8
+      },
+      "httpx": {
+        "requests": 63,
+        "p50_s": 0.0023635069956071675,
+        "p95_s": 0.018788703993777744,
+        "max_s": 0.023024769994663075,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 17,
+          "200": 29,
+          "201": 17
+        },
+        "received_decompressed_bytes": 194685
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145819.081089Z-calendar-edges-25ade1c-538c6b4e",
+      "manifest_sha256": "c0de16017098859d5bbf3d39eceb563741032ee460c2049b02ede88cb03aed30",
+      "duration_s": 4.0655291667208076,
+      "started_at": "2026-10-05T14:58:19.082116+00:00",
+      "ended_at": "2026-10-05T14:58:23.163409+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 4
+      },
+      "httpx": {
+        "requests": 40,
+        "p50_s": 0.003207096000551246,
+        "p95_s": 0.021305905989720486,
+        "max_s": 0.025670937000541016,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 12,
+          "200": 24,
+          "201": 4
+        },
+        "received_decompressed_bytes": 39662
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145823.242502Z-calendar-lifetime-25ade1c-295e6398",
+      "manifest_sha256": "78e31a951dbc3cc6630463f12626d69442f11178992230b31740601451933206",
+      "duration_s": 4.418361333198845,
+      "started_at": "2026-10-05T14:58:23.244389+00:00",
+      "ended_at": "2026-10-05T14:58:27.675578+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 2
+      },
+      "httpx": {
+        "requests": 72,
+        "p50_s": 0.002532284997869283,
+        "p95_s": 0.024204417000873946,
+        "max_s": 0.029984847991727293,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 10,
+          "200": 52,
+          "201": 5,
+          "409": 5
+        },
+        "received_decompressed_bytes": 282900
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145827.748307Z-historical-timestamps-25ade1c-aa44c967",
+      "manifest_sha256": "9f172e59e297508b0b7a436795e2f8d92a37b424aae7dee3bce8b04be7d8d0ca",
+      "duration_s": 3.732884291559458,
+      "started_at": "2026-10-05T14:58:27.748988+00:00",
+      "ended_at": "2026-10-05T14:58:31.501912+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 2
+      },
+      "httpx": {
+        "requests": 22,
+        "p50_s": 0.004137330004596151,
+        "p95_s": 0.03241429901390802,
+        "max_s": 0.05306116300926078,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 6,
+          "200": 14,
+          "201": 2
+        },
+        "received_decompressed_bytes": 24996
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145831.582745Z-timestamp-boundaries-25ade1c-73855a78",
+      "manifest_sha256": "c8778ed1144e71e0a07d6f3c57790d6a1fc213ca7152a37817acf19c116baa6a",
+      "duration_s": 4.192078708671033,
+      "started_at": "2026-10-05T14:58:31.583721+00:00",
+      "ended_at": "2026-10-05T14:58:35.795218+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 4
+      },
+      "httpx": {
+        "requests": 98,
+        "p50_s": 0.0023008340067462996,
+        "p95_s": 0.023713401998975314,
+        "max_s": 0.039827654996770434,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 16,
+          "200": 70,
+          "201": 4,
+          "409": 8
+        },
+        "received_decompressed_bytes": 205703
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145835.862266Z-stage2-pairs-25ade1c-c0c6523d",
+      "manifest_sha256": "f5887b7e876006766ef7871fa35ac95d01f5049f34e29036054d564d4e437160",
+      "duration_s": 5.478678833693266,
+      "started_at": "2026-10-05T14:58:35.862987+00:00",
+      "ended_at": "2026-10-05T14:58:41.354265+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 11
+      },
+      "httpx": {
+        "requests": 100,
+        "p50_s": 0.004192601001705043,
+        "p95_s": 0.021797406996483915,
+        "max_s": 0.0758893260062905,
+        "max_observed_inflight": 20,
+        "statuses": {
+          "204": 14,
+          "200": 44,
+          "201": 15,
+          "422": 6,
+          "409": 21
+        },
+        "received_decompressed_bytes": 181310
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145841.421945Z-stage2-browser-25ade1c-3cf75dbc",
+      "manifest_sha256": "386cbadc5d4fedad08a478a766963b5a447150a9700275356ade8451b107bc19",
+      "duration_s": 21.093707875348628,
+      "started_at": "2026-10-05T14:58:41.422806+00:00",
+      "ended_at": "2026-10-05T14:59:02.530190+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 8
+      },
+      "httpx": {
+        "requests": 34,
+        "p50_s": 0.0030393420020118356,
+        "p95_s": 0.03523237600165885,
+        "max_s": 0.05554910899081733,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "200": 21,
+          "204": 8,
+          "201": 5
+        },
+        "received_decompressed_bytes": 11559
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145903.204511Z-stage2-label-lifetime-25ade1c-16e6488a",
+      "manifest_sha256": "a8c82794e85cb04a8f261a8f1cfcf8d5d619af6d9d37b6e133bdfd4a8cd05290",
+      "duration_s": 14.203090624883771,
+      "started_at": "2026-10-05T14:59:03.211405+00:00",
+      "ended_at": "2026-10-05T14:59:17.564122+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 2
+      },
+      "httpx": {
+        "requests": 8,
+        "p50_s": 0.003487617999780923,
+        "p95_s": 0.07354647100146394,
+        "max_s": 0.07354647100146394,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "200": 6,
+          "204": 2
+        },
+        "received_decompressed_bytes": 2090
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "manifest_sha256": "d2fcc99a9df7206392c968c9b3ee8cc9a7d1b8eea1b54cd61cd06ee1d0ed3aed",
+      "duration_s": 42.02546020783484,
+      "started_at": "2026-10-05T14:59:17.657799+00:00",
+      "ended_at": "2026-10-05T14:59:59.706136+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 158
+      },
+      "httpx": {
+        "requests": 600,
+        "p50_s": 0.019597095000790432,
+        "p95_s": 0.04116949099989142,
+        "max_s": 0.19686397399345879,
+        "max_observed_inflight": 10,
+        "statuses": {
+          "204": 157,
+          "200": 288,
+          "409": 19,
+          "422": 45,
+          "400": 3,
+          "401": 5,
+          "201": 68,
+          "404": 15
+        },
+        "received_decompressed_bytes": 170854
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T145959.796643Z-upgrade-1-to-4-25ade1c-0c875109",
+      "manifest_sha256": "15da949650fd2d5989a6215a5212700aadcf62575b5739fd9f27ce14156e4dd0",
+      "duration_s": 14.148665790446103,
+      "started_at": "2026-10-05T14:59:59.797474+00:00",
+      "ended_at": "2026-10-05T15:00:13.966298+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 7
+      },
+      "httpx": {
+        "requests": 91,
+        "p50_s": 0.0024598729942226782,
+        "p95_s": 0.02215569600230083,
+        "max_s": 0.023663704996579327,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "200": 54,
+          "204": 21,
+          "201": 10,
+          "401": 2,
+          "409": 3,
+          "422": 1
+        },
+        "received_decompressed_bytes": 50356
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/producer_stage4.py": "e10b68aa9bc13a254051b9d61d57b8084defa9836762a8bef9da8e39b9afed45",
+        "qa/run_upgrade.py": "d16a575fb7d1f61a3f4eab44ef6daaac90457ba51cb925f7f99ec54cf2323c6b"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T150014.062561Z-upgrade-2-to-4-25ade1c-fa02510b",
+      "manifest_sha256": "a2db93330271ea962b7b72d0b9ef49da0363f999a887f2354d0644f12caddb49",
+      "duration_s": 17.006617415696383,
+      "started_at": "2026-10-05T15:00:14.063736+00:00",
+      "ended_at": "2026-10-05T15:00:31.090650+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 7
+      },
+      "httpx": {
+        "requests": 91,
+        "p50_s": 0.0027130460075568408,
+        "p95_s": 0.020748497001477517,
+        "max_s": 0.03448684100294486,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "200": 54,
+          "204": 21,
+          "201": 10,
+          "401": 2,
+          "409": 3,
+          "422": 1
+        },
+        "received_decompressed_bytes": 52242
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/producer_stage4.py": "e10b68aa9bc13a254051b9d61d57b8084defa9836762a8bef9da8e39b9afed45",
+        "qa/run_upgrade.py": "d16a575fb7d1f61a3f4eab44ef6daaac90457ba51cb925f7f99ec54cf2323c6b"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T150031.208244Z-upgrade-3-to-4-25ade1c-e001d277",
+      "manifest_sha256": "153e8542d9add0e2613f1b5af29d90336a3a0effd6b008a50a95a69157f4b756",
+      "duration_s": 13.79000262543559,
+      "started_at": "2026-10-05T15:00:31.209524+00:00",
+      "ended_at": "2026-10-05T15:00:45.020537+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 7
+      },
+      "httpx": {
+        "requests": 91,
+        "p50_s": 0.002692059992114082,
+        "p95_s": 0.021169464002014138,
+        "max_s": 0.02237144899845589,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "200": 54,
+          "204": 21,
+          "201": 10,
+          "401": 2,
+          "409": 3,
+          "422": 1
+        },
+        "received_decompressed_bytes": 105408
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/producer_stage4.py": "e10b68aa9bc13a254051b9d61d57b8084defa9836762a8bef9da8e39b9afed45",
+        "qa/run_upgrade.py": "d16a575fb7d1f61a3f4eab44ef6daaac90457ba51cb925f7f99ec54cf2323c6b"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T150045.132902Z-removed-historical-25ade1c-1b47250c",
+      "manifest_sha256": "a03a7f5bb4fba5f67bde764b2944fa5fc9716878e3a472ff7dbd1607b65fc2d1",
+      "duration_s": 8.50957587454468,
+      "started_at": "2026-10-05T15:00:45.133866+00:00",
+      "ended_at": "2026-10-05T15:00:53.664448+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {},
+      "httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/producer_historical.py": "67c1304360dc8e2404b1d3a938ae929535f04b8d7431506877e7ee3a1df7bc28",
+        "qa/run_upgrade.py": "d16a575fb7d1f61a3f4eab44ef6daaac90457ba51cb925f7f99ec54cf2323c6b"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T150053.737552Z-removed-legacy-selector-25ade1c-dfc72a4f",
+      "manifest_sha256": "a07c04c47f70c2ebabf9bb3e5744935edc324c9e9c353cca5aa3b37579c08d46",
+      "duration_s": 3.7195634581148624,
+      "started_at": "2026-10-05T15:00:53.738500+00:00",
+      "ended_at": "2026-10-05T15:00:57.472387+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {},
+      "httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/producer_removal.py": "e6bf529404fe5d78e05ec0bafd71529a67c65dfa0e3362f31c7a44ef973cc719",
+        "qa/run_upgrade.py": "d16a575fb7d1f61a3f4eab44ef6daaac90457ba51cb925f7f99ec54cf2323c6b"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T150057.544686Z-source-faults-25ade1c-32343b2e",
+      "manifest_sha256": "cdd830984b70cd7de3eaf8b64ab32edaf83ececb4c50b01cb1a2b3b9ebbf6d85",
+      "duration_s": 2.945826499722898,
+      "started_at": "2026-10-05T15:00:57.545505+00:00",
+      "ended_at": "2026-10-05T15:01:00.502598+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {},
+      "httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/fault_publication.py": "215cd18747d416dc58882e682b58de2d6a50d1a320ac8b5748ce46fcc8ed0c9d"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T150100.555363Z-deployment-25ade1c-b274dbf2",
+      "manifest_sha256": "fde89e3f477ace3d46ca8a55df5a252f3fbc37531e54356810ce357bc5fccb3e",
+      "duration_s": 3.3316364996135235,
+      "started_at": "2026-10-05T15:01:00.557796+00:00",
+      "ended_at": "2026-10-05T15:01:03.911915+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {},
+      "httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/deployment_probe.py": "9f542b653d5159475201e8e7bf88edd5c85acc6ba001ff93fe81a4fb9eafb43e"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T150103.985273Z-unchanged-developer-25ade1c-3c68ad1c",
+      "manifest_sha256": "992d1ace70f45d4cb6206599bcf2e430608712efea0580ad3fad54c73205c121",
+      "duration_s": 11.723182166926563,
+      "started_at": "2026-10-05T15:01:03.985999+00:00",
+      "ended_at": "2026-10-05T15:01:15.724026+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 1,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {},
+      "httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {},
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T150115.783669Z-developer-explicit-adapter-25ade1c-9b7f1611",
+      "manifest_sha256": "e56b14f8caf573f76ad4eb5290159ba5bbdc84e61508f0cc245853f8911e1191",
+      "duration_s": 11.064181875437498,
+      "started_at": "2026-10-05T15:01:15.784244+00:00",
+      "ended_at": "2026-10-05T15:01:26.861765+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {},
+      "httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {},
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T150126.917509Z-formatter-25ade1c-da716800",
+      "manifest_sha256": "689f8b2635e32adaba6acd1764507f36aa3e06d62771d687ed05e6d2ec2b2e5e",
+      "duration_s": 0.11144079081714153,
+      "started_at": "2026-10-05T15:01:26.918191+00:00",
+      "ended_at": "2026-10-05T15:01:27.045641+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {},
+      "httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/formatter_boundary_probe.py": "5a88cd2c31bad3e95bc9fd01633bd6412840d85d891ed098388fd8d8367854ad"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T150127.089489Z-removed-old-object-25ade1c-4cd991e5",
+      "manifest_sha256": "6d1e23f40729b9bdb808ad4f667fdf19ddcb52eacb72bf66d0e0292b2e319339",
+      "duration_s": 7.547391166910529,
+      "started_at": "2026-10-05T15:01:27.090645+00:00",
+      "ended_at": "2026-10-05T15:01:34.648728+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {},
+      "httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/producer_stage4.py": "e10b68aa9bc13a254051b9d61d57b8084defa9836762a8bef9da8e39b9afed45",
+        "qa/run_upgrade.py": "d16a575fb7d1f61a3f4eab44ef6daaac90457ba51cb925f7f99ec54cf2323c6b"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T150134.714555Z-advanced-25ade1c-3ccd6031",
+      "manifest_sha256": "c757cdea1e9abb341dae41accd7c05f0a6de0016f9296c511057d40a8a79e1f8",
+      "duration_s": 10.656510291621089,
+      "started_at": "2026-10-05T15:01:34.715265+00:00",
+      "ended_at": "2026-10-05T15:01:45.384307+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 28
+      },
+      "httpx": {
+        "requests": 1060,
+        "p50_s": 0.0018126899958588183,
+        "p95_s": 0.03455324799870141,
+        "max_s": 0.06618809900828637,
+        "max_observed_inflight": 13,
+        "statuses": {
+          "204": 56,
+          "200": 772,
+          "201": 188,
+          "409": 44
+        },
+        "received_decompressed_bytes": 1520045
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T150145.533926Z-stage4-load-25ade1c-2ec04fd2",
+      "manifest_sha256": "6051f8dd22948fcd88cd5bf4699e90263fd8196689cbfde01ce5ebe1fb2fd10f",
+      "duration_s": 5.008087334223092,
+      "started_at": "2026-10-05T15:01:45.534856+00:00",
+      "ended_at": "2026-10-05T15:01:50.650484+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 3
+      },
+      "httpx": {
+        "requests": 325,
+        "p50_s": 0.016398293009842746,
+        "p95_s": 0.05168993299594149,
+        "max_s": 0.06720915099140257,
+        "max_observed_inflight": 37,
+        "statuses": {
+          "204": 6,
+          "200": 160,
+          "201": 61,
+          "409": 98
+        },
+        "received_decompressed_bytes": 287882
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T150150.713389Z-stage4-numeric-25ade1c-4791da0d",
+      "manifest_sha256": "62fd06bd9a188cf386aa0ffb4e87610161161788acb3327a19aa1e88d0fc3782",
+      "duration_s": 3.942393916659057,
+      "started_at": "2026-10-05T15:01:50.714195+00:00",
+      "ended_at": "2026-10-05T15:01:54.669039+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 2
+      },
+      "httpx": {
+        "requests": 26,
+        "p50_s": 0.001733751007122919,
+        "p95_s": 0.020113872000365518,
+        "max_s": 0.02084850899700541,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 2,
+          "200": 18,
+          "201": 6
+        },
+        "received_decompressed_bytes": 17377
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T150154.723878Z-stage4-domain-25ade1c-52c61839",
+      "manifest_sha256": "1ec2eb671ab81c0fc1effdf07a1a0e95f3e75ba2ce0560913fbe887bdfa8ccbb",
+      "duration_s": 13.98565070796758,
+      "started_at": "2026-10-05T15:01:54.724785+00:00",
+      "ended_at": "2026-10-05T15:02:08.722023+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 60
+      },
+      "httpx": {
+        "requests": 703,
+        "p50_s": 0.0031336499960161746,
+        "p95_s": 0.05233558200416155,
+        "max_s": 0.5750295309990179,
+        "max_observed_inflight": 2,
+        "statuses": {
+          "204": 82,
+          "200": 371,
+          "422": 28,
+          "201": 190,
+          "401": 3,
+          "403": 2,
+          "400": 3,
+          "404": 6,
+          "409": 18
+        },
+        "received_decompressed_bytes": 1911615
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T150208.796158Z-stage4-integrity-25ade1c-366b489f",
+      "manifest_sha256": "eaa4b99eb9d49236a6405bf3657e21f173d9ccb33c7a33c659cb3aeb22addf5b",
+      "duration_s": 25.122472625225782,
+      "started_at": "2026-10-05T15:02:08.796805+00:00",
+      "ended_at": "2026-10-05T15:02:33.934804+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 47
+      },
+      "httpx": {
+        "requests": 2209,
+        "p50_s": 0.0035881389921996742,
+        "p95_s": 0.0214066389889922,
+        "max_s": 0.10097659699385986,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 235,
+          "200": 1316,
+          "201": 564,
+          "422": 47,
+          "401": 47
+        },
+        "received_decompressed_bytes": 8487871
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T150234.054513Z-stage4-encoding-collision-25ade1c-c022e5ea",
+      "manifest_sha256": "e5b0486cf5a5afd495f464c8fb838d5ecb070d614c962dfecd11bdad3082e632",
+      "duration_s": 11.168088125064969,
+      "started_at": "2026-10-05T15:02:34.055318+00:00",
+      "ended_at": "2026-10-05T15:02:45.243154+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 19
+      },
+      "httpx": {
+        "requests": 855,
+        "p50_s": 0.002787146993796341,
+        "p95_s": 0.02360394599963911,
+        "max_s": 0.09222328300529625,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 62,
+          "200": 560,
+          "201": 61,
+          "401": 15,
+          "409": 148,
+          "422": 9
+        },
+        "received_decompressed_bytes": 9665256
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/run_suite.py": "f6769a9243939c8b487e6bdd32431cfcb3527ec4cfca8c20cecedb43af69b751"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T150245.325367Z-upgrade-4-to-4-25ade1c-8cbdff5b",
+      "manifest_sha256": "e0bab08a55f633a2807c4e9b9b4cac593d5ef85296946c86b23969b725bf31a4",
+      "duration_s": 11.647991250269115,
+      "started_at": "2026-10-05T15:02:45.326245+00:00",
+      "ended_at": "2026-10-05T15:02:56.986827+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {
+        "PASS": 7
+      },
+      "httpx": {
+        "requests": 91,
+        "p50_s": 0.003028595994692296,
+        "p95_s": 0.02017657901160419,
+        "max_s": 0.022441053995862603,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "200": 54,
+          "204": 21,
+          "201": 10,
+          "401": 2,
+          "409": 3,
+          "422": 1
+        },
+        "received_decompressed_bytes": 108290
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {
+        "qa/producer_stage4.py": "e10b68aa9bc13a254051b9d61d57b8084defa9836762a8bef9da8e39b9afed45",
+        "qa/run_upgrade.py": "d16a575fb7d1f61a3f4eab44ef6daaac90457ba51cb925f7f99ec54cf2323c6b"
+      },
+      "official_harness_counts": {}
+    },
+    {
+      "path": "reports/stage-4/20261005T150257.076527Z-official-all-isolated-clean-25ade1c-31c1b500",
+      "manifest_sha256": "8568a30a1040a97b7b48c899b8f0cb3f785bda6018be9fca4d3461653f7d4058",
+      "duration_s": 164.33084145747125,
+      "started_at": "2026-10-05T15:02:57.077410+00:00",
+      "ended_at": "2026-10-05T15:05:41.431200+00:00",
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "raw_case_outcomes": {},
+      "httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "manifest_verified": true,
+      "qa_source_sha256_at_recorded_revision": {},
+      "official_harness_counts": {
+        "stage-1/stage-1.counts.json": {
+          "collected": 120,
+          "passed": 120,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "deselected": 0,
+          "xfailed": 0,
+          "files": {
+            "stage_1/test_health_reset_auth.py": {
+              "passed": 12,
+              "total": 12
+            },
+            "stage_1/test_reservations.py": {
+              "passed": 37,
+              "total": 37
+            },
+            "stage_1/test_restaurants_availability.py": {
+              "passed": 18,
+              "total": 18
+            },
+            "stage_1/test_retries_time_input.py": {
+              "passed": 20,
+              "total": 20
+            },
+            "stage_1/test_sample.py": {
+              "passed": 20,
+              "total": 20
+            },
+            "stage_1/test_seeded_state.py": {
+              "passed": 13,
+              "total": 13
+            }
+          }
+        },
+        "stage-1/stage-2.counts.json": {
+          "collected": 25,
+          "passed": 0,
+          "failed": 1,
+          "errors": 0,
+          "skipped": 0,
+          "deselected": 0,
+          "xfailed": 0,
+          "files": {
+            "stage_2/test_sample.py": {
+              "passed": 0,
+              "total": 8
+            },
+            "stage_2/test_ui.py": {
+              "passed": 0,
+              "total": 17
+            }
+          }
+        },
+        "stage-2/stage-1.counts.json": {
+          "collected": 120,
+          "passed": 120,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "deselected": 0,
+          "xfailed": 0,
+          "files": {
+            "stage_1/test_health_reset_auth.py": {
+              "passed": 12,
+              "total": 12
+            },
+            "stage_1/test_reservations.py": {
+              "passed": 37,
+              "total": 37
+            },
+            "stage_1/test_restaurants_availability.py": {
+              "passed": 18,
+              "total": 18
+            },
+            "stage_1/test_retries_time_input.py": {
+              "passed": 20,
+              "total": 20
+            },
+            "stage_1/test_sample.py": {
+              "passed": 20,
+              "total": 20
+            },
+            "stage_1/test_seeded_state.py": {
+              "passed": 13,
+              "total": 13
+            }
+          }
+        },
+        "stage-2/stage-2.counts.json": {
+          "collected": 25,
+          "passed": 25,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "deselected": 0,
+          "xfailed": 0,
+          "files": {
+            "stage_2/test_sample.py": {
+              "passed": 8,
+              "total": 8
+            },
+            "stage_2/test_ui.py": {
+              "passed": 17,
+              "total": 17
+            }
+          }
+        },
+        "stage-2/stage-3.counts.json": {
+          "collected": 7,
+          "passed": 0,
+          "failed": 1,
+          "errors": 0,
+          "skipped": 0,
+          "deselected": 0,
+          "xfailed": 0,
+          "files": {
+            "stage_3/test_sample.py": {
+              "passed": 0,
+              "total": 7
+            }
+          }
+        },
+        "stage-3/stage-1.counts.json": {
+          "collected": 120,
+          "passed": 120,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "deselected": 0,
+          "xfailed": 0,
+          "files": {
+            "stage_1/test_health_reset_auth.py": {
+              "passed": 12,
+              "total": 12
+            },
+            "stage_1/test_reservations.py": {
+              "passed": 37,
+              "total": 37
+            },
+            "stage_1/test_restaurants_availability.py": {
+              "passed": 18,
+              "total": 18
+            },
+            "stage_1/test_retries_time_input.py": {
+              "passed": 20,
+              "total": 20
+            },
+            "stage_1/test_sample.py": {
+              "passed": 20,
+              "total": 20
+            },
+            "stage_1/test_seeded_state.py": {
+              "passed": 13,
+              "total": 13
+            }
+          }
+        },
+        "stage-3/stage-2.counts.json": {
+          "collected": 25,
+          "passed": 25,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "deselected": 0,
+          "xfailed": 0,
+          "files": {
+            "stage_2/test_sample.py": {
+              "passed": 8,
+              "total": 8
+            },
+            "stage_2/test_ui.py": {
+              "passed": 17,
+              "total": 17
+            }
+          }
+        },
+        "stage-3/stage-3.counts.json": {
+          "collected": 7,
+          "passed": 7,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "deselected": 0,
+          "xfailed": 0,
+          "files": {
+            "stage_3/test_sample.py": {
+              "passed": 7,
+              "total": 7
+            }
+          }
+        },
+        "stage-3/stage-4.counts.json": {
+          "collected": 6,
+          "passed": 4,
+          "failed": 1,
+          "errors": 0,
+          "skipped": 0,
+          "deselected": 0,
+          "xfailed": 0,
+          "files": {
+            "stage_4/test_sample.py": {
+              "passed": 4,
+              "total": 6
+            }
+          }
+        },
+        "stage-4/stage-1.counts.json": {
+          "collected": 120,
+          "passed": 120,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "deselected": 0,
+          "xfailed": 0,
+          "files": {
+            "stage_1/test_health_reset_auth.py": {
+              "passed": 12,
+              "total": 12
+            },
+            "stage_1/test_reservations.py": {
+              "passed": 37,
+              "total": 37
+            },
+            "stage_1/test_restaurants_availability.py": {
+              "passed": 18,
+              "total": 18
+            },
+            "stage_1/test_retries_time_input.py": {
+              "passed": 20,
+              "total": 20
+            },
+            "stage_1/test_sample.py": {
+              "passed": 20,
+              "total": 20
+            },
+            "stage_1/test_seeded_state.py": {
+              "passed": 13,
+              "total": 13
+            }
+          }
+        },
+        "stage-4/stage-2.counts.json": {
+          "collected": 25,
+          "passed": 25,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "deselected": 0,
+          "xfailed": 0,
+          "files": {
+            "stage_2/test_sample.py": {
+              "passed": 8,
+              "total": 8
+            },
+            "stage_2/test_ui.py": {
+              "passed": 17,
+              "total": 17
+            }
+          }
+        },
+        "stage-4/stage-3.counts.json": {
+          "collected": 7,
+          "passed": 7,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "deselected": 0,
+          "xfailed": 0,
+          "files": {
+            "stage_3/test_sample.py": {
+              "passed": 7,
+              "total": 7
+            }
+          }
+        },
+        "stage-4/stage-4.counts.json": {
+          "collected": 6,
+          "passed": 6,
+          "failed": 0,
+          "errors": 0,
+          "skipped": 0,
+          "deselected": 0,
+          "xfailed": 0,
+          "files": {
+            "stage_4/test_sample.py": {
+              "passed": 6,
+              "total": 6
+            }
+          }
+        }
+      }
+    }
+  ],
+  "application_command_attempts": 45,
+  "raw_pytest_executions": 892,
+  "raw_pytest_outcomes": {
+    "PASS": 839,
+    "FAIL": 53
+  },
+  "raw_fail_classification": {
+    "OPAQUE_SELECTOR_MISMATCH_RETAINED": 49,
+    "ORACLE_CONFLICT_RETAINED": 4
+  },
+  "raw_nonpass_classification": {
+    "OPAQUE_SELECTOR_MISMATCH_RETAINED": 49,
+    "ORACLE_CONFLICT_RETAINED": 4
+  },
+  "reconciled_definitions": {
+    "frozen": {
+      "count": 216,
+      "outcomes": {
+        "PASS": 216
+      }
+    },
+    "derived": {
+      "count": 344,
+      "outcomes": {
+        "PASS": 344
+      }
+    },
+    "official": {
+      "count": 158,
+      "outcomes": {
+        "PASS": 158
+      }
+    }
+  },
+  "source_fault_experiments": [
+    {
+      "attempt": "reports/stage-4/20261005T150057.544686Z-source-faults-25ade1c-32343b2e",
+      "defined_operation_names": [
+        "signup",
+        "login",
+        "create",
+        "patch",
+        "cancel",
+        "moves",
+        "reset",
+        "import",
+        "policy",
+        "series",
+        "series_patch",
+        "series_cancel",
+        "series_moves",
+        "replan_preview",
+        "replan_apply",
+        "series_replan_apply",
+        "empty_replan_apply",
+        "series_amend"
+      ],
+      "executed_control_operation_names": [
+        "signup",
+        "login",
+        "create",
+        "patch",
+        "cancel",
+        "moves",
+        "reset",
+        "import",
+        "policy",
+        "series",
+        "series_patch",
+        "series_cancel",
+        "series_moves",
+        "replan_preview",
+        "replan_apply",
+        "series_replan_apply",
+        "empty_replan_apply",
+        "series_amend"
+      ],
+      "actually_injected_operation_names": [
+        "cancel",
+        "create",
+        "empty_replan_apply",
+        "import",
+        "login",
+        "moves",
+        "patch",
+        "policy",
+        "replan_apply",
+        "replan_preview",
+        "reset",
+        "series",
+        "series_amend",
+        "series_cancel",
+        "series_moves",
+        "series_patch",
+        "series_replan_apply",
+        "signup"
+      ],
+      "fault_point_types": [
+        "candidate_encode",
+        "compression",
+        "response_encode"
+      ],
+      "injection_executions": 50,
+      "outcomes": {
+        "PASS": 50
+      },
+      "reset_actual_injection": [
+        {
+          "id": "FAULT-reset-candidate_encode",
+          "kind": "SOURCE_INJECTION_NOT_HTTP",
+          "operation": "reset",
+          "fault": "candidate_encode",
+          "actually_triggered": [
+            "candidate_encode"
+          ],
+          "expected": "Injected failure before publication leaves exact state unchanged; retry succeeds",
+          "observed": {
+            "exception": "ValueError",
+            "state_unchanged": true,
+            "retry_status": 204
+          },
+          "outcome": "PASS",
+          "duration_s": 0.0012775827199220657
+        }
+      ],
+      "http_requests": 0
+    }
+  ],
+  "source_formatter_experiments": [
+    {
+      "id": "D127-formatter-0001-01-01T00:00:00-3208",
+      "description": "Exact RFC3339 formatter for a fixed second offset at a calendar extremum; synthetic offset, not future IANA rules",
+      "expected_instant_us": -3208000000,
+      "observed": "0001-01-01T00:00:32+00:54",
+      "outcome": "PASS",
+      "duration_s": 0.00011133309453725815,
+      "http_requests": 0,
+      "product_source_sha256": "b156eacb3b059ceb54327b8703add5069f7964906f2914238b97cd4376f19576",
+      "test_source_sha256": "5a88cd2c31bad3e95bc9fd01633bd6412840d85d891ed098388fd8d8367854ad",
+      "attempt": "reports/stage-4/20261005T150126.917509Z-formatter-25ade1c-da716800"
+    },
+    {
+      "id": "D127-formatter-0001-01-01T00:00:00--3208",
+      "description": "Exact RFC3339 formatter for a fixed second offset at a calendar extremum; synthetic offset, not future IANA rules",
+      "expected_instant_us": 3208000000,
+      "observed": "0001-01-01T00:53:28+00:00",
+      "outcome": "PASS",
+      "duration_s": 2.350006252527237e-05,
+      "http_requests": 0,
+      "product_source_sha256": "b156eacb3b059ceb54327b8703add5069f7964906f2914238b97cd4376f19576",
+      "test_source_sha256": "5a88cd2c31bad3e95bc9fd01633bd6412840d85d891ed098388fd8d8367854ad",
+      "attempt": "reports/stage-4/20261005T150126.917509Z-formatter-25ade1c-da716800"
+    },
+    {
+      "id": "D127-formatter-9999-12-31T23:59:59-3208",
+      "description": "Exact RFC3339 formatter for a fixed second offset at a calendar extremum; synthetic offset, not future IANA rules",
+      "expected_instant_us": 315537894391000000,
+      "observed": "9999-12-31T23:06:31+00:00",
+      "outcome": "PASS",
+      "duration_s": 1.4875084161758423e-05,
+      "http_requests": 0,
+      "product_source_sha256": "b156eacb3b059ceb54327b8703add5069f7964906f2914238b97cd4376f19576",
+      "test_source_sha256": "5a88cd2c31bad3e95bc9fd01633bd6412840d85d891ed098388fd8d8367854ad",
+      "attempt": "reports/stage-4/20261005T150126.917509Z-formatter-25ade1c-da716800"
+    },
+    {
+      "id": "D127-formatter-9999-12-31T23:59:59--3208",
+      "description": "Exact RFC3339 formatter for a fixed second offset at a calendar extremum; synthetic offset, not future IANA rules",
+      "expected_instant_us": 315537900807000000,
+      "observed": "9999-12-31T23:59:27-00:54",
+      "outcome": "PASS",
+      "duration_s": 1.2458302080631256e-05,
+      "http_requests": 0,
+      "product_source_sha256": "b156eacb3b059ceb54327b8703add5069f7964906f2914238b97cd4376f19576",
+      "test_source_sha256": "5a88cd2c31bad3e95bc9fd01633bd6412840d85d891ed098388fd8d8367854ad",
+      "attempt": "reports/stage-4/20261005T150126.917509Z-formatter-25ade1c-da716800"
+    }
+  ],
+  "developer_checks": [
+    {
+      "attempt": "reports/stage-4/20261005T150103.985273Z-unchanged-developer-25ade1c-3c68ad1c",
+      "executed_methods": 83,
+      "outcome": "FAIL"
+    }
+  ],
+  "deployment_configurations": [
+    {
+      "id": "DEPLOY-PORT-8080",
+      "product_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "stage": 4,
+      "outcome": "PASS",
+      "port": 8080,
+      "override_supplied": false,
+      "start_to_health_s": 0.7516235001385212,
+      "observed": {
+        "status": 200,
+        "body": {
+          "status": "ok"
+        },
+        "requests": 1,
+        "client_elapsed_s": 0.025192836008500308
+      },
+      "service_cpus": 2,
+      "service_memory_bytes": 2147483648,
+      "read_only": true,
+      "internal_network": true,
+      "client_memory_cap": null,
+      "expected": "Healthy from another internal-network container within60s on default or configured PORT",
+      "attempt": "reports/stage-4/20261005T150100.555363Z-deployment-25ade1c-b274dbf2"
+    },
+    {
+      "id": "DEPLOY-PORT-18087",
+      "product_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "stage": 4,
+      "outcome": "PASS",
+      "port": 18087,
+      "override_supplied": true,
+      "start_to_health_s": 0.8088438753038645,
+      "observed": {
+        "status": 200,
+        "body": {
+          "status": "ok"
+        },
+        "requests": 1,
+        "client_elapsed_s": 0.03060423799615819
+      },
+      "service_cpus": 2,
+      "service_memory_bytes": 2147483648,
+      "read_only": true,
+      "internal_network": true,
+      "client_memory_cap": null,
+      "expected": "Healthy from another internal-network container within60s on default or configured PORT",
+      "attempt": "reports/stage-4/20261005T150100.555363Z-deployment-25ade1c-b274dbf2"
+    }
+  ],
+  "actual_producer_removal_executions": [
+    {
+      "attempt": "reports/stage-4/20261005T145959.796643Z-upgrade-1-to-4-25ade1c-0c875109",
+      "source_sha": "fd843b83db16ec8585d66af7ac0d6fac89aae82c",
+      "destination_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "proof": {
+        "source": "juniper-v-up-3818c35414-source-3354",
+        "removed": true,
+        "post_removal_inspect_returncode": 1,
+        "destination_not_started_yet": true
+      },
+      "consumer": {
+        "id": "D411-stage4-producer-authenticity",
+        "kind": "PRODUCER_REMOVAL_INTEGRATION",
+        "phase": "consume",
+        "source_stage": 1,
+        "destination_stage": 4,
+        "snapshot_sha256": "55b8d9aa26ba58a4bfef69a204c049878e147d4c55378565b0d040d3d11709bf",
+        "snapshot_bytes": 4979,
+        "expected": "Authentic state and exact immutable receipts survive detached ordinary JSON replacement",
+        "observed": [
+          "old login and multiple tokens valid, destination token revoked",
+          "old identities/current values and every original receipt exactly retained",
+          "legacy history absent, adopted anchor unchanged, generated history authentic under policy0; no invented manager grant",
+          "new Stage4 amendment preserves imported seating, authentic original dates, exceptions and cancellations",
+          "new target selection accepted and repeated replacement restores original source state"
+        ],
+        "outcome": "PASS",
+        "duration_s": 0.1656010540027637
+      },
+      "http_request_count": null
+    },
+    {
+      "attempt": "reports/stage-4/20261005T150014.062561Z-upgrade-2-to-4-25ade1c-fa02510b",
+      "source_sha": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+      "destination_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "proof": {
+        "source": "juniper-v-up-0b99b1dce8-source-d4e6",
+        "removed": true,
+        "post_removal_inspect_returncode": 1,
+        "destination_not_started_yet": true
+      },
+      "consumer": {
+        "id": "D411-stage4-producer-authenticity",
+        "kind": "PRODUCER_REMOVAL_INTEGRATION",
+        "phase": "consume",
+        "source_stage": 2,
+        "destination_stage": 4,
+        "snapshot_sha256": "2ff5d09b9e57995b516f6758582d4ad8d80b42b20cf98f2f7d970f935f4ba7ee",
+        "snapshot_bytes": 5191,
+        "expected": "Authentic state and exact immutable receipts survive detached ordinary JSON replacement",
+        "observed": [
+          "old login and multiple tokens valid, destination token revoked",
+          "old identities/current values and every original receipt exactly retained",
+          "legacy history absent, adopted anchor unchanged, generated history authentic under policy0; no invented manager grant",
+          "new Stage4 amendment preserves imported seating, authentic original dates, exceptions and cancellations",
+          "new target selection accepted and repeated replacement restores original source state"
+        ],
+        "outcome": "PASS",
+        "duration_s": 0.16030641699035186
+      },
+      "http_request_count": null
+    },
+    {
+      "attempt": "reports/stage-4/20261005T150031.208244Z-upgrade-3-to-4-25ade1c-e001d277",
+      "source_sha": "301caf55085280f12197e393ab6b4735ef4046c3",
+      "destination_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "proof": {
+        "source": "juniper-v-up-4c6f925e9c-source-6d0f",
+        "removed": true,
+        "post_removal_inspect_returncode": 1,
+        "destination_not_started_yet": true
+      },
+      "consumer": {
+        "id": "D411-stage4-producer-authenticity",
+        "kind": "PRODUCER_REMOVAL_INTEGRATION",
+        "phase": "consume",
+        "source_stage": 3,
+        "destination_stage": 4,
+        "snapshot_sha256": "7f4d5f739bb3638c053c7884b0aa28a70e48fa36c3f2dfafd7d782df20aea468",
+        "snapshot_bytes": 32085,
+        "expected": "Authentic state and exact immutable receipts survive detached ordinary JSON replacement",
+        "observed": [
+          "old login and multiple tokens valid, destination token revoked",
+          "old identities/current values and every original receipt exactly retained",
+          "final policies, authentic histories/decisions, revision4 series, permanent exception and cancellation preserved",
+          "new Stage4 amendment preserves imported seating, authentic original dates, exceptions and cancellations",
+          "new target selection accepted and repeated replacement restores original source state"
+        ],
+        "outcome": "PASS",
+        "duration_s": 0.20174468398909084
+      },
+      "http_request_count": null
+    },
+    {
+      "attempt": "reports/stage-4/20261005T150045.132902Z-removed-historical-25ade1c-1b47250c",
+      "source_sha": "15d1f178b387e744bf919b6e8bb77fff2b5aeb23",
+      "destination_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "proof": {
+        "source": "juniper-v-up-cfd6caac94-source-9333",
+        "removed": true,
+        "post_removal_inspect_returncode": 1,
+        "destination_not_started_yet": true
+      },
+      "consumer": {
+        "id": "D126-old-historical-source-removed-fresh-current-lifetime",
+        "outcome": "PASS",
+        "duration_s": 0.2010226540005533,
+        "retained_tokens": 2,
+        "immutable_receipts": 4,
+        "strict_current_historical_projections": 4,
+        "exact_calendar_boundary_records": 2,
+        "current_reference_retained": true,
+        "new_write": true,
+        "repeat_replacement": true,
+        "password_login": true
+      },
+      "http_request_count": null
+    },
+    {
+      "attempt": "reports/stage-4/20261005T150053.737552Z-removed-legacy-selector-25ade1c-dfc72a4f",
+      "source_sha": "fd843b83db16ec8585d66af7ac0d6fac89aae82c",
+      "destination_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "proof": {
+        "source": "juniper-v-up-2f595a6cb1-source-0404",
+        "removed": true,
+        "post_removal_inspect_returncode": 1,
+        "destination_not_started_yet": true
+      },
+      "consumer": {
+        "id": "D217-source-removed-fresh-destination-lifetime",
+        "outcome": "PASS",
+        "duration_s": 0.06909803299640771,
+        "retained_tokens": 2,
+        "immutable_receipts": 2,
+        "current_reference_retained": true,
+        "new_write": true,
+        "new_target_table_ids_operation": true,
+        "original_selection": [
+          "a"
+        ],
+        "legacy_ignored_selector_original_identity_preserved": true,
+        "repeat_replacement": true,
+        "password_login": true
+      },
+      "http_request_count": null
+    },
+    {
+      "attempt": "reports/stage-4/20261005T150127.089489Z-removed-old-object-25ade1c-4cd991e5",
+      "source_sha": "89582510069e984f446060d797e138f4a3bf08f9",
+      "destination_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "proof": {
+        "source": "juniper-v-up-27c058a4ce-source-5bd9",
+        "removed": true,
+        "post_removal_inspect_returncode": 1,
+        "destination_not_started_yet": true
+      },
+      "consumer": {
+        "id": "D411-stage4-producer-authenticity",
+        "kind": "PRODUCER_REMOVAL_INTEGRATION",
+        "phase": "consume",
+        "source_stage": 1,
+        "destination_stage": 4,
+        "snapshot_sha256": "64bc426ba14a6a5a5e97c4ec4795a34744b54163a2e0e64c260c61591d8efa05",
+        "snapshot_bytes": 4700,
+        "expected": "Authentic state and exact immutable receipts survive detached ordinary JSON replacement",
+        "observed": [
+          "old login and multiple tokens valid, destination token revoked",
+          "old identities/current values and every original receipt exactly retained",
+          "legacy history absent, adopted anchor unchanged, generated history authentic under policy0; no invented manager grant",
+          "new Stage4 amendment preserves imported seating, authentic original dates, exceptions and cancellations",
+          "new target selection accepted and repeated replacement restores original source state"
+        ],
+        "outcome": "PASS",
+        "duration_s": 0.18123750000086147
+      },
+      "http_request_count": null
+    },
+    {
+      "attempt": "reports/stage-4/20261005T150245.325367Z-upgrade-4-to-4-25ade1c-8cbdff5b",
+      "source_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "destination_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "proof": {
+        "source": "juniper-v-up-026a93828a-source-28fe",
+        "removed": true,
+        "post_removal_inspect_returncode": 1,
+        "destination_not_started_yet": true
+      },
+      "consumer": {
+        "id": "D411-stage4-producer-authenticity",
+        "kind": "PRODUCER_REMOVAL_INTEGRATION",
+        "phase": "consume",
+        "source_stage": 4,
+        "destination_stage": 4,
+        "snapshot_sha256": "97fe345aa78433a4e758a246e220bfc972468270d927fd5ed82be5657bdc059a",
+        "snapshot_bytes": 47131,
+        "expected": "Authentic state and exact immutable receipts survive detached ordinary JSON replacement",
+        "observed": [
+          "old login and multiple tokens valid, destination token revoked",
+          "old identities/current values and every original receipt exactly retained",
+          "final policies, authentic histories/decisions, revision4 series, permanent exception and cancellation preserved",
+          "source plan/apply/amend receipts and pending plan retained; imported closure authoritative",
+          "new Stage4 amendment preserves imported seating, authentic original dates, exceptions and cancellations",
+          "new target selection accepted and repeated replacement restores original source state"
+        ],
+        "outcome": "PASS",
+        "duration_s": 0.1969047029997455
+      },
+      "http_request_count": null
+    }
+  ],
+  "producer_removal_distinct_integration_definitions": 3,
+  "instrumented_httpx": {
+    "requests": 13838,
+    "p50_s": 0.005119834007928148,
+    "p95_s": 0.10100321398931555,
+    "max_s": 3.5630728490068577,
+    "max_observed_inflight": 50,
+    "statuses": {
+      "200": 8167,
+      "204": 1623,
+      "201": 2313,
+      "422": 467,
+      "401": 240,
+      "403": 4,
+      "404": 46,
+      "409": 933,
+      "400": 45
+    },
+    "received_decompressed_bytes": 1156985679
+  },
+  "instrumented_load_httpx": {
+    "requests": 2610,
+    "p50_s": 0.036946310006896965,
+    "p95_s": 0.41163614600372966,
+    "max_s": 1.144046971006901,
+    "max_observed_inflight": 50,
+    "statuses": {
+      "204": 190,
+      "200": 1525,
+      "201": 226,
+      "409": 469,
+      "422": 100,
+      "401": 100
+    },
+    "received_decompressed_bytes": 14419313
+  },
+  "complete_json_parse_observations": [
+    {
+      "at": "2026-10-05T14:57:35.058386+00:00",
+      "case": "frozen/numeric-original/test_numeric_lifetime.py::test_valid_large_capacity_entire_http_lifetime[R2N002-e100000000]",
+      "input_bytes_or_chars": 1100002780,
+      "input_type": "bytes",
+      "parse_int": "Decimal",
+      "parse_float": "Decimal",
+      "client_memory_cap_added": false,
+      "rss_peak_before": 2209936,
+      "rss_peak_units": "KiB",
+      "outcome": "COMPLETED",
+      "result_type": "dict",
+      "complete_parse_s": 6.614927763002925,
+      "rss_peak_after": 2845436,
+      "attempt": "reports/stage-4/20261005T145718.637655Z-numeric-25ade1c-87ce03ab"
+    },
+    {
+      "at": "2026-10-05T14:57:37.520750+00:00",
+      "case": "frozen/numeric-original/test_numeric_lifetime.py::test_R2N008_deep_preparation_and_batch_commit_boundary",
+      "input_bytes_or_chars": 79620,
+      "input_type": "bytes",
+      "parse_int": "Decimal",
+      "parse_float": "Decimal",
+      "client_memory_cap_added": false,
+      "rss_peak_before": 2845436,
+      "rss_peak_units": "KiB",
+      "outcome": "COMPLETED",
+      "result_type": "dict",
+      "complete_parse_s": 0.00026994400832336396,
+      "rss_peak_after": 2845436,
+      "attempt": "reports/stage-4/20261005T145718.637655Z-numeric-25ade1c-87ce03ab"
+    },
+    {
+      "at": "2026-10-05T14:57:37.521383+00:00",
+      "case": "frozen/numeric-original/test_numeric_lifetime.py::test_R2N008_deep_preparation_and_batch_commit_boundary",
+      "input_bytes_or_chars": 79620,
+      "input_type": "bytes",
+      "parse_int": "Decimal",
+      "parse_float": "Decimal",
+      "client_memory_cap_added": false,
+      "rss_peak_before": 2845436,
+      "rss_peak_units": "KiB",
+      "outcome": "COMPLETED",
+      "result_type": "dict",
+      "complete_parse_s": 0.00020709399541374296,
+      "rss_peak_after": 2845436,
+      "attempt": "reports/stage-4/20261005T145718.637655Z-numeric-25ade1c-87ce03ab"
+    },
+    {
+      "at": "2026-10-05T14:57:37.573309+00:00",
+      "case": "frozen/numeric-original/test_numeric_lifetime.py::test_R2N008_deep_preparation_and_batch_commit_boundary",
+      "input_bytes_or_chars": 79620,
+      "input_type": "bytes",
+      "parse_int": "Decimal",
+      "parse_float": "Decimal",
+      "client_memory_cap_added": false,
+      "rss_peak_before": 2845436,
+      "rss_peak_units": "KiB",
+      "outcome": "COMPLETED",
+      "result_type": "dict",
+      "complete_parse_s": 0.0002411860041320324,
+      "rss_peak_after": 2845436,
+      "attempt": "reports/stage-4/20261005T145718.637655Z-numeric-25ade1c-87ce03ab"
+    },
+    {
+      "at": "2026-10-05T14:57:37.574010+00:00",
+      "case": "frozen/numeric-original/test_numeric_lifetime.py::test_R2N008_deep_preparation_and_batch_commit_boundary",
+      "input_bytes_or_chars": 79620,
+      "input_type": "bytes",
+      "parse_int": "Decimal",
+      "parse_float": "Decimal",
+      "client_memory_cap_added": false,
+      "rss_peak_before": 2845436,
+      "rss_peak_units": "KiB",
+      "outcome": "COMPLETED",
+      "result_type": "dict",
+      "complete_parse_s": 0.0002462289994582534,
+      "rss_peak_after": 2845436,
+      "attempt": "reports/stage-4/20261005T145718.637655Z-numeric-25ade1c-87ce03ab"
+    }
+  ],
+  "json_parse_limits": "Original full json.loads decoder and assertions are retained. Observations are supplemental; absence after an earlier assertion/timeout/OOM is not a parse PASS. Received/decompressed bytes and HTTP timing are separate. No client memory cap was added.",
+  "frozen_manifest_sha256": "91fadde5b105ab3bab5c7a93779f6d91eca710e5cca85c6306d5adc1cdc61036",
+  "frozen_rehashed_files": [
+    {
+      "path": "spec/stage-1.md",
+      "sha256": "9460189eac83802ce158f16ee90989af728a489b32a6147e2dc8e320f383055f",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "spec/stage-2.md",
+      "sha256": "b1aa1b4affad456ff26f208a378eb2f6884153fc6ef667ab37b888fcda96c5dc",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "spec/stage-3.md",
+      "sha256": "36b7ff5294b3992a6fa2894e9b4f2350072912fe10ed212c1f9a8828be1f9abe",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "spec/stage-4.md",
+      "sha256": "08d02b5a432d41d71f989ccb30585b3cad0977c9c1dd11145c97fb7ddd4946c4",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "participant-guide.md",
+      "sha256": "1533d255c833d7a0aa67f2ef06cde0a5e84d94c7d1c97f73d1818f04cfb685e4",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "baseline-original/conftest.py",
+      "sha256": "c95841071da2a1542d051624a355300f3934226da8819cc5bdc3094958645c78",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "baseline-adjudicated/conftest.py",
+      "sha256": "c95841071da2a1542d051624a355300f3934226da8819cc5bdc3094958645c78",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "baseline-original/test_security.py",
+      "sha256": "b61e82948c084749352a14bb78d7684bd467357d9ddf697f4afa7321ee939108",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "baseline-adjudicated/test_security.py",
+      "sha256": "aed9bdfe8968802476f46fb1fe7e39f4b4d721200c3f99eed84a6d1647c6d354",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "baseline-original/test_load.py",
+      "sha256": "68b225f56367f94fcfdea67694dfa421d674b8f8b64523d99c32825a755bdaaa",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "baseline-adjudicated/test_load.py",
+      "sha256": "68b225f56367f94fcfdea67694dfa421d674b8f8b64523d99c32825a755bdaaa",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/conftest.py",
+      "sha256": "84b54691843786263df9dfb3ddeab67b394545c705a8816eafec4cb8ce2e8f77",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/planning_oracle.py",
+      "sha256": "2fb53965f0f7ec555cc57239ce986bcbf75d4a22f05831891fb5c09673a7a416",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/selfcheck_oracle.py",
+      "sha256": "42c3e92ebe1466a64278bfb2d3377e9e0633808d8b29076d1c25bf898b8e62b9",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/test_advanced.py",
+      "sha256": "0d5ef73ae9eed5d3c6e9bc4cad40697a08aa969bc431e2b7b520105d5d6bf1a4",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/test_audit30.py",
+      "sha256": "197297df10bc6897d6e6b5fc773c85a74613270ed27c13f13a6049f98102c16b",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/test_auth_contract.py",
+      "sha256": "c99d3c1c58222207f0751317f974b24e234ef4b3b61ffccccf7da03259b01cd5",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/test_boundaries.py",
+      "sha256": "aa927b28ce28ee73cc878def5a179ba9de2ff9ab5af8c5074eb4ce4683dc4388",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/test_compact_pairs.py",
+      "sha256": "ff3eef678ba05c9d89c0a4ba467c8cac17676a9a0bd5e765b932db97a3446fa2",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/test_json_responses.py",
+      "sha256": "9e7d2fa0730f7294c87b017b06efea99a4c6e99b81caf37dab65451f62faf6c1",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/test_protocol_resources.py",
+      "sha256": "bcb3bbb10696da919a0620052b4a416c5375c6491c6f2de1926c82b0e126c6ca",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/test_stage4_load.py",
+      "sha256": "34c6a71addc475750a56f5fecbb6a449b228875635dafe75b1c6b4cca594b72f",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/test_stage4_numeric.py",
+      "sha256": "b963705f30cfaef2f661810c5cff6c054284eda39e64859cba6a01976006958c",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/test_stage4_ui.py",
+      "sha256": "3002c5db676279b5b28659036eaaced1824c2641d8d8af343c4c43875056f587",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/test_stage4_ui_lost.py",
+      "sha256": "5e72810eb333b6f09eb6dadd7eee85a6ccf40c47b9a9ecef454052ee508c3a7a",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/test_upgrade_contract.py",
+      "sha256": "d8289e44632672fb6426939bff1ee42d1fcf0ffcf5e2c841e26504d62947764d",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "mandates/builder.md",
+      "sha256": "7d3db54ef67bece4fd21fcf4ce68ab29b4884a50a6cd39e87b3bfba872a0cb42",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "mandates/coordinator.md",
+      "sha256": "e0b58ec3e0dd272fa0aab31e351b4d29313d8b3667fcae1f8f680dce71b26820",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "mandates/verifier.md",
+      "sha256": "c17a14edca5a8e89dc077b6f39bf32df1542c90cdfbb969137a63a726e6c3063",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "numeric-original/test_numeric_lifetime.py",
+      "sha256": "00bcd60bf8d3f5ab36f5b0a2ae4e5b532f81f2137e0c94e3c1001b1c6e1ed4c2",
+      "original_and_copy_match": true
+    }
+  ],
+  "all_attempt_manifests_verified": true,
+  "command_duration_sum_s": 675.2314656646922,
+  "execution_window_start": "2026-10-05T14:54:20.965722+00:00",
+  "execution_window_end": "2026-10-05T15:05:41.431200+00:00",
+  "execution_window_elapsed_s": 680.465478,
+  "actual_tokens": null,
+  "actual_billing_usd": null,
+  "count_limits": "HTTP metrics count instrumented pytest httpx including setup and repeats; exclude raw sockets, standalone producer/deployment clients, source injections and unchanged official harness. Uninstrumented HTTP totals are unknown.",
+  "format_correction": "D117 stopped_dripping_after_s is the planned upper limit; actual EOF/send-stop observations are in recorded events. Source operation names and fault-point types are separate fields."
+}

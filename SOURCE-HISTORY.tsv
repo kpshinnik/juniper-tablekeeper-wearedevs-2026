@@ -1,0 +1,188 @@
+commit	author	committer	authored_at	subject
+76a3954ea6ecf9beb9612144f30395482586025c	Coordinator	Coordinator	2026-10-05T13:30:37+07:00	Record factory requirements, ownership and acceptance gates
+89582510069e984f446060d797e138f4a3bf08f9	Builder	Builder	2026-10-05T13:37:15+07:00	Implement fresh Stage 1 transactional reservation service
+4f9d3a2d69d5d57d1afccb706eba70cd8040c22c	Verifier	Verifier	2026-10-05T13:42:43+07:00	Prepare independent frozen QA, coverage matrix and immutable evidence tooling
+cc856e98bf6abcc53231bab00d263c31f0b02a8a	Builder	Builder	2026-10-05T13:43:44+07:00	Document Stage 1 and pending sequential delivery
+911afbce4c1a02f9409ef4a32553f5c9ca38ca6d	Verifier	Verifier	2026-10-05T13:47:32+07:00	Add independent publication faults and evidence summaries
+0b79cfbc701552fcdf7d1bbda3a489b70c65ad64	Verifier	Verifier	2026-10-05T13:52:36+07:00	Add producer removal and reset-type regressions
+d0bcd06bf18a8271de1c8ac519c9d5e4980b0dec	Verifier	Verifier	2026-10-05T13:55:18+07:00	Add checksum-valid snapshot semantic corruption checks
+e5e6305a96b92057324ff8ac5a62afce84651669	Builder	Builder	2026-10-05T13:58:27+07:00	Repair absolute input deadlines, DST boundaries, reset types and exact snapshot portability
+5ab311d1689dd857f8a2ebca0b90b54d2662c535	Verifier	Verifier	2026-10-05T13:59:39+07:00	Record reset nonmutation and actual slow-stream closure observations
+7d7643857eeac6396467a791d93b0fa7c43b8fa2	Builder	Builder	2026-10-05T14:04:23+07:00	Validate imported original receipts against request and reservation semantics
+b996be0e8f30facd9bab1e14dc6627b48ca993d8	Verifier	Verifier	2026-10-05T14:05:32+07:00	Reject Stage 1 exact revision with immutable execution evidence and five defect families
+e5daf35b0381457f7d724b20c8486d6a85dc267f	Verifier	Verifier	2026-10-05T14:09:34+07:00	Add explicit opaque string snapshot QA adapter preserving original checks
+379d59671984f50833cf4f8f50dc68b459c90f4c	Verifier	Verifier	2026-10-05T14:10:43+07:00	Preserve exact string bytes when validating QA snapshot adapter control
+b8774fd657be2a8109297e9e3319e132e238ded1	Coordinator	Coordinator	2026-10-05T14:12:19+07:00	Preserve initial review failures and input provenance
+ee35d61eef9edd343190c4bff26fb06680c58047	Verifier	Verifier	2026-10-05T14:12:44+07:00	Track exact producer and destination revisions in upgrade integration runner
+6b7947aad3695c3ae46f86625c95287de43eb512	Verifier	Verifier	2026-10-05T14:14:57+07:00	Preserve superseded repair review and unresolved receipt counterexamples
+45d739d5e96ebcc93428704c6e2d2971b1e32fc2	Verifier	Verifier	2026-10-05T14:19:49+07:00	Verify real response loss and historical receipts across identical cross-path key reuse
+1d82e27809d0d6d3bd4ac4489b7c7a998ea78c46	Verifier	Verifier	2026-10-05T14:22:27+07:00	Exercise valid pipelining and checksum-valid account token identity occupancy corruption
+74c58bb42dafd7199b75fd0b310af094d2f8a771	Verifier	Verifier	2026-10-05T14:24:03+07:00	Capture case-level timing and hashes in an additional unchanged official test execution
+58f265883631309d2a164bb47cd5cc61edf7c1ac	Verifier	Verifier	2026-10-05T14:25:14+07:00	Verify default and custom PORT from separate offline-network clients
+2ea6862c750d079c1b9c77371c5122134df73009	Verifier	Verifier	2026-10-05T14:28:41+07:00	Cover local calendar extrema with valid fixed-offset IANA zones
+15d1f178b387e744bf919b6e8bb77fff2b5aeb23	Builder	Builder	2026-10-05T14:37:27+07:00	Preserve valid local calendar extrema with exact instant arithmetic
+bd41c845b127c2c478c0f172d2361648d52e3a4a	Verifier	Verifier	2026-10-05T14:39:07+07:00	Verifier: reject Stage 1 7d76438 with reconciled evidence and calendar counterexample
+153f21be0e52d0b5d092dc8789a711b9658f1ff9	Coordinator	Coordinator	2026-10-05T14:40:21+07:00	Reconcile calendar counterexample and clarify actual fault injection counts
+d33ab2f576705c6b657ca0c46ad79ca83aa8b520	Verifier	Verifier	2026-10-05T14:43:48+07:00	Verifier: clarify injected operations versus fault-point types without changing historical evidence
+747539d8ef435e7f50905e5855936cd405efebef	Verifier	Verifier	2026-10-05T14:46:51+07:00	Verifier: extend offset calendar lifetime and prepare independent 15d1f17 checkout
+f92d29477f962b9e6212cad8642a5d793589de7f	Coordinator	Coordinator	2026-10-05T14:50:29+07:00	Preserve review integrity and real room handoff recovery
+a25ac1b667c0d22644fa6e35c450266f4e139522	Verifier	Verifier	2026-10-05T14:52:37+07:00	Verifier: check historical RFC3339 instants and preserve candidate reconciliation tooling
+63c7d91ce5a7922115c53fe022ab8479f8af3464	Verifier	Verifier	2026-10-05T14:57:32+07:00	Verifier: reconcile six repairs and reject 15d1f17 historical timestamp format with full evidence
+fd843b83db16ec8585d66af7ac0d6fac89aae82c	Builder	Builder	2026-10-05T15:00:29+07:00	Serialize historical IANA instants as exact RFC3339 timestamps
+1f4bb6e7fef584355c1a69a71b6aca201d5b1d9e	Verifier	Verifier	2026-10-05T15:01:42+07:00	Verifier: guard exact historical instants at local calendar limits
+553828478d930d73b5ca6b18b2df6f87328c7cc8	Coordinator	Coordinator	2026-10-05T15:03:53+07:00	Record historical timestamp rejection and native export observation limits
+f80f7db0e5eeed0282ba221f00b6d79688a71b6d	Verifier	Verifier	2026-10-05T15:07:55+07:00	qa: add real historical producer removal and exact timestamp checks
+466ca92c6838d8c954fa91e431bccc6748006a04	Verifier	Verifier	2026-10-05T15:11:58+07:00	qa: independently check second-offset formatting at both calendar bounds
+b5578cdd018398bde579322a78a161add719de4c	Verifier	Verifier	2026-10-05T15:15:30+07:00	qa: accept exact Stage1 fd843b8 with seven regressions and immutable evidence
+0fde6cc725d472cd0c9db36fa2969a6ecb747654	Coordinator	Coordinator	2026-10-05T15:19:12+07:00	Accept exact Stage1 revision and authorize sequential Stage2 handoff
+8c1dc041edaed960a223e34a55280a0b620f5a0f	Coordinator	Coordinator	2026-10-05T15:25:58+07:00	Document actual Stage1 factory recovery and complete Stage2 room handoffs
+4b0cebb0b6602f763e065d6cf928872b8abe4c78	Verifier	Verifier	2026-10-05T15:31:41+07:00	qa: prepare independent Stage2 pair and browser qualification
+37186e8473421ebe72e47e6f957225cda85606cc	Verifier	Verifier	2026-10-05T15:33:03+07:00	qa: select cached Playwright runner and distinguish Stage2 applicability
+891b952911d0fe0bc167be58ad370bf89a63ca38	Verifier	Verifier	2026-10-05T15:34:48+07:00	qa: observe original full JSON parse separately from HTTP receive
+9ba2d65dae97f0cc848be90be47008b77101ac42	Verifier	Verifier	2026-10-05T15:38:27+07:00	qa: bind Stage2 preparation matrix and old-client transfer coverage
+b3f08f37e1f5c60c14337a4e532f833a7cc02151	Verifier	Verifier	2026-10-05T15:39:57+07:00	qa: preserve final Stage2 collection and frozen integrity evidence
+5c1f910e58b6c5a6f73c2847bcc4e53cae91212a	Coordinator	Coordinator	2026-10-05T15:46:02+07:00	Clarify later-stage counter and migration acceptance criteria
+ec0e0bacbc4512dbf6ea431ede720621ab8ec05c	Builder	Builder	2026-10-05T15:47:55+07:00	Build Stage 2 browser booking and exact combined-table reservations
+89c769a5ce3ca16a2bd3c2ead4e0e088d4556043	Builder	Builder	2026-10-05T15:55:18+07:00	Document accepted Stage 1 and reviewable Stage 2 product
+705e187ea0a6966d16d64aa103dd4f97ff2e9588	Builder	Builder	2026-10-05T16:02:26+07:00	Refine Stage 2 feedback panels and preserve fresh browser checks
+203405583c120f0c37f30027ae07ae61e8d2b7f6	Builder	Builder	2026-10-05T16:04:00+07:00	Record refined Stage 2 review revision in product guides
+a96b13048d19a5d93d75bb6c51ee100e44a2d8fd	Builder	Builder	2026-10-05T16:05:51+07:00	Make booking refusal text accurate in every layout
+b52684aed2825d3cd22b307b7404b8dcd6bf1cfe	Verifier	Verifier	2026-10-05T16:06:26+07:00	Preserve partial Stage2 705e187 run after replacement notice
+47f70aa2e61c6f91f4547a352f49a27e1ab26e77	Builder	Builder	2026-10-05T16:07:22+07:00	Preserve browser evidence for corrected refusal wording
+4c0aa97ab08ac5caeb31b7e3d55028f0a5825ff1	Verifier	Verifier	2026-10-05T16:09:48+07:00	Generalize exact revision evidence inventory for Stage2 gate
+3d34a95290be1219d86a8405387b23b44ebd1f5c	Coordinator	Coordinator	2026-10-05T16:13:28+07:00	Record Stage 2 mobile counterexample and native export limit
+4b994dfbbc14a6991350405603b6a259fe29e70a	Verifier	Verifier	2026-10-05T16:14:01+07:00	Use distinct import namespaces for unchanged multi-stage official cases
+d8941d7e630c9f2787623d1222f647d49b40ae91	Builder	Builder	2026-10-05T16:14:43+07:00	Keep long literal restaurant labels inside mobile layouts
+3fd3662aa767f45ed9ea6da9086ea75e07cd4187	Verifier	Verifier	2026-10-05T16:15:44+07:00	Supply real preceding service for detailed official upgrade checks
+7ae7e47f4f75e5985f619a4671db2f3be8c8fcce	Verifier	Verifier	2026-10-05T16:17:50+07:00	Cover legacy ignored selector receipts after actual producer removal
+e347091eb5d31dc28c0c3c309d1505a9a6af7d91	Verifier	Verifier	2026-10-05T16:18:25+07:00	Label actual legacy table selection separately from ignored field
+391ee44ba1ddb62c5f962bf50358d361f68d799c	Verifier	Verifier	2026-10-05T16:19:30+07:00	Bind standalone evidence sources to recorded QA revisions
+c11a9ad2198083b3f16b512700f2d078c1281913	Coordinator	Coordinator	2026-10-05T16:25:34+07:00	Document observed Stage 2 recovery and exact numeric evidence
+06653fae61e2c505ac3a9eb863e24982a675dcee	Verifier	Verifier	2026-10-05T16:29:03+07:00	Verify Stage2 a96b130 and reject mobile literal-label overflow
+8fd29e2ea8737f87b9ec47608890c868788aa0eb	Coordinator	Coordinator	2026-10-05T16:30:42+07:00	Reconcile Stage 2 rejection and record attributed provisional usage
+55cc5709bc135b954eb09701e5194d469619d09d	Builder	Builder	2026-10-05T16:33:50+07:00	Distinguish rejected Stage 2 evidence from pending layout repair
+3e97bde5e9f203380706c111f7b88137ce9a2a6b	Verifier	Verifier	2026-10-05T16:38:48+07:00	Extend independent literal-label checks through booking lifetime
+c3b96ae79bd3ecb0b6cb4112d64e8ba6c2fe2a96	Coordinator	Coordinator	2026-10-05T16:45:02+07:00	Audit exact Stage 2 repair checkout and independent evidence
+3fadcd24ccf507e14c0551ceebf5d9405f6e16a1	Verifier	Verifier	2026-10-05T16:45:04+07:00	Accept independently verified Stage2 repair d8941d7 with preserved evidence
+28beab7ee99f1e3583868174e9439af1083bf730	Coordinator	Coordinator	2026-10-05T16:48:08+07:00	Accept Stage 2 after independent exact revision reconciliation
+4dd6431dee73eba0ed222656a9fd25f1d0cdda0a	Builder	Builder	2026-10-05T16:48:47+07:00	Record independently accepted Stage 2 and exact evidence
+98ab4afeddd689fbb708547eadd6661773d44f43	Builder	Builder	2026-10-05T16:49:37+07:00	Record Coordinator Stage 2 advancement gate
+7e1f2cacadc258c4b0300e3f846ce745361c152a	Coordinator	Coordinator	2026-10-05T16:52:15+07:00	Record complete Stage 3 handoffs and measured factory milestones
+14ba7b01a69d65427577b401909ce2e4676fbff1	Verifier	Verifier	2026-10-05T17:11:08+07:00	Prepare independent Stage3 policy history series and migration coverage
+0c0a3867fc38fff0824ec2f887a135a2965bb60f	Builder	Builder	2026-10-05T17:15:28+07:00	Implement Stage 3 dated policies, authentic history and recurring agreements
+50039d06517689800f24526c51a4cd8eb8e38b6a	Verifier	Verifier	2026-10-05T17:15:48+07:00	Add real browser arbitrary-integer input boundary investigation
+6f449325c4ced6a2c0ff6e7563a4b2ddb338fca2	Verifier	Verifier	2026-10-05T17:20:35+07:00	Reopen Stage2 on real browser exact integer input counterexample
+0352b6d70fddd96243f347a3b0ac8d1f320c21cd	Coordinator	Coordinator	2026-10-05T17:23:38+07:00	Reopen Stage2 gate on exact browser boundary and document Stage3 journal
+e955ab7bd49762c8da4e1c7f24639f303702ebea	Builder	Builder	2026-10-05T17:25:13+07:00	Prepare local presentation, recording storyboard and Stage 3 revision guides
+64009dbea72104160a9d198cee22b438fb84fb79	Builder	Builder	2026-10-05T17:27:50+07:00	Simplify presentation headings and preserve sentence-case labels
+88a38d83c6b3d3926483f94b1dbd2b59edda6b0e	Verifier	Verifier	2026-10-05T17:32:03+07:00	qa: bind Stage3 counter and semantic import obligations
+a534f9c095d6fd75df21c313265f44bc3e3e363c	Verifier	Verifier	2026-10-05T17:33:20+07:00	qa: synchronize login redirect without competing navigation
+f05abdd6a1c3d146f6046f40d0b9e5be1afce578	Verifier	Verifier	2026-10-05T17:35:45+07:00	qa: retain and classify observed Stage3 login runner race
+4ce774e20387689a73a5f330e3525b4b05c23923	Verifier	Verifier	2026-10-05T17:37:30+07:00	qa: verify authentic historical projections after Stage3 migration
+63cf798cf60baf3134a64e4db599c92d81561e3e	Builder	Builder	2026-10-05T17:41:29+07:00	Repair uncapped browser integer entry and preserve boundary evidence
+c838709d5522fbe79908897255d3524c0b2d0f08	Verifier	Verifier	2026-10-05T17:43:17+07:00	qa: reject Stage3 0c0a386 with complete exact-revision evidence
+5a4b5d20707607c5c23f3669aeaa6f21bc9bb46e	Coordinator	Coordinator	2026-10-05T17:46:21+07:00	Reconcile initial Stage3 rejection and Stage2-first repair sequence
+6740bbb23d7caad4f5bfcadaf558e20ae0818826	Builder	Builder	2026-10-05T17:48:49+07:00	Document Stage3 rejection and current Stage2 repair target
+a1895b753b83f8eca864f5c8320e81043729b381	Verifier	Verifier	2026-10-05T17:49:16+07:00	qa: add exact-party geometry lifetime definitions
+096c598bb9affe4df73ec4df773b0a4082aee960	Verifier	Verifier	2026-10-05T17:50:15+07:00	qa: preserve intermediate geometry provenance and collected cases
+d323cf6fd8a61b4fce68f7abf4a88848643c283a	Coordinator	Coordinator	2026-10-05T17:52:29+07:00	Preserve complete same-SHA handoff recovery and native delivery manifest
+1980eff20b6cf18ec56b65db6f231d4f6e57c911	Verifier	Verifier	2026-10-05T17:59:55+07:00	qa: check decimal entry rejection and keyboard recovery
+1645ce126736b6f40c0ac3ae4a2e0ea10ae7e9a9	Verifier	Verifier	2026-10-05T18:07:11+07:00	evidence: accept exact Stage2 repair63cf798 with full independent gate
+89d24c47efe7f3d19c7df01832c9650a7b625b88	Coordinator	Coordinator	2026-10-05T18:09:28+07:00	Accept renewed Stage2 exact63cf798 and authorize Stage3 correction gate
+5534f656a130f2b7e225b926a3ef1c45413cc209	Coordinator	Coordinator	2026-10-05T18:11:30+07:00	Record complete Stage3 correction continuation and twelve native deliveries
+b59e31b42495968ceda2bffab1c02415eaff3bb6	Verifier	Verifier	2026-10-05T18:12:05+07:00	qa: bind Stage3 correction coverage to renewed Stage2 gate
+ddb4678cb57662795145803238dfd64dceee1bda	Coordinator	Coordinator	2026-10-05T18:15:31+07:00	Record assembled continuation and observed limits of usage telemetry
+4ce583cca13a033dd2f548ca982deec7200f8ad6	Builder	Builder	2026-10-05T18:16:32+07:00	Carry accepted exact guest entry into Stage 3
+11a00159530241c27803269fe253d34ffdd16534	Builder	Builder	2026-10-05T18:19:25+07:00	Record renewed Stage 2 gate and Stage 3 repair review
+23ff010064a5bde7443da344d2a4af92dbea3242	Builder	Builder	2026-10-05T18:25:29+07:00	Mirror delayed Stage 3 review parts with native identities
+1d3e21e717ccee29697770ac7d38a658adee9d57	Coordinator	Coordinator	2026-10-05T18:27:01+07:00	Track corrected Stage3 candidate and final export readiness
+4db2742eca07f941e6a03f92c97c3d93c380619f	Verifier	Verifier	2026-10-05T18:40:40+07:00	qa: accept repaired Stage3 4ce583c after complete exact-SHA qualification
+f2bfa8297f77353675c2942fb765b18113b35266	Coordinator	Coordinator	2026-10-05T18:43:32+07:00	Accept corrected Stage3 and open complete Stage4 handoff
+9af923b4ea2c7d0332b40a285fe0f33bb2c76320	Coordinator	Coordinator	2026-10-05T18:45:27+07:00	Preserve seven-part Stage4 handoff and fourteen native deliveries
+352f408da5d7d7cb5a6cdfc14cbeb36618c2a357	Builder	Builder	2026-10-05T18:45:57+07:00	Record exact Stage 3 independent acceptance and preserved evidence
+4c359847bb34c713ddcf6628b4c9ea70276a61b0	Coordinator	Coordinator	2026-10-05T18:49:26+07:00	Clarify factory recovery narrative and native export boundary
+be5cb0d98ef3788e99beed6ce8b8f55a1ca61e69	Coordinator	Coordinator	2026-10-05T18:52:25+07:00	Record Stage4 assembly and concrete product guide correction
+b68b1a9f6a14fbf4193db353b0f5b76e14166260	Coordinator	Coordinator	2026-10-05T18:56:09+07:00	Record unchanged usage telemetry after Stage3 acceptance
+d1ca71885d91204242cd4392c1074a641558f6e8	Verifier	Verifier	2026-10-05T19:07:34+07:00	qa: prepare complete Stage4 qualification and exact objective regressions
+ab210a046bb1498da67caad853c009a290fa5c66	Coordinator	Coordinator	2026-10-05T19:11:36+07:00	Record Stage4 prepared coverage separately from application execution
+70969369666d569bc9a1ddbbcb1a0564c71cf9d4	Coordinator	Coordinator	2026-10-05T19:16:49+07:00	Document Stage4 closure state and exact planning architecture
+e538cd16bbd96d4206d89f17a67791e759c00823	Builder	Builder	2026-10-05T19:21:12+07:00	Implement Stage4 exact closure plans and recurring amendments
+86f45d5999fb374a732a499f3af623ca10e5fb5d	Coordinator	Coordinator	2026-10-05T19:24:20+07:00	Audit first Stage4 candidate and complete exact-SHA review handoff
+0581d261617556c4f7894f446f6067a38e2c857a	Builder	Builder	2026-10-05T19:24:20+07:00	Record Stage4 exact candidate and complete native review handoff
+034e11f632cf12e518a62b16bf774b856c5ea52a	Coordinator	Coordinator	2026-10-05T19:26:16+07:00	Track exact Stage4 qualification and JSON carrier collision investigation
+369a3447ae6df6e0a38c9584de8cc766050f1612	Coordinator	Coordinator	2026-10-05T19:29:37+07:00	Preserve Stage4 QA route failure pending direct corrected execution
+18ac61fa5c74bfc2692eb1ca89669af0f939c1ca	Verifier	Verifier	2026-10-05T19:33:53+07:00	Bind explicit Stage4 snapshot adapters and preserve original QA failures
+44a33b5667230f574320b85d94b3a1083553b89e	Verifier	Verifier	2026-10-05T19:36:58+07:00	Retain D121 wrapper selector failures and add explicit alias binding
+b5789681e936da25039849cb7c9067872c733826	Coordinator	Coordinator	2026-10-05T19:38:05+07:00	Reconcile D404 route correction with direct exact-product PASS
+9523c3ed97f69262d4911c28760b21525fff1758	Verifier	Verifier	2026-10-05T19:39:52+07:00	Derive unavailable pair-cell reproduction from inherited Stage2 contract
+850a16367801adefe0fbcde9fc7d0edf098bc7a9	Verifier	Verifier	2026-10-05T19:42:27+07:00	Record unavailable pair-cell counterexample on exact Stage2 Stage3 Stage4 revisions
+241aa20733e0659bd05222890972704ff8e39668	Coordinator	Coordinator	2026-10-05T19:42:52+07:00	Record unavailable pair-cell finding and cumulative applicability investigation
+1fcbd4b05578396b4a5930f5d28f48cd88d1c4f9	Builder	Builder	2026-10-05T19:43:26+07:00	Consolidate current guides and preserve stage review history
+010186b87ba2b193f0bf1804c77906bcb1270eb4	Verifier	Verifier	2026-10-05T19:44:00+07:00	Preserve partial source injection run and adapt small prepared responses
+e20333523f8fd976aaa4fa915a279a0ab32282c4	Verifier	Verifier	2026-10-05T19:46:35+07:00	Index full isolated harness counts and adjudicate unchanged packaging scan
+fce8cfcf98e7f017f31e53d04907411759200440	Verifier	Verifier	2026-10-05T19:52:03+07:00	Reject exact Stage4 e538 after full cumulative execution; preserve all failures and hashes
+71db79bfd5af5a8b6048f5c071c7b60b10e9773c	Coordinator	Coordinator	2026-10-05T19:52:03+07:00	Reopen Stage2 and Stage3 on exact pair-cell evidence and assign ordered repair
+5f708700277a1377f4862eebaeae1bfd71685508	Coordinator	Coordinator	2026-10-05T19:54:43+07:00	Reconcile rejected Stage4 review and audit immutable evidence
+76e4dbf0fc901ac18c40a17180dacd28eb3d062b	Coordinator	Coordinator	2026-10-05T19:58:18+07:00	Preserve third native export observer timeout and surface limitation
+a23c460615bc261d5fe41af6f061cf9d1a025d27	Coordinator	Coordinator	2026-10-05T19:59:16+07:00	Update factory narrative to the actual Stage4 decision and ordered recovery
+47f1ed4bae8b480cc9032522cd2fb022fc8521e5	Verifier	Verifier	2026-10-05T20:00:42+07:00	qa: add bounded Stage4 exact JSON carrier collision investigation
+4b2236fb6576b636d168b2cacf1a5d91921cf582	Builder	Builder	2026-10-05T20:06:13+07:00	Hide unavailable combined-table choices in Stage 2
+0577b6d063656e52860b86f92cabd401b6e9aba0	Verifier	Verifier	2026-10-05T20:07:04+07:00	qa: preserve 19 Stage4 exact JSON collision results and raw codec failures
+d03b038167e70cf4c7e27cde75b03425c40c0270	Coordinator	Coordinator	2026-10-05T20:08:27+07:00	Reconcile bounded carrier investigation with original QA failures preserved
+b13ffb00f52294bde3e785cd1a1fb6bcb45a2d1f	Verifier	Verifier	2026-10-05T20:09:41+07:00	qa: strengthen single D404 route reconciliation state assertions
+317faad64b31559ed9e17d83d1005b2324603e35	Builder	Builder	2026-10-05T20:10:07+07:00	Align guides with reopened browser gates and Stage 2 pair repair
+f277f95ea3dca7784a4ad142648f3deb6f47c094	Coordinator	Coordinator	2026-10-05T20:10:51+07:00	Audit scoped Stage2 repair candidate and record shared-index recovery
+6c327080e344e9ec49df79075998f6aea6d8b72e	Verifier	Verifier	2026-10-05T20:11:30+07:00	qa: reconcile D404 route failure with preserved and focused execution
+63437ada658bceb8df5e4bc13974e3ef308216d4	Builder	Builder	2026-10-05T20:12:04+07:00	Preserve complete Stage 2 pair repair review delivery
+9dbf62f1550148b64e17f0be5762524be4176e96	Coordinator	Coordinator	2026-10-05T20:14:54+07:00	Bind complete Stage2 repair handoff and renewed review plan
+b22d2d4a7578987223409074e67f68779e6f8696	Verifier	Verifier	2026-10-05T20:15:59+07:00	qa: derive complementary Stage2 pair repair browser cases
+3720e935e30a304cefe630784a30f7b5774d8041	Builder	Builder	2026-10-05T20:17:09+07:00	Record complete Stage 4 rejection and delivery findings
+7cfdb85b7cfcabf5fff6fd24df889b26daae042c	Builder	Builder	2026-10-05T20:21:24+07:00	Record bounded encoding addendum separately from full Stage 4 review
+92dc4c42b8f562d1548f4e36a53437a28f151a3f	Verifier	Verifier	2026-10-05T20:30:47+07:00	Verify Stage2 pair-cell repair 4b2236f with complete renewed ACCEPT evidence
+afebecdc25994a13c974db6582cfbda396ad479f	Verifier	Verifier	2026-10-05T20:32:26+07:00	Preserve complete Stage2 decision native deliveries and authored mirror
+b0e69e22fa1fd30e89516e09b0fecac45b74a2eb	Coordinator	Coordinator	2026-10-05T20:34:44+07:00	Accept exact Stage2 pair repair after complete independent renewed qualification
+f363437899b85f805916c51b61e06ebd7539bfce	Coordinator	Coordinator	2026-10-05T20:35:25+07:00	Correct ledger title and exact renewed transfer row placement
+94df03f38690a8b2a72810b4df16d5f64c972a71	Builder	Builder	2026-10-05T20:37:11+07:00	Record independent Stage 2 pair repair acceptance and decision assembly
+cda454a1381db405da5665d5903f7fc6d627c021	Coordinator	Coordinator	2026-10-05T20:37:28+07:00	Preserve full Stage3 pair repair continuation and twelve native deliveries
+34f5147f2b33be340f2e098fd79e1c04778aa3ec	Coordinator	Coordinator	2026-10-05T20:42:35+07:00	Record updated native room usage with billing and completeness limits
+66d360a98f2c8ef84ff21037d7fb02575dac6750	Verifier	Verifier	2026-10-05T20:45:43+07:00	Prepare cumulative Stage3 pair-repair qualification after renewed gate
+301caf55085280f12197e393ab6b4735ef4046c3	Builder	Builder	2026-10-05T20:49:09+07:00	fix(stage3): carry accepted available-only pair choices forward
+7546bebd2b26c91d7d866eb9d13bfdd079628911	Coordinator	Coordinator	2026-10-05T20:50:22+07:00	Audit Stage3 pair repair candidate ownership and accepted browser copy
+daefe887b45895af5a001d589d072c8e345678f5	Builder	Builder	2026-10-05T20:53:28+07:00	docs: record Stage3 pair repair and renewed Stage2 gate
+6a55692a9a8bd3ee5fb74ded9bf89ab2987722cd	Coordinator	Coordinator	2026-10-05T20:54:31+07:00	Keep Stage3 candidate and factory status current during independent review
+29def4cbcefbeb6b7bb20abb2d0dfc3f18a8091a	Builder	Builder	2026-10-05T20:56:25+07:00	docs: preserve complete Stage3 pair-repair native review handoff
+4f8c6b340b30971ba8b0bb932c31d1d10ded8489	Coordinator	Coordinator	2026-10-05T20:59:36+07:00	Record recovered native room observation and unresolved fourth export attempt
+fb5e252d054149fee9e388c4003e40e2b539b425	Coordinator	Coordinator	2026-10-05T21:00:46+07:00	Verify full six-part Stage3 candidate handoff and recipient assembly
+3f0bfacddf273777b638fc42f33af7204787eeac	Coordinator	Coordinator	2026-10-05T21:02:22+07:00	Document exact qualification commands and product evidence delivery revisions
+481a28fc6aa63d571d57337ea7d03a5bdcf66e6f	Builder	Builder	2026-10-05T21:07:35+07:00	docs: clarify response formats and observed room evidence
+f31cf3ab27938453c42b4d495ec54953c990153a	Verifier	Verifier	2026-10-05T21:11:22+07:00	Accept renewed Stage3 exact301caf with complete independent evidence
+5a8a45710557fb1720f3a1f7d023d7f288a811a5	Verifier	Verifier	2026-10-05T21:17:08+07:00	qa: preserve complete native Stage3 acceptance handoff
+bb074e20002ff1b2bc19e298757dc16ada9f8f7c	Builder	Builder	2026-10-05T21:21:51+07:00	docs: record renewed independent Stage 3 acceptance
+63617e70f29f564ddb490f48fa83e49d737bb4ee	Coordinator	Coordinator	2026-10-05T21:22:25+07:00	Accept renewed Stage3 exact301caf and authorize scoped Stage4 continuation
+8c4fde16e26590961cc23c0e7fd7f8e72418b0d7	Coordinator	Coordinator	2026-10-05T21:24:08+07:00	Preserve complete Stage4 repair continuation and fourteen native deliveries
+c3d1d3ae3ecd2287916e62aa85de4aecf66ee3ee	Verifier	Verifier	2026-10-05T21:30:00+07:00	qa: prepare renewed Stage4 full-contract qualification
+25ade1c7add9a5701a511e07f79a619a3cb21b51	Builder	Builder	2026-10-05T21:35:33+07:00	fix(stage4): omit unavailable pair choices with accepted browser
+916faea33200175a97c636d0b508bc7e2de575cc	Coordinator	Coordinator	2026-10-05T21:38:40+07:00	Audit scoped Stage4 candidate and preservation of accepted earlier contexts
+4b785a2d53a507e552e0e71dc3614f3ef7de7a11	Coordinator	Coordinator	2026-10-05T21:41:06+07:00	Record new Stage4 candidate without carrying forward rejected results
+28b01e4f477b5e3f12a37055f446028029df6e29	Builder	Builder	2026-10-05T21:41:48+07:00	docs: bind renewed Stage4 repair to current gates and local evidence
+bf59ed5bf6d4d288849c8fc9160f6e291c91d600	Verifier	Verifier	2026-10-05T21:44:32+07:00	qa: index fresh-room evidence history and raw dispositions
+6776c719612dfb04bca048164bea174dd0274167	Builder	Builder	2026-10-05T21:46:21+07:00	docs: retain full seven-part Stage4 repair review and native delivery
+e0b67afeac133c48be4cabbdb6012442b6be3fc4	Builder	Builder	2026-10-05T21:50:29+07:00	docs: explain submission-time status in immutable stage records
+a201a8c56db680496213e78f2cd002adf3459162	Verifier	Verifier	2026-10-05T21:53:59+07:00	qa: bind full Stage4 candidate handoff and immutable qualification plan
+1c1dc6ac892f1b5467f59e953b47f2dfe19ced7d	Coordinator	Coordinator	2026-10-05T21:56:34+07:00	docs: bind renewed Stage4 handoff assembly and active review
+b37c9dc7bde1d4512bd5707697fdd36a9babadf9	Coordinator	Coordinator	2026-10-05T21:57:59+07:00	docs: verify unchanged inputs and record bilingual guide review
+7336a3e4f27c1e75e51a9309c4db8033719b57b0	Verifier	Verifier	2026-10-05T22:02:09+07:00	qa: bind observed Stage4 selector reconciliations and exact evidence audit
+5a8129e08d540919f9a29987b1a1ffb2e276515f	Verifier	Verifier	2026-10-05T22:07:11+07:00	qa: audit separate case descriptions without rewriting raw results
+62911902f6c3b057c4b0c065d1f95215a7fcbf04	Coordinator	Coordinator	2026-10-05T22:11:07+07:00	docs: audit renewed Stage4 artifacts and preserve metadata reader correction
+96329db1347c0e8b555282e22a35785643020d04	Verifier	Verifier	2026-10-05T22:13:47+07:00	qa: accept exact Stage4 pair repair with full current and historical evidence
+c644ac75d40eed61bcc6441495452ccd3f2e9eb4	Coordinator	Coordinator	2026-10-05T22:13:50+07:00	docs: specify native full-room export dependency after local outcome
+7c5e5688d02d5e84c0092b49563bdb9e5d44320f	Coordinator	Coordinator	2026-10-05T22:16:35+07:00	docs: retain latest native room usage and observed telemetry lag
+c5ebe481d481db297ccfb5da13e2cbd5ead05d60	Verifier	Verifier	2026-10-05T22:18:23+07:00	qa: deliver complete renewed Stage4 decision natively
+b14bf53affb8f7756228096632162f5c70d755ad	Verifier	Verifier	2026-10-05T22:20:38+07:00	qa: preserve final package checker streams and raw finding adjudication
+2fbc481f5922bc461ed886521f2b9fb51818a2ef	Builder	Builder	2026-10-05T22:21:45+07:00	docs: bind complete Stage4 independent decision assembly
+117db1a1e0e5d13510845961aaf348416e07e842	Verifier	Verifier	2026-10-05T22:24:27+07:00	qa: bind explicit Stage4 load latency and observed concurrency metrics
+693f9ec5d4c2df6353a15f002ffb601bf765d13a	Coordinator	Coordinator	2026-10-05T22:26:50+07:00	docs: reconcile final Stage4 product gate and full delivery continuation
+d26013fa4aa50c2fdb106d4bbe107c104b443ad1	Verifier	Verifier	2026-10-05T22:27:52+07:00	qa: record full final-delivery assembly and pin checker environment evidence
+6519dc61585edaa68a7c5e5ef8130fcb9e484ff5	Coordinator	Coordinator	2026-10-05T22:31:38+07:00	docs: consolidate factory reproduction and preserve exact gate chronology
+06d54e87f2892c512cb35b6ebdd52ebebf519ddb	Builder	Builder	2026-10-05T22:42:13+07:00	Finalize accepted Stage 4 guides and local delivery materials
+6c6b7979f0e7f9972d17ecc455aa6e53e87bcb72	Coordinator	Coordinator	2026-10-05T22:42:51+07:00	docs: verify final bilingual guides and preserve documentation failure

@@ -1,0 +1,7 @@
+{
+  "checked_at": "2026-10-05T15:48:28.912149+00:00",
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "ok \u2014 gates 1, 2 and the mandate part of gate 4 pass. Not checked here: gate 3 (stage-1/ builds and serves /health). Run: python -m harness run --track tablekeeper --repo deliverables/juniper-tablekeeper-release --stage 1 --mode isolated\n",
+  "scope": "Unchanged offline checker on actual operator public package; no new runtime executions"
+}

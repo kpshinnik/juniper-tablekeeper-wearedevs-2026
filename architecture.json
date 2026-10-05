@@ -1,0 +1,197 @@
+{
+  "kind": "layered",
+  "title": "Juniper Tablekeeper: stage progression and independent acceptance",
+  "layers": [
+    {
+      "id": "factory",
+      "title": "Factory seats",
+      "items": [
+        {
+          "id": "coordinator",
+          "label": "Coordinator",
+          "detail": "Requirements, ownership, gates and provenance"
+        },
+        {
+          "id": "builder",
+          "label": "Builder",
+          "detail": "Product implementation and commit"
+        },
+        {
+          "id": "verifier",
+          "label": "Verifier",
+          "detail": "Independent exact-revision execution and decision"
+        }
+      ]
+    },
+    {
+      "id": "product",
+      "title": "Independent service image per stage",
+      "items": [
+        {
+          "id": "browser",
+          "label": "Local diner browser",
+          "detail": "Stage 2 onward; stale search and response-loss recovery"
+        },
+        {
+          "id": "service",
+          "label": "HTTP service",
+          "detail": "Strict framing, exact JSON and authenticated atomic operations"
+        },
+        {
+          "id": "policies",
+          "label": "Policies and histories",
+          "detail": "Stage 3 immutable accepted terms and events"
+        },
+        {
+          "id": "series",
+          "label": "Recurring agreements",
+          "detail": "Stage 3 adoption; Stage 4 collective amendments"
+        },
+        {
+          "id": "planner",
+          "label": "Closure planner",
+          "detail": "Stage 4 exact moved-count, unused-seat and rank ordering; compact arithmetic, preview and atomic apply"
+        }
+      ]
+    },
+    {
+      "id": "state",
+      "title": "State and portability",
+      "items": [
+        {
+          "id": "transactions",
+          "label": "Atomic publication",
+          "detail": "Prepare validation, resulting state and receipt before commit"
+        },
+        {
+          "id": "snapshots",
+          "label": "Portable snapshots",
+          "detail": "Replacement import, old tokens and immutable original receipts"
+        },
+        {
+          "id": "journal",
+          "label": "Operation journal",
+          "detail": "Stages 3–4 recorded times and identities; replay validates each prior-stage baseline and later operations"
+        },
+        {
+          "id": "closures",
+          "label": "Applied closures",
+          "detail": "Stage 4 half-open intervals published atomically with seating assignments"
+        }
+      ]
+    },
+    {
+      "id": "qualification",
+      "title": "Independent qualification",
+      "items": [
+        {
+          "id": "qa",
+          "label": "Frozen and derived cases",
+          "detail": "216 distinct supplemental definitions plus full-contract checks"
+        },
+        {
+          "id": "official",
+          "label": "Unchanged official harness",
+          "detail": "Isolated clean-checkout exact-SHA stage and final runs"
+        },
+        {
+          "id": "evidence",
+          "label": "Immutable attempt evidence",
+          "detail": "Raw failures, hashes, metrics, revisions and native room export"
+        }
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "from": "coordinator",
+      "to": "builder",
+      "label": "Complete numbered task and spec"
+    },
+    {
+      "from": "builder",
+      "to": "verifier",
+      "label": "Committed full SHA and setup"
+    },
+    {
+      "from": "verifier",
+      "to": "coordinator",
+      "label": "ACCEPT or REJECT with evidence"
+    },
+    {
+      "from": "browser",
+      "to": "service",
+      "label": "HTTP and truthful retries"
+    },
+    {
+      "from": "service",
+      "to": "transactions",
+      "label": "Validate and prepare"
+    },
+    {
+      "from": "policies",
+      "to": "transactions",
+      "label": "Accepted terms and history"
+    },
+    {
+      "from": "series",
+      "to": "transactions",
+      "label": "Collective changes"
+    },
+    {
+      "from": "planner",
+      "to": "transactions",
+      "label": "Atomic plan apply"
+    },
+    {
+      "from": "transactions",
+      "to": "snapshots",
+      "label": "State with original receipts"
+    },
+    {
+      "from": "snapshots",
+      "to": "journal",
+      "label": "Validate recorded operation provenance"
+    },
+    {
+      "from": "journal",
+      "to": "transactions",
+      "label": "Reconstruct histories, terms and counters"
+    },
+    {
+      "from": "qa",
+      "to": "service",
+      "label": "Adversarial and browser checks"
+    },
+    {
+      "from": "official",
+      "to": "service",
+      "label": "Offline 2 CPU / 2 GiB"
+    },
+    {
+      "from": "qa",
+      "to": "evidence",
+      "label": "Case outcomes and hashes"
+    },
+    {
+      "from": "official",
+      "to": "evidence",
+      "label": "Unchanged reports"
+    },
+    {
+      "from": "transactions",
+      "to": "closures",
+      "label": "Publish closure with assignments"
+    },
+    {
+      "from": "closures",
+      "to": "service",
+      "label": "Availability and write conflicts"
+    },
+    {
+      "from": "closures",
+      "to": "snapshots",
+      "label": "Portable closure state"
+    }
+  ]
+}

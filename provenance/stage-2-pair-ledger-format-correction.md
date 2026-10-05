@@ -1,0 +1,3 @@
+# Additive ledger formatting correction
+
+After gate commit b0e69e22fa1fd30e89516e09b0fecac45b74a2eb, Coordinator immediately inspected acceptance.md. An over-escaped row-selection regex had replaced the document title with a transfer row while leaving the two old transfer rows unchanged. This correction restores the title and updates only the intended 1→2 and 2→2 cells using literal line matches. The original commit remains in history. The acceptance JSON, product bytes, evidence, gate decision, hashes and test results are unchanged; zero application requests were made by this formatting operation.

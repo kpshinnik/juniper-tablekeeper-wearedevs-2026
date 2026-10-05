@@ -1,0 +1,15 @@
+{
+  "product_sha": "e538cd16bbd96d4206d89f17a67791e759c00823",
+  "files": {
+    "reports/stage-4/ENCODING-COLLISION-PREPARATION-e538cd1.json": "e8919c253c5f8144fac2c2ca68c2e4cd968741c2ab26ea33cbf025018c18d9dc",
+    "reports/stage-4/ENCODING-COLLISION-QA-CORRECTION-e538cd1.json": "ad84037e3bc13411babb9a7130555188cbcca84c545eafb50f7474d2515beed1",
+    "reports/stage-4/ENCODING-COLLISION-e538cd1.json": "0544fc8913efcbec8c88690da66c16679f16499176f62e87e84054bb034a1415",
+    "reports/stage-4/ENCODING-COLLISION-e538cd1.md": "15fb515ae208d47ca8d2d731f5442687a1ab22ff736ccfa688ae8ed6fa52dba8",
+    "qa/catalog.json": "05ed91177651aca1841fab23d8435c7b23b09579b095d11d4d998b1a97d61edc",
+    "qa/derived/test_stage4_encoding_collision.py": "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201",
+    "reports/stage-4/20261005T130426.567489Z-encoding-collision-codec-corrected-e538cd1-b0724a54/manifest.sha256.json": "6d7e47d09756e5030090677f109cdc2c877e3d3b52ce4c80cc040596af4abcd9",
+    "reports/stage-4/20261005T130056.421844Z-encoding-collision-e538cd1-3cf2c2d8/manifest.sha256.json": "e4c061b92f5533da39e3bf47ac3f01b6eaa21a96cee5096cd0ac834c668d8741"
+  },
+  "qa_source_exact": "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201",
+  "scope": "Supplemental bounded D417 investigation; original full review remains immutable"
+}

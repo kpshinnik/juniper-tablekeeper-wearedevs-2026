@@ -1,0 +1,53 @@
+{
+  "at": "2026-10-05T13:34:43Z",
+  "elapsed_seconds": 25976,
+  "decision": "ACCEPT_STAGE2_AFTER_V-S2-003_REPAIR",
+  "product_sha": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+  "evidence_sha": "92dc4c42b8f562d1548f4e36a53437a28f151a3f",
+  "all_ten_defect_families": "direct regressions PASS on Stage2",
+  "counts": {
+    "frozen": {
+      "count": 169,
+      "outcomes": {
+        "PASS": 169
+      }
+    },
+    "derived": {
+      "count": 106,
+      "outcomes": {
+        "PASS": 106
+      }
+    },
+    "official": {
+      "count": 145,
+      "outcomes": {
+        "PASS": 145
+      }
+    }
+  },
+  "artifact_files": 901,
+  "manifests": 33,
+  "stage2_files": 289,
+  "product_checkout_clean": true,
+  "original_failures_preserved": true,
+  "raw_pytest": {
+    "executions": 537,
+    "PASS": 527,
+    "FAIL": 10,
+    "ERROR": 0,
+    "SKIP": 0
+  },
+  "source_faults": {
+    "cases": 20,
+    "executed_controls": 8,
+    "actually_injected_operations": 8,
+    "fault_types": 3
+  },
+  "source_removals": {
+    "executions": 5,
+    "definitions": 3
+  },
+  "next": "Six-part full Stage3 continuation: copy exact accepted browser correction into reopened4ce583c, preserveStages1/2/4, freshfullStage3gate beforeStage4repair",
+  "native_decision_delivery": "reports/stage-2/DECISION-DELIVERY-4b2236f.json: all6accepted correctroom",
+  "limitations": "No acceptance of Stage3/4 or finaldelivery; nativeexport unavailable; frozenoracle/selectorrawFAIL retained."
+}

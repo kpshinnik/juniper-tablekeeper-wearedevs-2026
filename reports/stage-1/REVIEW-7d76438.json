@@ -1,0 +1,744 @@
+{
+  "product_sha": "7d7643857eeac6396467a791d93b0fa7c43b8fa2",
+  "stage": 1,
+  "decision": "REJECT",
+  "open_defect": "V-S1-006",
+  "prior_defects_reproductions_resolved_at_this_sha": [
+    "V-S1-001",
+    "V-S1-002",
+    "V-S1-003",
+    "V-S1-004",
+    "V-S1-005"
+  ],
+  "room": "e04c2728-8535-41c8-be50-88eb8068fa09",
+  "checkout": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/7d7643857eeac6396467a791d93b0fa7c43b8fa2-cacd3bfb",
+  "clean_checkout_status": "",
+  "attempts": [
+    {
+      "path": "reports/stage-1/20261005T071820.155671Z-official-7d76438-100d6837",
+      "duration_s": 25.095307666808367,
+      "qa_sha": "6b7947aad3695c3ae46f86625c95287de43eb512",
+      "returncode": 0,
+      "started_at": "2026-10-05T07:18:20.156783+00:00",
+      "ended_at": "2026-10-05T07:18:45.265968+00:00",
+      "counts": {},
+      "httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "manifest_sha256": "6444b87fa6d17bb248b6f3d08a997fffe822720462e8d7b440400766a480501a",
+      "integrity_mismatches": []
+    },
+    {
+      "path": "reports/stage-1/20261005T071821.624317Z-source-faults-7d76438-74766313",
+      "duration_s": 1.1618175841867924,
+      "qa_sha": "6b7947aad3695c3ae46f86625c95287de43eb512",
+      "returncode": 0,
+      "started_at": "2026-10-05T07:18:21.625570+00:00",
+      "ended_at": "2026-10-05T07:18:22.800145+00:00",
+      "counts": {},
+      "httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "manifest_sha256": "a730a8ec2ff104941469635d0849f6d6e19ed7ff3ad0e0a186bcbe6244a7290e",
+      "integrity_mismatches": []
+    },
+    {
+      "path": "reports/stage-1/20261005T071821.624344Z-unchanged-developer-7d76438-334ed673",
+      "duration_s": 7.352314375340939,
+      "qa_sha": "6b7947aad3695c3ae46f86625c95287de43eb512",
+      "returncode": 0,
+      "started_at": "2026-10-05T07:18:21.625389+00:00",
+      "ended_at": "2026-10-05T07:18:28.990854+00:00",
+      "counts": {},
+      "httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "manifest_sha256": "debd4f6a448ffaada1abc13bafc1acb1c34a41430a4a291dab0ec5d5c331d83a",
+      "integrity_mismatches": []
+    },
+    {
+      "path": "reports/stage-1/20261005T072015.226375Z-original-7d76438-16fb89b1",
+      "duration_s": 19.05868462473154,
+      "qa_sha": "45d739d5e96ebcc93428704c6e2d2971b1e32fc2",
+      "returncode": 1,
+      "started_at": "2026-10-05T07:20:15.227151+00:00",
+      "ended_at": "2026-10-05T07:20:34.304398+00:00",
+      "counts": {
+        "PASS": 100,
+        "FAIL": 4
+      },
+      "httpx": {
+        "requests": 1771,
+        "p50_s": 0.017837440987932496,
+        "p95_s": 0.10965494200354442,
+        "max_s": 0.8102733490086393,
+        "max_observed_inflight": 50,
+        "statuses": {
+          "204": 181,
+          "200": 1016,
+          "409": 239,
+          "201": 160,
+          "422": 95,
+          "401": 58,
+          "400": 16,
+          "404": 6
+        },
+        "received_decompressed_bytes": 2372982
+      },
+      "manifest_sha256": "9cdfbed73c34a53047a06116d5d2449451c50a3d5c6d117eda95c32a485b6df0",
+      "integrity_mismatches": []
+    },
+    {
+      "path": "reports/stage-1/20261005T072034.402472Z-adjudicated-7d76438-656a9501",
+      "duration_s": 14.278055959381163,
+      "qa_sha": "45d739d5e96ebcc93428704c6e2d2971b1e32fc2",
+      "returncode": 0,
+      "started_at": "2026-10-05T07:20:34.403817+00:00",
+      "ended_at": "2026-10-05T07:20:48.702483+00:00",
+      "counts": {
+        "PASS": 104
+      },
+      "httpx": {
+        "requests": 1779,
+        "p50_s": 0.017998786992393434,
+        "p95_s": 0.11166004500410054,
+        "max_s": 0.8238430190103827,
+        "max_observed_inflight": 50,
+        "statuses": {
+          "204": 181,
+          "200": 1024,
+          "409": 239,
+          "201": 160,
+          "422": 95,
+          "401": 58,
+          "400": 16,
+          "404": 6
+        },
+        "received_decompressed_bytes": 2338555
+      },
+      "manifest_sha256": "1d8952d677d9ff22b48b30fc6e07c115539e3cf5ec5e13a0f5116933c26c301c",
+      "integrity_mismatches": []
+    },
+    {
+      "path": "reports/stage-1/20261005T072048.799759Z-common-7d76438-24715935",
+      "duration_s": 19.246286749839783,
+      "qa_sha": "45d739d5e96ebcc93428704c6e2d2971b1e32fc2",
+      "returncode": 1,
+      "started_at": "2026-10-05T07:20:48.800860+00:00",
+      "ended_at": "2026-10-05T07:21:08.065421+00:00",
+      "counts": {
+        "PASS": 43,
+        "FAIL": 1
+      },
+      "httpx": {
+        "requests": 332,
+        "p50_s": 0.017086153995478526,
+        "p95_s": 0.5793764989939518,
+        "max_s": 0.8905832619930152,
+        "max_observed_inflight": 50,
+        "statuses": {
+          "204": 62,
+          "200": 233,
+          "201": 16,
+          "422": 9,
+          "401": 11,
+          "400": 1
+        },
+        "received_decompressed_bytes": 2361042
+      },
+      "manifest_sha256": "7028d7f477cb41cf784efaae41753b7ce003a06746d7803eeaf14ab9de8bdbeb",
+      "integrity_mismatches": []
+    },
+    {
+      "path": "reports/stage-1/20261005T072108.179216Z-numeric-7d76438-a349ff02",
+      "duration_s": 3.9510991675779223,
+      "qa_sha": "45d739d5e96ebcc93428704c6e2d2971b1e32fc2",
+      "returncode": 0,
+      "started_at": "2026-10-05T07:21:08.180234+00:00",
+      "ended_at": "2026-10-05T07:21:12.145959+00:00",
+      "counts": {
+        "PASS": 12
+      },
+      "httpx": {
+        "requests": 196,
+        "p50_s": 0.0019615910132415593,
+        "p95_s": 0.01867893899907358,
+        "max_s": 0.025151169989840128,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 33,
+          "200": 135,
+          "422": 7,
+          "201": 16,
+          "409": 5
+        },
+        "received_decompressed_bytes": 555025
+      },
+      "manifest_sha256": "c33b5fec783d8a7c4b46a53b87dbc20377645ef36473f047f2c29a6dbee7c125",
+      "integrity_mismatches": []
+    },
+    {
+      "path": "reports/stage-1/20261005T072112.327896Z-derived-7d76438-636c3ec2",
+      "duration_s": 11.759247750043869,
+      "qa_sha": "45d739d5e96ebcc93428704c6e2d2971b1e32fc2",
+      "returncode": 0,
+      "started_at": "2026-10-05T07:21:12.328929+00:00",
+      "ended_at": "2026-10-05T07:21:24.101954+00:00",
+      "counts": {
+        "PASS": 42
+      },
+      "httpx": {
+        "requests": 325,
+        "p50_s": 0.0014126510068308562,
+        "p95_s": 0.01850082099554129,
+        "max_s": 0.024434400009340607,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 62,
+          "200": 208,
+          "201": 35,
+          "409": 7,
+          "422": 7,
+          "400": 6
+        },
+        "received_decompressed_bytes": 327398
+      },
+      "manifest_sha256": "f8de063efbbc33f2a8ba26763578e298bb155e766599b85b215fac6f499d587c",
+      "integrity_mismatches": []
+    },
+    {
+      "path": "reports/stage-1/20261005T072124.310831Z-snapshot-semantics-7d76438-b331ce0e",
+      "duration_s": 3.05709270760417,
+      "qa_sha": "45d739d5e96ebcc93428704c6e2d2971b1e32fc2",
+      "returncode": 1,
+      "started_at": "2026-10-05T07:21:24.311602+00:00",
+      "ended_at": "2026-10-05T07:21:27.383489+00:00",
+      "counts": {
+        "FAIL": 5
+      },
+      "httpx": {
+        "requests": 22,
+        "p50_s": 0.0021073989919386804,
+        "p95_s": 0.019944838000810705,
+        "max_s": 0.023317284998483956,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 5,
+          "200": 10,
+          "201": 7
+        },
+        "received_decompressed_bytes": 15733
+      },
+      "manifest_sha256": "d5306a8e2440ee1e09a18cac8d271e9c91740dc3bb26b57360dd125a512752a9",
+      "integrity_mismatches": []
+    },
+    {
+      "path": "reports/stage-1/20261005T072127.595605Z-snapshot-adapted-7d76438-1d3cb8a7",
+      "duration_s": 3.4320304999127984,
+      "qa_sha": "45d739d5e96ebcc93428704c6e2d2971b1e32fc2",
+      "returncode": 0,
+      "started_at": "2026-10-05T07:21:27.596484+00:00",
+      "ended_at": "2026-10-05T07:21:31.043156+00:00",
+      "counts": {
+        "PASS": 6
+      },
+      "httpx": {
+        "requests": 50,
+        "p50_s": 0.0014520140102831647,
+        "p95_s": 0.01826694498595316,
+        "max_s": 0.03393717198923696,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 11,
+          "200": 24,
+          "201": 9,
+          "422": 6
+        },
+        "received_decompressed_bytes": 49485
+      },
+      "manifest_sha256": "d9b3feab6b459b4359556ea128fd5f5eff28341f616fe82ef2dc58d822492f21",
+      "integrity_mismatches": []
+    },
+    {
+      "path": "reports/stage-1/20261005T072131.099579Z-upgrade-1to1-7d76438-54411ea7",
+      "duration_s": 6.377743500284851,
+      "qa_sha": "45d739d5e96ebcc93428704c6e2d2971b1e32fc2",
+      "returncode": 0,
+      "started_at": "2026-10-05T07:21:31.100441+00:00",
+      "ended_at": "2026-10-05T07:21:37.490479+00:00",
+      "counts": {
+        "PASS": 6
+      },
+      "httpx": {
+        "requests": 77,
+        "p50_s": 0.0015660120116081089,
+        "p95_s": 0.01820618000056129,
+        "max_s": 0.018927684999653138,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "200": 46,
+          "204": 18,
+          "201": 8,
+          "401": 1,
+          "409": 3,
+          "422": 1
+        },
+        "received_decompressed_bytes": 28783
+      },
+      "manifest_sha256": "826dbf912b25a92a0c71a633ec6e4d8483a1816fdcfa6863fe87a8603be73da8",
+      "integrity_mismatches": []
+    },
+    {
+      "path": "reports/stage-1/20261005T072137.595075Z-old-source-removal-7d76438-99328b65",
+      "duration_s": 5.491929832845926,
+      "qa_sha": "45d739d5e96ebcc93428704c6e2d2971b1e32fc2",
+      "returncode": 0,
+      "started_at": "2026-10-05T07:21:37.596010+00:00",
+      "ended_at": "2026-10-05T07:21:43.101698+00:00",
+      "counts": {},
+      "httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "manifest_sha256": "d56a044b4cfaf354b3da6523ffa80866cf33768c4be3fa78269d12f377b5af39",
+      "integrity_mismatches": []
+    },
+    {
+      "path": "reports/stage-1/20261005T072323.968839Z-additional-stage1-7d76438-5ed8efab",
+      "duration_s": 4.0980532094836235,
+      "qa_sha": "1d82e27809d0d6d3bd4ac4489b7c7a998ea78c46",
+      "returncode": 0,
+      "started_at": "2026-10-05T07:23:23.969585+00:00",
+      "ended_at": "2026-10-05T07:23:28.086033+00:00",
+      "counts": {
+        "PASS": 9
+      },
+      "httpx": {
+        "requests": 87,
+        "p50_s": 0.001438642997527495,
+        "p95_s": 0.01812161300040316,
+        "max_s": 0.03731994199915789,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 17,
+          "200": 45,
+          "201": 17,
+          "422": 8
+        },
+        "received_decompressed_bytes": 87790
+      },
+      "manifest_sha256": "4153aecf141c97c8aeeb767fab4cb4db2dd3f567b35fa03d8870a13022242b9e",
+      "integrity_mismatches": []
+    },
+    {
+      "path": "reports/stage-1/20261005T072413.767793Z-official-detail-7d76438-92185fcd",
+      "duration_s": 13.629044874571264,
+      "qa_sha": "74c58bb42dafd7199b75fd0b310af094d2f8a771",
+      "returncode": 0,
+      "started_at": "2026-10-05T07:24:13.768489+00:00",
+      "ended_at": "2026-10-05T07:24:27.413726+00:00",
+      "counts": {
+        "PASS": 120
+      },
+      "httpx": {
+        "requests": 507,
+        "p50_s": 0.01768841900047846,
+        "p95_s": 0.034276430000318214,
+        "max_s": 0.16200042799755465,
+        "max_observed_inflight": 10,
+        "statuses": {
+          "204": 118,
+          "200": 249,
+          "409": 19,
+          "422": 44,
+          "400": 3,
+          "401": 5,
+          "201": 54,
+          "404": 15
+        },
+        "received_decompressed_bytes": 70140
+      },
+      "manifest_sha256": "ba1b28f002c3cc0cd5cd3c47179b204eca7bf07de5d73dbcfa9828f2e7fdbfbe",
+      "integrity_mismatches": []
+    },
+    {
+      "path": "reports/stage-1/20261005T072530.609285Z-deployment-7d76438-8e3a2099",
+      "duration_s": 2.400862207636237,
+      "qa_sha": "58f265883631309d2a164bb47cd5cc61edf7c1ac",
+      "returncode": 0,
+      "started_at": "2026-10-05T07:25:30.609997+00:00",
+      "ended_at": "2026-10-05T07:25:33.028993+00:00",
+      "counts": {},
+      "httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "manifest_sha256": "7649d12827231550223af40301347dbffc4582ec00543412f0356beb092ef156",
+      "integrity_mismatches": []
+    },
+    {
+      "path": "reports/stage-1/20261005T072858.901328Z-calendar-edges-7d76438-740406c1",
+      "duration_s": 4.124074666760862,
+      "qa_sha": "2ea6862c750d079c1b9c77371c5122134df73009",
+      "returncode": 1,
+      "started_at": "2026-10-05T07:28:58.903693+00:00",
+      "ended_at": "2026-10-05T07:29:03.051119+00:00",
+      "counts": {
+        "PASS": 2,
+        "FAIL": 2
+      },
+      "httpx": {
+        "requests": 34,
+        "p50_s": 0.0029846910038031638,
+        "p95_s": 0.02106566099973861,
+        "max_s": 0.021503351992578246,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 10,
+          "200": 18,
+          "201": 2,
+          "422": 3,
+          "400": 1
+        },
+        "received_decompressed_bytes": 7379
+      },
+      "manifest_sha256": "3bbab818231a01dbadfe745bc9e4e4d3da88746916885e6d6010776e9740d29e",
+      "integrity_mismatches": []
+    }
+  ],
+  "raw_pytest_case_executions": 456,
+  "raw_outcomes": {
+    "PASS": 444,
+    "FAIL": 12
+  },
+  "reconciled_distinct_outcomes": {
+    "frozen": {
+      "definitions": 166,
+      "outcomes": {
+        "PASS": 166
+      }
+    },
+    "derived": {
+      "definitions": 60,
+      "outcomes": {
+        "PASS": 58,
+        "FAIL": 2
+      }
+    },
+    "official": {
+      "definitions": 120,
+      "outcomes": {
+        "PASS": 120
+      }
+    }
+  },
+  "failure_reconciliation": {
+    "ORACLE_CONFLICT_RETAINED": 4,
+    "OPAQUE_SELECTOR_MISMATCH_RETAINED": 6,
+    "OPEN_PRODUCT_DEFECT": 2
+  },
+  "instrumented_httpx": {
+    "requests": 5180,
+    "p50_s": 0.017485492004198022,
+    "p95_s": 0.10984022000047844,
+    "max_s": 0.8905832619930152,
+    "max_observed_inflight": 50,
+    "statuses": {
+      "204": 698,
+      "200": 3008,
+      "409": 512,
+      "201": 484,
+      "422": 275,
+      "401": 133,
+      "400": 43,
+      "404": 27
+    },
+    "received_decompressed_bytes": 8214312
+  },
+  "instrumented_load_httpx": {
+    "requests": 2610,
+    "p50_s": 0.020125474999076687,
+    "p95_s": 0.11236390100384597,
+    "max_s": 0.8238430190103827,
+    "max_observed_inflight": 50,
+    "statuses": {
+      "204": 190,
+      "200": 1526,
+      "409": 468,
+      "201": 226,
+      "422": 100,
+      "401": 100
+    },
+    "received_decompressed_bytes": 4492023
+  },
+  "official_unchanged_harness_stage1": {
+    "PASS": 120,
+    "FAIL": 0,
+    "per_case_detail_run_additional": true
+  },
+  "developer_checks": {
+    "PASS": 27
+  },
+  "source_faults": {
+    "actual_injections": 20,
+    "PASS": 20,
+    "control_operations": 8,
+    "actual_distinct_names": [
+      "candidate_encode",
+      "compression",
+      "response_encode"
+    ],
+    "HTTP_requests": 0
+  },
+  "deployment_cases": [
+    {
+      "id": "DEPLOY-PORT-8080",
+      "product_sha": "7d7643857eeac6396467a791d93b0fa7c43b8fa2",
+      "outcome": "PASS",
+      "port": 8080,
+      "override_supplied": false,
+      "start_to_health_s": 0.5901065422222018,
+      "observed": {
+        "status": 200,
+        "body": {
+          "status": "ok"
+        },
+        "requests": 1,
+        "client_elapsed_s": 0.031806241007870995
+      },
+      "service_cpus": 2,
+      "service_memory_bytes": 2147483648,
+      "read_only": true,
+      "internal_network": true,
+      "client_memory_cap": null,
+      "expected": "Healthy from another internal-network container within60s on default or configured PORT"
+    },
+    {
+      "id": "DEPLOY-PORT-18087",
+      "product_sha": "7d7643857eeac6396467a791d93b0fa7c43b8fa2",
+      "outcome": "PASS",
+      "port": 18087,
+      "override_supplied": true,
+      "start_to_health_s": 0.44511766731739044,
+      "observed": {
+        "status": 200,
+        "body": {
+          "status": "ok"
+        },
+        "requests": 1,
+        "client_elapsed_s": 0.02464613999472931
+      },
+      "service_cpus": 2,
+      "service_memory_bytes": 2147483648,
+      "read_only": true,
+      "internal_network": true,
+      "client_memory_cap": null,
+      "expected": "Healthy from another internal-network container within60s on default or configured PORT"
+    }
+  ],
+  "producer_removal": {
+    "executions": 2,
+    "source_revisions": [
+      "89582510069e984f446060d797e138f4a3bf08f9",
+      "7d7643857eeac6396467a791d93b0fa7c43b8fa2"
+    ],
+    "destination_revision": "7d7643857eeac6396467a791d93b0fa7c43b8fa2",
+    "outcomes": [
+      "PASS",
+      "PASS"
+    ],
+    "distinct_integration_definition": 1,
+    "standalone_script_http_counts": null
+  },
+  "frozen_manifest_sha256": "91fadde5b105ab3bab5c7a93779f6d91eca710e5cca85c6306d5adc1cdc61036",
+  "frozen_rehashed_files": [
+    {
+      "path": "spec/stage-1.md",
+      "sha256": "9460189eac83802ce158f16ee90989af728a489b32a6147e2dc8e320f383055f",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "spec/stage-2.md",
+      "sha256": "b1aa1b4affad456ff26f208a378eb2f6884153fc6ef667ab37b888fcda96c5dc",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "spec/stage-3.md",
+      "sha256": "36b7ff5294b3992a6fa2894e9b4f2350072912fe10ed212c1f9a8828be1f9abe",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "spec/stage-4.md",
+      "sha256": "08d02b5a432d41d71f989ccb30585b3cad0977c9c1dd11145c97fb7ddd4946c4",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "participant-guide.md",
+      "sha256": "1533d255c833d7a0aa67f2ef06cde0a5e84d94c7d1c97f73d1818f04cfb685e4",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "baseline-original/conftest.py",
+      "sha256": "c95841071da2a1542d051624a355300f3934226da8819cc5bdc3094958645c78",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "baseline-adjudicated/conftest.py",
+      "sha256": "c95841071da2a1542d051624a355300f3934226da8819cc5bdc3094958645c78",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "baseline-original/test_security.py",
+      "sha256": "b61e82948c084749352a14bb78d7684bd467357d9ddf697f4afa7321ee939108",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "baseline-adjudicated/test_security.py",
+      "sha256": "aed9bdfe8968802476f46fb1fe7e39f4b4d721200c3f99eed84a6d1647c6d354",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "baseline-original/test_load.py",
+      "sha256": "68b225f56367f94fcfdea67694dfa421d674b8f8b64523d99c32825a755bdaaa",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "baseline-adjudicated/test_load.py",
+      "sha256": "68b225f56367f94fcfdea67694dfa421d674b8f8b64523d99c32825a755bdaaa",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/conftest.py",
+      "sha256": "84b54691843786263df9dfb3ddeab67b394545c705a8816eafec4cb8ce2e8f77",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/planning_oracle.py",
+      "sha256": "2fb53965f0f7ec555cc57239ce986bcbf75d4a22f05831891fb5c09673a7a416",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/selfcheck_oracle.py",
+      "sha256": "42c3e92ebe1466a64278bfb2d3377e9e0633808d8b29076d1c25bf898b8e62b9",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/test_advanced.py",
+      "sha256": "0d5ef73ae9eed5d3c6e9bc4cad40697a08aa969bc431e2b7b520105d5d6bf1a4",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/test_audit30.py",
+      "sha256": "197297df10bc6897d6e6b5fc773c85a74613270ed27c13f13a6049f98102c16b",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/test_auth_contract.py",
+      "sha256": "c99d3c1c58222207f0751317f974b24e234ef4b3b61ffccccf7da03259b01cd5",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/test_boundaries.py",
+      "sha256": "aa927b28ce28ee73cc878def5a179ba9de2ff9ab5af8c5074eb4ce4683dc4388",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/test_compact_pairs.py",
+      "sha256": "ff3eef678ba05c9d89c0a4ba467c8cac17676a9a0bd5e765b932db97a3446fa2",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/test_json_responses.py",
+      "sha256": "9e7d2fa0730f7294c87b017b06efea99a4c6e99b81caf37dab65451f62faf6c1",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/test_protocol_resources.py",
+      "sha256": "bcb3bbb10696da919a0620052b4a416c5375c6491c6f2de1926c82b0e126c6ca",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/test_stage4_load.py",
+      "sha256": "34c6a71addc475750a56f5fecbb6a449b228875635dafe75b1c6b4cca594b72f",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/test_stage4_numeric.py",
+      "sha256": "b963705f30cfaef2f661810c5cff6c054284eda39e64859cba6a01976006958c",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/test_stage4_ui.py",
+      "sha256": "3002c5db676279b5b28659036eaaced1824c2641d8d8af343c4c43875056f587",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/test_stage4_ui_lost.py",
+      "sha256": "5e72810eb333b6f09eb6dadd7eee85a6ccf40c47b9a9ecef454052ee508c3a7a",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "supplemental/test_upgrade_contract.py",
+      "sha256": "d8289e44632672fb6426939bff1ee42d1fcf0ffcf5e2c841e26504d62947764d",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "mandates/builder.md",
+      "sha256": "7d3db54ef67bece4fd21fcf4ce68ab29b4884a50a6cd39e87b3bfba872a0cb42",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "mandates/coordinator.md",
+      "sha256": "e0b58ec3e0dd272fa0aab31e351b4d29313d8b3667fcae1f8f680dce71b26820",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "mandates/verifier.md",
+      "sha256": "c17a14edca5a8e89dc077b6f39bf32df1542c90cdfbb969137a63a726e6c3063",
+      "original_and_copy_match": true
+    },
+    {
+      "path": "numeric-original/test_numeric_lifetime.py",
+      "sha256": "00bcd60bf8d3f5ab36f5b0a2ae4e5b532f81f2137e0c94e3c1001b1c6e1ed4c2",
+      "original_and_copy_match": true
+    }
+  ],
+  "command_duration_sum_s": 144.5136453770101,
+  "execution_window_start": "2026-10-05T07:18:20.156783+00:00",
+  "execution_window_end": "2026-10-05T07:29:03.051119+00:00",
+  "execution_window_elapsed_s": 642.894336,
+  "actual_billing_usd": null,
+  "actual_tokens": null,
+  "all_attempt_manifests_verified": true,
+  "count_limits": "HTTP metrics cover instrumented pytest httpx, including setup and repeats. Raw socket, deployment health, unchanged official harness and standalone producer script requests are separate; no source injections counted as HTTP.",
+  "format_correction": "D117 raw observed stopped_dripping_after_s=6.5 is the planned upper limit. Actual send loop ends at peer closure near3s, as events and eof_s show. Original artifact retained.",
+  "tooling_note": "One ancillary git status command used an outside path without -C and returned128; corrected git -C checkout status is empty. This was not an application test or an acceptance result."
+}

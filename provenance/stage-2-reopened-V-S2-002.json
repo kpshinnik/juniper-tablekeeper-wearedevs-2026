@@ -1,0 +1,25 @@
+{
+  "observed_utc": "2026-10-05T10:22:49.762972+00:00",
+  "room": "e04c2728-8535-41c8-be50-88eb8068fa09",
+  "decision": "REOPEN_STAGE2_REJECT_PENDING_REPAIR",
+  "product_sha": "d8941d7e630c9f2787623d1222f647d49b40ae91",
+  "evidence_sha": "6f449325c4ced6a2c0ff6e7563a4b2ddb338fca2",
+  "primary_attempt": "reports/stage-2/20261005T101600.241391Z-stage2-native-range-d8941d7-00c885b0",
+  "manifest_files_rehashed": 40,
+  "manifest_mismatches": [],
+  "source_checkout_head": "d8941d7e630c9f2787623d1222f647d49b40ae91",
+  "source_checkout_status": "",
+  "defect": "V-S2-002",
+  "cases": [
+    "D219-search",
+    "D219-booking"
+  ],
+  "raw_result": "2FAIL/0PASS/0ERROR/0SKIP",
+  "original_acceptance_preserved": "provenance/stage-2-acceptance.json",
+  "coordinator_native_disposition": "8079d02b-85e3-4274-8447-2cb897fa7fea",
+  "stage3_candidate": "0c0a3867fc38fff0824ec2f887a135a2965bb60f",
+  "stage3_outcome": "NOT_ACCEPTED; Stage2 inherited correction and complete exact-SHA review required",
+  "stage4": "GATED",
+  "source_files_rehashed": 89,
+  "source_mismatches": []
+}

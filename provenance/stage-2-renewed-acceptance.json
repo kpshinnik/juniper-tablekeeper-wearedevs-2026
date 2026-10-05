@@ -1,0 +1,47 @@
+{
+  "room": "e04c2728-8535-41c8-be50-88eb8068fa09",
+  "decision": "ACCEPT_RENEWED_STAGE2",
+  "gate_time_utc": "2026-10-05T11:08:13.831323+00:00",
+  "elapsed_from_first_measurement_seconds": 17186.831323,
+  "product_sha": "63cf798cf60baf3134a64e4db599c92d81561e3e",
+  "evidence_sha": "1645ce126736b6f40c0ac3ae4a2e0ea10ae7e9a9",
+  "review": "reports/stage-2/REVIEW-63cf798.md",
+  "reconciled_definitions": {
+    "frozen": {
+      "count": 169,
+      "outcomes": {
+        "PASS": 169
+      }
+    },
+    "derived": {
+      "count": 96,
+      "outcomes": {
+        "PASS": 96
+      }
+    },
+    "official": {
+      "count": 145,
+      "outcomes": {
+        "PASS": 145
+      }
+    }
+  },
+  "raw_pytest_executions": 527,
+  "raw_pytest_outcomes": {
+    "PASS": 517,
+    "FAIL": 10
+  },
+  "open_product_defects": [],
+  "historical_acceptance_preserved": "provenance/stage-2-acceptance.json",
+  "reopening_preserved": "provenance/stage-2-reopened-V-S2-002.json",
+  "direct_repaired_cases": [
+    "D219-search",
+    "D219-booking",
+    "D220-mobile",
+    "D220-desktop",
+    "D221-search",
+    "D221-booking"
+  ],
+  "audit": "provenance/review-integrity-63cf798.json",
+  "authorized_next": "After complete six-part continuation handoff, copy accepted Stage2 browser correction into existingStage3, preserve features and prior evidence, commit and fully requalify. Stage4 remains gated."
+}

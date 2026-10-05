@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-05T15:11:08.197475+00:00",
+  "observations": [
+    {
+      "command": [
+        "/opt/homebrew/bin/docker",
+        "--context",
+        "colima-tablekeeper",
+        "ps",
+        "-a",
+        "--format",
+        "{{.Names}}",
+        "--filter",
+        "label=juniper.owner=verifier",
+        "--filter",
+        "label=juniper.room=e04c2728-8535-41c8-be50-88eb8068fa09"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/homebrew/bin/docker",
+        "--context",
+        "colima-tablekeeper",
+        "network",
+        "ls",
+        "--format",
+        "{{.Name}}",
+        "--filter",
+        "label=juniper.owner=verifier",
+        "--filter",
+        "label=juniper.room=e04c2728-8535-41c8-be50-88eb8068fa09"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "mutations": 0,
+  "scope": "Only Verifier-owned room containers and networks; demos and other participants untouched."
+}

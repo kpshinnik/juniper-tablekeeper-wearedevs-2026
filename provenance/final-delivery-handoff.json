@@ -1,0 +1,71 @@
+{
+  "kind": "COORDINATOR_AUTHORED_FULL_FINAL_DELIVERY_HANDOFF_NOT_NATIVE_ROOM_EXPORT",
+  "room": "e04c2728-8535-41c8-be50-88eb8068fa09",
+  "product": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+  "evidence": "96329db1347c0e8b555282e22a35785643020d04",
+  "recorded_at": "2026-10-05 15:22:18 UTC",
+  "parts": [
+    {
+      "part": 1,
+      "result": {
+        "message_id": "ff91a6c3-3dd1-41a6-831c-e79eebc240bb",
+        "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+        "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+        "status": "accepted",
+        "warnings": []
+      }
+    },
+    {
+      "part": 2,
+      "result": {
+        "message_id": "7d4c7997-bfaa-4607-bec4-6920f5ea973b",
+        "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+        "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+        "status": "accepted",
+        "warnings": []
+      }
+    },
+    {
+      "part": 3,
+      "result": {
+        "message_id": "fb74a78c-b5d0-474e-ae66-d4873ebbd6d7",
+        "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+        "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+        "status": "accepted",
+        "warnings": []
+      }
+    },
+    {
+      "part": 4,
+      "result": {
+        "message_id": "9dc5bef6-3fd2-4d75-897d-02ba9bfcad39",
+        "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+        "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+        "status": "accepted",
+        "warnings": []
+      }
+    },
+    {
+      "part": 5,
+      "result": {
+        "message_id": "3cc7f8df-be08-45f1-8330-b303daae722f",
+        "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+        "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+        "status": "accepted",
+        "warnings": []
+      }
+    },
+    {
+      "part": 6,
+      "result": {
+        "message_id": "344320af-d5c8-4f74-8ec8-60451170b44d",
+        "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+        "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+        "status": "accepted",
+        "warnings": []
+      }
+    }
+  ],
+  "all_parts_accepted": true,
+  "mirror": "provenance/final-delivery-handoff.md"
+}

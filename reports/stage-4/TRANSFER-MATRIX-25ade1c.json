@@ -1,0 +1,372 @@
+{
+  "product_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+  "edges": [
+    {
+      "source_stage": 1,
+      "destination_stage": 1,
+      "source_sha": "fd843b83db16ec8585d66af7ac0d6fac89aae82c",
+      "destination_sha": "fd843b83db16ec8585d66af7ac0d6fac89aae82c",
+      "review": "reports/stage-1/REVIEW-fd843b8.json",
+      "review_sha256": "ac5fd944a627ba14a93a57641bacd915d0764276613f37603138ce4ae2874e5e",
+      "attempt": "reports/stage-1/20261005T081021.529226Z-upgrade-current-fd843b8-c7fb18a8",
+      "attempt_manifest_sha256": "82a4db827b6ca22b53266eaa4a3b88931a7bd716610abb7dbb523d436a8c0d02",
+      "six_frozen_outcome": "PASS",
+      "live_browser_outcome": "NOT_APPLICABLE_STAGE1",
+      "actual_source_removal_proof": {
+        "source": "juniper-v-up-8cea9a3a97-source-8ae6",
+        "removed": true,
+        "post_removal_inspect_returncode": 1,
+        "destination_not_started_yet": true
+      },
+      "consumer": {
+        "id": "D115-source-removed-fresh-destination-lifetime",
+        "outcome": "PASS",
+        "duration_s": 0.05687373199907597,
+        "retained_tokens": 2,
+        "immutable_receipts": 2,
+        "current_reference_retained": true,
+        "new_write": true,
+        "repeat_replacement": true,
+        "password_login": true
+      },
+      "fresh_stage4_execution": false
+    },
+    {
+      "source_stage": 1,
+      "destination_stage": 2,
+      "source_sha": "fd843b83db16ec8585d66af7ac0d6fac89aae82c",
+      "destination_sha": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+      "review": "reports/stage-2/REVIEW-4b2236f.json",
+      "review_sha256": "333685fe4c0065c3fd7eae7f327b2058cfa7266124f6a9fa68eb5a256b897175",
+      "attempt": "reports/stage-2/20261005T132129.379204Z-upgrade-1-to-2-4b2236f-ddf894a6",
+      "attempt_manifest_sha256": "1e2bb0d3a484d19c2d6d44eef1e82b7f0a975db445f537deae1207a92e9a6c37",
+      "six_frozen_outcome": "PASS",
+      "live_browser_outcome": "PASS",
+      "actual_source_removal_proof": {
+        "source": "juniper-v-up-164e4283fe-source-8843",
+        "removed": true,
+        "post_removal_inspect_returncode": 1,
+        "destination_not_started_yet": true
+      },
+      "consumer": {
+        "id": "D115-source-removed-fresh-destination-lifetime",
+        "outcome": "PASS",
+        "duration_s": 0.06728499299788382,
+        "retained_tokens": 2,
+        "immutable_receipts": 2,
+        "current_reference_retained": true,
+        "new_write": true,
+        "new_target_table_ids_operation": true,
+        "original_selection": [
+          "a"
+        ],
+        "legacy_ignored_selector_original_identity_preserved": false,
+        "repeat_replacement": true,
+        "password_login": true
+      },
+      "fresh_stage4_execution": false
+    },
+    {
+      "source_stage": 2,
+      "destination_stage": 2,
+      "source_sha": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+      "destination_sha": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+      "review": "reports/stage-2/REVIEW-4b2236f.json",
+      "review_sha256": "333685fe4c0065c3fd7eae7f327b2058cfa7266124f6a9fa68eb5a256b897175",
+      "attempt": "reports/stage-2/20261005T132140.145509Z-upgrade-2-to-2-4b2236f-94d80941",
+      "attempt_manifest_sha256": "232a4ad9f162037ac02d0afd0f9d39934a2de2cf0e21705689ae0ee3c5ed5b01",
+      "six_frozen_outcome": "PASS",
+      "live_browser_outcome": "PASS",
+      "actual_source_removal_proof": {
+        "source": "juniper-v-up-e36d427d5c-source-522a",
+        "removed": true,
+        "post_removal_inspect_returncode": 1,
+        "destination_not_started_yet": true
+      },
+      "consumer": {
+        "id": "D115-source-removed-fresh-destination-lifetime",
+        "outcome": "PASS",
+        "duration_s": 0.05907316900265869,
+        "retained_tokens": 2,
+        "immutable_receipts": 2,
+        "current_reference_retained": true,
+        "new_write": true,
+        "new_target_table_ids_operation": true,
+        "original_selection": [
+          "a",
+          "b"
+        ],
+        "legacy_ignored_selector_original_identity_preserved": false,
+        "repeat_replacement": true,
+        "password_login": true
+      },
+      "fresh_stage4_execution": false
+    },
+    {
+      "source_stage": 1,
+      "destination_stage": 3,
+      "source_sha": "fd843b83db16ec8585d66af7ac0d6fac89aae82c",
+      "destination_sha": "301caf55085280f12197e393ab6b4735ef4046c3",
+      "review": "reports/stage-3/REVIEW-301caf5.json",
+      "review_sha256": "f699b127d55a192dd90af6a542d37b1f7dc12bef1ae53a31b4d39e8b31cb3ae9",
+      "attempt": "reports/stage-3/20261005T140342.004915Z-upgrade-1-to-3-301caf5-b9c9cd22",
+      "attempt_manifest_sha256": "31dcc925ab403e8384571c32b19270a3d71cca632a1b2b89c38ed47636ffd1ca",
+      "six_frozen_outcome": "PASS",
+      "live_browser_outcome": "PASS",
+      "actual_source_removal_proof": {
+        "source": "juniper-v-up-21171aae20-source-d78b",
+        "removed": true,
+        "post_removal_inspect_returncode": 1,
+        "destination_not_started_yet": true
+      },
+      "consumer": {
+        "id": "D325-stage3-producer-authenticity",
+        "kind": "PRODUCER_REMOVAL_INTEGRATION",
+        "phase": "consume",
+        "source_stage": 1,
+        "destination_stage": 3,
+        "snapshot_sha256": "7031bc9179be8b022042239d88d8187042ec18cc5fa96e7363afe1e9ce38ac9d",
+        "snapshot_bytes": 4979,
+        "expected": "Authentic state and exact immutable receipts survive detached ordinary JSON replacement",
+        "observed": [
+          "old login and multiple tokens valid, destination token revoked",
+          "old identities/current values and every original receipt exactly retained",
+          "legacy history absent, adopted anchor unchanged, generated history authentic under policy0; no invented manager grant",
+          "new target selection accepted and repeated replacement restores original source state"
+        ],
+        "outcome": "PASS",
+        "duration_s": 0.13201506700715981
+      },
+      "fresh_stage4_execution": false
+    },
+    {
+      "source_stage": 2,
+      "destination_stage": 3,
+      "source_sha": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+      "destination_sha": "301caf55085280f12197e393ab6b4735ef4046c3",
+      "review": "reports/stage-3/REVIEW-301caf5.json",
+      "review_sha256": "f699b127d55a192dd90af6a542d37b1f7dc12bef1ae53a31b4d39e8b31cb3ae9",
+      "attempt": "reports/stage-3/20261005T140353.728551Z-upgrade-2-to-3-301caf5-ed2c67df",
+      "attempt_manifest_sha256": "03dee225c5c4a1000969dfea34204ebf973ccde09b028eb0d2952eda19424650",
+      "six_frozen_outcome": "PASS",
+      "live_browser_outcome": "PASS",
+      "actual_source_removal_proof": {
+        "source": "juniper-v-up-7890d02dbc-source-68fb",
+        "removed": true,
+        "post_removal_inspect_returncode": 1,
+        "destination_not_started_yet": true
+      },
+      "consumer": {
+        "id": "D325-stage3-producer-authenticity",
+        "kind": "PRODUCER_REMOVAL_INTEGRATION",
+        "phase": "consume",
+        "source_stage": 2,
+        "destination_stage": 3,
+        "snapshot_sha256": "a9055bb2984404c8eef93c92f788d74615f914f2f75a950f18422f9b0adafe5e",
+        "snapshot_bytes": 5191,
+        "expected": "Authentic state and exact immutable receipts survive detached ordinary JSON replacement",
+        "observed": [
+          "old login and multiple tokens valid, destination token revoked",
+          "old identities/current values and every original receipt exactly retained",
+          "legacy history absent, adopted anchor unchanged, generated history authentic under policy0; no invented manager grant",
+          "new target selection accepted and repeated replacement restores original source state"
+        ],
+        "outcome": "PASS",
+        "duration_s": 0.18007256199780386
+      },
+      "fresh_stage4_execution": false
+    },
+    {
+      "source_stage": 3,
+      "destination_stage": 3,
+      "source_sha": "301caf55085280f12197e393ab6b4735ef4046c3",
+      "destination_sha": "301caf55085280f12197e393ab6b4735ef4046c3",
+      "review": "reports/stage-3/REVIEW-301caf5.json",
+      "review_sha256": "f699b127d55a192dd90af6a542d37b1f7dc12bef1ae53a31b4d39e8b31cb3ae9",
+      "attempt": "reports/stage-3/20261005T140405.390792Z-upgrade-3-to-3-301caf5-6e91f922",
+      "attempt_manifest_sha256": "c422d442610c9ba39b82337a98f8fe3494589d6c46fb62eaf713a52e246bb8b0",
+      "six_frozen_outcome": "PASS",
+      "live_browser_outcome": "PASS",
+      "actual_source_removal_proof": {
+        "source": "juniper-v-up-a8dacf6d70-source-1a88",
+        "removed": true,
+        "post_removal_inspect_returncode": 1,
+        "destination_not_started_yet": true
+      },
+      "consumer": {
+        "id": "D325-stage3-producer-authenticity",
+        "kind": "PRODUCER_REMOVAL_INTEGRATION",
+        "phase": "consume",
+        "source_stage": 3,
+        "destination_stage": 3,
+        "snapshot_sha256": "d5bfba210d1d0de3ec7a0cf8cd6d7ab88c5e63aeb6b572063e1fbf80ba4d8823",
+        "snapshot_bytes": 32085,
+        "expected": "Authentic state and exact immutable receipts survive detached ordinary JSON replacement",
+        "observed": [
+          "old login and multiple tokens valid, destination token revoked",
+          "old identities/current values and every original receipt exactly retained",
+          "final policies, authentic histories/decisions, revision4 series, permanent exception and cancellation preserved",
+          "new target selection accepted and repeated replacement restores original source state"
+        ],
+        "outcome": "PASS",
+        "duration_s": 0.1799256329977652
+      },
+      "fresh_stage4_execution": false
+    },
+    {
+      "source_stage": 1,
+      "destination_stage": 4,
+      "source_sha": "fd843b83db16ec8585d66af7ac0d6fac89aae82c",
+      "destination_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "review": "reports/stage-4/REVIEW-25ade1c.json",
+      "review_sha256": "03e40577add6646b7dbc27a59bea08dc2c93dd8854dc10ed70095ed0202b1f4c",
+      "attempt": "reports/stage-4/20261005T145959.796643Z-upgrade-1-to-4-25ade1c-0c875109",
+      "attempt_manifest_sha256": "15da949650fd2d5989a6215a5212700aadcf62575b5739fd9f27ce14156e4dd0",
+      "six_frozen_outcome": "PASS",
+      "live_browser_outcome": "PASS",
+      "actual_source_removal_proof": {
+        "source": "juniper-v-up-3818c35414-source-3354",
+        "removed": true,
+        "post_removal_inspect_returncode": 1,
+        "destination_not_started_yet": true
+      },
+      "consumer": {
+        "id": "D411-stage4-producer-authenticity",
+        "kind": "PRODUCER_REMOVAL_INTEGRATION",
+        "phase": "consume",
+        "source_stage": 1,
+        "destination_stage": 4,
+        "snapshot_sha256": "55b8d9aa26ba58a4bfef69a204c049878e147d4c55378565b0d040d3d11709bf",
+        "snapshot_bytes": 4979,
+        "expected": "Authentic state and exact immutable receipts survive detached ordinary JSON replacement",
+        "observed": [
+          "old login and multiple tokens valid, destination token revoked",
+          "old identities/current values and every original receipt exactly retained",
+          "legacy history absent, adopted anchor unchanged, generated history authentic under policy0; no invented manager grant",
+          "new Stage4 amendment preserves imported seating, authentic original dates, exceptions and cancellations",
+          "new target selection accepted and repeated replacement restores original source state"
+        ],
+        "outcome": "PASS",
+        "duration_s": 0.1656010540027637
+      },
+      "fresh_stage4_execution": true
+    },
+    {
+      "source_stage": 2,
+      "destination_stage": 4,
+      "source_sha": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+      "destination_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "review": "reports/stage-4/REVIEW-25ade1c.json",
+      "review_sha256": "03e40577add6646b7dbc27a59bea08dc2c93dd8854dc10ed70095ed0202b1f4c",
+      "attempt": "reports/stage-4/20261005T150014.062561Z-upgrade-2-to-4-25ade1c-fa02510b",
+      "attempt_manifest_sha256": "a2db93330271ea962b7b72d0b9ef49da0363f999a887f2354d0644f12caddb49",
+      "six_frozen_outcome": "PASS",
+      "live_browser_outcome": "PASS",
+      "actual_source_removal_proof": {
+        "source": "juniper-v-up-0b99b1dce8-source-d4e6",
+        "removed": true,
+        "post_removal_inspect_returncode": 1,
+        "destination_not_started_yet": true
+      },
+      "consumer": {
+        "id": "D411-stage4-producer-authenticity",
+        "kind": "PRODUCER_REMOVAL_INTEGRATION",
+        "phase": "consume",
+        "source_stage": 2,
+        "destination_stage": 4,
+        "snapshot_sha256": "2ff5d09b9e57995b516f6758582d4ad8d80b42b20cf98f2f7d970f935f4ba7ee",
+        "snapshot_bytes": 5191,
+        "expected": "Authentic state and exact immutable receipts survive detached ordinary JSON replacement",
+        "observed": [
+          "old login and multiple tokens valid, destination token revoked",
+          "old identities/current values and every original receipt exactly retained",
+          "legacy history absent, adopted anchor unchanged, generated history authentic under policy0; no invented manager grant",
+          "new Stage4 amendment preserves imported seating, authentic original dates, exceptions and cancellations",
+          "new target selection accepted and repeated replacement restores original source state"
+        ],
+        "outcome": "PASS",
+        "duration_s": 0.16030641699035186
+      },
+      "fresh_stage4_execution": true
+    },
+    {
+      "source_stage": 3,
+      "destination_stage": 4,
+      "source_sha": "301caf55085280f12197e393ab6b4735ef4046c3",
+      "destination_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "review": "reports/stage-4/REVIEW-25ade1c.json",
+      "review_sha256": "03e40577add6646b7dbc27a59bea08dc2c93dd8854dc10ed70095ed0202b1f4c",
+      "attempt": "reports/stage-4/20261005T150031.208244Z-upgrade-3-to-4-25ade1c-e001d277",
+      "attempt_manifest_sha256": "153e8542d9add0e2613f1b5af29d90336a3a0effd6b008a50a95a69157f4b756",
+      "six_frozen_outcome": "PASS",
+      "live_browser_outcome": "PASS",
+      "actual_source_removal_proof": {
+        "source": "juniper-v-up-4c6f925e9c-source-6d0f",
+        "removed": true,
+        "post_removal_inspect_returncode": 1,
+        "destination_not_started_yet": true
+      },
+      "consumer": {
+        "id": "D411-stage4-producer-authenticity",
+        "kind": "PRODUCER_REMOVAL_INTEGRATION",
+        "phase": "consume",
+        "source_stage": 3,
+        "destination_stage": 4,
+        "snapshot_sha256": "7f4d5f739bb3638c053c7884b0aa28a70e48fa36c3f2dfafd7d782df20aea468",
+        "snapshot_bytes": 32085,
+        "expected": "Authentic state and exact immutable receipts survive detached ordinary JSON replacement",
+        "observed": [
+          "old login and multiple tokens valid, destination token revoked",
+          "old identities/current values and every original receipt exactly retained",
+          "final policies, authentic histories/decisions, revision4 series, permanent exception and cancellation preserved",
+          "new Stage4 amendment preserves imported seating, authentic original dates, exceptions and cancellations",
+          "new target selection accepted and repeated replacement restores original source state"
+        ],
+        "outcome": "PASS",
+        "duration_s": 0.20174468398909084
+      },
+      "fresh_stage4_execution": true
+    },
+    {
+      "source_stage": 4,
+      "destination_stage": 4,
+      "source_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "destination_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "review": "reports/stage-4/REVIEW-25ade1c.json",
+      "review_sha256": "03e40577add6646b7dbc27a59bea08dc2c93dd8854dc10ed70095ed0202b1f4c",
+      "attempt": "reports/stage-4/20261005T150245.325367Z-upgrade-4-to-4-25ade1c-8cbdff5b",
+      "attempt_manifest_sha256": "e0bab08a55f633a2807c4e9b9b4cac593d5ef85296946c86b23969b725bf31a4",
+      "six_frozen_outcome": "PASS",
+      "live_browser_outcome": "PASS",
+      "actual_source_removal_proof": {
+        "source": "juniper-v-up-026a93828a-source-28fe",
+        "removed": true,
+        "post_removal_inspect_returncode": 1,
+        "destination_not_started_yet": true
+      },
+      "consumer": {
+        "id": "D411-stage4-producer-authenticity",
+        "kind": "PRODUCER_REMOVAL_INTEGRATION",
+        "phase": "consume",
+        "source_stage": 4,
+        "destination_stage": 4,
+        "snapshot_sha256": "97fe345aa78433a4e758a246e220bfc972468270d927fd5ed82be5657bdc059a",
+        "snapshot_bytes": 47131,
+        "expected": "Authentic state and exact immutable receipts survive detached ordinary JSON replacement",
+        "observed": [
+          "old login and multiple tokens valid, destination token revoked",
+          "old identities/current values and every original receipt exactly retained",
+          "final policies, authentic histories/decisions, revision4 series, permanent exception and cancellation preserved",
+          "source plan/apply/amend receipts and pending plan retained; imported closure authoritative",
+          "new Stage4 amendment preserves imported seating, authentic original dates, exceptions and cancellations",
+          "new target selection accepted and repeated replacement restores original source state"
+        ],
+        "outcome": "PASS",
+        "duration_s": 0.1969047029997455
+      },
+      "fresh_stage4_execution": true
+    }
+  ],
+  "count": 10,
+  "rule": "Six current accepted incoming earlier edges retain their exact accepted evidence; four incoming Stage4 edges are freshly executed. Repeated six definitions are not new definitions."
+}

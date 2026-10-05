@@ -1,0 +1,540 @@
+{
+  "kind": "BOUNDED_APPLICATION_INVESTIGATION_ADDENDUM",
+  "product_sha": "e538cd16bbd96d4206d89f17a67791e759c00823",
+  "assignment_message": "bdefb32b-b309-487c-ab4b-43f5c6bf6b51",
+  "finding": "NO_COLLISION_DEMONSTRATED_IN_19_EXECUTED_CASES",
+  "scope": "D417 encoding collision lifetime and independently forged carrier representation; no full-suite rerun",
+  "overall_stage4_decision": "REJECT remains unchanged: open V-S2-003 unavailable pair cells",
+  "prior_review": "reports/stage-4/REVIEW-e538cd1.md",
+  "prior_evidence_commit": "fce8cfcf98e7f017f31e53d04907411759200440",
+  "definition_counts": {
+    "new_distinct_derived": 19,
+    "source_only_definitions": 0,
+    "new_frozen": 0,
+    "reconciled_pass": 19,
+    "unresolved_failure": 0,
+    "current_collected_derived_union": 336,
+    "frozen_union": 216,
+    "official_union": 158
+  },
+  "execution_counts": {
+    "pytest_cases": 38,
+    "raw_pass": 19,
+    "raw_fail": 19,
+    "raw_error": 0,
+    "raw_skip": 0,
+    "application_attempts": 2,
+    "source_injections": 0
+  },
+  "initial_failure_adjudication": {
+    "classification": "QA_CODEC_FAILURE",
+    "reason": "Shared stage1.snapshot parses outer format_version as Decimal; standard json.dumps cannot encode Decimal. Failure was in the QA transport helper before import. All 19 exact raw FAILs retained.",
+    "correction": "Use ordinary json.loads on HTTP outer export before ordinary json.dumps/json.loads; payload string remains opaque. Assertions and user input cases unchanged.",
+    "base_qa_commit": "47f1ed4bae8b480cc9032522cd2fb022fc8521e5",
+    "executed_corrected_test_sha256": "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201",
+    "source_binding": "reports/stage-4/ENCODING-COLLISION-QA-CORRECTION-e538cd1.json",
+    "commit_timing": "Corrected source executed as explicitly hash-bound working QA while foreign Builder index entries were left untouched; eventual evidence commit contains identical source."
+  },
+  "attempts": [
+    {
+      "path": "reports/stage-4/20261005T130056.421844Z-encoding-collision-e538cd1-3cf2c2d8",
+      "manifest_sha256": "e4c061b92f5533da39e3bf47ac3f01b6eaa21a96cee5096cd0ac834c668d8741",
+      "artifact_count": 24,
+      "result": {
+        "kind": "APPLICATION",
+        "application_outcome": "REQUIRES_RECONCILIATION",
+        "room": "e04c2728-8535-41c8-be50-88eb8068fa09",
+        "product_sha": "e538cd16bbd96d4206d89f17a67791e759c00823",
+        "qa_sha": "47f1ed4bae8b480cc9032522cd2fb022fc8521e5",
+        "stage": 4,
+        "command": [
+          "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+          "qa/run_suite.py",
+          "--checkout",
+          "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/e538cd16bbd96d4206d89f17a67791e759c00823-b123aec8",
+          "--stage",
+          "4",
+          "--suite",
+          "stage4-encoding-collision",
+          "--out",
+          "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final/reports/stage-4/20261005T130056.421844Z-encoding-collision-e538cd1-3cf2c2d8"
+        ],
+        "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+        "started_at": "2026-10-05T13:00:56.454273+00:00",
+        "python": "3.12.14",
+        "platform": "macOS-15.6.1-arm64-arm-64bit",
+        "timeout_s": 1800,
+        "client_memory_cap_added": false,
+        "command_outcome": "EXITED",
+        "returncode": 1,
+        "duration_s": 17.956729374825954,
+        "ended_at": "2026-10-05T13:01:14.484662+00:00"
+      },
+      "environment": {
+        "product_sha": "e538cd16bbd96d4206d89f17a67791e759c00823",
+        "stage": 4,
+        "suite": "stage4-encoding-collision",
+        "checkout": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/e538cd16bbd96d4206d89f17a67791e759c00823-b123aec8",
+        "qa_root": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final/qa",
+        "service": "juniper-v-4a40b99be30f-svc",
+        "network": "juniper-v-4a40b99be30f-net",
+        "image": "juniper-v-4a40b99be30f:s4",
+        "client": "juniper-v-4a40b99be30f-qa",
+        "client_memory_cap": null,
+        "healthy_s": 0.8872362095862627,
+        "service_limits": {
+          "cpus": 2,
+          "memory_bytes": 2147483648,
+          "read_only": true,
+          "runtime_network": "internal"
+        }
+      },
+      "outcomes": {
+        "FAIL": 19
+      },
+      "http_requests": 225,
+      "source_sha256": [
+        "e56fdeffe4d059edc0270d05927004f25c202efda593baed4d967edf2e880eac"
+      ],
+      "classification": "QA_CODEC_FAILURE",
+      "service_runtime_verified": {
+        "cpus": 2,
+        "memory_bytes": 2147483648,
+        "read_only": true,
+        "internal_network": true,
+        "client_memory_limit_bytes": 0,
+        "cleanup_logs_present": true
+      }
+    },
+    {
+      "path": "reports/stage-4/20261005T130426.567489Z-encoding-collision-codec-corrected-e538cd1-b0724a54",
+      "manifest_sha256": "6d7e47d09756e5030090677f109cdc2c877e3d3b52ce4c80cc040596af4abcd9",
+      "artifact_count": 24,
+      "result": {
+        "kind": "APPLICATION",
+        "application_outcome": "REQUIRES_RECONCILIATION",
+        "room": "e04c2728-8535-41c8-be50-88eb8068fa09",
+        "product_sha": "e538cd16bbd96d4206d89f17a67791e759c00823",
+        "qa_sha": "47f1ed4bae8b480cc9032522cd2fb022fc8521e5+working-test-sha256:25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201",
+        "stage": 4,
+        "command": [
+          "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/.venv/bin/python",
+          "qa/run_suite.py",
+          "--checkout",
+          "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/e538cd16bbd96d4206d89f17a67791e759c00823-b123aec8",
+          "--stage",
+          "4",
+          "--suite",
+          "stage4-encoding-collision",
+          "--out",
+          "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final/reports/stage-4/20261005T130426.567489Z-encoding-collision-codec-corrected-e538cd1-b0724a54"
+        ],
+        "cwd": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final",
+        "started_at": "2026-10-05T13:04:26.568642+00:00",
+        "python": "3.12.14",
+        "platform": "macOS-15.6.1-arm64-arm-64bit",
+        "timeout_s": 1800,
+        "client_memory_cap_added": false,
+        "command_outcome": "EXITED",
+        "returncode": 0,
+        "duration_s": 11.196908791549504,
+        "ended_at": "2026-10-05T13:04:37.794360+00:00"
+      },
+      "environment": {
+        "product_sha": "e538cd16bbd96d4206d89f17a67791e759c00823",
+        "stage": 4,
+        "suite": "stage4-encoding-collision",
+        "checkout": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/e538cd16bbd96d4206d89f17a67791e759c00823-b123aec8",
+        "qa_root": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final/qa",
+        "service": "juniper-v-a7b0e56c435a-svc",
+        "network": "juniper-v-a7b0e56c435a-net",
+        "image": "juniper-v-a7b0e56c435a:s4",
+        "client": "juniper-v-a7b0e56c435a-qa",
+        "client_memory_cap": null,
+        "healthy_s": 0.6854523345828056,
+        "service_limits": {
+          "cpus": 2,
+          "memory_bytes": 2147483648,
+          "read_only": true,
+          "runtime_network": "internal"
+        }
+      },
+      "outcomes": {
+        "PASS": 19
+      },
+      "http_requests": 855,
+      "source_sha256": [
+        "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201"
+      ],
+      "classification": "PASS",
+      "service_runtime_verified": {
+        "cpus": 2,
+        "memory_bytes": 2147483648,
+        "read_only": true,
+        "internal_network": true,
+        "client_memory_limit_bytes": 0,
+        "cleanup_logs_present": true
+      }
+    }
+  ],
+  "corrected_http": {
+    "requests": 855,
+    "max_inflight": 1,
+    "p50_receive_s": 0.0027487820043461397,
+    "p95_receive_s": 0.02039916299690958,
+    "max_receive_s": 0.06035235100716818,
+    "status_counts": {
+      "200": 560,
+      "201": 61,
+      "204": 62,
+      "401": 15,
+      "409": 148,
+      "422": 9
+    },
+    "http_5xx": 0
+  },
+  "all_attempt_http": {
+    "requests": 1080,
+    "max_inflight": 1,
+    "p50_receive_s": 0.0027720619982574135,
+    "p95_receive_s": 0.03355444999760948,
+    "max_receive_s": 0.07976513801258989,
+    "status_counts": {
+      "200": 714,
+      "201": 113,
+      "204": 81,
+      "401": 15,
+      "409": 148,
+      "422": 9
+    },
+    "http_5xx": 0
+  },
+  "artifact_files_verified": 48,
+  "sum_attempt_duration_s": 29.15363816637546,
+  "runtime_sources": {
+    "stage-4/domain.py": "b156eacb3b059ceb54327b8703add5069f7964906f2914238b97cd4376f19576",
+    "stage-4/exactjson.py": "92499f2e1a469578493b47dbb16846243c998b05aa2f79babc1fc782ee1c0825",
+    "stage-4/server.py": "578f9cf468baffd871a9c34e09aa43e008df15561fa10f0c132a1a1c056d699e",
+    "stage-4/legacy.py": "f24628cac0e6a492e43eac3e1c4be597bca6bb0f7f66e49f065dfc03098e02c5",
+    "stage-4/stage3.py": "61393a9d996541aadc8aca67bef80d19fa2a054ef788816e2cfd75b29031dde9",
+    "stage-4/STAGE4-DESIGN.md": "092a69748782e8ef872ba633ae9414d0d1bc5b36f54f895d49705e12da5cc0f5",
+    "stage-4/Dockerfile": "fe4ca4f390fbde88f2b9bbd4fa008faf1c76f9e2c1b49301c4a673925877bce3"
+  },
+  "qa_sources": {
+    "qa/derived/test_stage4_encoding_collision.py": "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201",
+    "qa/derived/test_stage4.py": "cd7e19d256bc9b3e69811d58c9c1f44c1009990a6b2d5f30a096808d23263e18",
+    "qa/derived/test_stage3.py": "7de5cb6145d5d052f6f2c45b70280e316b9c9e66c4f72731991c97dfac8cbf35",
+    "qa/derived/test_stage1.py": "74c487edaf9db3c76222fb569841d42d682a763b4198f4a3a6f1d9c9276ac313",
+    "qa/run_suite.py": "f04c6540f9ce08219ec1bc4c206be957262830c751a45b623ea7feb607336f74",
+    "qa/evidence_plugin.py": "99b2e6a08631a45cb27ca12e8a048a10ca653037f9b7d07d57612b0947fccfb6",
+    "qa/attempt.py": "f3674b9f7fc3e279778453585ed60ae8faa9eede1fb60f284ff00df583e369de"
+  },
+  "cases": [
+    {
+      "at": "2026-10-05T13:04:30.665852+00:00",
+      "id": "derived/test_stage4_encoding_collision.py::test_D417_user_carriers_full_write_lifetime[D417-wrapper-object]",
+      "native_nodeid": "derived/test_stage4_encoding_collision.py::test_D417_user_carriers_full_write_lifetime[D417-wrapper-object]",
+      "phase": "call",
+      "outcome": "PASS",
+      "description": "Ignored carrier-shaped values retain exact retry identity across real repair, series amendment and ordinary envelope roundtrip.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "All assertions completed",
+      "duration_s": 0.3986256100033643,
+      "metrics": {
+        "observed": "{\"current_assignment_and_time_preserved\": true, \"distinct_value_conflicts\": 24, \"equivalent_initial_replays\": 4, \"exact_snapshot_nonmutation\": true, \"first_uses\": 4, \"idempotent_paths\": 4, \"immutable_original_receipts\": true, \"import\": 204, \"original_and_equivalent_post_import_replays\": 8, \"outer_ordinary_json_roundtrip\": true, \"shape\": \"wrapper-object\"}"
+      },
+      "product_revision": "e538cd16bbd96d4206d89f17a67791e759c00823",
+      "test_sha256": "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201"
+    },
+    {
+      "at": "2026-10-05T13:04:31.220818+00:00",
+      "id": "derived/test_stage4_encoding_collision.py::test_D417_user_carriers_full_write_lifetime[D417-number-objects]",
+      "native_nodeid": "derived/test_stage4_encoding_collision.py::test_D417_user_carriers_full_write_lifetime[D417-number-objects]",
+      "phase": "call",
+      "outcome": "PASS",
+      "description": "Ignored carrier-shaped values retain exact retry identity across real repair, series amendment and ordinary envelope roundtrip.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "All assertions completed",
+      "duration_s": 0.433625146994018,
+      "metrics": {
+        "observed": "{\"current_assignment_and_time_preserved\": true, \"distinct_value_conflicts\": 24, \"equivalent_initial_replays\": 4, \"exact_snapshot_nonmutation\": true, \"first_uses\": 4, \"idempotent_paths\": 4, \"immutable_original_receipts\": true, \"import\": 204, \"original_and_equivalent_post_import_replays\": 8, \"outer_ordinary_json_roundtrip\": true, \"shape\": \"number-objects\"}"
+      },
+      "product_revision": "e538cd16bbd96d4206d89f17a67791e759c00823",
+      "test_sha256": "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201"
+    },
+    {
+      "at": "2026-10-05T13:04:31.725347+00:00",
+      "id": "derived/test_stage4_encoding_collision.py::test_D417_user_carriers_full_write_lifetime[D417-carrier-array]",
+      "native_nodeid": "derived/test_stage4_encoding_collision.py::test_D417_user_carriers_full_write_lifetime[D417-carrier-array]",
+      "phase": "call",
+      "outcome": "PASS",
+      "description": "Ignored carrier-shaped values retain exact retry identity across real repair, series amendment and ordinary envelope roundtrip.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "All assertions completed",
+      "duration_s": 0.38754038700426463,
+      "metrics": {
+        "observed": "{\"current_assignment_and_time_preserved\": true, \"distinct_value_conflicts\": 24, \"equivalent_initial_replays\": 4, \"exact_snapshot_nonmutation\": true, \"first_uses\": 4, \"idempotent_paths\": 4, \"immutable_original_receipts\": true, \"import\": 204, \"original_and_equivalent_post_import_replays\": 8, \"outer_ordinary_json_roundtrip\": true, \"shape\": \"carrier-array\"}"
+      },
+      "product_revision": "e538cd16bbd96d4206d89f17a67791e759c00823",
+      "test_sha256": "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201"
+    },
+    {
+      "at": "2026-10-05T13:04:32.227030+00:00",
+      "id": "derived/test_stage4_encoding_collision.py::test_D417_user_carriers_full_write_lifetime[D417-carrier-string]",
+      "native_nodeid": "derived/test_stage4_encoding_collision.py::test_D417_user_carriers_full_write_lifetime[D417-carrier-string]",
+      "phase": "call",
+      "outcome": "PASS",
+      "description": "Ignored carrier-shaped values retain exact retry identity across real repair, series amendment and ordinary envelope roundtrip.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "All assertions completed",
+      "duration_s": 0.38184825200005434,
+      "metrics": {
+        "observed": "{\"current_assignment_and_time_preserved\": true, \"distinct_value_conflicts\": 24, \"equivalent_initial_replays\": 4, \"exact_snapshot_nonmutation\": true, \"first_uses\": 4, \"idempotent_paths\": 4, \"immutable_original_receipts\": true, \"import\": 204, \"original_and_equivalent_post_import_replays\": 8, \"outer_ordinary_json_roundtrip\": true, \"shape\": \"carrier-string\"}"
+      },
+      "product_revision": "e538cd16bbd96d4206d89f17a67791e759c00823",
+      "test_sha256": "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201"
+    },
+    {
+      "at": "2026-10-05T13:04:33.077154+00:00",
+      "id": "derived/test_stage4_encoding_collision.py::test_D417_user_carriers_full_write_lifetime[D417-nested-128]",
+      "native_nodeid": "derived/test_stage4_encoding_collision.py::test_D417_user_carriers_full_write_lifetime[D417-nested-128]",
+      "phase": "call",
+      "outcome": "PASS",
+      "description": "Ignored carrier-shaped values retain exact retry identity across real repair, series amendment and ordinary envelope roundtrip.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "All assertions completed",
+      "duration_s": 0.7340684710070491,
+      "metrics": {
+        "observed": "{\"current_assignment_and_time_preserved\": true, \"distinct_value_conflicts\": 24, \"equivalent_initial_replays\": 4, \"exact_snapshot_nonmutation\": true, \"first_uses\": 4, \"idempotent_paths\": 4, \"immutable_original_receipts\": true, \"import\": 204, \"original_and_equivalent_post_import_replays\": 8, \"outer_ordinary_json_roundtrip\": true, \"shape\": \"nested-128\"}"
+      },
+      "product_revision": "e538cd16bbd96d4206d89f17a67791e759c00823",
+      "test_sha256": "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201"
+    },
+    {
+      "at": "2026-10-05T13:04:33.579474+00:00",
+      "id": "derived/test_stage4_encoding_collision.py::test_D417_user_carriers_full_write_lifetime[D417-exact-compact-numbers]",
+      "native_nodeid": "derived/test_stage4_encoding_collision.py::test_D417_user_carriers_full_write_lifetime[D417-exact-compact-numbers]",
+      "phase": "call",
+      "outcome": "PASS",
+      "description": "Ignored carrier-shaped values retain exact retry identity across real repair, series amendment and ordinary envelope roundtrip.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "All assertions completed",
+      "duration_s": 0.384410102997208,
+      "metrics": {
+        "observed": "{\"current_assignment_and_time_preserved\": true, \"distinct_value_conflicts\": 24, \"equivalent_initial_replays\": 4, \"exact_snapshot_nonmutation\": true, \"first_uses\": 4, \"idempotent_paths\": 4, \"immutable_original_receipts\": true, \"import\": 204, \"original_and_equivalent_post_import_replays\": 8, \"outer_ordinary_json_roundtrip\": true, \"shape\": \"exact-compact-numbers\"}"
+      },
+      "product_revision": "e538cd16bbd96d4206d89f17a67791e759c00823",
+      "test_sha256": "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201"
+    },
+    {
+      "at": "2026-10-05T13:04:33.719641+00:00",
+      "id": "derived/test_stage4_encoding_collision.py::test_D417_type_identity_survives_carrier_roundtrip[D417-bool-number]",
+      "native_nodeid": "derived/test_stage4_encoding_collision.py::test_D417_type_identity_survives_carrier_roundtrip[D417-bool-number]",
+      "phase": "call",
+      "outcome": "PASS",
+      "description": "Boolean, numeric and cost-shaped object identities remain distinct after import and conflict without mutation.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "All assertions completed",
+      "duration_s": 0.021689108994905837,
+      "metrics": {
+        "observed": "{\"conflict\": 409, \"distinct_json\": \"1\", \"exact_nonmutation\": true, \"import\": 204, \"original_json\": \"true\", \"original_replay\": 200}"
+      },
+      "product_revision": "e538cd16bbd96d4206d89f17a67791e759c00823",
+      "test_sha256": "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201"
+    },
+    {
+      "at": "2026-10-05T13:04:33.853870+00:00",
+      "id": "derived/test_stage4_encoding_collision.py::test_D417_type_identity_survives_carrier_roundtrip[D417-number-object]",
+      "native_nodeid": "derived/test_stage4_encoding_collision.py::test_D417_type_identity_survives_carrier_roundtrip[D417-number-object]",
+      "phase": "call",
+      "outcome": "PASS",
+      "description": "Boolean, numeric and cost-shaped object identities remain distinct after import and conflict without mutation.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "All assertions completed",
+      "duration_s": 0.01930699600779917,
+      "metrics": {
+        "observed": "{\"conflict\": 409, \"distinct_json\": \"{\\\"terms\\\":[1]}\", \"exact_nonmutation\": true, \"import\": 204, \"original_json\": \"1\", \"original_replay\": 200}"
+      },
+      "product_revision": "e538cd16bbd96d4206d89f17a67791e759c00823",
+      "test_sha256": "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201"
+    },
+    {
+      "at": "2026-10-05T13:04:33.985000+00:00",
+      "id": "derived/test_stage4_encoding_collision.py::test_D417_type_identity_survives_carrier_roundtrip[D417-object-number]",
+      "native_nodeid": "derived/test_stage4_encoding_collision.py::test_D417_type_identity_survives_carrier_roundtrip[D417-object-number]",
+      "phase": "call",
+      "outcome": "PASS",
+      "description": "Boolean, numeric and cost-shaped object identities remain distinct after import and conflict without mutation.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "All assertions completed",
+      "duration_s": 0.017818024003645405,
+      "metrics": {
+        "observed": "{\"conflict\": 409, \"distinct_json\": \"1\", \"exact_nonmutation\": true, \"import\": 204, \"original_json\": \"{\\\"terms\\\":[1]}\", \"original_replay\": 200}"
+      },
+      "product_revision": "e538cd16bbd96d4206d89f17a67791e759c00823",
+      "test_sha256": "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201"
+    },
+    {
+      "at": "2026-10-05T13:04:34.124178+00:00",
+      "id": "derived/test_stage4_encoding_collision.py::test_D417_type_identity_survives_carrier_roundtrip[D417-false-zero]",
+      "native_nodeid": "derived/test_stage4_encoding_collision.py::test_D417_type_identity_survives_carrier_roundtrip[D417-false-zero]",
+      "phase": "call",
+      "outcome": "PASS",
+      "description": "Boolean, numeric and cost-shaped object identities remain distinct after import and conflict without mutation.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "All assertions completed",
+      "duration_s": 0.023447971005225554,
+      "metrics": {
+        "observed": "{\"conflict\": 409, \"distinct_json\": \"0\", \"exact_nonmutation\": true, \"import\": 204, \"original_json\": \"false\", \"original_replay\": 200}"
+      },
+      "product_revision": "e538cd16bbd96d4206d89f17a67791e759c00823",
+      "test_sha256": "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201"
+    },
+    {
+      "at": "2026-10-05T13:04:34.385318+00:00",
+      "id": "derived/test_stage4_encoding_collision.py::test_D417_forged_carrier_rejected_atomically[D417-duplicate-path]",
+      "native_nodeid": "derived/test_stage4_encoding_collision.py::test_D417_forged_carrier_rejected_atomically[D417-duplicate-path]",
+      "phase": "call",
+      "outcome": "PASS",
+      "description": "Checksum-valid forged carrier paths or inconsistent cost terms reject422 and leave a distinct destination unchanged.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "All assertions completed",
+      "duration_s": 0.1481459159986116,
+      "metrics": {
+        "observed": "{\"attack\": \"duplicate-path\", \"corrupt_import\": 422, \"destination_nonmutation\": true, \"equivalent_signed_cost_control\": 204, \"journal_unchanged\": true, \"new_plan_application\": 201, \"original_receipt_replays\": 2, \"original_roundtrip\": 204}"
+      },
+      "product_revision": "e538cd16bbd96d4206d89f17a67791e759c00823",
+      "test_sha256": "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201"
+    },
+    {
+      "at": "2026-10-05T13:04:34.650777+00:00",
+      "id": "derived/test_stage4_encoding_collision.py::test_D417_forged_carrier_rejected_atomically[D417-null-user-receipt-path]",
+      "native_nodeid": "derived/test_stage4_encoding_collision.py::test_D417_forged_carrier_rejected_atomically[D417-null-user-receipt-path]",
+      "phase": "call",
+      "outcome": "PASS",
+      "description": "Checksum-valid forged carrier paths or inconsistent cost terms reject422 and leave a distinct destination unchanged.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "All assertions completed",
+      "duration_s": 0.15223391899780836,
+      "metrics": {
+        "observed": "{\"attack\": \"null-user-receipt-path\", \"corrupt_import\": 422, \"destination_nonmutation\": true, \"equivalent_signed_cost_control\": 204, \"journal_unchanged\": true, \"new_plan_application\": 201, \"original_receipt_replays\": 2, \"original_roundtrip\": 204}"
+      },
+      "product_revision": "e538cd16bbd96d4206d89f17a67791e759c00823",
+      "test_sha256": "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201"
+    },
+    {
+      "at": "2026-10-05T13:04:34.934274+00:00",
+      "id": "derived/test_stage4_encoding_collision.py::test_D417_forged_carrier_rejected_atomically[D417-boolean-array-index]",
+      "native_nodeid": "derived/test_stage4_encoding_collision.py::test_D417_forged_carrier_rejected_atomically[D417-boolean-array-index]",
+      "phase": "call",
+      "outcome": "PASS",
+      "description": "Checksum-valid forged carrier paths or inconsistent cost terms reject422 and leave a distinct destination unchanged.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "All assertions completed",
+      "duration_s": 0.16983056800381746,
+      "metrics": {
+        "observed": "{\"attack\": \"boolean-array-index\", \"corrupt_import\": 422, \"destination_nonmutation\": true, \"equivalent_signed_cost_control\": 204, \"journal_unchanged\": true, \"new_plan_application\": 201, \"original_receipt_replays\": 2, \"original_roundtrip\": 204}"
+      },
+      "product_revision": "e538cd16bbd96d4206d89f17a67791e759c00823",
+      "test_sha256": "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201"
+    },
+    {
+      "at": "2026-10-05T13:04:35.236970+00:00",
+      "id": "derived/test_stage4_encoding_collision.py::test_D417_forged_carrier_rejected_atomically[D417-negative-array-index]",
+      "native_nodeid": "derived/test_stage4_encoding_collision.py::test_D417_forged_carrier_rejected_atomically[D417-negative-array-index]",
+      "phase": "call",
+      "outcome": "PASS",
+      "description": "Checksum-valid forged carrier paths or inconsistent cost terms reject422 and leave a distinct destination unchanged.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "All assertions completed",
+      "duration_s": 0.1836475000018254,
+      "metrics": {
+        "observed": "{\"attack\": \"negative-array-index\", \"corrupt_import\": 422, \"destination_nonmutation\": true, \"equivalent_signed_cost_control\": 204, \"journal_unchanged\": true, \"new_plan_application\": 201, \"original_receipt_replays\": 2, \"original_roundtrip\": 204}"
+      },
+      "product_revision": "e538cd16bbd96d4206d89f17a67791e759c00823",
+      "test_sha256": "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201"
+    },
+    {
+      "at": "2026-10-05T13:04:35.520750+00:00",
+      "id": "derived/test_stage4_encoding_collision.py::test_D417_forged_carrier_rejected_atomically[D417-object-terms]",
+      "native_nodeid": "derived/test_stage4_encoding_collision.py::test_D417_forged_carrier_rejected_atomically[D417-object-terms]",
+      "phase": "call",
+      "outcome": "PASS",
+      "description": "Checksum-valid forged carrier paths or inconsistent cost terms reject422 and leave a distinct destination unchanged.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "All assertions completed",
+      "duration_s": 0.1571516700059874,
+      "metrics": {
+        "observed": "{\"attack\": \"object-terms\", \"corrupt_import\": 422, \"destination_nonmutation\": true, \"equivalent_signed_cost_control\": 204, \"journal_unchanged\": true, \"new_plan_application\": 201, \"original_receipt_replays\": 2, \"original_roundtrip\": 204}"
+      },
+      "product_revision": "e538cd16bbd96d4206d89f17a67791e759c00823",
+      "test_sha256": "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201"
+    },
+    {
+      "at": "2026-10-05T13:04:35.802869+00:00",
+      "id": "derived/test_stage4_encoding_collision.py::test_D417_forged_carrier_rejected_atomically[D417-boolean-terms]",
+      "native_nodeid": "derived/test_stage4_encoding_collision.py::test_D417_forged_carrier_rejected_atomically[D417-boolean-terms]",
+      "phase": "call",
+      "outcome": "PASS",
+      "description": "Checksum-valid forged carrier paths or inconsistent cost terms reject422 and leave a distinct destination unchanged.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "All assertions completed",
+      "duration_s": 0.15759282499493565,
+      "metrics": {
+        "observed": "{\"attack\": \"boolean-terms\", \"corrupt_import\": 422, \"destination_nonmutation\": true, \"equivalent_signed_cost_control\": 204, \"journal_unchanged\": true, \"new_plan_application\": 201, \"original_receipt_replays\": 2, \"original_roundtrip\": 204}"
+      },
+      "product_revision": "e538cd16bbd96d4206d89f17a67791e759c00823",
+      "test_sha256": "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201"
+    },
+    {
+      "at": "2026-10-05T13:04:36.085421+00:00",
+      "id": "derived/test_stage4_encoding_collision.py::test_D417_forged_carrier_rejected_atomically[D417-negative-total]",
+      "native_nodeid": "derived/test_stage4_encoding_collision.py::test_D417_forged_carrier_rejected_atomically[D417-negative-total]",
+      "phase": "call",
+      "outcome": "PASS",
+      "description": "Checksum-valid forged carrier paths or inconsistent cost terms reject422 and leave a distinct destination unchanged.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "All assertions completed",
+      "duration_s": 0.15616468199004885,
+      "metrics": {
+        "observed": "{\"attack\": \"negative-total\", \"corrupt_import\": 422, \"destination_nonmutation\": true, \"equivalent_signed_cost_control\": 204, \"journal_unchanged\": true, \"new_plan_application\": 201, \"original_receipt_replays\": 2, \"original_roundtrip\": 204}"
+      },
+      "product_revision": "e538cd16bbd96d4206d89f17a67791e759c00823",
+      "test_sha256": "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201"
+    },
+    {
+      "at": "2026-10-05T13:04:36.354889+00:00",
+      "id": "derived/test_stage4_encoding_collision.py::test_D417_forged_carrier_rejected_atomically[D417-journal-inconsistent-cost]",
+      "native_nodeid": "derived/test_stage4_encoding_collision.py::test_D417_forged_carrier_rejected_atomically[D417-journal-inconsistent-cost]",
+      "phase": "call",
+      "outcome": "PASS",
+      "description": "Checksum-valid forged carrier paths or inconsistent cost terms reject422 and leave a distinct destination unchanged.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "All assertions completed",
+      "duration_s": 0.15321202400082257,
+      "metrics": {
+        "observed": "{\"attack\": \"journal-inconsistent-cost\", \"corrupt_import\": 422, \"destination_nonmutation\": true, \"equivalent_signed_cost_control\": 204, \"journal_unchanged\": true, \"new_plan_application\": 201, \"original_receipt_replays\": 2, \"original_roundtrip\": 204}"
+      },
+      "product_revision": "e538cd16bbd96d4206d89f17a67791e759c00823",
+      "test_sha256": "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201"
+    },
+    {
+      "at": "2026-10-05T13:04:36.633115+00:00",
+      "id": "derived/test_stage4_encoding_collision.py::test_D417_forged_carrier_rejected_atomically[D417-missing-cost-path]",
+      "native_nodeid": "derived/test_stage4_encoding_collision.py::test_D417_forged_carrier_rejected_atomically[D417-missing-cost-path]",
+      "phase": "call",
+      "outcome": "PASS",
+      "description": "Checksum-valid forged carrier paths or inconsistent cost terms reject422 and leave a distinct destination unchanged.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "All assertions completed",
+      "duration_s": 0.1612513849977404,
+      "metrics": {
+        "observed": "{\"attack\": \"missing-cost-path\", \"corrupt_import\": 422, \"destination_nonmutation\": true, \"equivalent_signed_cost_control\": 204, \"journal_unchanged\": true, \"new_plan_application\": 201, \"original_receipt_replays\": 2, \"original_roundtrip\": 204}"
+      },
+      "product_revision": "e538cd16bbd96d4206d89f17a67791e759c00823",
+      "test_sha256": "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201"
+    }
+  ],
+  "raw_initial_case_results": "reports/stage-4/20261005T130056.421844Z-encoding-collision-e538cd1-3cf2c2d8/cases.jsonl",
+  "limitations": "Bounded adversarial investigation, not proof for every possible JSON value. No full current-stage gate or source-fault count inferred from these results."
+}

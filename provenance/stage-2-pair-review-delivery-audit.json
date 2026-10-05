@@ -1,0 +1,54 @@
+{
+  "mirror_sha256": "3137dee303ba6cf80a75368348a2341f4fc63389d07c08ab461d22a8dcc69d8f",
+  "bytes": 59607,
+  "full_spec_verbatim": {
+    "1": true,
+    "2": true
+  },
+  "native_deliveries": [
+    {
+      "part": 1,
+      "message_id": "30febcbc-1122-489b-b2b6-899aff78c280",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "part": 2,
+      "message_id": "3377a802-0413-4a3e-bc70-7379bfa57844",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "part": 3,
+      "message_id": "8fe45913-92d6-406a-bc14-183d584038ff",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "part": 4,
+      "message_id": "911d502b-e482-479f-af97-e38ea58c16dc",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "part": 5,
+      "message_id": "987e1f81-4e54-4ba6-bc03-dcb6ddfe344b",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    }
+  ],
+  "all5accepted_correctroom": true,
+  "product": "4b2236fb6576b636d168b2cacf1a5d91921cf582",
+  "mirror_commit": "63437ada658bceb8df5e4bc13974e3ef308216d4",
+  "not_native_export": true
+}

@@ -1,0 +1,65 @@
+{
+  "room": "e04c2728-8535-41c8-be50-88eb8068fa09",
+  "product_sha": "63cf798cf60baf3134a64e4db599c92d81561e3e",
+  "reason": "Verifier reported10:45:52UTC only SHA announcement visible, missing five original parts; Coordinator sent complete same-SHA recovery package.",
+  "sent_at": {
+    "current_time": "2026-10-05 10:49:20 UTC"
+  },
+  "parts": 5,
+  "all_native_accepted": true,
+  "recipient_assembly": "Verifier confirmed complete repair handoff visible in actual room at2026-10-05T10:54:33Z; clean exact-SHA review begins.",
+  "deliveries": [
+    {
+      "part": 1,
+      "characters": 9471,
+      "message_id": "9f2e5301-f0e8-4556-bd42-c5bb56d02705",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "part": 2,
+      "characters": 19388,
+      "message_id": "9e727110-c432-4fa2-988d-8654efc012a1",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "part": 3,
+      "characters": 10440,
+      "message_id": "34592459-d974-48d2-9ffa-2c655e106e30",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "part": 4,
+      "characters": 6854,
+      "message_id": "ce273f86-0d54-4779-9781-d0bf05daa970",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "part": 5,
+      "characters": 3926,
+      "message_id": "46125253-824e-4732-a9fa-74c62a100b98",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    }
+  ],
+  "note": "Delivery manifest only; not a native room export. Full actual task/spec1/spec2/testing/setup+repair requirements were sent in room.",
+  "supplemental_authored_mirror": {
+    "path": "provenance/stage-2-review-63cf798.md",
+    "sha256": "bcf1107a174c994d533e8e0422cc831bd6566c667908136953663cf01af16d70",
+    "native_export": false
+  },
+  "recipient_assembly_observed_utc": "2026-10-05T10:54:33Z"
+}

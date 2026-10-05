@@ -1,0 +1,85 @@
+{
+  "product_sha": "e538cd16bbd96d4206d89f17a67791e759c00823",
+  "author_committer": "Builder <builder@juniper-factory.local> | Builder <builder@juniper-factory.local>",
+  "changed_paths": 244,
+  "groups": {
+    "FEATURES.html": 1,
+    "FEATURES.md": 1,
+    "README.html": 1,
+    "README.md": 1,
+    "demo": 7,
+    "stage-4": 233
+  },
+  "ownership_violations": [],
+  "earlier_context_diff": [],
+  "stage4_design_sha256": "092a69748782e8ef872ba633ae9414d0d1bc5b36f54f895d49705e12da5cc0f5",
+  "browser_matches_stage3": true,
+  "recorded_at_utc": "2026-10-05T12:24:19.672995+00:00",
+  "complete_specifications_in_review_mirror": {
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true
+  },
+  "review_deliveries": [
+    {
+      "part": 1,
+      "message_id": "b7cc034a-fdb8-42c9-a938-0c75c81db98d",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "part": 2,
+      "message_id": "6bd80245-8e00-435e-acfd-2bfe6b16763f",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "part": 3,
+      "message_id": "3fdfbf35-5550-4bb7-a8fc-b987edc66bbc",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "part": 4,
+      "message_id": "b0904169-307e-4a6d-b2de-49b57fcf98ff",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "part": 5,
+      "message_id": "7aebfd22-645e-4a74-8238-3b4092f5da57",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "part": 6,
+      "message_id": "046296bc-0357-43d2-acf7-ce0833b96115",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    },
+    {
+      "part": 7,
+      "message_id": "44213239-2385-4550-9c83-5e0b7d36afea",
+      "notice": "Later responses arrive through normal inbound room delivery; they may steer an active turn or start a later turn.",
+      "room_id": "e04c2728-8535-41c8-be50-88eb8068fa09",
+      "status": "accepted",
+      "warnings": []
+    }
+  ],
+  "review_mirror_sha256": "9c01a41e2bf2d1b7c3eaad217cb59f658cec2ccb5a656ff036772c83c11371fc",
+  "application_outcome": "NOT_RUN at Coordinator observation; await independent exact-SHA review",
+  "committed_readme_prior_contradiction_removed": true
+}

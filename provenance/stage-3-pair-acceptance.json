@@ -1,0 +1,87 @@
+{
+  "stage": 3,
+  "status": "ACCEPTED",
+  "at": "2026-10-05T14:20:21Z",
+  "elapsed_from_first_measurement_s": 28714,
+  "product": "301caf55085280f12197e393ab6b4735ef4046c3",
+  "independent_evidence": "f31cf3ab27938453c42b4d495ec54953c990153a",
+  "review": "reports/stage-3/REVIEW-301caf5.md",
+  "coordinator_audit": "provenance/review-integrity-301caf5.json",
+  "reconciled_definitions": {
+    "frozen": 179,
+    "independent": 214,
+    "official": 152
+  },
+  "raw_pytest": {
+    "executions": 669,
+    "PASS": 659,
+    "FAIL": 10,
+    "ERROR": 0,
+    "SKIP": 0,
+    "classification": "4 unchanged malformed-email oracle conflicts;6 opaque-selector mismatches. Separate adjudicated/adapter executions pass; originals retained."
+  },
+  "source_faults": {
+    "actual_executions": 35,
+    "defined_controls": 13,
+    "executed_controls": 13,
+    "actually_injected_operation_names": 13,
+    "fault_types": 3,
+    "http_requests": 0
+  },
+  "developer": {
+    "original_PASS": 62,
+    "original_ERROR": 2,
+    "explicit_adapter_PASS": 62
+  },
+  "producer_removal": {
+    "actual_executions": 6,
+    "distinct_integration_definitions": 3,
+    "incoming_edges": [
+      "1→3",
+      "2→3",
+      "3→3"
+    ],
+    "six_frozen_each": true,
+    "live_browser_each": true
+  },
+  "direct_defect_families_closed": 10,
+  "other_contexts_unchanged": true,
+  "numeric_extreme": {
+    "received_decompressed_bytes": 1100002780,
+    "receive_decompress_s": 3.258420881,
+    "complete_original_Decimal_parse_s": 5.78421204,
+    "uncapped_client_peak_KiB": 2845512,
+    "service_cpus": 2,
+    "service_memory_GiB": 2
+  },
+  "httpx": {
+    "requests": 7871,
+    "concurrency_max": 50,
+    "p50_s": 0.018676276,
+    "p95_s": 0.30729103,
+    "max_s": 3.258420881,
+    "no_5xx": true
+  },
+  "load": {
+    "requests": 2610,
+    "concurrency_max": 50,
+    "p50_s": 0.033459928,
+    "p95_s": 0.359856657,
+    "max_s": 0.940833859
+  },
+  "application_commands": {
+    "count": 36,
+    "sum_s": 376.231443,
+    "window_s": 379.989932,
+    "start": "2026-10-05T13:59:22.504303Z",
+    "end": "2026-10-05T14:05:42.494235Z"
+  },
+  "next": "Only after full seven-part continuation delivery, Builder copies accepted browser correction into existingStage4e538; full new exact-SHA review required. No priorStage4PASS carries forward.",
+  "limits": [
+    "All historical failures/reopenings retained",
+    "Original developer fixture errors separately reconciled with explicit adapter and actual old producers",
+    "Stage4 automatic overshoot4PASS1FAIL1unexecuted is outsideStage3 gate",
+    "Native room readable; full native export remains unverified after four attempts",
+    "No hidden-test or universal arbitrary-output performance claim"
+  ]
+}

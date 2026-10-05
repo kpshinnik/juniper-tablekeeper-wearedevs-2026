@@ -1,0 +1,40 @@
+{
+  "kind": "BOUNDED_INVESTIGATION_PREPARATION",
+  "application_pass_claim": false,
+  "product_sha": "e538cd16bbd96d4206d89f17a67791e759c00823",
+  "checkout": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/e538cd16bbd96d4206d89f17a67791e759c00823-b123aec8",
+  "clean_status": "",
+  "created_at": "2026-10-05T13:02:56.955253+00:00",
+  "assignment_message": "bdefb32b-b309-487c-ab4b-43f5c6bf6b51",
+  "source_hashes": {
+    "stage-4/domain.py": "b156eacb3b059ceb54327b8703add5069f7964906f2914238b97cd4376f19576",
+    "stage-4/exactjson.py": "92499f2e1a469578493b47dbb16846243c998b05aa2f79babc1fc782ee1c0825",
+    "stage-4/server.py": "578f9cf468baffd871a9c34e09aa43e008df15561fa10f0c132a1a1c056d699e",
+    "stage-4/legacy.py": "f24628cac0e6a492e43eac3e1c4be597bca6bb0f7f66e49f065dfc03098e02c5",
+    "stage-4/stage3.py": "61393a9d996541aadc8aca67bef80d19fa2a054ef788816e2cfd75b29031dde9",
+    "stage-4/STAGE4-DESIGN.md": "092a69748782e8ef872ba633ae9414d0d1bc5b36f54f895d49705e12da5cc0f5",
+    "stage-4/Dockerfile": "fe4ca4f390fbde88f2b9bbd4fa008faf1c76f9e2c1b49301c4a673925877bce3"
+  },
+  "source_observation": {
+    "domain.py:519": "Only actual internal IntegerTotal instances create wide_values rows during export; JSON-shaped user dictionaries do not.",
+    "domain.py:538": "Import decodes only the root storage_version wrapper; each explicit path must target null and signed terms must be exact integral Number instances.",
+    "domain.py:487": "Native state is rebuilt from authentic Stage3 base plus operation journal, then compared before publication.",
+    "exactjson.py:456": "Equality distinguishes bool from numeric types and compares containers recursively."
+  },
+  "coverage": [
+    {
+      "ids": "D417 wrapper-object, number-objects, carrier-array, carrier-string, nested-128, exact-compact-numbers",
+      "obligation": "Four write paths; unknown carrier-shaped values; initial and post-import equivalent retries; conflicts; unchanged original receipts versus current repaired state."
+    },
+    {
+      "ids": "D417 bool-number, number-object, object-number, false-zero",
+      "obligation": "Direct type distinctions across unchanged export ordinary envelope roundtrip import."
+    },
+    {
+      "ids": "D417 duplicate-path, null-user-receipt-path, boolean-array-index, negative-array-index, object-terms, boolean-terms, negative-total, journal-inconsistent-cost, missing-cost-path",
+      "obligation": "Checksum-valid carrier attacks; valid signed-cost control; exact destination nonmutation; valid restore and new target operation."
+    }
+  ],
+  "prior_review": "reports/stage-4/REVIEW-e538cd1.md",
+  "prior_decision": "REJECT V-S2-003 remains open; no full-suite rerun in this investigation"
+}

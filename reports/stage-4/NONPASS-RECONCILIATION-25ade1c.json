@@ -1,0 +1,1342 @@
+{
+  "product_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+  "raw_nonpasses_unchanged": [
+    {
+      "at": "2026-10-05T14:56:03.053401+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D333_atomic_operation_counter_sequence",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D333_atomic_operation_counter_sequence",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Reset seeds count0; each actual operation increments once, noops/replays/rejects never do.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:51: in test_D333_atomic_operation_counter_sequence\n    check('reset-seeds', 0)\nderived/test_stage3_integrity.py:48: in check\n    got = revision(c)\n          ^^^^^^^^^^^\nderived/test_stage3_integrity.py:30: in revision\n    return exported(c)[1]['restaurant_revisions'][rid]\n           ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.11792265599069651,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D333_atomic_operation_counter_sequence",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D333_atomic_operation_counter_sequence",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:03.243146+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-policy-version]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-policy-version]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.05680507900251541,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-policy-version]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-policy-version]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:03.429639+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-policy-capacity]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-policy-capacity]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.05665510600374546,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-policy-capacity]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-policy-capacity]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:03.617770+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-policy-date]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-policy-date]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.056250702997203916,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-policy-date]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-policy-date]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:03.821901+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-policy-zero]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-policy-zero]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.07016624198877253,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-policy-zero]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-policy-zero]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:04.006247+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-current-terms]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-current-terms]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.053494343999773264,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-current-terms]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-current-terms]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:04.187598+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-current-end]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-current-end]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.05202041599841323,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-current-end]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-current-end]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:04.372752+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-history-seq]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-history-seq]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.05642920300306287,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-history-seq]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-history-seq]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:04.568934+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-history-time]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-history-time]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.06331695900007617,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-history-time]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-history-time]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:04.750355+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-history-terminal]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-history-terminal]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.05527117900783196,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-history-terminal]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-history-terminal]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:04.947947+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-history-revision-low]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-history-revision-low]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.05969495799217839,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-history-revision-low]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-history-revision-low]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:05.138863+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-history-revision-high]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-history-revision-high]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.05884284299099818,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-history-revision-high]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-history-revision-high]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:05.396512+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-history-terms]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-history-terms]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.10620736799319275,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-history-terms]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-history-terms]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:05.686244+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-history-field-order]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-history-field-order]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.13968326299800538,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-history-field-order]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-history-field-order]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:06.112243+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-history-linkage]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-history-linkage]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.14808494900353253,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-history-linkage]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-history-linkage]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:06.353033+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-owner]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-owner]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.0775382610008819,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-owner]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-series-owner]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:06.603997+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-duplicate-reference]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-duplicate-reference]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.06665437199990265,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-duplicate-reference]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-series-duplicate-reference]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:06.807142+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-index]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-index]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.06885412299016025,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-index]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-series-index]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:07.013889+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-missing-member]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-missing-member]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.061446363004506566,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-missing-member]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-series-missing-member]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:07.279309+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-anchor]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-anchor]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.12776732099882793,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-anchor]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-series-anchor]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:07.475103+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-original-date]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-original-date]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.06134995499451179,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-original-date]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-original-date]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:07.666060+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-interval]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-interval]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.05597042299632449,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-interval]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-series-interval]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:07.851306+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-revision-low]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-revision-low]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.052409558004001155,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-revision-low]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-series-revision-low]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:08.030563+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-revision-high]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-revision-high]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.05308799599879421,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-revision-high]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-series-revision-high]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:08.209876+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-permanent-exception]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-permanent-exception]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.0513148519967217,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-permanent-exception]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-permanent-exception]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:08.389837+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-cancel-erases-exception]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-cancel-erases-exception]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.05248826999741141,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-cancel-erases-exception]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-cancel-erases-exception]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:08.577475+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-cancel-invents-exception]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-cancel-invents-exception]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.055149106003227644,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-cancel-invents-exception]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-cancel-invents-exception]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:08.774011+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-policy-receipt]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-policy-receipt]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.06216449401108548,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-policy-receipt]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-policy-receipt]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:08.963598+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-receipt]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-receipt]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.0552875099965604,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-series-receipt]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-series-receipt]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:09.150429+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-batch-receipt]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-batch-receipt]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.05672183199203573,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-batch-receipt]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-batch-receipt]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:09.340543+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-receipt-owner]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-receipt-owner]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.05570753999927547,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-receipt-owner]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-receipt-owner]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:09.551264+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-receipt-body]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-receipt-body]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.07535795899457298,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-receipt-body]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-receipt-body]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:09.744152+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-restaurant-revision-low]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-restaurant-revision-low]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.06117810501018539,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-restaurant-revision-low]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-restaurant-revision-low]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:09.951305+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-restaurant-revision-high]",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-restaurant-revision-high]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Authentic journal and valid controls prove corrupted native histories/series/counters cannot be imported.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:185: in test_D334_checksum_valid_semantic_integrity\n    original, decoded = exported(c)\n                        ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.0727382590121124,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D334_checksum_valid_semantic_integrity[D334-restaurant-revision-high]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-restaurant-revision-high]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:10.142946+00:00",
+      "id": "derived/test_stage3_integrity.py::test_D335_overlapping_original_dates_valid_roundtrip",
+      "native_nodeid": "derived/test_stage3_integrity.py::test_D335_overlapping_original_dates_valid_roundtrip",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Overlapping original schedules are valid with disjoint seating and permanent exceptions/cancellations.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_stage3_integrity.py:214: in test_D335_overlapping_original_dates_valid_roundtrip\n    original, s = exported(c)\n                  ^^^^^^^^^^^\nderived/test_stage3_integrity.py:24: in exported\n    assert decoded['schema'] == 3, 'QA schema3 selector applicability'\n           ^^^^^^^^^^^^^^^^^\nE   KeyError: 'schema'",
+      "duration_s": 0.058566782987327315,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee",
+      "attempt": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "definition": "derived/test_stage3_integrity.py::test_D335_overlapping_original_dates_valid_roundtrip",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D335_overlapping_original_dates_valid_roundtrip",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:29.076728+00:00",
+      "id": "frozen/baseline-original/test_security.py::test_login_injection[S064-sql-login]",
+      "native_nodeid": "frozen/baseline-original/test_security.py::test_login_injection[S064-sql-login]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Injection strings cannot authenticate or expose internal failures.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "frozen/baseline-original/test_security.py:94: in test_login_injection\n    error(api.post('/auth/login',json={'email':payload,'password':payload}),401,'unauthenticated')\nfrozen/baseline-original/conftest.py:91: in error\n    assert response.status_code == status, response.text\nE   AssertionError: {\"error\":{\"code\":\"validation_failed\",\"message\":\"validation failed\"}}\nE   assert 422 == 401\nE    +  where 422 = <Response [422 Unprocessable Content]>.status_code",
+      "duration_s": 0.0030395770008908585,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "b61e82948c084749352a14bb78d7684bd467357d9ddf697f4afa7321ee939108",
+      "attempt": "reports/stage-4/20261005T145610.982797Z-original-25ade1c-157fc8aa",
+      "definition": "frozen/baseline-original/test_security.py::test_login_injection[S064-sql-login]",
+      "classification": "ORACLE_CONFLICT_RETAINED",
+      "reason": "Stage1 section6 requires malformed-email422; original frozen expectations require401. Separately adjudicated same definition passes with422 and nonmutation checks.",
+      "matching_passes": [
+        {
+          "id": "frozen/baseline-adjudicated/test_security.py::test_login_injection[S064-sql-login]",
+          "attempt": "reports/stage-4/20261005T145632.064935Z-adjudicated-25ade1c-24772534",
+          "test_sha256": "aed9bdfe8968802476f46fb1fe7e39f4b4d721200c3f99eed84a6d1647c6d354"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:29.170689+00:00",
+      "id": "frozen/baseline-original/test_security.py::test_login_injection[S065-script-login]",
+      "native_nodeid": "frozen/baseline-original/test_security.py::test_login_injection[S065-script-login]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Injection strings cannot authenticate or expose internal failures.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "frozen/baseline-original/test_security.py:94: in test_login_injection\n    error(api.post('/auth/login',json={'email':payload,'password':payload}),401,'unauthenticated')\nfrozen/baseline-original/conftest.py:91: in error\n    assert response.status_code == status, response.text\nE   AssertionError: {\"error\":{\"code\":\"validation_failed\",\"message\":\"validation failed\"}}\nE   assert 422 == 401\nE    +  where 422 = <Response [422 Unprocessable Content]>.status_code",
+      "duration_s": 0.0023553669889224693,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "b61e82948c084749352a14bb78d7684bd467357d9ddf697f4afa7321ee939108",
+      "attempt": "reports/stage-4/20261005T145610.982797Z-original-25ade1c-157fc8aa",
+      "definition": "frozen/baseline-original/test_security.py::test_login_injection[S065-script-login]",
+      "classification": "ORACLE_CONFLICT_RETAINED",
+      "reason": "Stage1 section6 requires malformed-email422; original frozen expectations require401. Separately adjudicated same definition passes with422 and nonmutation checks.",
+      "matching_passes": [
+        {
+          "id": "frozen/baseline-adjudicated/test_security.py::test_login_injection[S065-script-login]",
+          "attempt": "reports/stage-4/20261005T145632.064935Z-adjudicated-25ade1c-24772534",
+          "test_sha256": "aed9bdfe8968802476f46fb1fe7e39f4b4d721200c3f99eed84a6d1647c6d354"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:29.265483+00:00",
+      "id": "frozen/baseline-original/test_security.py::test_login_injection[S066-path-login]",
+      "native_nodeid": "frozen/baseline-original/test_security.py::test_login_injection[S066-path-login]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Injection strings cannot authenticate or expose internal failures.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "frozen/baseline-original/test_security.py:94: in test_login_injection\n    error(api.post('/auth/login',json={'email':payload,'password':payload}),401,'unauthenticated')\nfrozen/baseline-original/conftest.py:91: in error\n    assert response.status_code == status, response.text\nE   AssertionError: {\"error\":{\"code\":\"validation_failed\",\"message\":\"validation failed\"}}\nE   assert 422 == 401\nE    +  where 422 = <Response [422 Unprocessable Content]>.status_code",
+      "duration_s": 0.0025328139890916646,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "b61e82948c084749352a14bb78d7684bd467357d9ddf697f4afa7321ee939108",
+      "attempt": "reports/stage-4/20261005T145610.982797Z-original-25ade1c-157fc8aa",
+      "definition": "frozen/baseline-original/test_security.py::test_login_injection[S066-path-login]",
+      "classification": "ORACLE_CONFLICT_RETAINED",
+      "reason": "Stage1 section6 requires malformed-email422; original frozen expectations require401. Separately adjudicated same definition passes with422 and nonmutation checks.",
+      "matching_passes": [
+        {
+          "id": "frozen/baseline-adjudicated/test_security.py::test_login_injection[S066-path-login]",
+          "attempt": "reports/stage-4/20261005T145632.064935Z-adjudicated-25ade1c-24772534",
+          "test_sha256": "aed9bdfe8968802476f46fb1fe7e39f4b4d721200c3f99eed84a6d1647c6d354"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:29.369699+00:00",
+      "id": "frozen/baseline-original/test_security.py::test_login_injection[S067-template-login]",
+      "native_nodeid": "frozen/baseline-original/test_security.py::test_login_injection[S067-template-login]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Injection strings cannot authenticate or expose internal failures.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "frozen/baseline-original/test_security.py:94: in test_login_injection\n    error(api.post('/auth/login',json={'email':payload,'password':payload}),401,'unauthenticated')\nfrozen/baseline-original/conftest.py:91: in error\n    assert response.status_code == status, response.text\nE   AssertionError: {\"error\":{\"code\":\"validation_failed\",\"message\":\"validation failed\"}}\nE   assert 422 == 401\nE    +  where 422 = <Response [422 Unprocessable Content]>.status_code",
+      "duration_s": 0.003780367987928912,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "b61e82948c084749352a14bb78d7684bd467357d9ddf697f4afa7321ee939108",
+      "attempt": "reports/stage-4/20261005T145610.982797Z-original-25ade1c-157fc8aa",
+      "definition": "frozen/baseline-original/test_security.py::test_login_injection[S067-template-login]",
+      "classification": "ORACLE_CONFLICT_RETAINED",
+      "reason": "Stage1 section6 requires malformed-email422; original frozen expectations require401. Separately adjudicated same definition passes with422 and nonmutation checks.",
+      "matching_passes": [
+        {
+          "id": "frozen/baseline-adjudicated/test_security.py::test_login_injection[S067-template-login]",
+          "attempt": "reports/stage-4/20261005T145632.064935Z-adjudicated-25ade1c-24772534",
+          "test_sha256": "aed9bdfe8968802476f46fb1fe7e39f4b4d721200c3f99eed84a6d1647c6d354"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:56:56.032093+00:00",
+      "id": "frozen/supplemental/test_boundaries.py::test_B003_cross_owner_receipt_rejected",
+      "native_nodeid": "frozen/supplemental/test_boundaries.py::test_B003_cross_owner_receipt_rejected",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Transparent receipt state cannot bind Alice's key to Bob's confirmation.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "frozen/supplemental/test_boundaries.py:96: in test_B003_cross_owner_receipt_rejected\n    assert found==1,'Receipt format changed; adapt the white-box corruption fixture, do not count this as a product failure.'\nE   AssertionError: Receipt format changed; adapt the white-box corruption fixture, do not count this as a product failure.\nE   assert 0 == 1",
+      "duration_s": 0.008340046988450922,
+      "metrics": {
+        "description": "Transparent receipt state cannot bind Alice's key to Bob's confirmation."
+      },
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "aa927b28ce28ee73cc878def5a179ba9de2ff9ab5af8c5074eb4ce4683dc4388",
+      "attempt": "reports/stage-4/20261005T145652.799965Z-common-25ade1c-4d775f2d",
+      "definition": "frozen/supplemental/test_boundaries.py::test_B003_cross_owner_receipt_rejected",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_B003_cross_owner_receipt_rejected",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:57:54.564685+00:00",
+      "id": "derived/test_snapshot_semantics.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-receipt-party]",
+      "native_nodeid": "derived/test_snapshot_semantics.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-receipt-party]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "A matching checksum cannot authorize inconsistent original response/body/times or batch input ordering; import422 preserves destination exactly.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_snapshot_semantics.py:39: in test_D116_checksum_valid_semantic_corruption_is_rejected\n    assert control['state']['sha256']==exported['state']['sha256'],'QA checksum adapter mismatch'\nE   AssertionError: QA checksum adapter mismatch\nE   assert '0748598a398a...03a3131994339' == '17b49661a066...70d5ed6aec654'\nE     \nE     - 17b49661a06663d7883440ac7861cb3e8c4ebb539c06cd8c0e470d5ed6aec654\nE     + 0748598a398a3a73715b2050f01dc5665cf2804bf90a14a911903a3131994339",
+      "duration_s": 0.007085253004333936,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "b866336c01932acce90f243a0e64074bc48630dd370eba0fd6ab67f59e39010b",
+      "attempt": "reports/stage-4/20261005T145752.150125Z-snapshot-semantics-25ade1c-74cefea7",
+      "definition": "derived/test_snapshot_semantics.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-receipt-party]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-receipt-party]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:57:54.622344+00:00",
+      "id": "derived/test_snapshot_semantics.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-receipt-start]",
+      "native_nodeid": "derived/test_snapshot_semantics.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-receipt-start]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "A matching checksum cannot authorize inconsistent original response/body/times or batch input ordering; import422 preserves destination exactly.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_snapshot_semantics.py:39: in test_D116_checksum_valid_semantic_corruption_is_rejected\n    assert control['state']['sha256']==exported['state']['sha256'],'QA checksum adapter mismatch'\nE   AssertionError: QA checksum adapter mismatch\nE   assert '39dc5eab2859...6680d73d0ea56' == '659459c3c4e6...06d3862a0ef47'\nE     \nE     - 659459c3c4e6d33014f3f8e1d4b87d060a57ed4f1126c72129306d3862a0ef47\nE     + 39dc5eab285945fd01140b26f5c29220a1e36cec1ff148a130c6680d73d0ea56",
+      "duration_s": 0.006166212013340555,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "b866336c01932acce90f243a0e64074bc48630dd370eba0fd6ab67f59e39010b",
+      "attempt": "reports/stage-4/20261005T145752.150125Z-snapshot-semantics-25ade1c-74cefea7",
+      "definition": "derived/test_snapshot_semantics.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-receipt-start]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-receipt-start]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:57:54.677280+00:00",
+      "id": "derived/test_snapshot_semantics.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-receipt-end]",
+      "native_nodeid": "derived/test_snapshot_semantics.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-receipt-end]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "A matching checksum cannot authorize inconsistent original response/body/times or batch input ordering; import422 preserves destination exactly.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_snapshot_semantics.py:39: in test_D116_checksum_valid_semantic_corruption_is_rejected\n    assert control['state']['sha256']==exported['state']['sha256'],'QA checksum adapter mismatch'\nE   AssertionError: QA checksum adapter mismatch\nE   assert 'fd58bb085d12...a812de54989c9' == '670773606a86...a85f7f30aea99'\nE     \nE     - 670773606a8646ebd560534c2ccb17667500e700d92c0e74894a85f7f30aea99\nE     + fd58bb085d122fc3403c01fc8650b85d0244b22fa7f2c7af626a812de54989c9",
+      "duration_s": 0.0061588359967572615,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "b866336c01932acce90f243a0e64074bc48630dd370eba0fd6ab67f59e39010b",
+      "attempt": "reports/stage-4/20261005T145752.150125Z-snapshot-semantics-25ade1c-74cefea7",
+      "definition": "derived/test_snapshot_semantics.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-receipt-end]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-receipt-end]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:57:54.732259+00:00",
+      "id": "derived/test_snapshot_semantics.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-receipt-body]",
+      "native_nodeid": "derived/test_snapshot_semantics.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-receipt-body]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "A matching checksum cannot authorize inconsistent original response/body/times or batch input ordering; import422 preserves destination exactly.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_snapshot_semantics.py:39: in test_D116_checksum_valid_semantic_corruption_is_rejected\n    assert control['state']['sha256']==exported['state']['sha256'],'QA checksum adapter mismatch'\nE   AssertionError: QA checksum adapter mismatch\nE   assert 'c0f9b4ae5247...56363f9e27420' == '5b931ad1b71b...2763505caaf5c'\nE     \nE     - 5b931ad1b71bb145fdb3d735e1caedb4aa5033415cb991eac342763505caaf5c\nE     + c0f9b4ae52474e756c38d22e35fa8403e2065e221a9b644fafa56363f9e27420",
+      "duration_s": 0.00578681800107006,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "b866336c01932acce90f243a0e64074bc48630dd370eba0fd6ab67f59e39010b",
+      "attempt": "reports/stage-4/20261005T145752.150125Z-snapshot-semantics-25ade1c-74cefea7",
+      "definition": "derived/test_snapshot_semantics.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-receipt-body]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-receipt-body]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:57:54.792066+00:00",
+      "id": "derived/test_snapshot_semantics.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-batch-order]",
+      "native_nodeid": "derived/test_snapshot_semantics.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-batch-order]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "A matching checksum cannot authorize inconsistent original response/body/times or batch input ordering; import422 preserves destination exactly.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_snapshot_semantics.py:39: in test_D116_checksum_valid_semantic_corruption_is_rejected\n    assert control['state']['sha256']==exported['state']['sha256'],'QA checksum adapter mismatch'\nE   AssertionError: QA checksum adapter mismatch\nE   assert '48f3ecc83895...30fb8830a2b5e' == '02040449b3fd...b6df8169c6cfa'\nE     \nE     - 02040449b3fd67815afc113f5d81d01bed1a25fd42ab63c7a36b6df8169c6cfa\nE     + 48f3ecc838955201bd4561bd86e7becb270c638a309255c82d930fb8830a2b5e",
+      "duration_s": 0.01341717698960565,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "b866336c01932acce90f243a0e64074bc48630dd370eba0fd6ab67f59e39010b",
+      "attempt": "reports/stage-4/20261005T145752.150125Z-snapshot-semantics-25ade1c-74cefea7",
+      "definition": "derived/test_snapshot_semantics.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-batch-order]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-batch-order]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:58:17.770106+00:00",
+      "id": "derived/test_additional_stage1.py::test_D121_corrupt_semantic_state_rejects_without_replacement[plaintext-password]",
+      "native_nodeid": "derived/test_additional_stage1.py::test_D121_corrupt_semantic_state_rejects_without_replacement[plaintext-password]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Corrupt account/token/identity/occupancy/time/receipt/configuration state with a valid checksum returns422 and preserves destination exactly.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_additional_stage1.py:46: in test_D121_corrupt_semantic_state_rejects_without_replacement\n    a=data['reservations'][first.json()['reference']];b=data['reservations'][second.json()['reference']]\n      ^^^^^^^^^^^^^^^^^^^^\nE   KeyError: 'reservations'",
+      "duration_s": 0.01566875800199341,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "b5026a9d100d4581258482360a1b549a985ec3c81050247225b8769d1eb86699",
+      "attempt": "reports/stage-4/20261005T145814.406048Z-additional-stage1-25ade1c-13a9b072",
+      "definition": "derived/test_additional_stage1.py::test_D121_corrupt_semantic_state_rejects_without_replacement[plaintext-password]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D121_corrupt_semantic_state_rejects_without_replacement[plaintext-password]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:58:17.833915+00:00",
+      "id": "derived/test_additional_stage1.py::test_D121_corrupt_semantic_state_rejects_without_replacement[unknown-token-owner]",
+      "native_nodeid": "derived/test_additional_stage1.py::test_D121_corrupt_semantic_state_rejects_without_replacement[unknown-token-owner]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Corrupt account/token/identity/occupancy/time/receipt/configuration state with a valid checksum returns422 and preserves destination exactly.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_additional_stage1.py:46: in test_D121_corrupt_semantic_state_rejects_without_replacement\n    a=data['reservations'][first.json()['reference']];b=data['reservations'][second.json()['reference']]\n      ^^^^^^^^^^^^^^^^^^^^\nE   KeyError: 'reservations'",
+      "duration_s": 0.01579973399930168,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "b5026a9d100d4581258482360a1b549a985ec3c81050247225b8769d1eb86699",
+      "attempt": "reports/stage-4/20261005T145814.406048Z-additional-stage1-25ade1c-13a9b072",
+      "definition": "derived/test_additional_stage1.py::test_D121_corrupt_semantic_state_rejects_without_replacement[unknown-token-owner]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D121_corrupt_semantic_state_rejects_without_replacement[unknown-token-owner]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:58:17.895013+00:00",
+      "id": "derived/test_additional_stage1.py::test_D121_corrupt_semantic_state_rejects_without_replacement[duplicate-reservation-id]",
+      "native_nodeid": "derived/test_additional_stage1.py::test_D121_corrupt_semantic_state_rejects_without_replacement[duplicate-reservation-id]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Corrupt account/token/identity/occupancy/time/receipt/configuration state with a valid checksum returns422 and preserves destination exactly.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_additional_stage1.py:46: in test_D121_corrupt_semantic_state_rejects_without_replacement\n    a=data['reservations'][first.json()['reference']];b=data['reservations'][second.json()['reference']]\n      ^^^^^^^^^^^^^^^^^^^^\nE   KeyError: 'reservations'",
+      "duration_s": 0.01448773400625214,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "b5026a9d100d4581258482360a1b549a985ec3c81050247225b8769d1eb86699",
+      "attempt": "reports/stage-4/20261005T145814.406048Z-additional-stage1-25ade1c-13a9b072",
+      "definition": "derived/test_additional_stage1.py::test_D121_corrupt_semantic_state_rejects_without_replacement[duplicate-reservation-id]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D121_corrupt_semantic_state_rejects_without_replacement[duplicate-reservation-id]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:58:17.957944+00:00",
+      "id": "derived/test_additional_stage1.py::test_D121_corrupt_semantic_state_rejects_without_replacement[overlapping-confirmed]",
+      "native_nodeid": "derived/test_additional_stage1.py::test_D121_corrupt_semantic_state_rejects_without_replacement[overlapping-confirmed]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Corrupt account/token/identity/occupancy/time/receipt/configuration state with a valid checksum returns422 and preserves destination exactly.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_additional_stage1.py:46: in test_D121_corrupt_semantic_state_rejects_without_replacement\n    a=data['reservations'][first.json()['reference']];b=data['reservations'][second.json()['reference']]\n      ^^^^^^^^^^^^^^^^^^^^\nE   KeyError: 'reservations'",
+      "duration_s": 0.014294519991381094,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "b5026a9d100d4581258482360a1b549a985ec3c81050247225b8769d1eb86699",
+      "attempt": "reports/stage-4/20261005T145814.406048Z-additional-stage1-25ade1c-13a9b072",
+      "definition": "derived/test_additional_stage1.py::test_D121_corrupt_semantic_state_rejects_without_replacement[overlapping-confirmed]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D121_corrupt_semantic_state_rejects_without_replacement[overlapping-confirmed]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:58:18.021197+00:00",
+      "id": "derived/test_additional_stage1.py::test_D121_corrupt_semantic_state_rejects_without_replacement[inconsistent-instant]",
+      "native_nodeid": "derived/test_additional_stage1.py::test_D121_corrupt_semantic_state_rejects_without_replacement[inconsistent-instant]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Corrupt account/token/identity/occupancy/time/receipt/configuration state with a valid checksum returns422 and preserves destination exactly.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_additional_stage1.py:46: in test_D121_corrupt_semantic_state_rejects_without_replacement\n    a=data['reservations'][first.json()['reference']];b=data['reservations'][second.json()['reference']]\n      ^^^^^^^^^^^^^^^^^^^^\nE   KeyError: 'reservations'",
+      "duration_s": 0.013806164002744481,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "b5026a9d100d4581258482360a1b549a985ec3c81050247225b8769d1eb86699",
+      "attempt": "reports/stage-4/20261005T145814.406048Z-additional-stage1-25ade1c-13a9b072",
+      "definition": "derived/test_additional_stage1.py::test_D121_corrupt_semantic_state_rejects_without_replacement[inconsistent-instant]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D121_corrupt_semantic_state_rejects_without_replacement[inconsistent-instant]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:58:18.083270+00:00",
+      "id": "derived/test_additional_stage1.py::test_D121_corrupt_semantic_state_rejects_without_replacement[wrong-receipt-method]",
+      "native_nodeid": "derived/test_additional_stage1.py::test_D121_corrupt_semantic_state_rejects_without_replacement[wrong-receipt-method]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Corrupt account/token/identity/occupancy/time/receipt/configuration state with a valid checksum returns422 and preserves destination exactly.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_additional_stage1.py:46: in test_D121_corrupt_semantic_state_rejects_without_replacement\n    a=data['reservations'][first.json()['reference']];b=data['reservations'][second.json()['reference']]\n      ^^^^^^^^^^^^^^^^^^^^\nE   KeyError: 'reservations'",
+      "duration_s": 0.015684776997659355,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "b5026a9d100d4581258482360a1b549a985ec3c81050247225b8769d1eb86699",
+      "attempt": "reports/stage-4/20261005T145814.406048Z-additional-stage1-25ade1c-13a9b072",
+      "definition": "derived/test_additional_stage1.py::test_D121_corrupt_semantic_state_rejects_without_replacement[wrong-receipt-method]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D121_corrupt_semantic_state_rejects_without_replacement[wrong-receipt-method]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:58:18.145274+00:00",
+      "id": "derived/test_additional_stage1.py::test_D121_corrupt_semantic_state_rejects_without_replacement[missing-receipt-body]",
+      "native_nodeid": "derived/test_additional_stage1.py::test_D121_corrupt_semantic_state_rejects_without_replacement[missing-receipt-body]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Corrupt account/token/identity/occupancy/time/receipt/configuration state with a valid checksum returns422 and preserves destination exactly.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_additional_stage1.py:46: in test_D121_corrupt_semantic_state_rejects_without_replacement\n    a=data['reservations'][first.json()['reference']];b=data['reservations'][second.json()['reference']]\n      ^^^^^^^^^^^^^^^^^^^^\nE   KeyError: 'reservations'",
+      "duration_s": 0.015170787999522872,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "b5026a9d100d4581258482360a1b549a985ec3c81050247225b8769d1eb86699",
+      "attempt": "reports/stage-4/20261005T145814.406048Z-additional-stage1-25ade1c-13a9b072",
+      "definition": "derived/test_additional_stage1.py::test_D121_corrupt_semantic_state_rejects_without_replacement[missing-receipt-body]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D121_corrupt_semantic_state_rejects_without_replacement[missing-receipt-body]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-05T14:58:18.207158+00:00",
+      "id": "derived/test_additional_stage1.py::test_D121_corrupt_semantic_state_rejects_without_replacement[invalid-zone]",
+      "native_nodeid": "derived/test_additional_stage1.py::test_D121_corrupt_semantic_state_rejects_without_replacement[invalid-zone]",
+      "phase": "call",
+      "outcome": "FAIL",
+      "description": "Corrupt account/token/identity/occupancy/time/receipt/configuration state with a valid checksum returns422 and preserves destination exactly.",
+      "expected": "All unchanged assertions in the hashed test definition hold",
+      "observed": "derived/test_additional_stage1.py:46: in test_D121_corrupt_semantic_state_rejects_without_replacement\n    a=data['reservations'][first.json()['reference']];b=data['reservations'][second.json()['reference']]\n      ^^^^^^^^^^^^^^^^^^^^\nE   KeyError: 'reservations'",
+      "duration_s": 0.015528139003436081,
+      "metrics": {},
+      "product_revision": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+      "test_sha256": "b5026a9d100d4581258482360a1b549a985ec3c81050247225b8769d1eb86699",
+      "attempt": "reports/stage-4/20261005T145814.406048Z-additional-stage1-25ade1c-13a9b072",
+      "definition": "derived/test_additional_stage1.py::test_D121_corrupt_semantic_state_rejects_without_replacement[invalid-zone]",
+      "classification": "OPAQUE_SELECTOR_MISMATCH_RETAINED",
+      "reason": "Original selector expects a prior snapshot layout. Explicit schema4 carrier adapter invokes unchanged semantic assertions; valid control/import and rejection with exact nonmutation pass. No added definition.",
+      "matching_passes": [
+        {
+          "id": "adapters/test_stage4_payload.py::test_D121_corrupt_semantic_state_rejects_without_replacement[invalid-zone]",
+          "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+          "test_sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "OPAQUE_SELECTOR_MISMATCH_RETAINED": 49,
+    "ORACLE_CONFLICT_RETAINED": 4
+  },
+  "new_definitions": 0,
+  "developer_original_errors_separate": [
+    "test_legacy_offset_seconds_receipt_remains_original",
+    "test_old_receipt_unknown_table_ids_remains_ignored_on_import"
+  ],
+  "developer_disposition": "83 unchanged methods execute81PASS2ERROR due direct edits of journal-backed snapshots. Separate explicit adapter81PASS and actual removed historical/ignored-selector producers pass authentic compatibility. No original method/result rewritten."
+}

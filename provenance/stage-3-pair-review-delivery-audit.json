@@ -1,0 +1,79 @@
+{
+  "at": "2026-10-05T14:00:45.058194+00:00",
+  "product": "301caf55085280f12197e393ab6b4735ef4046c3",
+  "room": "e04c2728-8535-41c8-be50-88eb8068fa09",
+  "mirror_sha256": "d98f1c74f4fda35e79ef198e1d6d3799a1d7cabc615f34a0d060eb1cd32d1f61",
+  "mirror_matches_declared": true,
+  "all_specifications_verbatim": [
+    true,
+    true,
+    true
+  ],
+  "deliveries": [
+    {
+      "part": 1,
+      "message_id": "c961dff7-8a30-419c-9124-e524407b8052",
+      "accepted": true,
+      "correct_room": true,
+      "body_hash_matches": true
+    },
+    {
+      "part": 2,
+      "message_id": "4f185c5f-c406-4494-9548-11350993bfec",
+      "accepted": true,
+      "correct_room": true,
+      "body_hash_matches": true
+    },
+    {
+      "part": 3,
+      "message_id": "4f1566e4-130b-44f5-82d7-f17833ef4514",
+      "accepted": true,
+      "correct_room": true,
+      "body_hash_matches": true
+    },
+    {
+      "part": 4,
+      "message_id": "4f792806-020a-4e11-8491-5c91ec47c152",
+      "accepted": true,
+      "correct_room": true,
+      "body_hash_matches": true
+    },
+    {
+      "part": 5,
+      "message_id": "d8f2f958-b1d4-44fd-b9e9-53aef4c6b259",
+      "accepted": true,
+      "correct_room": true,
+      "body_hash_matches": true
+    },
+    {
+      "part": 6,
+      "message_id": "2ee52f5a-0dae-4f84-946d-a095ba741364",
+      "accepted": true,
+      "correct_room": true,
+      "body_hash_matches": true
+    }
+  ],
+  "assembly": {
+    "product_sha": "301caf55085280f12197e393ab6b4735ef4046c3",
+    "room": "e04c2728-8535-41c8-be50-88eb8068fa09",
+    "recipient": "kirill.pshinnik/verifier",
+    "assembled_at": "2026-10-05T13:57:30.610897+00:00",
+    "native_parts_actually_received": [
+      "c961dff7-8a30-419c-9124-e524407b8052",
+      "4f185c5f-c406-4494-9548-11350993bfec",
+      "4f1566e4-130b-44f5-82d7-f17833ef4514",
+      "4f792806-020a-4e11-8491-5c91ec47c152",
+      "d8f2f958-b1d4-44fd-b9e9-53aef4c6b259",
+      "2ee52f5a-0dae-4f84-946d-a095ba741364"
+    ],
+    "complete_full_review_received": true,
+    "application_execution_started": false,
+    "coordinator_gate": "b0e69e22fa1fd30e89516e09b0fecac45b74a2eb",
+    "preparation_commit": "66d360a98f2c8ef84ff21037d7fb02575dac6750",
+    "mirror": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final/demo/review-handoffs/stage3-301caf55-pair-complete.md",
+    "mirror_sha256": "d98f1c74f4fda35e79ef198e1d6d3799a1d7cabc615f34a0d060eb1cd32d1f61",
+    "note": "Actual native recipient assembly precedes application execution. Mirror supplements native delivery and is not a room export."
+  },
+  "native_ui_observation": "At13:57UTC recovered same-room view displayed Builderpart6 and Verifierall6assembled statement13:56:51UTC; Buildercompletion13:57:20. Authored audit, not native export.",
+  "status": "Handoff verified, product acceptance pending"
+}

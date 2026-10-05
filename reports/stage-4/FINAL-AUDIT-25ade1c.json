@@ -1,0 +1,1656 @@
+{
+  "at": "2026-10-05T15:07:38.318125+00:00",
+  "product_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+  "clean_checkout": true,
+  "standalone_no_alternates": true,
+  "complete_tracked_files_rehashed": 11031,
+  "manifest_count": 45,
+  "artifact_file_count": 1296,
+  "manifests": [
+    {
+      "path": "reports/stage-4/20261005T145420.964572Z-stage2-pair-visibility-25ade1c-aa616510",
+      "artifact_files": 34,
+      "manifest_sha256": "9bcd5377744bce9ee11e6f7b41eefeadb56b0e5388038d50ab839bda905e7932",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145438.946776Z-stage2-pair-repair-25ade1c-9d76da04",
+      "artifact_files": 56,
+      "manifest_sha256": "0962356091e9dde1968ad35e7bad6b9a90007e9830bab76f183e01595587e53f",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145454.098251Z-stage4-ui-25ade1c-c47b104b",
+      "artifact_files": 40,
+      "manifest_sha256": "0031ea5bef433c482d8b00ca83e933162b1347b50dbf5867baed79c99638e061",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145504.825092Z-stage4-browser-derived-25ade1c-06994ec0",
+      "artifact_files": 44,
+      "manifest_sha256": "6d294d5cc1082796178573744c4940f67be75dc3e7b76ad4d7e5da9879b0201c",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145517.945665Z-stage2-native-range-25ade1c-bf9a9635",
+      "artifact_files": 40,
+      "manifest_sha256": "405d1ed29fb20d428ea775d07217ee3b9cafb94dfa130448f307ed1b5bc5841b",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145527.742505Z-stage2-numeric-geometry-25ade1c-85784e1b",
+      "artifact_files": 46,
+      "manifest_sha256": "8670db794a7228d073dcd1e44e15f954ac1c2419b79281dcfcdb8afb09786311",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145537.906308Z-stage2-integer-validation-25ade1c-154a571b",
+      "artifact_files": 32,
+      "manifest_sha256": "ee271fd2a1a60270a8432a0bba456b2878be5ea98791ab8dd7c8085c3619f70e",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145545.787738Z-stage3-domain-25ade1c-b00f2ad7",
+      "artifact_files": 24,
+      "manifest_sha256": "927a70b220ed9a3af15782abac664fc80e8f5b9fc5d47323cb3e0f5e86c92089",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145600.257473Z-stage3-integrity-25ade1c-74b0e78c",
+      "artifact_files": 24,
+      "manifest_sha256": "31663b0452cbdeceb218a5c42e5a734d0c38b745a0269916ed6b69e91d551f52",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145610.982797Z-original-25ade1c-157fc8aa",
+      "artifact_files": 25,
+      "manifest_sha256": "5ee60b58ee531ad5ca14261f3b4b9bad1e06b08d2b2349dbc8c261ba588d67e4",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145632.064935Z-adjudicated-25ade1c-24772534",
+      "artifact_files": 25,
+      "manifest_sha256": "ae1851fcb024d9566c3a85ef3b1d1a9b8a67e684638a33864ec00c3160edde8e",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145652.799965Z-common-25ade1c-4d775f2d",
+      "artifact_files": 24,
+      "manifest_sha256": "89beb83b87963a446e40292ac8353360f0b45e1436d8bde08bdcd1335f459232",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145715.048695Z-pairs-25ade1c-e4261414",
+      "artifact_files": 24,
+      "manifest_sha256": "24c092f172520026e342b0840c25eb68fdbe82a5a8c091aff488f2b29f4c2762",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145718.637655Z-numeric-25ade1c-87ce03ab",
+      "artifact_files": 25,
+      "manifest_sha256": "225b2604468784f1217e14ebf37950ba4551c862097d88d5435d6e894f0f020e",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145738.883366Z-derived-25ade1c-fe1b6b57",
+      "artifact_files": 26,
+      "manifest_sha256": "b29e8f3f62667ee427a231129b2be68ed861c4096ad8e795b6873a8ebaee5455",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145752.150125Z-snapshot-semantics-25ade1c-74cefea7",
+      "artifact_files": 24,
+      "manifest_sha256": "0aede923b2680cb928be029954655d82d0bdda2fc940d7e5fbd9841b9b1e302a",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "artifact_files": 24,
+      "manifest_sha256": "d2286ee7fcd98481ece210b4e8974b77feb01a353f9780af44e33c2f91364fb7",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145814.406048Z-additional-stage1-25ade1c-13a9b072",
+      "artifact_files": 25,
+      "manifest_sha256": "cdcc73e9757bc34c9302d5df0906c6c0456b8c9a5f92b56a24c2322acd4550fe",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145819.081089Z-calendar-edges-25ade1c-538c6b4e",
+      "artifact_files": 24,
+      "manifest_sha256": "c0de16017098859d5bbf3d39eceb563741032ee460c2049b02ede88cb03aed30",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145823.242502Z-calendar-lifetime-25ade1c-295e6398",
+      "artifact_files": 24,
+      "manifest_sha256": "78e31a951dbc3cc6630463f12626d69442f11178992230b31740601451933206",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145827.748307Z-historical-timestamps-25ade1c-aa44c967",
+      "artifact_files": 24,
+      "manifest_sha256": "9f172e59e297508b0b7a436795e2f8d92a37b424aae7dee3bce8b04be7d8d0ca",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145831.582745Z-timestamp-boundaries-25ade1c-73855a78",
+      "artifact_files": 24,
+      "manifest_sha256": "c8778ed1144e71e0a07d6f3c57790d6a1fc213ca7152a37817acf19c116baa6a",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145835.862266Z-stage2-pairs-25ade1c-c0c6523d",
+      "artifact_files": 24,
+      "manifest_sha256": "f5887b7e876006766ef7871fa35ac95d01f5049f34e29036054d564d4e437160",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145841.421945Z-stage2-browser-25ade1c-3cf75dbc",
+      "artifact_files": 75,
+      "manifest_sha256": "386cbadc5d4fedad08a478a766963b5a447150a9700275356ade8451b107bc19",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145903.204511Z-stage2-label-lifetime-25ade1c-16e6488a",
+      "artifact_files": 46,
+      "manifest_sha256": "a8c82794e85cb04a8f261a8f1cfcf8d5d619af6d9d37b6e133bdfd4a8cd05290",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "artifact_files": 31,
+      "manifest_sha256": "d2fcc99a9df7206392c968c9b3ee8cc9a7d1b8eea1b54cd61cd06ee1d0ed3aed",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T145959.796643Z-upgrade-1-to-4-25ade1c-0c875109",
+      "artifact_files": 48,
+      "manifest_sha256": "15da949650fd2d5989a6215a5212700aadcf62575b5739fd9f27ce14156e4dd0",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T150014.062561Z-upgrade-2-to-4-25ade1c-fa02510b",
+      "artifact_files": 48,
+      "manifest_sha256": "a2db93330271ea962b7b72d0b9ef49da0363f999a887f2354d0644f12caddb49",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T150031.208244Z-upgrade-3-to-4-25ade1c-e001d277",
+      "artifact_files": 48,
+      "manifest_sha256": "153e8542d9add0e2613f1b5af29d90336a3a0effd6b008a50a95a69157f4b756",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T150045.132902Z-removed-historical-25ade1c-1b47250c",
+      "artifact_files": 20,
+      "manifest_sha256": "a03a7f5bb4fba5f67bde764b2944fa5fc9716878e3a472ff7dbd1607b65fc2d1",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T150053.737552Z-removed-legacy-selector-25ade1c-dfc72a4f",
+      "artifact_files": 20,
+      "manifest_sha256": "a07c04c47f70c2ebabf9bb3e5744935edc324c9e9c353cca5aa3b37579c08d46",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T150057.544686Z-source-faults-25ade1c-32343b2e",
+      "artifact_files": 5,
+      "manifest_sha256": "cdd830984b70cd7de3eaf8b64ab32edaf83ececb4c50b01cb1a2b3b9ebbf6d85",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T150100.555363Z-deployment-25ade1c-b274dbf2",
+      "artifact_files": 18,
+      "manifest_sha256": "fde89e3f477ace3d46ca8a55df5a252f3fbc37531e54356810ce357bc5fccb3e",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T150103.985273Z-unchanged-developer-25ade1c-3c68ad1c",
+      "artifact_files": 3,
+      "manifest_sha256": "992d1ace70f45d4cb6206599bcf2e430608712efea0580ad3fad54c73205c121",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T150115.783669Z-developer-explicit-adapter-25ade1c-9b7f1611",
+      "artifact_files": 3,
+      "manifest_sha256": "e56b14f8caf573f76ad4eb5290159ba5bbdc84e61508f0cc245853f8911e1191",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T150126.917509Z-formatter-25ade1c-da716800",
+      "artifact_files": 4,
+      "manifest_sha256": "689f8b2635e32adaba6acd1764507f36aa3e06d62771d687ed05e6d2ec2b2e5e",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T150127.089489Z-removed-old-object-25ade1c-4cd991e5",
+      "artifact_files": 20,
+      "manifest_sha256": "6d1e23f40729b9bdb808ad4f667fdf19ddcb52eacb72bf66d0e0292b2e319339",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T150134.714555Z-advanced-25ade1c-3ccd6031",
+      "artifact_files": 24,
+      "manifest_sha256": "c757cdea1e9abb341dae41accd7c05f0a6de0016f9296c511057d40a8a79e1f8",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T150145.533926Z-stage4-load-25ade1c-2ec04fd2",
+      "artifact_files": 24,
+      "manifest_sha256": "6051f8dd22948fcd88cd5bf4699e90263fd8196689cbfde01ce5ebe1fb2fd10f",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T150150.713389Z-stage4-numeric-25ade1c-4791da0d",
+      "artifact_files": 24,
+      "manifest_sha256": "62fd06bd9a188cf386aa0ffb4e87610161161788acb3327a19aa1e88d0fc3782",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T150154.723878Z-stage4-domain-25ade1c-52c61839",
+      "artifact_files": 24,
+      "manifest_sha256": "1ec2eb671ab81c0fc1effdf07a1a0e95f3e75ba2ce0560913fbe887bdfa8ccbb",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T150208.796158Z-stage4-integrity-25ade1c-366b489f",
+      "artifact_files": 24,
+      "manifest_sha256": "eaa4b99eb9d49236a6405bf3657e21f173d9ccb33c7a33c659cb3aeb22addf5b",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T150234.054513Z-stage4-encoding-collision-25ade1c-c022e5ea",
+      "artifact_files": 24,
+      "manifest_sha256": "e5b0486cf5a5afd495f464c8fb838d5ecb070d614c962dfecd11bdad3082e632",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T150245.325367Z-upgrade-4-to-4-25ade1c-8cbdff5b",
+      "artifact_files": 47,
+      "manifest_sha256": "e0bab08a55f633a2807c4e9b9b4cac593d5ef85296946c86b23969b725bf31a4",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    },
+    {
+      "path": "reports/stage-4/20261005T150257.076527Z-official-all-isolated-clean-25ade1c-31c1b500",
+      "artifact_files": 34,
+      "manifest_sha256": "8568a30a1040a97b7b48c899b8f0cb3f785bda6018be9fca4d3461653f7d4058",
+      "all_files_verified": true,
+      "kind": "APPLICATION"
+    }
+  ],
+  "case_rows_verified": 892,
+  "raw_case_outcomes": {
+    "PASS": 839,
+    "FAIL": 53
+  },
+  "raw_missing_docstring_descriptions": 178,
+  "separate_description_supplements": [
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-receipt-party]",
+      "description": "test D116 checksum valid semantic corruption is rejected[D116-receipt-party]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-receipt-start]",
+      "description": "test D116 checksum valid semantic corruption is rejected[D116-receipt-start]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-receipt-end]",
+      "description": "test D116 checksum valid semantic corruption is rejected[D116-receipt-end]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-receipt-body]",
+      "description": "test D116 checksum valid semantic corruption is rejected[D116-receipt-body]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D116_checksum_valid_semantic_corruption_is_rejected[D116-batch-order]",
+      "description": "test D116 checksum valid semantic corruption is rejected[D116-batch-order]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_B003_cross_owner_receipt_rejected",
+      "description": "test B003 cross owner receipt rejected",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D333_atomic_operation_counter_sequence",
+      "description": "test D333 atomic operation counter sequence",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-policy-version]",
+      "description": "test D334 checksum valid semantic integrity[D334-policy-version]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-policy-capacity]",
+      "description": "test D334 checksum valid semantic integrity[D334-policy-capacity]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-policy-date]",
+      "description": "test D334 checksum valid semantic integrity[D334-policy-date]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-policy-zero]",
+      "description": "test D334 checksum valid semantic integrity[D334-policy-zero]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-current-terms]",
+      "description": "test D334 checksum valid semantic integrity[D334-current-terms]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-current-end]",
+      "description": "test D334 checksum valid semantic integrity[D334-current-end]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-history-seq]",
+      "description": "test D334 checksum valid semantic integrity[D334-history-seq]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-history-time]",
+      "description": "test D334 checksum valid semantic integrity[D334-history-time]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-history-terminal]",
+      "description": "test D334 checksum valid semantic integrity[D334-history-terminal]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-history-revision-low]",
+      "description": "test D334 checksum valid semantic integrity[D334-history-revision-low]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-history-revision-high]",
+      "description": "test D334 checksum valid semantic integrity[D334-history-revision-high]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-history-terms]",
+      "description": "test D334 checksum valid semantic integrity[D334-history-terms]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-history-field-order]",
+      "description": "test D334 checksum valid semantic integrity[D334-history-field-order]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-history-linkage]",
+      "description": "test D334 checksum valid semantic integrity[D334-history-linkage]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-series-owner]",
+      "description": "test D334 checksum valid semantic integrity[D334-series-owner]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-series-duplicate-reference]",
+      "description": "test D334 checksum valid semantic integrity[D334-series-duplicate-reference]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-series-index]",
+      "description": "test D334 checksum valid semantic integrity[D334-series-index]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-series-missing-member]",
+      "description": "test D334 checksum valid semantic integrity[D334-series-missing-member]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-series-anchor]",
+      "description": "test D334 checksum valid semantic integrity[D334-series-anchor]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-original-date]",
+      "description": "test D334 checksum valid semantic integrity[D334-original-date]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-series-interval]",
+      "description": "test D334 checksum valid semantic integrity[D334-series-interval]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-series-revision-low]",
+      "description": "test D334 checksum valid semantic integrity[D334-series-revision-low]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-series-revision-high]",
+      "description": "test D334 checksum valid semantic integrity[D334-series-revision-high]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-permanent-exception]",
+      "description": "test D334 checksum valid semantic integrity[D334-permanent-exception]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-cancel-erases-exception]",
+      "description": "test D334 checksum valid semantic integrity[D334-cancel-erases-exception]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-cancel-invents-exception]",
+      "description": "test D334 checksum valid semantic integrity[D334-cancel-invents-exception]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-policy-receipt]",
+      "description": "test D334 checksum valid semantic integrity[D334-policy-receipt]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-series-receipt]",
+      "description": "test D334 checksum valid semantic integrity[D334-series-receipt]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-batch-receipt]",
+      "description": "test D334 checksum valid semantic integrity[D334-batch-receipt]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-receipt-owner]",
+      "description": "test D334 checksum valid semantic integrity[D334-receipt-owner]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-receipt-body]",
+      "description": "test D334 checksum valid semantic integrity[D334-receipt-body]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-restaurant-revision-low]",
+      "description": "test D334 checksum valid semantic integrity[D334-restaurant-revision-low]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D334_checksum_valid_semantic_integrity[D334-restaurant-revision-high]",
+      "description": "test D334 checksum valid semantic integrity[D334-restaurant-revision-high]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D335_overlapping_original_dates_valid_roundtrip",
+      "description": "test D335 overlapping original dates valid roundtrip",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D121_corrupt_semantic_state_rejects_without_replacement[plaintext-password]",
+      "description": "test D121 corrupt semantic state rejects without replacement[plaintext-password]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D121_corrupt_semantic_state_rejects_without_replacement[unknown-token-owner]",
+      "description": "test D121 corrupt semantic state rejects without replacement[unknown-token-owner]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D121_corrupt_semantic_state_rejects_without_replacement[duplicate-reservation-id]",
+      "description": "test D121 corrupt semantic state rejects without replacement[duplicate-reservation-id]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D121_corrupt_semantic_state_rejects_without_replacement[overlapping-confirmed]",
+      "description": "test D121 corrupt semantic state rejects without replacement[overlapping-confirmed]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D121_corrupt_semantic_state_rejects_without_replacement[inconsistent-instant]",
+      "description": "test D121 corrupt semantic state rejects without replacement[inconsistent-instant]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D121_corrupt_semantic_state_rejects_without_replacement[wrong-receipt-method]",
+      "description": "test D121 corrupt semantic state rejects without replacement[wrong-receipt-method]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D121_corrupt_semantic_state_rejects_without_replacement[missing-receipt-body]",
+      "description": "test D121 corrupt semantic state rejects without replacement[missing-receipt-body]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145755.475202Z-stage4-snapshot-adapted-25ade1c-9414a638",
+      "id": "adapters/test_stage4_payload.py::test_D121_corrupt_semantic_state_rejects_without_replacement[invalid-zone]",
+      "description": "test D121 corrupt semantic state rejects without replacement[invalid-zone]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_health_reset_auth.py::test_reset_needs_no_authentication",
+      "description": "test reset needs no authentication",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_health_reset_auth.py::test_seeded_user_can_log_in_immediately",
+      "description": "test seeded user can log in immediately",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_health_reset_auth.py::test_signup_rejections[ada@example.com-correct horse-409-email_taken]",
+      "description": "test signup rejections[ada@example.com-correct horse-409-email taken]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_health_reset_auth.py::test_signup_rejections[short@example.com-1234567-422-validation_failed]",
+      "description": "test signup rejections[short@example.com-1234567-422-validation failed]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_health_reset_auth.py::test_signup_rejections[not-an-email-correct horse-422-validation_failed]",
+      "description": "test signup rejections[not-an-email-correct horse-422-validation failed]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_health_reset_auth.py::test_signup_field_with_wrong_json_type_is_malformed",
+      "description": "test signup field with wrong json type is malformed",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_health_reset_auth.py::test_login_failures_are_401[ada@example.com-wrong password]",
+      "description": "test login failures are 401[ada@example.com-wrong password]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_health_reset_auth.py::test_login_failures_are_401[nobody@example.com-correct horse]",
+      "description": "test login failures are 401[nobody@example.com-correct horse]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_health_reset_auth.py::test_protected_endpoints_reject_missing_token[/reservations]",
+      "description": "test protected endpoints reject missing token[/reservations]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_health_reset_auth.py::test_protected_endpoints_reject_missing_token[/reservations/ABC123]",
+      "description": "test protected endpoints reject missing token[/reservations/ABC123]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_health_reset_auth.py::test_protected_endpoints_reject_unknown_token",
+      "description": "test protected endpoints reject unknown token",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_health_reset_auth.py::test_restaurant_detail_is_public",
+      "description": "test restaurant detail is public",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_references_are_unique",
+      "description": "test references are unique",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_adjacent_non_overlapping_booking_succeeds",
+      "description": "test adjacent non overlapping booking succeeds",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_a_different_table_at_the_same_time_succeeds",
+      "description": "test a different table at the same time succeeds",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_off_grid_start_is_rejected[19:15-not_on_slot_grid]",
+      "description": "test off grid start is rejected[19:15-not on slot grid]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_off_grid_start_is_rejected[18:01-not_on_slot_grid]",
+      "description": "test off grid start is rejected[18:01-not on slot grid]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_outside_opening_hours_is_rejected[17:00]",
+      "description": "test outside opening hours is rejected[17:00]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_outside_opening_hours_is_rejected[23:30]",
+      "description": "test outside opening hours is rejected[23:30]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_party_over_table_capacity_is_rejected",
+      "description": "test party over table capacity is rejected",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_bad_party_size_is_validation_failed[0]",
+      "description": "test bad party size is validation failed[0]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_bad_party_size_is_validation_failed[-1]",
+      "description": "test bad party size is validation failed[-1]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_bad_party_size_is_validation_failed[4]",
+      "description": "test bad party size is validation failed[4]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_bad_party_size_is_validation_failed[1.5]",
+      "description": "test bad party size is validation failed[1.5]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_unknown_restaurant_or_table_is_404",
+      "description": "test unknown restaurant or table is 404",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_starts_at_local_must_be_a_bare_local_time[2026-09-24T19:00:00+02:00]",
+      "description": "test starts at local must be a bare local time[2026-09-24T19:00:00+02:00]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_starts_at_local_must_be_a_bare_local_time[2026-09-24T19:00Z]",
+      "description": "test starts at local must be a bare local time[2026-09-24T19:00Z]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_starts_at_local_must_be_a_bare_local_time[2026-09-24T19:00:00]",
+      "description": "test starts at local must be a bare local time[2026-09-24T19:00:00]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_starts_at_local_must_be_a_bare_local_time[not-a-time]",
+      "description": "test starts at local must be a bare local time[not-a-time]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_malformed_json_is_400",
+      "description": "test malformed json is 400",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_unknown_body_fields_are_ignored",
+      "description": "test unknown body fields are ignored",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_list_returns_only_the_callers_reservations",
+      "description": "test list returns only the callers reservations",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_list_is_starts_at_descending",
+      "description": "test list is starts at descending",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_list_includes_cancelled",
+      "description": "test list includes cancelled",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_unknown_reference_is_404",
+      "description": "test unknown reference is 404",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_cancelling_twice_is_not_an_error",
+      "description": "test cancelling twice is not an error",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_cancelling_someone_elses_reservation_is_404",
+      "description": "test cancelling someone elses reservation is 404",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_patch_keeps_reference_and_id",
+      "description": "test patch keeps reference and id",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_patch_needs_no_idempotency_key",
+      "description": "test patch needs no idempotency key",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_patch_validation_matches_create",
+      "description": "test patch validation matches create",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_patch_onto_a_taken_table_is_409",
+      "description": "test patch onto a taken table is 409",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_patch_a_cancelled_reservation_is_409",
+      "description": "test patch a cancelled reservation is 409",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_reservations.py::test_patch_someone_elses_reservation_is_404",
+      "description": "test patch someone elses reservation is 404",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_restaurants_availability.py::test_restaurant_detail_carries_the_fixture_shape",
+      "description": "test restaurant detail carries the fixture shape",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_restaurants_availability.py::test_unknown_restaurant_is_404",
+      "description": "test unknown restaurant is 404",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_restaurants_availability.py::test_starts_at_local_is_the_full_local_timestamp",
+      "description": "test starts at local is the full local timestamp",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_restaurants_availability.py::test_slot_with_no_free_table_still_appears",
+      "description": "test slot with no free table still appears",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_restaurants_availability.py::test_availability_requires_all_three_parameters[restaurant_id]",
+      "description": "test availability requires all three parameters[restaurant id]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_restaurants_availability.py::test_availability_requires_all_three_parameters[date]",
+      "description": "test availability requires all three parameters[date]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_restaurants_availability.py::test_availability_requires_all_three_parameters[party_size]",
+      "description": "test availability requires all three parameters[party size]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_restaurants_availability.py::test_availability_rejects_bad_party_size[0]",
+      "description": "test availability rejects bad party size[0]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_restaurants_availability.py::test_availability_rejects_bad_party_size[-1]",
+      "description": "test availability rejects bad party size[-1]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_restaurants_availability.py::test_availability_rejects_bad_party_size[abc]",
+      "description": "test availability rejects bad party size[abc]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_restaurants_availability.py::test_availability_rejects_bad_party_size[1e9]",
+      "description": "test availability rejects bad party size[1e9]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_restaurants_availability.py::test_availability_unknown_restaurant_is_404",
+      "description": "test availability unknown restaurant is 404",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_restaurants_availability.py::test_unknown_query_parameters_are_ignored",
+      "description": "test unknown query parameters are ignored",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_retries_time_input.py::test_replay_after_cancel_returns_the_original_confirmed_body",
+      "description": "test replay after cancel returns the original confirmed body",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_retries_time_input.py::test_same_key_changed_party_size_is_reuse",
+      "description": "test same key changed party size is reuse",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_retries_time_input.py::test_same_key_from_another_account_books_normally",
+      "description": "test same key from another account books normally",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_retries_time_input.py::test_booking_a_skipped_local_time_is_rejected",
+      "description": "test booking a skipped local time is rejected",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_retries_time_input.py::test_fall_back_repeated_hour_appears_once",
+      "description": "test fall back repeated hour appears once",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_retries_time_input.py::test_offsets_are_correct_on_both_sides_of_a_transition",
+      "description": "test offsets are correct on both sides of a transition",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_retries_time_input.py::test_starts_at_local_must_carry_no_offset_or_seconds[2026-09-24T19:00:00+02:00]",
+      "description": "test starts at local must carry no offset or seconds[2026-09-24T19:00:00+02:00]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_retries_time_input.py::test_starts_at_local_must_carry_no_offset_or_seconds[2026-09-24T19:00Z]",
+      "description": "test starts at local must carry no offset or seconds[2026-09-24T19:00Z]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_retries_time_input.py::test_starts_at_local_must_carry_no_offset_or_seconds[2026-09-24T19:00:00]",
+      "description": "test starts at local must carry no offset or seconds[2026-09-24T19:00:00]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_retries_time_input.py::test_bad_party_sizes_never_500[0]",
+      "description": "test bad party sizes never 500[0]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_retries_time_input.py::test_bad_party_sizes_never_500[-1]",
+      "description": "test bad party sizes never 500[-1]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_retries_time_input.py::test_bad_party_sizes_never_500[4]",
+      "description": "test bad party sizes never 500[4]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_retries_time_input.py::test_bad_party_sizes_never_500[1.5]",
+      "description": "test bad party sizes never 500[1.5]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_retries_time_input.py::test_unknown_reference_is_404",
+      "description": "test unknown reference is 404",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_retries_time_input.py::test_someone_elses_reference_is_404",
+      "description": "test someone elses reference is 404",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_retries_time_input.py::test_table_from_another_restaurant_is_404",
+      "description": "test table from another restaurant is 404",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_retries_time_input.py::test_impossible_date_is_422",
+      "description": "test impossible date is 422",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_sample.py::test_health_reports_ok",
+      "description": "test health reports ok",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_sample.py::test_signup_returns_a_usable_token",
+      "description": "test signup returns a usable token",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_sample.py::test_login_returns_a_usable_token",
+      "description": "test login returns a usable token",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_sample.py::test_restaurant_list_shape",
+      "description": "test restaurant list shape",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_sample.py::test_create_returns_the_documented_shape",
+      "description": "test create returns the documented shape",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_sample.py::test_ends_at_is_start_plus_duration",
+      "description": "test ends at is start plus duration",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_sample.py::test_double_booking_the_same_table_is_409",
+      "description": "test double booking the same table is 409",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_sample.py::test_read_by_reference",
+      "description": "test read by reference",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_sample.py::test_cancel_sets_status_and_frees_the_table",
+      "description": "test cancel sets status and frees the table",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_sample.py::test_patch_changes_the_table_and_frees_the_old_one",
+      "description": "test patch changes the table and frees the old one",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_sample.py::test_first_use_is_201_replay_is_200_with_the_same_body",
+      "description": "test first use is 201 replay is 200 with the same body",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_sample.py::test_missing_key_is_400",
+      "description": "test missing key is 400",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_sample.py::test_export_can_restore_a_booking",
+      "description": "test export can restore a booking",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_sample.py::test_a_move_batch_of_one_moves_the_booking",
+      "description": "test a move batch of one moves the booking",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_seeded_state.py::test_a_seeded_reservation_occupies_its_table",
+      "description": "test a seeded reservation occupies its table",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_seeded_state.py::test_a_seeded_reservation_belongs_to_its_user",
+      "description": "test a seeded reservation belongs to its user",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_seeded_state.py::test_a_seeded_reservation_can_be_cancelled_and_frees_its_table",
+      "description": "test a seeded reservation can be cancelled and frees its table",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_seeded_state.py::test_a_seeded_booking_blocks_the_same_slot_for_someone_else",
+      "description": "test a seeded booking blocks the same slot for someone else",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_seeded_state.py::test_reset_rejects_ids_longer_than_64_characters",
+      "description": "test reset rejects ids longer than 64 characters",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_seeded_state.py::test_reset_rejects_invalid_reservation_references[x]",
+      "description": "test reset rejects invalid reservation references[x]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_seeded_state.py::test_reset_rejects_invalid_reservation_references[lower01]",
+      "description": "test reset rejects invalid reservation references[lower01]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_1/test_seeded_state.py::test_reset_rejects_invalid_reservation_references[TOO-LONG-WITH-DASH]",
+      "description": "test reset rejects invalid reservation references[TOO-LONG-WITH-DASH]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_2/test_sample.py::test_routes_are_directly_navigable[/-search-button]",
+      "description": "test routes are directly navigable[/-search-button]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_2/test_sample.py::test_routes_are_directly_navigable[/signup-signup-submit]",
+      "description": "test routes are directly navigable[/signup-signup-submit]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_2/test_sample.py::test_routes_are_directly_navigable[/login-login-submit]",
+      "description": "test routes are directly navigable[/login-login-submit]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_2/test_sample.py::test_routes_are_directly_navigable[/lookup-lookup-submit]",
+      "description": "test routes are directly navigable[/lookup-lookup-submit]",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_2/test_sample.py::test_login_signs_you_in_and_logout_signs_you_out",
+      "description": "test login signs you in and logout signs you out",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_2/test_sample.py::test_booking_flow_reaches_a_confirmation",
+      "description": "test booking flow reaches a confirmation",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_2/test_sample.py::test_preceding_stage_accounts_survive_import",
+      "description": "test preceding stage accounts survive import",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_2/test_sample.py::test_a_combination_occupies_both_tables",
+      "description": "test a combination occupies both tables",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_2/test_ui.py::test_signup_signs_you_in",
+      "description": "test signup signs you in",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_2/test_ui.py::test_bad_login_shows_auth_error",
+      "description": "test bad login shows auth error",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_2/test_ui.py::test_auth_error_is_absent_when_there_is_none",
+      "description": "test auth error is absent when there is none",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_2/test_ui.py::test_grid_shows_a_cell_per_table_per_slot",
+      "description": "test grid shows a cell per table per slot",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_2/test_ui.py::test_cells_carry_data_available",
+      "description": "test cells carry data available",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_2/test_ui.py::test_closed_day_shows_no_slots",
+      "description": "test closed day shows no slots",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_2/test_ui.py::test_clicking_an_unavailable_cell_does_nothing",
+      "description": "test clicking an unavailable cell does nothing",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_2/test_ui.py::test_booking_while_signed_out_shows_auth_error_or_goes_to_login",
+      "description": "test booking while signed out shows auth error or goes to login",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_2/test_ui.py::test_a_booked_slot_is_unavailable_on_the_next_search",
+      "description": "test a booked slot is unavailable on the next search",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_2/test_ui.py::test_lookup_shows_the_reservation",
+      "description": "test lookup shows the reservation",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_2/test_ui.py::test_cancel_from_lookup_updates_without_a_manual_reload",
+      "description": "test cancel from lookup updates without a manual reload",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_2/test_ui.py::test_cancelling_frees_the_slot",
+      "description": "test cancelling frees the slot",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_2/test_ui.py::test_unknown_reference_shows_reservation_error",
+      "description": "test unknown reference shows reservation error",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_2/test_ui.py::test_a_double_submit_leaves_one_reservation",
+      "description": "test a double submit leaves one reservation",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_3/test_sample.py::test_booking_carries_the_effective_policy_and_decision",
+      "description": "test booking carries the effective policy and decision",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_3/test_sample.py::test_explain_accounts_for_every_table",
+      "description": "test explain accounts for every table",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_3/test_sample.py::test_explain_agrees_with_available_table_ids",
+      "description": "test explain agrees with available table ids",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_3/test_sample.py::test_availability_is_unchanged_without_explain",
+      "description": "test availability is unchanged without explain",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_3/test_sample.py::test_history_records_the_creation",
+      "description": "test history records the creation",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_3/test_sample.py::test_history_records_a_change_with_the_old_value",
+      "description": "test history records a change with the old value",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_3/test_sample.py::test_adopt_one_booking_as_a_recurring_agreement",
+      "description": "test adopt one booking as a recurring agreement",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_4/test_sample.py::test_available_options_lists_singles_then_pairs",
+      "description": "test available options lists singles then pairs",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_4/test_sample.py::test_booking_a_declared_pair",
+      "description": "test booking a declared pair",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_4/test_sample.py::test_table_id_is_still_accepted_and_means_a_set_of_one",
+      "description": "test table id is still accepted and means a set of one",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_4/test_sample.py::test_series_clock_time_can_be_changed",
+      "description": "test series clock time can be changed",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    },
+    {
+      "attempt": "reports/stage-4/20261005T145917.653984Z-official-stage4-detail-25ade1c-af76d257",
+      "id": "official/tablekeeper/test/stage_4/test_sample.py::test_a_closure_preview_returns_a_plan",
+      "description": "test a closure preview returns a plan",
+      "source": "Separate case matrix derives missing docstring description from original descriptive test name; raw row unchanged."
+    }
+  ],
+  "test_sources": [
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "adapters/test_stage4_payload.py",
+      "sha256": "ee1d7a56e0fd4d25c81763de2dfdbf7c47329754fc1d0a5b744a8caa67ae1f56"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "derived/test_additional_stage1.py",
+      "sha256": "b5026a9d100d4581258482360a1b549a985ec3c81050247225b8769d1eb86699"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "derived/test_calendar_edges.py",
+      "sha256": "bd4910aaa2b1db726ce70c783a0cd2c97ebc6eb276fe321d5b16e7efd99a501c"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "derived/test_calendar_lifetime.py",
+      "sha256": "9807f69a55213b20bf618c16b88532f2a1192a2c9dfa925a5fdae0ca2de26a52"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "derived/test_historical_timestamps.py",
+      "sha256": "2ff091b1087b880110387bad51c764e0f197a730b796b8190055e5f457a5a9e2"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "derived/test_snapshot_semantics.py",
+      "sha256": "b866336c01932acce90f243a0e64074bc48630dd370eba0fd6ab67f59e39010b"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "derived/test_stage1.py",
+      "sha256": "74c487edaf9db3c76222fb569841d42d682a763b4198f4a3a6f1d9c9276ac313"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "derived/test_stage2_browser.py",
+      "sha256": "6b3da2baa75405108274b38c38d81dafd439300de18f43b03fd424a05835e4d8"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "derived/test_stage2_integer_validation.py",
+      "sha256": "4728290cc86090112196be20621fcb8a2c198fdfaf11c8d06905b51488e982af"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "derived/test_stage2_label_lifetime.py",
+      "sha256": "661a3491fe182019c66c9457e304e1cca9d3da52211e2c4793b32358a7263c25"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "derived/test_stage2_native_range.py",
+      "sha256": "94c5f02b0cb6eb01eeacb555ca013e52a28a4ce562ccd1a39ac44865a0ff1346"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "derived/test_stage2_numeric_geometry.py",
+      "sha256": "a55a576ea949294e47a8922248cc093da15c6b34913aa1db71e8d2cc80074994"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "derived/test_stage2_pair_repair.py",
+      "sha256": "16340d626ebd625440dc9cfbb31b0bfb9f4437e946c781de077d490e88e53940"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "derived/test_stage2_pair_visibility.py",
+      "sha256": "254a3e674d0c00a6b61e2ff6df4e5d5e96241e46d6e6288ae3c41a41dcf18d93"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "derived/test_stage2_pairs.py",
+      "sha256": "a8fae6ea0d14294086c6669395069623f16fbbf3bcc3b0f665cdb17c6495e1b6"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "derived/test_stage2_upgrade_browser.py",
+      "sha256": "e2ec75121406fc36cf7df87a430cc36fc28baec7f89dba780237e4ab61e61f89"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "derived/test_stage3.py",
+      "sha256": "7de5cb6145d5d052f6f2c45b70280e316b9c9e66c4f72731991c97dfac8cbf35"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "derived/test_stage3_integrity.py",
+      "sha256": "43b1fb2256b8e383c9e1f90383c2fd9327fe610794bee31c1a43b2c542e8b7ee"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "derived/test_stage4.py",
+      "sha256": "be299b0e7d12dc8d25b4c7f1dba031ce2c36543886218ba46e508cb3e86c3065"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "derived/test_stage4_browser.py",
+      "sha256": "fd520d296f49e2551e6982e6066fed3e927e02fee190ebac90b96f09ae622f63"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "derived/test_stage4_encoding_collision.py",
+      "sha256": "25668245400041709caf8afe859515534b9a7ccf427498ed89f19b81686b9201"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "derived/test_stage4_integrity.py",
+      "sha256": "573025a6c94dd3f17d83ace95ebb26d4e44384a6b09c25e88075cc45b61a7348"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "derived/test_timestamp_boundaries.py",
+      "sha256": "5338cec05a7554b675480fe594cd609acd395fbd596c6ba0d850d570137c8dbf"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "frozen/baseline-adjudicated/test_load.py",
+      "sha256": "68b225f56367f94fcfdea67694dfa421d674b8f8b64523d99c32825a755bdaaa"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "frozen/baseline-adjudicated/test_security.py",
+      "sha256": "aed9bdfe8968802476f46fb1fe7e39f4b4d721200c3f99eed84a6d1647c6d354"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "frozen/baseline-original/test_load.py",
+      "sha256": "68b225f56367f94fcfdea67694dfa421d674b8f8b64523d99c32825a755bdaaa"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "frozen/baseline-original/test_security.py",
+      "sha256": "b61e82948c084749352a14bb78d7684bd467357d9ddf697f4afa7321ee939108"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "frozen/numeric-original/test_numeric_lifetime.py",
+      "sha256": "00bcd60bf8d3f5ab36f5b0a2ae4e5b532f81f2137e0c94e3c1001b1c6e1ed4c2"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "frozen/supplemental/test_advanced.py",
+      "sha256": "0d5ef73ae9eed5d3c6e9bc4cad40697a08aa969bc431e2b7b520105d5d6bf1a4"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "frozen/supplemental/test_audit30.py",
+      "sha256": "197297df10bc6897d6e6b5fc773c85a74613270ed27c13f13a6049f98102c16b"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "frozen/supplemental/test_auth_contract.py",
+      "sha256": "c99d3c1c58222207f0751317f974b24e234ef4b3b61ffccccf7da03259b01cd5"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "frozen/supplemental/test_boundaries.py",
+      "sha256": "aa927b28ce28ee73cc878def5a179ba9de2ff9ab5af8c5074eb4ce4683dc4388"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "frozen/supplemental/test_compact_pairs.py",
+      "sha256": "ff3eef678ba05c9d89c0a4ba467c8cac17676a9a0bd5e765b932db97a3446fa2"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "frozen/supplemental/test_json_responses.py",
+      "sha256": "9e7d2fa0730f7294c87b017b06efea99a4c6e99b81caf37dab65451f62faf6c1"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "frozen/supplemental/test_protocol_resources.py",
+      "sha256": "bcb3bbb10696da919a0620052b4a416c5375c6491c6f2de1926c82b0e126c6ca"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "frozen/supplemental/test_stage4_load.py",
+      "sha256": "34c6a71addc475750a56f5fecbb6a449b228875635dafe75b1c6b4cca594b72f"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "frozen/supplemental/test_stage4_numeric.py",
+      "sha256": "b963705f30cfaef2f661810c5cff6c054284eda39e64859cba6a01976006958c"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "frozen/supplemental/test_stage4_ui.py",
+      "sha256": "3002c5db676279b5b28659036eaaced1824c2641d8d8af343c4c43875056f587"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "frozen/supplemental/test_stage4_ui_lost.py",
+      "sha256": "5e72810eb333b6f09eb6dadd7eee85a6ccf40c47b9a9ecef454052ee508c3a7a"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "frozen/supplemental/test_upgrade_contract.py",
+      "sha256": "d8289e44632672fb6426939bff1ee42d1fcf0ffcf5e2c841e26504d62947764d"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "official/tablekeeper/test/stage_1/test_health_reset_auth.py",
+      "sha256": "72527d0d65d0dc3cb1ed0bcfa6345057d2026ef4294f40b3ad488c67e208b65c"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "official/tablekeeper/test/stage_1/test_reservations.py",
+      "sha256": "cd390ef00a182e98a786bed60adab3fabc2ee9989fa0bdacb6133c12b1158c17"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "official/tablekeeper/test/stage_1/test_restaurants_availability.py",
+      "sha256": "9dec076b93ea41d17f92d2a4ba9395e51010e881f17f7044d1f4f1eb114576e5"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "official/tablekeeper/test/stage_1/test_retries_time_input.py",
+      "sha256": "c15d45c06ecdd66d692ff8884b78ff45e8cd897d3e6887898eec40cbbb2a4d25"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "official/tablekeeper/test/stage_1/test_sample.py",
+      "sha256": "c9a2b47fdcfa4bf40404331dc50d069edf4de560a27a76b3a2dd5b949d19a8cc"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "official/tablekeeper/test/stage_1/test_seeded_state.py",
+      "sha256": "9a7eb34a0c1ca0fe8862c4c81dcaf54cf0d5da7276fca9947edf5e55ca673916"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "official/tablekeeper/test/stage_2/test_sample.py",
+      "sha256": "a386e20bffeafa1894a405230c9ea551a5225e8809c68ff9f2fd1dcc1a5f1c77"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "official/tablekeeper/test/stage_2/test_ui.py",
+      "sha256": "a95280eac45cf77a14c12ea62122a1d4759c01ed0b3389a4e1b2568aa2bc0105"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "official/tablekeeper/test/stage_3/test_sample.py",
+      "sha256": "687baf614fcf7801c3091587afb00ea9f8f2d960a2f8c4d005dc22c98b9a04ba"
+    },
+    {
+      "qa_sha": "a201a8c56db680496213e78f2cd002adf3459162",
+      "path": "official/tablekeeper/test/stage_4/test_sample.py",
+      "sha256": "555b4f16e043791b369bb9557c66af058dcbc81e6fc8f104a570bcbbb01b3301"
+    }
+  ],
+  "outcome": "PASS",
+  "scope": "Integrity and provenance audit; no new application tests, requests or definitions."
+}

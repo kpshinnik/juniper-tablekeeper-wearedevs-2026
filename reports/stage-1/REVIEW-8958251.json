@@ -1,0 +1,768 @@
+{
+  "decision": "REJECT",
+  "product_sha": "89582510069e984f446060d797e138f4a3bf08f9",
+  "stage": 1,
+  "room": "e04c2728-8535-41c8-be50-88eb8068fa09",
+  "evidence_revision": "Full Git commit SHA containing this report is delivered separately after commit; avoids self-reference.",
+  "attempts": [
+    {
+      "path": "reports/stage-1/20261005T064747.127860Z-official-8958251-6dbd5d4d",
+      "manifest_sha256": "ed4e6634aa2e303be65842dafd3feb2a3334ae7227530edd243ab3ed817db9bd",
+      "duration_s": 28.346600000746548,
+      "started_at": "2026-10-05T06:47:47.128624+00:00",
+      "ended_at": "2026-10-05T06:48:15.491004+00:00",
+      "qa_sha": "911afbce4c1a02f9409ef4a32553f5c9ca38ca6d",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "case_totals": {},
+      "case_executions": 0,
+      "httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "load_httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "integrity_mismatches": [],
+      "official_report": {
+        "revision": "89582510069e984f446060d797e138f4a3bf08f9",
+        "track": "tablekeeper",
+        "stages": {
+          "1": "pass"
+        },
+        "highest_contiguous": 1,
+        "started_at": "2026-10-05T06:47:47.218798+00:00",
+        "finished_at": "2026-10-05T06:48:15.004683+00:00",
+        "schema_version": 2,
+        "run_id": "54bbf72e78b542db82c1d344b9affc8a",
+        "mode": "isolated",
+        "provenance": "working-tree",
+        "state": "completed",
+        "pytest_args": [],
+        "suite_digest": "8d7e7d9bb94893b67dff0a19ee8ecb8d6888db7208ed269f64b29c0a661a17a7",
+        "checks": {
+          "1": {
+            "collected": 120,
+            "passed": 120,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0,
+            "deselected": 0,
+            "xfailed": 0,
+            "files": {
+              "stage_1/test_health_reset_auth.py": {
+                "passed": 12,
+                "total": 12
+              },
+              "stage_1/test_reservations.py": {
+                "passed": 37,
+                "total": 37
+              },
+              "stage_1/test_restaurants_availability.py": {
+                "passed": 18,
+                "total": 18
+              },
+              "stage_1/test_retries_time_input.py": {
+                "passed": 20,
+                "total": 20
+              },
+              "stage_1/test_sample.py": {
+                "passed": 20,
+                "total": 20
+              },
+              "stage_1/test_seeded_state.py": {
+                "passed": 13,
+                "total": 13
+              }
+            }
+          }
+        },
+        "overshoot": null,
+        "claimed_stage": "1",
+        "share": 1.0,
+        "upgrade_sources": {
+          "2": {
+            "folder": "/Users/kirillpsinnik/Code/wearedevelopers-hackathon/band-work/final-checkouts/89582510069e984f446060d797e138f4a3bf08f9-5c549c13/stage-1",
+            "revision": "89582510069e984f446060d797e138f4a3bf08f9"
+          }
+        }
+      },
+      "next_stage_probe": {
+        "collected": 25,
+        "passed": 0,
+        "failed": 1,
+        "errors": 0,
+        "skipped": 0,
+        "deselected": 0,
+        "xfailed": 0,
+        "files": {
+          "stage_2/test_sample.py": {
+            "passed": 0,
+            "total": 8
+          },
+          "stage_2/test_ui.py": {
+            "passed": 0,
+            "total": 17
+          }
+        }
+      }
+    },
+    {
+      "path": "reports/stage-1/20261005T064811.798701Z-source-faults-8958251-05443e98",
+      "manifest_sha256": "40742ef9e502123602ee2c9cb951105057b3df251bb28ad0e5bf35b29e700597",
+      "duration_s": 1.2249521659687161,
+      "started_at": "2026-10-05T06:48:11.799344+00:00",
+      "ended_at": "2026-10-05T06:48:13.035552+00:00",
+      "qa_sha": "911afbce4c1a02f9409ef4a32553f5c9ca38ca6d",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "case_totals": {},
+      "case_executions": 0,
+      "httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "load_httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "integrity_mismatches": []
+    },
+    {
+      "path": "reports/stage-1/20261005T064811.798705Z-unchanged-developer-8958251-89b4b8df",
+      "manifest_sha256": "cc6312a3da0b649d2225fb346b9bdb990cb61f11ddf2b2f98b71f29ec56c9409",
+      "duration_s": 0.860708917491138,
+      "started_at": "2026-10-05T06:48:11.799380+00:00",
+      "ended_at": "2026-10-05T06:48:12.671317+00:00",
+      "qa_sha": "911afbce4c1a02f9409ef4a32553f5c9ca38ca6d",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "case_totals": {},
+      "case_executions": 0,
+      "httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "load_httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "integrity_mismatches": []
+    },
+    {
+      "path": "reports/stage-1/20261005T064841.476990Z-original-8958251-146e60cf",
+      "manifest_sha256": "f3baaf635d66244f12a5c8b1bd376aa7941c9ad1d2d271eccbd1e272119bcc9e",
+      "duration_s": 18.159163917414844,
+      "started_at": "2026-10-05T06:48:41.477573+00:00",
+      "ended_at": "2026-10-05T06:48:59.645193+00:00",
+      "qa_sha": "911afbce4c1a02f9409ef4a32553f5c9ca38ca6d",
+      "returncode": 1,
+      "command_outcome": "EXITED",
+      "case_totals": {
+        "PASS": 100,
+        "FAIL": 4
+      },
+      "case_executions": 104,
+      "httpx": {
+        "requests": 1771,
+        "p50_s": 0.01773374099866487,
+        "p95_s": 0.11185899599513505,
+        "max_s": 0.8089472710125847,
+        "max_observed_inflight": 50,
+        "statuses": {
+          "204": 181,
+          "200": 1016,
+          "201": 160,
+          "409": 239,
+          "422": 95,
+          "401": 58,
+          "400": 16,
+          "404": 6
+        },
+        "received_decompressed_bytes": 2258551
+      },
+      "load_httpx": {
+        "requests": 1305,
+        "p50_s": 0.020504788000835106,
+        "p95_s": 0.11459508500411175,
+        "max_s": 0.8089472710125847,
+        "max_observed_inflight": 50,
+        "statuses": {
+          "204": 95,
+          "200": 763,
+          "201": 113,
+          "409": 234,
+          "422": 50,
+          "401": 50
+        },
+        "received_decompressed_bytes": 2166534
+      },
+      "integrity_mismatches": []
+    },
+    {
+      "path": "reports/stage-1/20261005T064921.085809Z-adjudicated-8958251-3d96bea9",
+      "manifest_sha256": "9fcf50b2224e6d0bb8afb3e8fa2bc05dd13ef4fe115e28557e29bedb5c2f3656",
+      "duration_s": 13.558618458919227,
+      "started_at": "2026-10-05T06:49:21.086440+00:00",
+      "ended_at": "2026-10-05T06:49:34.656384+00:00",
+      "qa_sha": "911afbce4c1a02f9409ef4a32553f5c9ca38ca6d",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "case_totals": {
+        "PASS": 104
+      },
+      "case_executions": 104,
+      "httpx": {
+        "requests": 1779,
+        "p50_s": 0.017475356013164856,
+        "p95_s": 0.11242126599245239,
+        "max_s": 0.8517419859999791,
+        "max_observed_inflight": 50,
+        "statuses": {
+          "204": 181,
+          "200": 1024,
+          "201": 160,
+          "409": 239,
+          "422": 95,
+          "401": 58,
+          "400": 16,
+          "404": 6
+        },
+        "received_decompressed_bytes": 2353549
+      },
+      "load_httpx": {
+        "requests": 1305,
+        "p50_s": 0.019477843001368456,
+        "p95_s": 0.11407145799603313,
+        "max_s": 0.8517419859999791,
+        "max_observed_inflight": 50,
+        "statuses": {
+          "204": 95,
+          "200": 763,
+          "201": 113,
+          "409": 234,
+          "422": 50,
+          "401": 50
+        },
+        "received_decompressed_bytes": 2242556
+      },
+      "integrity_mismatches": []
+    },
+    {
+      "path": "reports/stage-1/20261005T065121.790314Z-common-8958251-129a860b",
+      "manifest_sha256": "7a0a45f53d38d89e51b0378e3f35c26ac5d9a039b4db3b716ca817a3a8ce566b",
+      "duration_s": 29.488525416702032,
+      "started_at": "2026-10-05T06:51:21.791142+00:00",
+      "ended_at": "2026-10-05T06:51:51.292528+00:00",
+      "qa_sha": "911afbce4c1a02f9409ef4a32553f5c9ca38ca6d",
+      "returncode": 1,
+      "command_outcome": "EXITED",
+      "case_totals": {
+        "PASS": 40,
+        "FAIL": 4
+      },
+      "case_executions": 44,
+      "httpx": {
+        "requests": 318,
+        "p50_s": 0.01685961200564634,
+        "p95_s": 0.6007698540051933,
+        "max_s": 0.8532746900018537,
+        "max_observed_inflight": 50,
+        "statuses": {
+          "204": 60,
+          "200": 222,
+          "201": 14,
+          "422": 10,
+          "401": 11,
+          "400": 1
+        },
+        "received_decompressed_bytes": 2333282
+      },
+      "load_httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "integrity_mismatches": []
+    },
+    {
+      "path": "reports/stage-1/20261005T065211.828116Z-numeric-8958251-069371aa",
+      "manifest_sha256": "a9e84e1d53f92789e3a1e141b371ac2c3e087b64ba80f99f1b580ccd77565159",
+      "duration_s": 3.8156774174422026,
+      "started_at": "2026-10-05T06:52:11.828855+00:00",
+      "ended_at": "2026-10-05T06:52:15.655725+00:00",
+      "qa_sha": "911afbce4c1a02f9409ef4a32553f5c9ca38ca6d",
+      "returncode": 0,
+      "command_outcome": "EXITED",
+      "case_totals": {
+        "PASS": 12
+      },
+      "case_executions": 12,
+      "httpx": {
+        "requests": 196,
+        "p50_s": 0.0014059310051379725,
+        "p95_s": 0.01785215799463913,
+        "max_s": 0.019275885002571158,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 33,
+          "200": 135,
+          "422": 7,
+          "201": 16,
+          "409": 5
+        },
+        "received_decompressed_bytes": 466456
+      },
+      "load_httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "integrity_mismatches": []
+    },
+    {
+      "path": "reports/stage-1/20261005T065251.110063Z-derived-8958251-909b1d00",
+      "manifest_sha256": "023c8bad404297e471a5d2e08c9fd4b6fcf432f5003bfee8d052f8c3a6044bf2",
+      "duration_s": 4.641848250292242,
+      "started_at": "2026-10-05T06:52:51.110695+00:00",
+      "ended_at": "2026-10-05T06:52:55.769758+00:00",
+      "qa_sha": "0b79cfbc701552fcdf7d1bbda3a489b70c65ad64",
+      "returncode": 1,
+      "command_outcome": "EXITED",
+      "case_totals": {
+        "PASS": 33,
+        "FAIL": 5
+      },
+      "case_executions": 38,
+      "httpx": {
+        "requests": 275,
+        "p50_s": 0.0011745230003725737,
+        "p95_s": 0.017737492991727777,
+        "max_s": 0.025242364004952833,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 57,
+          "200": 169,
+          "201": 31,
+          "409": 7,
+          "422": 10,
+          "400": 1
+        },
+        "received_decompressed_bytes": 248448
+      },
+      "load_httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "integrity_mismatches": []
+    },
+    {
+      "path": "reports/stage-1/20261005T065316.597953Z-upgrade-1to1-8958251-2a5ea5b7",
+      "manifest_sha256": "b074f42b1dcd1b0bf6171c87102649b3a102639864ad1ead347d80670e36f1da",
+      "duration_s": 5.139255374670029,
+      "started_at": "2026-10-05T06:53:16.598540+00:00",
+      "ended_at": "2026-10-05T06:53:21.749566+00:00",
+      "qa_sha": "0b79cfbc701552fcdf7d1bbda3a489b70c65ad64",
+      "returncode": 1,
+      "command_outcome": "EXITED",
+      "case_totals": {
+        "PASS": 3,
+        "FAIL": 3
+      },
+      "case_executions": 6,
+      "httpx": {
+        "requests": 70,
+        "p50_s": 0.001385212002787739,
+        "p95_s": 0.017525563001981936,
+        "max_s": 0.018082617010804825,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "200": 43,
+          "204": 15,
+          "201": 8,
+          "401": 1,
+          "422": 3
+        },
+        "received_decompressed_bytes": 25264
+      },
+      "load_httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "integrity_mismatches": []
+    },
+    {
+      "path": "reports/stage-1/20261005T065824.839422Z-snapshot-semantics-8958251-8cc718e8",
+      "manifest_sha256": "63cdea2032778b598627f6a228a2af53dd8ad678b7e800064012603e98523dda",
+      "duration_s": 3.075991083867848,
+      "started_at": "2026-10-05T06:58:24.840264+00:00",
+      "ended_at": "2026-10-05T06:58:27.931302+00:00",
+      "qa_sha": "d0bcd06bf18a8271de1c8ac519c9d5e4980b0dec",
+      "returncode": 1,
+      "command_outcome": "EXITED",
+      "case_totals": {
+        "FAIL": 5
+      },
+      "case_executions": 5,
+      "httpx": {
+        "requests": 42,
+        "p50_s": 0.0010181260004173964,
+        "p95_s": 0.0169929779949598,
+        "max_s": 0.017947978994925506,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 15,
+          "200": 20,
+          "201": 7
+        },
+        "received_decompressed_bytes": 36415
+      },
+      "load_httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "integrity_mismatches": []
+    },
+    {
+      "path": "reports/stage-1/20261005T065952.946553Z-derived-confirmations-8958251-6ee9f984",
+      "manifest_sha256": "2130d3d212d5bb790931916553d346d41db716b4bd5796ec2c075e12a75c05bf",
+      "duration_s": 24.368063958361745,
+      "started_at": "2026-10-05T06:59:52.947487+00:00",
+      "ended_at": "2026-10-05T07:00:17.327757+00:00",
+      "qa_sha": "5ab311d1689dd857f8a2ebca0b90b54d2662c535",
+      "returncode": 1,
+      "command_outcome": "EXITED",
+      "case_totals": {
+        "PASS": 33,
+        "FAIL": 7
+      },
+      "case_executions": 40,
+      "httpx": {
+        "requests": 296,
+        "p50_s": 0.0013652749912580475,
+        "p95_s": 0.01924389900523238,
+        "max_s": 0.03611147199990228,
+        "max_observed_inflight": 1,
+        "statuses": {
+          "204": 59,
+          "200": 186,
+          "201": 31,
+          "409": 7,
+          "422": 10,
+          "401": 2,
+          "400": 1
+        },
+        "received_decompressed_bytes": 258488
+      },
+      "load_httpx": {
+        "requests": 0,
+        "p50_s": null,
+        "p95_s": null,
+        "max_s": null,
+        "max_observed_inflight": 0,
+        "statuses": {},
+        "received_decompressed_bytes": 0
+      },
+      "integrity_mismatches": []
+    }
+  ],
+  "frozen_applicable_distinct_definitions": 166,
+  "frozen_latest_adjudicated_outcomes": {
+    "PASS": 159,
+    "FAIL": 7
+  },
+  "derived_distinct_definitions": 45,
+  "derived_latest_outcomes": {
+    "PASS": 33,
+    "FAIL": 12
+  },
+  "pytest_case_executions_with_repeats": 353,
+  "pytest_raw_execution_outcomes": {
+    "PASS": 325,
+    "FAIL": 28
+  },
+  "official_stage1": {
+    "definitions": 120,
+    "executed": 120,
+    "pass": 120,
+    "fail": 0,
+    "error": 0,
+    "skip": 0
+  },
+  "official_stage2_probe": {
+    "collected": 25,
+    "executed": 1,
+    "fail": 1,
+    "not_executed_after_failfast": 24,
+    "applicable_to_stage1": false
+  },
+  "developer_tests_separately_executed": {
+    "definitions": 14,
+    "pass": 14
+  },
+  "source_faults": {
+    "control_operations": 8,
+    "control_operations_pass": 8,
+    "actual_injections": 20,
+    "pass": 20,
+    "distinct_injected_names": [
+      "response_encode",
+      "candidate_encode",
+      "compression"
+    ],
+    "http_requests": 0
+  },
+  "producer_removal_integration": {
+    "outcome": "PASS",
+    "edges_completed": [
+      [
+        1,
+        1
+      ]
+    ],
+    "remaining_edges": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "actual_removal_before_destination_start": true,
+    "old_tokens_checked": 2,
+    "original_receipts_checked": 2,
+    "http_request_count": null,
+    "limitations": "Standalone producer script did not instrument per-request count. Evidence proves ordinary-value case only, not failed numeric upgrades."
+  },
+  "instrumented_httpx": {
+    "requests": 4747,
+    "p50_s": 0.01695236499654129,
+    "p95_s": 0.11143299499235582,
+    "max_s": 0.8532746900018537,
+    "max_observed_inflight": 50,
+    "statuses": {
+      "204": 601,
+      "200": 2815,
+      "201": 427,
+      "409": 497,
+      "422": 230,
+      "401": 130,
+      "400": 35,
+      "404": 12
+    },
+    "received_decompressed_bytes": 7980453
+  },
+  "instrumented_load_httpx": {
+    "requests": 2610,
+    "p50_s": 0.019903327993233688,
+    "p95_s": 0.11448766800458543,
+    "max_s": 0.8517419859999791,
+    "max_observed_inflight": 50,
+    "statuses": {
+      "204": 190,
+      "200": 1526,
+      "201": 226,
+      "409": 468,
+      "422": 100,
+      "401": 100
+    },
+    "received_decompressed_bytes": 4409090
+  },
+  "request_count_limitations": "HTTP metrics count instrumented pytest httpx only, including setup and repeated attempts. Official requests, health clients, source fault controls, standalone producer integration and raw sockets are not silently included.",
+  "attempt_command_duration_sum_s": 132.67940496187657,
+  "execution_window_elapsed_s": 750.199133,
+  "execution_window_start": "2026-10-05T06:47:47.128624+00:00",
+  "execution_window_end": "2026-10-05T07:00:17.327757+00:00",
+  "actual_model_usage_tokens": null,
+  "actual_billing_usd": null,
+  "usage_note": "Actual runtime billing/token meter not supplied to this verifier; unknown, not estimated invoice.",
+  "defects": [
+    {
+      "id": "V-S1-001",
+      "title": "Continuous header/body bytes renew an inactivity timeout",
+      "criterion": "AC03.7; bounded incomplete HTTP handling and ordinary request deadline",
+      "cases": [
+        "R002",
+        "R003",
+        "D117[header]",
+        "D117[body]"
+      ],
+      "reproduction": "Send an incomplete login header or Content-Length1000 body, then one byte every0.2s for6.5s. Read actual peer response and EOF using select/recv.",
+      "expected": "Controlled response/closure within6s of request start; health and exact state unchanged.",
+      "observed": "Frozen continuous8s probes saw no closure. Independent probes recorded first400/EOF only at9.3634s(header) and9.3560s(body), about3s after drips stopped. Health200 and exact state unchanged.",
+      "evidence": [
+        "reports/stage-1/20261005T065121.790314Z-common-8958251-129a860b",
+        "reports/stage-1/20261005T065952.946553Z-derived-confirmations-8958251-6ee9f984"
+      ],
+      "status": "OPEN",
+      "product_sha": "89582510069e984f446060d797e138f4a3bf08f9",
+      "owner": "Builder"
+    },
+    {
+      "id": "V-S1-002",
+      "title": "Skipped closing wall-clock invalidates otherwise valid early slots",
+      "criterion": "AC03.4; Stage1 sections8 and9 local starts, opening hours and absolute duration",
+      "cases": [
+        "R008[America/New_York]",
+        "R008[Europe/Berlin]"
+      ],
+      "reproduction": "Reset spring-transition date2030-03-10 NewYork or2030-03-31 Berlin, open00:00/close02:30, grid30/duration60; GET availability.",
+      "expected": "200 with early slots00:00 and00:30; early valid booking remains possible, late booking ending beyond local close refused.",
+      "observed": "422 for entire transition day; ordinary-date control200. Original test stops before early/late booking assertions.",
+      "evidence": [
+        "reports/stage-1/20261005T065121.790314Z-common-8958251-129a860b"
+      ],
+      "status": "OPEN",
+      "product_sha": "89582510069e984f446060d797e138f4a3bf08f9",
+      "owner": "Builder"
+    },
+    {
+      "id": "V-S1-003",
+      "title": "Wrong-type reset reservations can replace state",
+      "criterion": "AC03.1,AC03.6; Stage1 section5 wrong JSON type400 and atomic reset",
+      "cases": [
+        "D116-reset-null",
+        "D116-reset-bool",
+        "D116-reset-number",
+        "D116-reset-empty-string",
+        "D116-reset-object"
+      ],
+      "reproduction": "Seed/login, export destination; reset same fixture with reservations:null,true,42,\"\",{} instead of array; export and use old token.",
+      "expected": "400 malformed_request and unchanged destination/old token.",
+      "observed": "null,true,42 return422, preserve state/token200. Empty string/object return204, change exact export and revoke old token401. Nonempty string control returns400 unchanged.",
+      "evidence": [
+        "reports/stage-1/20261005T065251.110063Z-derived-8958251-909b1d00",
+        "reports/stage-1/20261005T065952.946553Z-derived-confirmations-8958251-6ee9f984"
+      ],
+      "status": "OPEN",
+      "product_sha": "89582510069e984f446060d797e138f4a3bf08f9",
+      "owner": "Builder"
+    },
+    {
+      "id": "V-S1-004",
+      "title": "Opaque numeric snapshots lose exact receipt values through ordinary JSON clients",
+      "criterion": "AC03.6,AC03.8; Stage1 section10 portable exact original receipts; frozen U003-U005",
+      "cases": [
+        "U003",
+        "U004",
+        "U005"
+      ],
+      "reproduction": "Create receipt with ignored numeric field1e400,1e-400 or1.0000000000000000000000000000001; export via ordinary response.json(); serialize and import unchanged object into fresh destination.",
+      "expected": "Portable opaque JSON state preserves exact original request and imports204; original retry remains200.",
+      "observed": "U003 cannot serialize float infinity before import (ValueError, counted frozen FAIL). U004/U005 round on client and destination returns422 checksum mismatch. Exact raw-byte numeric lifetimes separately pass.",
+      "evidence": [
+        "reports/stage-1/20261005T065316.597953Z-upgrade-1to1-8958251-2a5ea5b7"
+      ],
+      "status": "OPEN",
+      "product_sha": "89582510069e984f446060d797e138f4a3bf08f9",
+      "owner": "Builder"
+    },
+    {
+      "id": "V-S1-005",
+      "title": "Checksum-valid inconsistent receipt semantics import successfully",
+      "criterion": "AC03.6; Stage1 sections7,10,11 invalid state, original request/response correspondence and ordered batch receipt",
+      "cases": [
+        "D116-receipt-party",
+        "D116-receipt-start",
+        "D116-receipt-end",
+        "D116-receipt-body",
+        "D116-batch-order"
+      ],
+      "reproduction": "After valid control export/import, alter receipt responseparty2->3, start offset instant18->19 while local stays18, end19->18, bodyparty2->3, or reverse batch responses. Recompute sha256 of compact sorted ASCII payload; import.",
+      "expected": "422 validation_failed and exact destination nonmutation for each semantic inconsistency.",
+      "observed": "All five return204 and change destination. Independent adapter control checksum equals exported checksum and unchanged control imports204; this is not a selector mismatch.",
+      "evidence": [
+        "reports/stage-1/20261005T065824.839422Z-snapshot-semantics-8958251-8cc718e8"
+      ],
+      "status": "OPEN",
+      "product_sha": "89582510069e984f446060d797e138f4a3bf08f9",
+      "owner": "Builder"
+    }
+  ],
+  "all_attempt_manifests_verified": true,
+  "limits": "REJECT is supported by counterexamples. This is not an assertion of exhaustive Stage1 correctness or later-stage readiness; remaining broader matrix items need execution before ACCEPT."
+}

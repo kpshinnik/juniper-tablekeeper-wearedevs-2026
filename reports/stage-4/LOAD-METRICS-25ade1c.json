@@ -1,0 +1,142 @@
+{
+  "product_sha": "25ade1c7add9a5701a511e07f79a619a3cb21b51",
+  "primary_evidence_sha": "96329db1347c0e8b555282e22a35785643020d04",
+  "derived_at": "2026-10-05T15:23:52.106121+00:00",
+  "lane": "EXISTING_RAW_METRICS_ANNOTATION",
+  "new_application_cases": 0,
+  "new_application_requests": 0,
+  "attempt": "reports/stage-4/20261005T150145.533926Z-stage4-load-25ade1c-2ec04fd2",
+  "all_instrumented_stage4_load": {
+    "requests": 325,
+    "p50_s": 0.016398293009842746,
+    "p95_s": 0.05168993299594149,
+    "max_s": 0.06720915099140257,
+    "observed_peak_inflight": 37,
+    "statuses": {
+      "204": 6,
+      "200": 160,
+      "201": 61,
+      "409": 98
+    }
+  },
+  "by_case": [
+    {
+      "id": "frozen/supplemental/test_stage4_load.py::test_plan_application_load_and_atomic_reads[L401-same-key]",
+      "mode": "same-key",
+      "outcome": "PASS",
+      "instrumented_http": {
+        "requests": 92,
+        "p50_s": 0.018480660000932403,
+        "p95_s": 0.047047569998539984,
+        "max_s": 0.059033209006884135,
+        "observed_peak_inflight": 32,
+        "statuses": {
+          "204": 2,
+          "200": 86,
+          "201": 4
+        }
+      },
+      "mixed_request_count": 75,
+      "requested_workers": 50,
+      "mixed_elapsed_includes_json_parse_s": {
+        "requests": 75,
+        "p50_s": 0.046395634999498725,
+        "p95_s": 0.0780481349938782,
+        "max_s": 0.0815838620037539
+      },
+      "write_statuses": {
+        "200": 49,
+        "201": 1
+      },
+      "read_statuses": {
+        "200": 25
+      }
+    },
+    {
+      "id": "frozen/supplemental/test_stage4_load.py::test_plan_application_load_and_atomic_reads[L402-different-keys]",
+      "mode": "different-keys",
+      "outcome": "PASS",
+      "instrumented_http": {
+        "requests": 92,
+        "p50_s": 0.016157951002242044,
+        "p95_s": 0.04080980901198927,
+        "max_s": 0.05822401600016747,
+        "observed_peak_inflight": 37,
+        "statuses": {
+          "204": 2,
+          "200": 37,
+          "201": 4,
+          "409": 49
+        }
+      },
+      "mixed_request_count": 75,
+      "requested_workers": 50,
+      "mixed_elapsed_includes_json_parse_s": {
+        "requests": 75,
+        "p50_s": 0.04580329101008829,
+        "p95_s": 0.07794510299572721,
+        "max_s": 0.08513575200049672
+      },
+      "write_statuses": {
+        "409": 49,
+        "201": 1
+      },
+      "read_statuses": {
+        "200": 25
+      }
+    },
+    {
+      "id": "frozen/supplemental/test_stage4_load.py::test_plan_application_load_and_atomic_reads[L403-competing-plans]",
+      "mode": "competing-plans",
+      "outcome": "PASS",
+      "instrumented_http": {
+        "requests": 141,
+        "p50_s": 0.011849910995806567,
+        "p95_s": 0.05760745098814368,
+        "max_s": 0.06720915099140257,
+        "observed_peak_inflight": 31,
+        "statuses": {
+          "204": 2,
+          "200": 37,
+          "201": 53,
+          "409": 49
+        }
+      },
+      "mixed_request_count": 75,
+      "requested_workers": 50,
+      "mixed_elapsed_includes_json_parse_s": {
+        "requests": 75,
+        "p50_s": 0.06635607698990498,
+        "p95_s": 0.100446127995383,
+        "max_s": 0.10677445300098043
+      },
+      "write_statuses": {
+        "409": 49,
+        "201": 1
+      },
+      "read_statuses": {
+        "200": 25
+      }
+    }
+  ],
+  "algorithm": "Nearest rank: sorted timings[ceil(N*p)-1]; observed peak=max(inflight_at_start). HTTP timings include send/receive/decompression, mixed elapsed additionally includes JSON parse.",
+  "raw_sha256": {
+    "http-requests.jsonl": "bdbea464e6ca227dd06b5168f98db7f9483ed0b9675440256ff8cba9fc37d507",
+    "cases.jsonl": "9e3cdb80366c7bf0087fa362def04586535301512196441fa65da56b6fa7d703",
+    "manifest.sha256.json": "6051f8dd22948fcd88cd5bf4699e90263fd8196689cbfde01ce5ebe1fb2fd10f",
+    "result.json": "a683c7e7f975f55705856de63e2c8e2eaad4039a94132314b2e3c7dc04b8492c"
+  },
+  "frozen_source": {
+    "path": "qa/frozen/supplemental/test_stage4_load.py",
+    "sha256": "34c6a71addc475750a56f5fecbb6a449b228875635dafe75b1c6b4cca594b72f"
+  },
+  "original_manifest_matches": true,
+  "verified_assertions": [
+    "Exactly one201 per scenario; same-key49 identical original200 receipts or49conflict409.",
+    "All25 reads see full before or full after assignments, never a partial move.",
+    "Moved reservation revisions increase exactly once; original identity/time/party/terms retained.",
+    "Histories preserve all previous entries and append reassigned with winning plan_id.",
+    "Restaurant revision2 to3 once; retry original apply receipt after later cancellation unchanged."
+  ],
+  "scope": "325 instrumented requests include setup/assertions and225mixed calls. Three modes each use50 workers with50writes+25reads. Requested worker count50 is not observed concurrency37. Separate from2610baseline load requests; subset of13838overall HTTPX requests."
+}
